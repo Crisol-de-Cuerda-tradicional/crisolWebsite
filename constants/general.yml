@@ -1,0 +1,39 @@
+name: Crisol de Cuerda
+name_short: Crisol
+
+startDate: 2022-07-31
+endDate: 2022-08-07
+
+registrationOpen: true
+
+teachers:
+  fiddle:
+    - alasdair_fraser
+    - francesc_tomas
+    - lena_jonsson
+    - blanca_altable
+    - paula_gomez
+  cello:
+    - natalie_haas
+    - marta_roma
+  guitar:
+    - adam_johannson
+    - nicolas_quemener
+  flute:
+    - jeanmichel_veillon
+    - xose_liz
+  voice:
+    - ana_rossi
+  dance:
+    - suso_cancelas
+  house_band:
+    - galen_fraser
+    - alberto_ablanedo
+  pending_teachers: false
+
+social_media:
+  instagram: https://www.instagram.com/crisoldecuerda
+  facebook: https://www.facebook.com/CrisoldeCuerda
+  vimeo: http://vimeo.com/user18504489
+  youtube: https://www.youtube.com/user/CrisolDeCuerda
+  spotify: https://open.spotify.com/user/31qxc3iacubj6s5dqvplfraliroy?si=9e944b135d094b76

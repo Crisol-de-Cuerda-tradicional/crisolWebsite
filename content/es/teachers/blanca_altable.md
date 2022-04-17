@@ -1,0 +1,8 @@
+Blanca Altable (1984) es una de las pocas violinistas en el entorno tradicional castellano. Comienza sus estudios de violín clásico a la edad de 5 años pero pronto se consagra a la vida de fiddler al crecer en una familia de músicos tradicionales.
+Con una visión particular y creativa, su repertorio y trabajo de campo como fiddler se caracterizan por rescatar partituras del repertorio dulzaina y adaptarlas al fiddle. Se centra principalmente en música instrumental de la zona centro norte de Castilla pues su abuelo, Simón Altable, fue dulzainero e introdujo a Blanca en la música tradicional oral castellana.
+Prueba de este trabajo es la co-fundación de dos proyectos musicales entorno a esta nueva visión de la música folk castellana como son: Blanca Altable & Chuchi² y Cira Qu y la participación en otros proyectos musicales en torno al folk como El Hombre Folkíbero & Cía.
+
+En constante búsqueda y estudio, su formación avanzada como fiddler se enriquece con la asistencia a fiddle camps internacionales en California, Nueva York y Escocia y el acercamiento a los lugares y grupos sociales donde la música fiddle tiene lugar de manera vernacular y espontánea… Galicia, País Vasco, Quebec, Escocia, USA.
+Ha tenido la oportunidad de tocar en escenarios y festivales de toda España, ha mostrado su música en USA, África y parte de Europa y ha colaborado en proyectos como: VocalizÁfrica, Nélida Karr, Vallarna, Dario Bontempi, Salvador Amor, Pure Hemp, Sammy Jankis, Kasparov Vs Deep Blue, Roberta Medley, Sons d’ Cabiella…
+
+Compagina su trabajo como músico con la enseñanza personalizada y creativa, pues cada vez más reclamada como didacta.

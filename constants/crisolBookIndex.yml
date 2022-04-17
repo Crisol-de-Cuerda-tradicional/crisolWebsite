@@ -1,0 +1,579 @@
+lastUpdated: 2020-06-03
+
+index:
+  - title: 20 Years
+    author: Seán Wood
+    origin: United States
+  - title: Ai Hori Begi Ederra
+    author: Traditional
+    origin: Basque Country
+  - title: Akkar
+    author: Olav L. Mjelva
+    origin: Sweden
+  - title: Altsasuko Soka
+    author: Traditional
+    origin: Basque Country
+  - title: Ama Euskadi
+    author: Traditional
+    origin: Basque Country
+  - title: An Dro Kerfank
+    author: Tri Yann
+    origin: Brittany
+  - title: Ansuriña
+    author: Paulo Nogueira
+    origin: Galicia
+  - title: Appropriate Dipstick, The
+    author: Phil Cunningham
+    origin: Scotland
+  - title: Artikutza
+    author: Traditional
+    origin: Basque Country
+  - title: As a Thòiseach
+    author: Simon Fraser
+    origin: Scotland
+  - title: Astotxo bat Baneuko
+    author: Traditional
+    origin: Basque Country
+  - title: Baile de la Manzana
+    author: Traditional
+    origin: Castile
+  - title: Ball del Rogle
+    author: Traditional
+    origin: Catalonia
+  - title: Ballet de Tortellà
+    author: Traditional
+    origin: Catalonia
+  - title: Ball Pla de Tírig
+    author: Traditional
+    origin: Valencia
+  - title: Banks of Avonmore, The
+    author: Traditional
+    origin: Scotland
+  - title: Barquito de Vela, Un
+    author: Airiños do Parque de Castrelos
+    origin: Galicia
+  - title: Beharrezkoa
+    author: Traditional
+    origin: Basque Country
+  - title: Big Country
+    author: Béla Fleck
+    origin: United States
+  - title: Bingsjö Lilla Långdans
+    author: Traditional
+    origin: Sweden
+  - title: Blackberry Festival Footrace
+    author: David Fisher
+    origin: Scotland
+  - title: Blackwater
+    author: Traditional
+    origin: Scotland
+  - title: Blackwater Foot
+    author: Traditional
+    origin: Scotland
+  - title: Bloody Fields of Flanders, The
+    author: John MacLellan
+    origin: Scotland
+  - title: Blue
+    author: Hanneke Cassel
+    origin: United States
+  - title: Bodas de Cantabrana, Las
+    author: Traditional
+    origin: Castile
+  - title: Bolat Dantza
+    author: Traditional
+    origin: Basque Country
+  - title: Bourrée de l’Hôpital
+    author: Traditional
+    origin: Occitanie
+  - title: Braes of Mar
+    author: John Coutis of Deeside
+    origin: Scotland
+  - title: Buey, El
+    author: Traditional
+    origin: Castile
+  - title: Callum’s Road
+    author: Donald Shaw
+    origin: Scotland
+  - title: Canto de Bembibre
+    author: Traditional
+    origin: Galicia
+  - title: Carrasqueira, A
+    author: Traditional
+    origin: Galicia
+  - title: Cayó la Luna
+    author: Traditional
+    origin: Castile
+  - title: Charlie McKerron’s Reel
+    author: Charlie McKerron
+    origin: Scotland
+  - title: Charro del Marinero y la Estrella, El
+    author: Traditional
+    origin: Castile
+  - title: Charro Verdadero
+    author: Traditional
+    origin: Castile
+  - title: Cigüeña, La
+    author: Traditional
+    origin: Castile
+  - title: Contradansa no.7
+    author: Traditional
+    origin: Catalonia
+  - title: Corrido de Sepúlveda
+    author: Traditional
+    origin: Castile
+  - title: Cozy Ox, The
+    author: Olav L. Mjelva
+    origin: Sweden
+  - title: Czardas
+    author: Traditional
+    origin: Hungary
+  - title: Danza de Arcos de Miño
+    author: Traditional
+    origin: Galicia
+  - title: Danza de Palitos
+    author: Traditional
+    origin: Galicia
+  - title: Danza de Salceda
+    author: Traditional
+    origin: Galicia
+  - title: David Glen’s Jig
+    author: David Glen
+    origin: Scotland
+  - title: Diana
+    author: Traditional
+    origin: Castile
+  - title: Domhnall Dubh
+    author: Traditional
+    origin: Scotland
+  - title: Dulzainero Cojo, El
+    author: Traditional
+    origin: Castile
+  - title: Eklunda
+    author: Traditional
+    origin: Finland
+  - title: Elzic’s Farewell
+    author: Traditional
+    origin: United States
+  - title: Espatadantza
+    author: Traditional
+    origin: Basque Country
+  - title: Espejo, Sol y Luna
+    author: Traditional
+    origin: Castile
+  - title: Estrellita
+    author: Manuel M. Ponce
+    origin: United States
+  - title: Eternal Friendship, The
+    author: Phil Cunningham
+    origin: Scotland
+  - title: Eugene’s Tea
+    author: Quico Pugés
+    origin: Catalonia
+  - title: Ewe Wi’ The Crookit Horn, The
+    author: Traditional
+    origin: Scotland
+  - title: Falken
+    author: Quico Pugés
+    origin: Catalonia
+  - title: Fandango
+    author: Traditional
+    origin: Andalucia
+  - title: Fanfarie
+    author: Traditional
+    origin: Balkans
+  - title: Father John Angus Rankin
+    author: Traditional
+    origin: Scotland
+  - title: Fia Na Roca
+    author: Traditional
+    origin: Galicia
+  - title: Fiddle Lint Ball
+    author: Galen Fraser
+    origin: United States
+  - title: Fisterra
+    author: Traditional
+    origin: Galicia
+  - title: Foliada de Soutelo
+    author: Traditional
+    origin: Galicia
+  - title: Foliada do Quinteiro
+    author: Xulio Amado Silva
+    origin: Galicia
+  - title: Forró Nascente
+    author: Traditional
+    origin: Brazil
+  - title: Forró no Sitio
+    author: Traditional
+    origin: Brazil
+  - title: Foxtrot de Algora
+    author: Traditional
+    origin: Castile
+  - title: Freedom Come All Ye
+    author: John MacLellan
+    origin: Scotland
+  - title: Galbide
+    author: Traditional
+    origin: Basque Country
+  - title: Hai Chiki Chiki
+    author: Traditional
+    origin: Hungary
+  - title: Hakbergs Schottis
+    author: Carl Aron Hakberg
+    origin: Sweden
+  - title: Haurtxo Polita
+    author: Gabriel Olaizola
+    origin: Basque Country
+  - title: Hector, The Hero
+    author: James Scott Skinner
+    origin: Scotland
+  - title: Hegi
+    author: Traditional
+    origin: Basque Country
+  - title: Hörde jag Tønder
+    author: Anna Lindblad
+    origin: Sweden
+  - title: Iluntzean
+    author: Maixa eta Itziar
+    origin: Basque Country
+  - title: Jack Daniel’s
+    author: John Morris Rankin
+    origin: Scotland
+  - title: Jerusalem Ridge
+    author: Kenny Baker
+    origin: Cape Breton
+  - title: John Cheap, The Chapman
+    author: Nathaniel Gow
+    origin: Scotland
+  - title: Josefin’s Waltz
+    author: Roger Tallroth
+    origin: Sweden
+  - title: Jota de Montrove
+    author: Miguel L. Paradela
+    origin: Galicia
+  - title: Jota de Rañín
+    author: Pepín Banzo
+    origin: Aragon
+  - title: Jota Olé
+    author: Traditional
+    origin: Valencia
+  - title: Joy of Julie
+    author: Galen Fraser
+    origin: United States
+  - title: Keep it up!
+    author: Simon Fraser
+    origin: Scotland
+  - title: Kelburn Brewer, The
+    author: Alasdair Fraser
+    origin: Scotland
+  - title: Kilts on Fire
+    author: Howie MacDonald
+    origin: Cape Breton
+  - title: Kiwi Reel, The
+    author: Willie Hunter
+    origin: Scotland
+  - title: Klappvalsen
+    author: Mats Edén
+    origin: Sweden
+  - title: Korostietako
+    author: Traditional
+    origin: Basque Country
+  - title: Kost ar Choad
+    author: Traditional
+    origin: Brittany
+  - title: Långdans från Sollerön
+    author: Traditional
+    origin: Sweden
+  - title: Lantzeko Zortzikoa
+    author: Traditional
+    origin: Basque Country
+  - title: Las Habas de Bercero
+    author: Traditional
+    origin: Castile
+  - title: Lass That Made the Bed for Me, The
+    author: Traditional
+    origin: Scotland
+  - title: Loriak Udan Intza Bezela
+    author: Traditional
+    origin: Basque Country
+  - title: Love Boat
+    author: Olav L. Mjelva
+    origin: Sweden
+  - title: Luna Sobre Crisol, La
+    author: Galen Fraser
+    origin: Castile
+  - title: Madalenara
+    author: Traditional
+    origin: Basque Country
+  - title: Maitia nun Zira
+    author: José Tomás Uruñuela
+    origin: Basque Country
+  - title: Marcha para Santa Ana
+    author: Traditional
+    origin: Castile
+  - title: Matins de Bonny Doon, Les
+    author: André MArchand
+    origin: Quebec
+  - title: Mazurca de l’Impasse
+    author: Gilles Chabenat
+    origin: France
+  - title: Megan & Jarrod’s Waltz
+    author: Natalie Haas
+    origin: United States
+  - title: Menina Amanhã de Manhã
+    author: Tom Zé
+    origin: Brazil
+  - title: Metsän Puita Tuuli Tuudittaa
+    author: Traditional
+    origin: Finland
+  - title: Miñas Cousas, As
+    author: Traditional
+    origin: Galicia
+  - title: Mocita, La
+    author: Traditional
+    origin: Castile
+  - title: Mornings at Bonny Doon
+    author: André MArchand
+    origin: Quebec
+  - title: Mudanza de Chañe
+    author: Traditional
+    origin: Castile
+  - title: Muñeira de Fonsagrada
+    author: Traditional
+    origin: Galicia
+  - title: Muñeira de Fonsagrada
+    author: Traditional
+    origin: Galicia
+  - title: Muñeira Ribeirana
+    author: Traditional
+    origin: Galicia
+  - title: Myra’s Jig
+    author: Ian Lowthian
+    origin: Scotland
+  - title: Mysoxen
+    author: Olav L. Mjelva
+    origin: Sweden
+  - title: Napkin Tune, The
+    author: Rodney Miller
+    origin: United States
+  - title: Neska Zaharrak
+    author: Traditional
+    origin: Basque Country
+  - title: Never Tell Me the Odds
+    author: Galen Fraser
+    origin: United States
+  - title: North Beat
+    author: Ethan Lewis
+    origin: Scotland
+  - title: No Voy Solo, No
+    author: Traditional
+    origin: Galicia
+  - title: O! Dem Golden Slippers
+    author: Traditional
+    origin: United States
+  - title: Off with you!
+    author: Simon Fraser
+    origin: Scotland
+  - title: Ont Anarem Gardar
+    author: Traditional
+    origin: Occitanie
+  - title: On the Wings of a Skorrie
+    author: Michael Ferrie
+    origin: Scotland
+  - title: Ook Pik Waltz
+    author: Frankie Rodgers
+    origin: United States
+  - title: O’ Pingacho
+    author: Traditional
+    origin: Portugal
+  - title: Ovo, O
+    author: Hermeto Pascoal
+    origin: Brazil
+  - title: Pasacalles de Carpio de Tajo
+    author: Traditional
+    origin: Castile
+  - title: Pas del Lop, Lo
+    author: Traditional
+    origin: Occitanie
+  - title: Pasodoble Morellano
+    author: Traditional
+    origin: Galicia
+  - title: Peerie Weerie, The
+    author: Traditional
+    origin: Scotland
+  - title: Pericón de los Talaos
+    author: Repertorio de Los Talaos
+    origin: Castile
+  - title: Periquito, El
+    author: Traditional
+    origin: Venezuela
+  - title: Perrie Werrie
+    author: Traditional
+    origin: Scotland
+  - title: Pirrie Wirrie
+    author: Traditional
+    origin: Scotland
+  - title: Polonäs från Sexdrega
+    author: Traditional
+    origin: Sweden
+  - title: Polska efter Nylandspojkarna
+    author: Traditional
+    origin: Sweden
+  - title: Polska efter Svedin
+    author: Traditional
+    origin: Sweden
+  - title: Ramnee Ceilidh
+    author: Gordon Duncan
+    origin: Scotland
+  - title: Reel for Carl
+    author: Jerry Holland
+    origin: Cape Breton
+  - title: Regina Stubbert
+    author: Brenda Stubbert
+    origin: Cape Breton
+  - title: Remember Blake
+    author: Jeremy Kittel
+    origin: United States
+  - title: Ride the Wild Turkey
+    author: Darol Anger
+    origin: United States
+  - title: Rob Roy MacGregor
+    author: Simon Fraser
+    origin: Scotland
+  - title: Ronda de Carballeda
+    author: Traditional
+    origin: Castile
+  - title: Rondador Desesperado
+    author: Traditional
+    origin: Castile
+  - title: Rumba del Topo
+    author: Traditional
+    origin: Castile
+  - title: Rumba de Malpica
+    author: Traditional
+    origin: Galicia
+  - title: Saka
+    author: Traditional
+    origin: Basque Country
+  - title: Sape que Sape
+    author: Traditional
+    origin: Castile
+  - title: Sardana del Ball de Cavallets de Sant Feliu de Pallerols
+    author: Traditional
+    origin: Catalonia
+  - title: Scarce O’Tatties
+    author: John Morris Rankin
+    origin: Scotland
+  - title: Seguidillas Manchegas
+    author: Traditional
+    origin: Castile
+  - title: Shepherdess, The
+    author: Traditional
+    origin: Scotland
+  - title: Show Me
+    author: Catriona MacDonald
+    origin: Scotland
+  - title: Siete por Ocho
+    author: Traditional
+    origin: Castile
+  - title: Sister Jean
+    author: Traditional
+    origin: Scotland
+  - title: Si Supiera que Cantando…
+    author: Traditional
+    origin: Castile
+  - title: Sleeping Tune, The
+    author: Gordon Duncan
+    origin: Scotland
+  - title: Stan Chapman’s
+    author: Jerry Holland
+    origin: Cape Breton
+  - title: Talon’s Trip to Thompson Island
+    author: Kevin Henderson
+    origin: Scotland
+  - title: Tarbolton Lodge
+    author: Traditional
+    origin: Scotland
+  - title: Theme for Scotland
+    author: Alasdair Fraser
+    origin: Scotland
+  - title: TIDGA
+    author: Hanneke Cassel
+    origin: United States
+  - title: Tonder… The Eternal Friendship
+    author: Phil Cunningham
+    origin: Scotland
+  - title: Tony Bliar’s Reel
+    author: Adam Sutherland
+    origin: Scotland
+  - title: Tortolita, La
+    author: Traditional
+    origin: Castile
+  - title: Tourment, Le
+    author: Jean-Paul Loyer
+    origin: Quebec
+  - title: Tralala
+    author: Traditional
+    origin: Sweden
+  - title: Trenzinho do Caipiro
+    author: Traditional
+    origin: Brazil
+  - title: Trilhos Urbanos
+    author: Caetono Verloso
+    origin: Brazil
+  - title: Trollet i Skäten
+    author: Johan von Schwartz
+    origin: Sweden
+  - title: Troll in the Knitting Machine, The
+    author: Johan von Schwartz
+    origin: Sweden
+  - title: Txikitxuterik
+    author: Traditional
+    origin: Basque Country
+  - title: Un Kukurutxu
+    author: Quico Pugés
+    origin: Catalonia
+  - title: Unnamed tune
+    author: Traditional
+    origin: Scotland
+  - title: Vai
+    author: Tom Zé
+    origin: Brazil
+  - title: Venjan
+    author: Anders Hall
+    origin: Sweden
+  - title: Vida Mía, La
+    author: Traditional
+    origin: Castile
+  - title: Vou Veri-vou
+    author: Traditional
+    origin: Mallorca
+  - title: Vrålkåda
+    author: Roger Tallroth
+    origin: Sweden
+  - title: War Hent Kerrigouarch
+    author: Soïc Siberil
+    origin: Brittany
+  - title: Warlock, The
+    author: Robert Lowe
+    origin: Scotland
+  - title: Wedding March
+    author: Traditional
+    origin: Sweden
+  - title: Wee Man from Uist, The
+    author: Traditional
+    origin: Scotland
+  - title: Whitewater
+    author: Alasdair Fraser
+    origin: Scotland
+  - title: Willie’s Trip to Toronto
+    author: Jerry Holland
+    origin: Cape Breton
+  - title: Xota de Paradela
+    author: Miguel López Paradela
+    origin: Galicia
+  - title: Ya Pasó el Río
+    author: Traditional
+    origin: Castile
+  - title: Zortzikoa
+    author: Traditional
+    origin: Basque Country
