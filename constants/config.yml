@@ -1,5 +1,5 @@
 name: Crisol de Cuerda
-name_short: Crisol
+nameShort: Crisol
 
 startDate: 2022-07-31
 endDate: 2022-08-07
@@ -26,12 +26,12 @@ teachers:
     - ana_rossi
   dance:
     - suso_cancelas
-  house_band:
+  houseBand:
     - galen_fraser
     - alberto_ablanedo
-  pending_teachers: false
+  pendingTeachers: false
 
-social_media:
+socialMedia:
   instagram: https://www.instagram.com/crisoldecuerda
   facebook: https://www.facebook.com/CrisoldeCuerda
   vimeo: http://vimeo.com/user18504489
