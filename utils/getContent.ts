@@ -4,7 +4,6 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-type SupportedLanguages = 'es' | 'en';
 interface IContent<M> {
   meta: M;
   content: string;
@@ -12,10 +11,7 @@ interface IContent<M> {
 
 const contentDir = path.join(process.cwd(), 'content');
 
-export const getContent = async <M>(
-  lang: SupportedLanguages,
-  content: string
-): Promise<IContent<M>> => {
+export const getContent = async <M>(lang: string, content: string): Promise<IContent<M>> => {
   const filePathByLang = path.join(contentDir, lang, `${content}.md`);
   const fileContent = fs.readFileSync(filePathByLang, 'utf8');
 

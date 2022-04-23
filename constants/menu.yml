@@ -1,0 +1,61 @@
+home:
+  en: Home
+  es: Inicio
+  link: /
+about:
+  en: What's Crisol?
+  es: ¿Que es Crisol?
+  link: /about
+crisol-spirit:
+  en: The Crisol spirit
+  es: El espíritu Crisol
+  link: /crisol-spirit
+classes:
+  en: Classes
+  es: Las clases
+  link: /classes
+history:
+  en: A bit of history
+  es: Un poco de historia
+  link: /history
+media:
+  en: Media
+  es: Media
+  link: /media
+crisol-book:
+  en: The Crisol Book
+  es: El Crisol Book
+  link: /crisol-book
+teachers:
+  en: Teachers
+  es: Profesores
+  link: /teachers
+teachers-annuary:
+  en: Teachers Annuary
+  es: Histórico de profesores
+  link: /teachers-annuary
+accommodation:
+  en: Accommodation
+  es: Alojamiento
+  link: /accommodation
+support:
+  en: Support us
+  es: Colabora
+  link: /support
+contact:
+  en: Contact
+  es: Contacta
+  link: /contact
+registration:
+  en: Registration
+  es: Inscripciones
+  link: /registration
+languages:
+  en: Language
+  es: Idioma
+english:
+  en: English
+  es: Inglés
+spanish:
+  en: Spanish
+  es: Castellano

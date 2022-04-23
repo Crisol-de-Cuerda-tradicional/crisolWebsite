@@ -51,3 +51,15 @@ declare module '*teachers.yml' {
 
   export const teachers: Teacher[];
 }
+
+declare module '*menu.yml' {
+  export interface MenuItem {
+    en: string;
+    es: string;
+    link: string;
+  }
+
+  const menuItems: Record<string, MenuItem>;
+
+  export default menuItems;
+}

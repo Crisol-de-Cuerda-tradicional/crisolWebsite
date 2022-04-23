@@ -19,16 +19,15 @@ const Layout = ({ children }: ILayoutProps) => {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="main">
-        <Navbar />
-        <Menu />
-        {children}
-        <Footer />
-      </div>
+      <Navbar />
+      <Menu />
+      <div className="main">{children}</div>
+      <Footer />
       <style jsx>{`
         .main {
           width: 100vw;
           overflow-x: hidden;
+          padding: 0 0.5rem;
         }
       `}</style>
     </>
