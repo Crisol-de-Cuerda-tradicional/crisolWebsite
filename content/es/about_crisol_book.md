@@ -1,4 +1,7 @@
-## THE CRISOL BOOK
+---
+img: alasdair_natalie.png
+title: THE CRISOL BOOK
+---
 
 El Crisol Book fue recopilado en 2018 en conmemoración del 10o aniversario de Crisol de Cuerda. Recoge todos aquellos temas que se han enseñado en Crisol y que se han podido recopilar mediante grabaciones de audio, vídeos, partituras y manuscritos. Aun que faltan algunos temas, esperamos poder incorporarlos en el futuro.
 

@@ -1,4 +1,7 @@
-## INSCRIPCIONES
+---
+title: INSCRIPCIONES
+img: alasdair_natalie.png
+---
 
 ### CÓMO INSCRIBIRSE
 
