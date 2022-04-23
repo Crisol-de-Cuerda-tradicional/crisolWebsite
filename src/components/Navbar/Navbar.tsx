@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import config from '../../constants/config.yml';
+import config from '../../config/config.yml';
 
 const Navbar = () => {
   const router = useRouter();
@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Link href="/" passHref>
-        <Image src="/logo.png" height={51} width={200} alt={config.name} />
+        <a>
+          <Image src="/logo.png" height={51} width={200} alt={config.name} />
+        </a>
       </Link>
       <button
         className={`hamburger hamburger--spin ${router.query.menu === 'true' ? 'is-active' : ''}`}

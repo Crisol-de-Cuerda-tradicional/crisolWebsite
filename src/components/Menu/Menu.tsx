@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import config from '../../constants/config.yml';
-import menu, { MenuItem } from '../../constants/menu.yml';
+import config from '../../config/config.yml';
+import menu, { MenuItem } from '../../config/menu.yml';
 
 const Menu = () => {
   const router = useRouter();
@@ -93,19 +93,19 @@ const Menu = () => {
       <ul>
         <li>
           <Link href={router.pathname} locale="es">
-            <a>{menu.spanish[locale]}</a>
+            <a className={`${locale === 'es' ? 'bold' : ''}`}>{menu.spanish[locale]}</a>
           </Link>
         </li>
         <li>
           <Link href={router.pathname} locale="en">
-            <a>{menu.english[locale]}</a>
+            <a className={`${locale === 'en' ? 'bold' : ''}`}>{menu.english[locale]}</a>
           </Link>
         </li>
       </ul>
       <style jsx>{`
         .menu {
           width: 100vw;
-          height: 100vh;
+          height: calc(100vh - 83px);
           position: fixed;
           top: calc(0 + 83px);
           left: 100vw;
@@ -124,11 +124,15 @@ const Menu = () => {
             list-style-type: none;
             background-color: #b0b0b0;
             margin: 0;
-            padding: 0;
+            padding: 1rem 0;
           }
 
           & li {
             margin: 0;
+            padding: 0;
+          }
+
+          & ul li ul {
             padding: 0;
           }
 
@@ -145,6 +149,9 @@ const Menu = () => {
           & ul > li > ul > li > a {
             padding-left: 3rem;
           }
+        }
+        .bold {
+          font-weight: 700;
         }
       `}</style>
     </nav>

@@ -8,6 +8,6 @@ By the Arlanzón river, in a village by the same name and just 20 min away from 
 
 Masters on these instruments will offer you guidance in this journey, with an approach to music that is both practical and fun. All of this happens immersed in a natural environment that enables us to fuse Nature, music and dance in a powerful synergy, adding priceless value to Crisol de Cuerda. A unique educational project that is welcoming and safe.
 
-We are lucky to have Alasdair Fraser and Natalie Haas with us, and many more masters. <teachers>CHECK THEM OUT HERE!</teachers>
+We are lucky to have Alasdair Fraser and Natalie Haas with us, and many more masters. [CHECK THEM OUT HERE!](/teachers)
 
-## BOOK YOUR PLACE BEFORE IT’S TOO LATE!
+## BOOK YOUR SPOT BEFORE IT’S TOO LATE!

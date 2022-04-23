@@ -9,7 +9,7 @@ interface IContent<M> {
   content: string;
 }
 
-const contentDir = path.join(process.cwd(), 'content');
+const contentDir = path.join(process.cwd(), 'src', 'content');
 
 export const getContent = async <M>(lang: string, content: string): Promise<IContent<M>> => {
   const filePathByLang = path.join(contentDir, lang, `${content}.md`);
