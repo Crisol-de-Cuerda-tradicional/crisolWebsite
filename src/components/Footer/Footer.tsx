@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import config from '../../config/config.yml';
 import menu, { MenuItem } from '../../config/menu.yml';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 const Footer = () => {
   const router = useRouter();
@@ -28,7 +30,33 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__social">
-        <div className="social__links">{/* <FontAwesomeIcon icon={brands('facebook')} /> */}</div>
+        <div className="social__links">
+          <Link href={config.socialMedia.instagram} passHref>
+            <a>
+              <FontAwesomeIcon icon={brands('instagram')} size="2x" />
+            </a>
+          </Link>
+          <Link href={config.socialMedia.tiktok} passHref>
+            <a>
+              <FontAwesomeIcon icon={brands('tiktok')} size="2x" />
+            </a>
+          </Link>
+          <Link href={config.socialMedia.spotify} passHref>
+            <a>
+              <FontAwesomeIcon icon={brands('spotify')} size="2x" />
+            </a>
+          </Link>
+          <Link href={config.socialMedia.youtube} passHref>
+            <a>
+              <FontAwesomeIcon icon={brands('youtube')} size="2x" />
+            </a>
+          </Link>
+          <Link href={config.socialMedia.facebook} passHref>
+            <a>
+              <FontAwesomeIcon icon={brands('facebook')} size="2x" />
+            </a>
+          </Link>
+        </div>
         <div>&copy;2022 Created by Bernat Duran</div>
       </div>
 
@@ -40,7 +68,7 @@ const Footer = () => {
           background-position: center top;
           background-size: cover;
           background-color: #000;
-          padding: 2rem 0;
+          padding: 2rem 0 0 0;
 
           .footer__content {
             display: flex;
@@ -77,6 +105,23 @@ const Footer = () => {
               gap: 2rem;
               max-width: 350px;
             }
+          }
+        }
+        .footer__social {
+          background-color: white;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2rem;
+          justify-content: center;
+          align-items: center;
+
+          padding: 1rem;
+
+          .social__links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
           }
         }
       `}</style>

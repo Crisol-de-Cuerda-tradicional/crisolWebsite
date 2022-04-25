@@ -22,6 +22,7 @@ declare module '*config.yml' {
       vimeo: string;
       youtube: string;
       spotify: string;
+      tiktok: string;
     };
   }
   const config: Config;
