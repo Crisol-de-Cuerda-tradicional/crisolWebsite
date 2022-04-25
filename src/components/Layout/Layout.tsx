@@ -26,8 +26,11 @@ const Layout = ({ children }: ILayoutProps) => {
       <style jsx>{`
         .main {
           width: 100vw;
+          max-width: 1024px;
+          margin: 0 auto;
           overflow-x: hidden;
-          padding: 0 0.5rem;
+          position: relative;
+          padding: 1.5rem 0.5rem;
         }
       `}</style>
     </>

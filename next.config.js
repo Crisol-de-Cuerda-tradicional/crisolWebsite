@@ -8,6 +8,9 @@ const nextConfig = {
     locales: ['es', 'en'],
     defaultLocale: 'es',
   },
+  images: {
+    domains: ['www.crisoldecuerda.com'],
+  },
 };
 
 module.exports = withYaml(nextConfig);

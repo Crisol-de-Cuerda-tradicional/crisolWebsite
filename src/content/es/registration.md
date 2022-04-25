@@ -1,14 +1,13 @@
 ---
-title: INSCRIPCIONES
-img: alasdair_natalie.png
+title: Inscripciones
 ---
 
 ### CÓMO INSCRIBIRSE
 
-- Rellena el formulario en “<a>INSCRIPCIÓN</a>” y ve siguiendo las instrucciones que se presentan, lee atentamente las explicaciones, y haz click en ENVIAR. Es imprescindible la aceptación del documento de exención de responsabilidades por todos los asistentes y, en el caso de los menores de edad, por su padre/madre/tutor legal.
+- Rellena el formulario en “[INSCRIPCIÓN](https://crisol.lobber.eu)” y ve siguiendo las instrucciones que se presentan, lee atentamente las explicaciones, y haz click en ENVIAR. Es imprescindible la aceptación del documento de exención de responsabilidades por todos los asistentes y, en el caso de los menores de edad, por su padre/madre/tutor legal.
 - Precios: tienes toda la información [AQUI](#precios)
 - No realices ningún pago hasta que recibas nuestro primer correo de confirmación de matrícula.
-- A partir de nuestro primer correo de confirmación, tienes 2 semanas para pagar los primeros 60€ (del total del importe de la matrícula), en concepto de depósito, y no serán reembolsables.
+- A partir de nuestro primer correo de confirmación, tienes 1 semanas para pagar los primeros 60€ (del total del importe de la matrícula), en concepto de depósito, y no serán reembolsables.
 - El resto del pago pendiente deberá ser efectuado antes del 1 de Mayo (en caso de cancelación por parte del participante después de esta fecha, se perderá el 80% del importe del curso).
 - Si el participante así lo desea, puede pagar el importe completo del curso en un único pago, siendo 60€ no reembolsables, y el resto reembolsable hasta el 1 de Mayo, fecha tras la cual se perdería el 80% del importe del curso.
 - Una vez abonado el importe del curso, cualquier cancelación por parte del participante supondrá la perdida del 80% del importe de la inscripción.
@@ -24,7 +23,7 @@ img: alasdair_natalie.png
 
 ### PRECIOS
 
-|                                                                          |                   |
+| <!-- -->                                                                 | <!-- -->          |
 | ------------------------------------------------------------------------ | ----------------- |
 | PRECIO TOTAL PARA VIOLÍN, CELLO, GUITARRA, FLAUTA                        |                   |
 | Precio de matrícula                                                      | 600 €             |
@@ -55,6 +54,7 @@ Aunque se solicite la beca, es necesario realizar la reserva de plaza como cualq
 Los datos del solicitante serán siempre verídicos. Por su parte, la Asociación Crisol de Cuerda Tradicional, se compromete a preservar el carácter privado de los datos, así como no hacer uso de esos datos más que para la valoración de concesión de la beca.
 
 Tendrá gran peso para la concesión de la beca, la exposición en la Carta de Motivación donde se expondrá por qué se desea acudir al curso. Insistimos: una carta no son dos líneas. Por favor, intentad transmitirnos vuestro entusiasmo por vivir la experiencia.
+
 Si la organización detecta cierta dejadez en cumplimentar este apartado podría contemplar la posibilidad de que las becas queden desiertas.
 
 La Asociación se reserva la posibilidad de ofrecer otras ayudas/colaboración, cuando así lo considere
@@ -85,7 +85,7 @@ El plazo para presentación de proyectos y documentación finaliza el 10 de Abri
 
 El nombre de los becados/as se dará a conocer el 15 de Abril.
 
-#### CONDICIONES DEL CURSO
+### CONDICIONES DEL CURSO
 
 - El pago de matrícula incluye la reserva de plaza; el alojamiento con desayuno, comida y cena; el curso completo (clases, talleres) y los gastos de gestión. Pueden surgir actividades voluntarias adicionales que correrán por cuenta de los participantes del curso.
 - La organización Crisol de Cuerda no provee el transporte al curso, aunque facilitará medios para que los participantes puedan ponerse en contacto y compartir transporte, reduciendo así su coste.

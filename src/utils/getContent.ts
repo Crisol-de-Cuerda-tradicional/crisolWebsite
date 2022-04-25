@@ -1,8 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkGfm from 'remark-gfm';
+import remarkRehype from 'remark-rehype';
+import rehypeStringify from 'rehype-stringify';
 
 interface IContent<M> {
   meta: M;
@@ -17,7 +20,12 @@ export const getContent = async <M>(lang: string, content: string): Promise<ICon
 
   const matterResult = matter(fileContent);
 
-  const pageHTML = await remark().use(html).process(matterResult.content);
+  const pageHTML = await unified()
+    .use(remarkParse)
+    .use(remarkGfm)
+    .use(remarkRehype)
+    .use(rehypeStringify)
+    .process(matterResult.content);
   return {
     meta: matterResult.data as M,
     content: pageHTML.value.toString(),

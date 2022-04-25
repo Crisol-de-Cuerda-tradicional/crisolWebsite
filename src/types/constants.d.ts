@@ -15,6 +15,7 @@ declare module '*config.yml' {
       houseBand: string[];
       pendingTeachers: boolean;
     };
+    newsletterLink: string;
     socialMedia: {
       instagram: string;
       facebook: string;

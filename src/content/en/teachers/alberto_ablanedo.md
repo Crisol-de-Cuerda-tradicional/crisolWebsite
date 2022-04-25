@@ -1,0 +1,4 @@
+Alberto Ablanedo is one of the musicians from the “Folk Generation” in Asturias, following the steps of the musicians who took part in the first folk revival in the 80s.
+He’s a self-taught Bouzouki player who began his musical journey at the end of the 90s playing with several Asturian bands such as Tejedor, Acuei!, Bron, Llangres, Los Gatos del Fornu or Dubrám He also performed with well-known musicians such as Niall Vallely, Karan Casey, Duncan Chisholm, John McSherry, Kepa Junquera, Josep-Maria Ribelles, Xosé Manuel Budiño, David Munnelly and many more.
+
+For many years, he’s been an active blogger in Folkenlared, where he wrote extensively about folk music in the Atlantic regions. Later, the blog changed formats into a podcast where he interviews other musicians about their upcoming projects. For over 10 years he’s been an active member of some of the most popular folk sessions in Asturias.

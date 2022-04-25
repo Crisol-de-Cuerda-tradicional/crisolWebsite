@@ -139,6 +139,7 @@ const Menu = () => {
           & a {
             display: inline-block;
             padding: 0.5rem;
+            width: 100%;
           }
 
           & ul > li > a,

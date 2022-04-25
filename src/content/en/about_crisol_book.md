@@ -1,5 +1,4 @@
 ---
-img: alasdair_natalie.png
 title: THE CRISOL BOOK
 ---
 

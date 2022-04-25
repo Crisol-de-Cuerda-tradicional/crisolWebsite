@@ -59,3 +59,21 @@ english:
 spanish:
   en: Spanish
   es: Castellano
+legalDisclaymer:
+  en: Legal disclaymer
+  es: Avíso legal
+  link: /legal-disclaymer
+privacyPolicy:
+  en: Privacy Policy
+  es: Política de privacidad
+  link: /privacy-policy
+cookies:
+  en: Cookies
+  es: Política de cookies
+  link: /cookies
+subscribe:
+  en: Subscribe
+  es: Suscríbete
+newsletter:
+  en: If you wish to subscribe to our newsletter, fill in this form
+  es: Si deseas suscribirte a nuestra newsletter, rellenta este formulario
