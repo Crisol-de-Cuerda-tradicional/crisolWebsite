@@ -2,7 +2,7 @@
 title: EL CRISOL BOOK
 ---
 
-El Crisol Book fue recopilado en 2018 en conmemoración del 10o aniversario de Crisol de Cuerda. Recoge todos aquellos temas que se han enseñado en Crisol y que se han podido recopilar mediante grabaciones de audio, vídeos, partituras y manuscritos. Aun que faltan algunos temas, esperamos poder incorporarlos en el futuro.
+El Crisol Book fue recopilado en 2018 en conmemoración del 10º aniversario de Crisol de Cuerda. Recoge todos aquellos temas que se han enseñado en Crisol y que se han podido recopilar mediante grabaciones de audio, vídeos, partituras y manuscritos. Aun que faltan algunos temas, esperamos poder incorporarlos en el futuro.
 
 Las partituras que aquí se encuentran están transcritas tal como se grabaron y enseñaron en Crisol de Cuerda. A pesar de que existen divergencias con los temas originales (o aquellos recopilados en otras colecciones) hemos querido preservar las variaciones que, para nosotros, sirven como referente. Los acordes de cada melodía están pensados como guía para poder tocar rápidamente. No pretenden ser exhaustivos ni los únicos que funcionan con cada tema. Os animamos a que investiguéis vuestras variaciones y nos las hagáis llegar a través de las redes sociales. Esta colección ha sido creada con fines divulgativos y no se autoriza la venta del libro o de su contenido.
 

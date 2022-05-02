@@ -1,11 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
 
+:root {
+  --color-primary: #fc8006;
+  --color-neutral: #999999;
+  --color-dark: #262626;
+  --color-light: #ffffff;
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --border-radius: 4px;
+
+  --size-xxlg: 2rem;
+  --size-xlg: 1.5rem;
+  --size-lg: 1.25rem;
+  --size-md: 1rem;
+  --size-sm: 0.875rem;
+  --size-xsm: 0.75rem;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  font-size: 16px;
 }
 
 a {
