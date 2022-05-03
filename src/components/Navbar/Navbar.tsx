@@ -20,9 +20,13 @@ const Navbar = () => {
           const queries = { ...router.query };
           if (queries.menu) delete queries.menu;
           else queries.menu = 'true';
-          router.push({
-            query: queries,
-          });
+          router.push(
+            {
+              query: queries,
+            },
+            undefined,
+            { scroll: false }
+          );
         }}
       >
         <span className="hamburger-box">
@@ -38,7 +42,7 @@ const Navbar = () => {
           display: flex;
           justify-content: space-between;
           align-items: self-end;
-          background-color: gray;
+          background-color: var(--color-dark);
           padding: 1rem;
           z-index: 100;
         }

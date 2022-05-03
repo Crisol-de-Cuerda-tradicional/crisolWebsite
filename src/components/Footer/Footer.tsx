@@ -5,6 +5,7 @@ import config from '../../config/config.yml';
 import menu, { MenuItem } from '../../config/menu.yml';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
+import Button from '../Button/Button';
 
 const Footer = () => {
   const router = useRouter();
@@ -25,7 +26,7 @@ const Footer = () => {
         <div className="footer__subscribe">
           {menu.newsletter[locale]}
           <Link href={config.newsletterLink} passHref>
-            <button>{menu.subscribe[locale]}</button>
+            <Button>{menu.subscribe[locale]}</Button>
           </Link>
         </div>
       </div>
@@ -67,7 +68,7 @@ const Footer = () => {
           background-repeat: no-repeat;
           background-position: center top;
           background-size: cover;
-          background-color: #000;
+          background-color: var(--color-black);
           padding: 2rem 0 0 0;
 
           .footer__content {
@@ -80,7 +81,7 @@ const Footer = () => {
             max-width: 1024px;
             margin: 0 auto;
 
-            color: white;
+            color: var(--color-white);
             font-size: 1.25rem;
 
             a {
@@ -97,18 +98,19 @@ const Footer = () => {
             }
 
             .footer__subscribe {
-              border: orange solid 2px;
+              border: var(--color-primary) solid 2px;
               padding: 1.5rem;
               text-align: center;
               display: flex;
               flex-direction: column;
-              gap: 2rem;
+              align-items: center;
+              gap: 1.5rem;
               max-width: 350px;
             }
           }
         }
         .footer__social {
-          background-color: white;
+          background-color: var(--color-white);
           width: 100%;
           display: flex;
           flex-wrap: wrap;

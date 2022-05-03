@@ -7,7 +7,7 @@ interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: string;
 }
 
-const outlineHoverFontColor = (variant: IButtonProps['variant']): IButtonProps['variant'] => {
+const fontColorConverter = (variant: IButtonProps['variant']): IButtonProps['variant'] => {
   switch (variant) {
     case 'primary':
       return 'dark';
@@ -18,7 +18,7 @@ const outlineHoverFontColor = (variant: IButtonProps['variant']): IButtonProps['
     case 'light':
       return 'dark';
     default:
-      return 'primary';
+      return 'dark';
   }
 };
 
@@ -32,24 +32,24 @@ const Button = ({
   return (
     <>
       <button
-        className={`btn--${variant} btn__size--${size} ${outline ? 'btn--outline' : ''}`}
+        className={`btn btn__size--${size} ${outline ? 'btn--outline' : ''}`}
         {...btnAttributes}
       >
         <div className="btn__text">{children}</div>
       </button>
       <style jsx>{`
-        .btn--${variant} {
+        .btn {
           background-color: var(--color-${variant});
           border-radius: var(--border-radius);
-          color: var(--color-white);
           border: 2px solid var(--color-${variant});
           box-shadow: 0 0 8px var(--color-dark);
-        }
 
-        button {
           transition: all 0.4s cubic-bezier(0.41, -0.6, 0.41, 1.6);
 
           .btn__text {
+            font-weight: bold;
+            color: var(--color-${fontColorConverter(variant)});
+
             transition: transform 0.4s cubic-bezier(0.41, -0.6, 0.41, 1.6);
           }
 
@@ -66,15 +66,22 @@ const Button = ({
           padding: calc(0.5 * var(--size-${size})) calc(0.5 * var(--size-${size}));
           font-size: var(--size-${size});
           min-width: calc(8 * var(--size-${size}));
+          max-width: calc(8 * var(--size-${size}));
         }
 
         .btn--outline {
           background-color: transparent;
-          color: var(--color-${variant});
+
+          .btn__text {
+            color: var(--color-${variant});
+          }
 
           &:hover {
             background-color: var(--color-${variant});
-            color: var(--color-${outlineHoverFontColor(variant)});
+
+            .btn__text {
+              color: var(--color-${fontColorConverter(variant)});
+            }
           }
         }
       `}</style>

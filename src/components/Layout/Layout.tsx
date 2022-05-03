@@ -25,7 +25,7 @@ const Layout = ({ children }: ILayoutProps) => {
       <Footer />
       <style jsx>{`
         .main {
-          width: 100vw;
+          width: 100%;
           max-width: 1024px;
           margin: 0 auto;
           overflow-x: hidden;

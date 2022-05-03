@@ -68,7 +68,7 @@ const Home: NextPage<IHomeProps> = ({ whatIsSection, accommodationSection }) => 
       </Layout>
       <style jsx>{`
         video {
-          width: 100vw;
+          width: 100%;
           position: absolute;
           top: 0;
           left: 0;
@@ -84,7 +84,7 @@ const Home: NextPage<IHomeProps> = ({ whatIsSection, accommodationSection }) => 
 
         .hero__title {
           width: 100%;
-          color: white;
+          color: var(--color-white);
           white-space: pre-wrap;
           margin: 0;
           font-size: 3rem;
@@ -98,7 +98,7 @@ const Home: NextPage<IHomeProps> = ({ whatIsSection, accommodationSection }) => 
 
           h3 {
             flex-basis: 60%;
-            color: orange;
+            color: var(--color-primary);
             margin: 0;
             font-size: 1.2rem;
             line-height: 1.6rem;
@@ -106,7 +106,7 @@ const Home: NextPage<IHomeProps> = ({ whatIsSection, accommodationSection }) => 
           }
           h1 {
             flex-basis: 40%;
-            color: white;
+            color: var(--color-white);
             margin: 0;
             font-size: 3rem;
             line-height: 3.25rem;
