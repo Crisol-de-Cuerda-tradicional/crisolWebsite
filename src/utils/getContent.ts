@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
 
-interface IContent<M> {
+export interface IContent<M> {
   meta: M;
   content: string;
 }

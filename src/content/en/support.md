@@ -1,5 +1,6 @@
 ---
 title: Support us
+hero: support_bg.jpeg
 ---
 
 The Asociación Crisol de Cuerda Tradicional is a non-profit organization, funded in 2009 and signed-up in the Registro de Asociaciones de la Junta de Castilla y León (No. 0004032) and in the Registro Municipal de Entidades Ciudadanas del Ayuntamiento de Burgos (No. 760).

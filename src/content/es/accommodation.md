@@ -1,7 +1,7 @@
 ---
-title: Alojamiento
-img: https://www.crisoldecuerda.com/wp-content/uploads/2020/01/Crisol-404.jpg
-locationSrc: https://maps.google.com/maps?q=granja%20escuela%20arlanzon&t=&z=13&ie=UTF8&iwloc=&output=embed
+title: Alojamiento
+img: accommodation.jpeg
+hero: accommodation_bg.jpeg
 ---
 
 Uno de los pilares importantes de este encuentro es la convivencia. Durante los 7 días del curso compartiremos numerosas experiencias, con el denominador común de la música y la danza, y esperamos que largas, enriquecedoras sesiones, en la granja Escuela de Arlanzón, a unos 20 kilómetros de la ciudad de Burgos. Es un centro de turismo y ocio que, además de proporcionarnos un trato excepcional, nos dará la posibilidad de realizar actividades complementarias a la música. Además podremos convivir con animales de granja, en un entorno natural.

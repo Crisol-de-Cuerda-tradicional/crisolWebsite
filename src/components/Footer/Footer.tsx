@@ -19,9 +19,15 @@ const Footer = () => {
           </a>
         </Link>
         <div className="footer__policies">
-          <Link href={menu.legalDisclaymer.link}>{menu.legalDisclaymer[locale]}</Link>
-          <Link href={menu.privacyPolicy.link}>{menu.privacyPolicy[locale]}</Link>
-          <Link href={menu.cookies.link}>{menu.cookies[locale]}</Link>
+          <Link href={menu.legalDisclaymer.link} passHref>
+            <a>{menu.legalDisclaymer[locale]}</a>
+          </Link>
+          <Link href={menu.privacyPolicy.link} passHref>
+            <a>{menu.privacyPolicy[locale]}</a>
+          </Link>
+          <Link href={menu.cookies.link} passHref>
+            <a>{menu.cookies[locale]}</a>
+          </Link>
         </div>
         <div className="footer__subscribe">
           {menu.newsletter[locale]}
@@ -69,7 +75,7 @@ const Footer = () => {
           background-position: center top;
           background-size: cover;
           background-color: var(--color-black);
-          padding: 2rem 0 0 0;
+          padding: 0;
 
           .footer__content {
             display: flex;
@@ -77,16 +83,11 @@ const Footer = () => {
             align-items: center;
             flex-wrap: wrap;
             gap: 3.5rem;
-            padding: 1.5rem;
-            max-width: 1024px;
+            padding: 3rem;
             margin: 0 auto;
 
             color: var(--color-white);
             font-size: 1.25rem;
-
-            a {
-              display: inline-block;
-            }
 
             .footer__policies {
               display: flex;
@@ -95,6 +96,11 @@ const Footer = () => {
               text-align: center;
 
               text-decoration: underline;
+
+              & > a {
+                display: inline-block;
+                color: var(--color-white);
+              }
             }
 
             .footer__subscribe {

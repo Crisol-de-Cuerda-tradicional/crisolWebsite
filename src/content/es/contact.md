@@ -1,5 +1,6 @@
 ---
 title: Contacta
+hero: contact_bg.jpeg
 ---
 
 Si quieres realizarnos cualquier tipo de consulta relacionada con Crisol de Cuerda, puedes llamarnos a los teléfonos: +34&nbsp;608&nbsp;903&nbsp;006&nbsp;/ +34&nbsp;644&nbsp;753&nbsp;321&nbsp;/ +34&nbsp;722&nbsp;226&nbsp;427. Estaremos encantados de responderte.

@@ -1,3 +1,7 @@
+---
+locationSrc: https://maps.google.com/maps?q=granja%20escuela%20arlanzon&t=&z=13&ie=UTF8&iwloc=&output=embed
+---
+
 Granja Escuela Arlanzón,
 
 Camino de los Molinos s/n
