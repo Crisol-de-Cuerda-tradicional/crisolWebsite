@@ -1,5 +1,6 @@
 ---
 title: The Spirit of Crisol
+hero: spirit_bg.jpeg
 ---
 
 The Spirit of Crisol wants to bring together all the ideas and concepts that pushed us to organise a camp with the characteristics that follow but the first and most important is passion; **passion for music**.

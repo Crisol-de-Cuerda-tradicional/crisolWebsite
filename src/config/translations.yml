@@ -34,3 +34,81 @@ dance:
 house_band:
   en: House Band
   es: House Band
+download_crisol_book:
+  en: Download the Crisol Book
+  es: Descarga el Crisol Book
+last_update:
+  en: Last update
+  es: Última actualización
+crisol_book_index:
+  en: Tune Index
+  es: Índice de temas
+traditional:
+  en: Traditional
+  es: Tradicional
+usa:
+  en: United States
+  es: Estados Unidos
+eus:
+  en: Basque Country
+  es: País Vasco
+swe:
+  en: Sweden
+  es: Suecia
+brt:
+  en: Brittany
+  es: Bretaña
+gal:
+  en: Galicia
+  es: Galicia
+sct:
+  en: Scotland
+  es: Escocia
+cyl:
+  en: Castile
+  es: Castilla
+cat:
+  en: Catalonia
+  es: Cataluña
+occ:
+  en: Occitanie
+  es: Occitania
+hun:
+  en: Hungary
+  es: Hungría
+fin:
+  en: Finland
+  es: Finlandia
+and:
+  en: Andalucia
+  es: Andalucía
+bal:
+  en: Balkans
+  es: Balcanos
+bra:
+  en: Brazil
+  es: Brasil
+cbr:
+  en: Cape Breton
+  es: Cape Breton
+ara:
+  en: Aragon
+  es: Aragón
+val:
+  en: Valencia
+  es: Valencia
+qbc:
+  en: Quebec
+  es: Quebec
+fra:
+  en: France
+  es: Francia
+prt:
+  en: Portugal
+  es: Portugal
+ven:
+  en: Venezuela
+  es: Venezuela
+mal:
+  en: Mallorca
+  es: Mallorca

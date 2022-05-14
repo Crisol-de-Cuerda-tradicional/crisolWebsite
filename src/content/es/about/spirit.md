@@ -1,5 +1,6 @@
 ---
 title: El espíritu Crisol
+hero: spirit_bg.jpeg
 ---
 
 Por Espíritu Crisol entendemos todas las ideas y conceptos que nos han llevado a organizar un encuentro de estas características y la **pasión por la música** es el motivo principal.

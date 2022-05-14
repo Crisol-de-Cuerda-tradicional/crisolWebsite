@@ -113,12 +113,16 @@ const Menu = () => {
         <ul>
           <li>
             <Link href={router.pathname} locale="es">
-              <a className={`${locale === 'es' ? 'bold' : ''}`}>{translations.spanish[locale]}</a>
+              <a className={`${locale === 'es' ? 'active-lng' : ''}`}>
+                {translations.spanish[locale]}
+              </a>
             </Link>
           </li>
           <li>
             <Link href={router.pathname} locale="en">
-              <a className={`${locale === 'en' ? 'bold' : ''}`}>{translations.english[locale]}</a>
+              <a className={`${locale === 'en' ? 'active-lng' : ''}`}>
+                {translations.english[locale]}
+              </a>
             </Link>
           </li>
         </ul>
@@ -151,6 +155,7 @@ const Menu = () => {
           z-index: 90;
           color: var(--color-white);
           overflow-y: auto;
+          padding-bottom: 3rem;
 
           transition: right 0.5s ease-in-out;
 
@@ -188,7 +193,6 @@ const Menu = () => {
             padding: 0.5rem;
             width: 100%;
             height: 2.5rem;
-            color: var(--color-white);
           }
 
           & ul > li > a,
@@ -199,9 +203,14 @@ const Menu = () => {
           & ul > li > ul > li > a {
             padding-left: 3rem;
           }
-        }
-        .bold {
-          font-weight: 700;
+
+          & a:not(.active-lng) {
+            color: var(--color-white);
+          }
+
+          & .active-lng {
+            color: var(--color-primary);
+          }
         }
       `}</style>
     </>
