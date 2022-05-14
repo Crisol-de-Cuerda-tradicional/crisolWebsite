@@ -1,15 +1,17 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import config from '../../config/config.yml';
-import menu, { MenuItem } from '../../config/menu.yml';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import config from '../../config/config.yml';
+import translations, { Language } from '../../config/translations.yml';
+import menu from '../../config/menu.yml';
 import Button from '../Button/Button';
 
 const Footer = () => {
   const router = useRouter();
-  const locale = (router.locale ?? 'es') as keyof MenuItem;
+  const locale = (router.locale ?? 'es') as Language;
   return (
     <div className="footer">
       <div className="footer__content">
@@ -30,9 +32,9 @@ const Footer = () => {
           </Link>
         </div>
         <div className="footer__subscribe">
-          {menu.newsletter[locale]}
+          {translations.newsletter[locale]}
           <Link href={config.newsletterLink} passHref>
-            <Button>{menu.subscribe[locale]}</Button>
+            <Button>{translations.subscribe[locale]}</Button>
           </Link>
         </div>
       </div>

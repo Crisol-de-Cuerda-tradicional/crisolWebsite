@@ -1,2 +1,7 @@
+---
+name: Francesc Tomás "Panxito"
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2020/01/panxito-500x500.jpg
+---
+
 Nació a principios de los sesenta, en la Ciudad de México, siendo nieto de exiliados y refugiados políticos.
 Creció en la Colonia Condesa, al lado de la Roma, y en la colonia catalana al mismo tiempo. Acabó abandonando felizmente sus estudios formales de piano, guitarra clásica y etnomusicología y se sumergió sin remedio en los fandangos de Sotavento, las topadas de huapango serrano y las profundidades del violín huasteco. Emigró casi sin darse cuenta a Catalunya a principios de los ochenta. Una década pasó en Barcelona para irse situando, y un cuarto de siglo más en el pueblo natal de sus hijos, para intentar ayudar a seguir construyendo familia, comunidad, cultura y libertad.

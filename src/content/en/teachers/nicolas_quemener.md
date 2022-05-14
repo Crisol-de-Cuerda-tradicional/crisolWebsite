@@ -1,3 +1,8 @@
+---
+name: Nicolas Quemener
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2022/03/nicolas_quemener500x500.png
+---
+
 Nicolas Quemener is a Breton guitar player and multi-instrumentalist, well-known for his mastery of the open-tunning guitar. He was born in the region of Angers and spent most of his early years in Brittany. He studied percussion for 4 years until a friend gave him his first guitar.
 
 He lived in Ireland for several years where he met many musicians from the Galway area and founded the band Arcadi. Once back in Brittany, he founded the band Skeduz and toured internationally for several years. During his long musical trajectory, he has collaborated with many musicians like Soïg Sibéril, Dan Ar Braz, Capercaillie, Donal Lunny, Gilles Servat, Ronan Le Bars, Martin O’Connor and Ronny Drew.

@@ -27,7 +27,6 @@ const Layout = ({ children }: ILayoutProps) => {
         .main {
           width: 100%;
           margin: 0;
-          overflow-x: hidden;
           position: relative;
         }
       `}</style>

@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import config from '../../config/config.yml';
-import menu, { MenuItem } from '../../config/menu.yml';
+import menu from '../../config/menu.yml';
+import translations, { Language } from '../../config/translations.yml';
 
 const Menu = () => {
   const router = useRouter();
-  const locale = (router.locale ?? 'es') as keyof MenuItem;
+  const locale = (router.locale ?? 'es') as Language;
   return (
     <>
       <div
@@ -108,16 +109,16 @@ const Menu = () => {
             </Link>
           </li>
         </ul>
-        <p>{menu.languages[locale]}:</p>
+        <p>{translations.languages[locale]}:</p>
         <ul>
           <li>
             <Link href={router.pathname} locale="es">
-              <a className={`${locale === 'es' ? 'bold' : ''}`}>{menu.spanish[locale]}</a>
+              <a className={`${locale === 'es' ? 'bold' : ''}`}>{translations.spanish[locale]}</a>
             </Link>
           </li>
           <li>
             <Link href={router.pathname} locale="en">
-              <a className={`${locale === 'en' ? 'bold' : ''}`}>{menu.english[locale]}</a>
+              <a className={`${locale === 'en' ? 'bold' : ''}`}>{translations.english[locale]}</a>
             </Link>
           </li>
         </ul>

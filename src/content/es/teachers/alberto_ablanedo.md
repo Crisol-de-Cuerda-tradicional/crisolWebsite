@@ -1,3 +1,8 @@
+---
+name: Alberto Ablanedo
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2020/01/AlbertoAblanedox777.jpg
+---
+
 Alberto Ablanedo es uno de los músicos de la llamada “Generación Folk”, la segunda oleada de músicos asturianos que siguieron a los pioneros que revitalizaron la música tradicional asturiana en los 80.
 Bouzoukista autodidacta, se inicia en el mundo musical a finales de los 90, pasando por un buen número de formaciones asturianas como Tejedor, Acuei!, Bron, Llangres, Los Gatos del Fornu o Dubrám, además de colaborar en directo con otros como Tuenda, Felpeyu, DRD, Stolen Notes, Brenga Astur, Cáceres Ceilidh Band o Carás. Ha tenido la oportunidad de grabar en un buen puñado de discos y dar conciertos por el territorio español y más allá (Inglaterra, Escocia, Francia, Italia, Suiza, Portugal, USA…) y se ha subido al escenario en ocasiones puntuales con músicos de la talla de Niall Vallely, Karan Casey, Duncan Chisholm, John McSherry, Kepa Junquera, Josep-Maria Ribelles, Xosé Manuel Budiño, David Munnelly y muchos otros.
 

@@ -26,6 +26,7 @@ body {
   font-family: Roboto, Helvetica Neue, sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
+  scroll-snap-type: y proximity;
 }
 
 a {

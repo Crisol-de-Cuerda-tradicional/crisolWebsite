@@ -7,29 +7,38 @@ endDate: 2022-08-07
 registrationOpen: true
 
 teachers:
-  fiddle:
-    - alasdair_fraser
-    - francesc_tomas
-    - lena_jonsson
-    - blanca_altable
-    - paula_gomez
-  cello:
-    - natalie_haas
-    - marta_roma
-  guitar:
-    - adam_johannson
-    - nicolas_quemener
-  flute:
-    - jeanmichel_veillon
-    - xose_liz
-  voice:
-    - ana_rossi
-  dance:
-    - suso_cancelas
-  houseBand:
-    - galen_fraser
-    - alberto_ablanedo
-  pendingTeachers: false
+  - id: alasdair_fraser
+    instrument: fiddle
+  - id: francesc_tomas
+    instrument: fiddle
+  - id: lena_jonsson
+    instrument: fiddle
+  - id: blanca_altable
+    instrument: fiddle
+  - id: paula_gomez
+    instrument: fiddle
+  - id: natalie_haas
+    instrument: cello
+  - id: marta_roma
+    instrument: cello
+  - id: adam_johannson
+    instrument: guitar
+  - id: nicolas_quemener
+    instrument: guitar
+  - id: jeanmichel_veillon
+    instrument: flute
+  - id: xose_liz
+    instrument: flute
+  - id: ana_rossi
+    instrument: voice
+  - id: suso_cancelas
+    instrument: dance
+  - id: galen_fraser
+    instrument: house_band
+  - id: alberto_ablanedo
+    instrument: house_band
+
+pendingTeachers: false
 
 newsletterLink: https://eepurl.com/ggOBLr
 socialMedia:

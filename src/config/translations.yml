@@ -1,0 +1,36 @@
+languages:
+  en: Language
+  es: Idioma
+english:
+  en: English
+  es: Inglés
+spanish:
+  en: Spanish
+  es: Castellano
+subscribe:
+  en: Subscribe
+  es: Suscríbete
+newsletter:
+  en: If you wish to subscribe to our newsletter, fill in this form
+  es: Si deseas suscribirte a nuestra newsletter, rellenta este formulario
+fiddle:
+  en: Fiddle
+  es: Violín
+cello:
+  en: Cello
+  es: Cello
+guitar:
+  en: Guitar
+  es: Guitarra
+flute:
+  en: Flute
+  es: Flauta
+voice:
+  en: Voice
+  es: Voz
+dance:
+  en: Dance
+  es: Danza
+house_band:
+  en: House Band
+  es: House Band

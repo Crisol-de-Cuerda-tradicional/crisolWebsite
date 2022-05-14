@@ -1,3 +1,8 @@
+---
+name: Nicolas Quemener
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2022/03/nicolas_quemener500x500.png
+---
+
 Nicolas Quemener es un guitarrista y multi-instrumentista Bretón conocido por su dominio de la afinación abierta. Originario de la región de Angers, pasó buena parte de su juventud en la Bretaña escuchando música irlandesa. Estudió percusión durante 4 años hasta que un amigo le regaló su primera guitarra.
 
 Vivió en Irlanda durante varios años donde entró en contacto con varios músicos de la zona de Galway y fundó el grupo Arcadi. Al volver a la Bretaña, fundó el grupo Skeduz con quien giró internacionalmente varios años. Durante su larga trayectoria musical ha colaborado con músicos como Soïg Sibéril, Dan Ar Braz, Capercaillie, Donal Lunny, Gilles Servat, Ronan Le Bars, Martin O’Connor y Ronny Drew.

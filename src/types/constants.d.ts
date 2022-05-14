@@ -1,20 +1,16 @@
 declare module '*config.yml' {
+  interface ICurrentYearTeacher {
+    id: string;
+    instrument: string;
+  }
   interface Config {
     name: string;
     nameShort: string;
     startDate: Date;
     endDate: Date;
     registrationOpen: boolean;
-    teachers: {
-      fiddle: string[];
-      cello: string[];
-      guitar: string[];
-      flute: string[];
-      voice: string[];
-      dance: string[];
-      houseBand: string[];
-      pendingTeachers: boolean;
-    };
+    teachers: ICurrentYearTeacher[];
+    pendingTeachers: boolean;
     newsletterLink: string;
     socialMedia: {
       instagram: string;
@@ -51,7 +47,23 @@ declare module '*teachers.yml' {
     years: number[];
   }
 
-  export const teachers: Teacher[];
+  type TeachersConfig = {
+    title: {
+      year_page: {
+        en: string;
+        es: string;
+      };
+      annuary_page: {
+        en: string;
+        es: string;
+      };
+    };
+    teachers: Teacher[];
+  };
+
+  const teachersConfig: TeachersConfig;
+
+  export default teachersConfig;
 }
 
 declare module '*menu.yml' {
@@ -64,4 +76,13 @@ declare module '*menu.yml' {
   const menuItems: Record<string, MenuItem>;
 
   export default menuItems;
+}
+
+declare module '*translations.yml' {
+  export type Language = 'en' | 'es';
+  type Translation = Record<Language, string>;
+  type TranslationsConfig = Record<string, Translation>;
+
+  const translations: TranslationsConfig;
+  export default translations;
 }

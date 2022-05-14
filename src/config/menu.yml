@@ -50,15 +50,6 @@ registration:
   en: Registration
   es: Inscripciones
   link: /registration
-languages:
-  en: Language
-  es: Idioma
-english:
-  en: English
-  es: Inglés
-spanish:
-  en: Spanish
-  es: Castellano
 legalDisclaymer:
   en: Legal disclaymer
   es: Avíso legal
@@ -71,9 +62,3 @@ cookies:
   en: Cookies
   es: Política de cookies
   link: /cookies
-subscribe:
-  en: Subscribe
-  es: Suscríbete
-newsletter:
-  en: If you wish to subscribe to our newsletter, fill in this form
-  es: Si deseas suscribirte a nuestra newsletter, rellenta este formulario
