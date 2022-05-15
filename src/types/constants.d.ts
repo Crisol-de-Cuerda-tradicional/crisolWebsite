@@ -48,16 +48,6 @@ declare module '*teachers.yml' {
   }
 
   type TeachersConfig = {
-    title: {
-      year_page: {
-        en: string;
-        es: string;
-      };
-      annuary_page: {
-        en: string;
-        es: string;
-      };
-    };
     teachers: Teacher[];
   };
 
@@ -85,4 +75,25 @@ declare module '*translations.yml' {
 
   const translations: TranslationsConfig;
   export default translations;
+}
+
+declare module '*indexPage.yml' {
+  interface AboutLink {
+    title: string;
+    subtitle: string;
+    img: string;
+    link: string;
+  }
+
+  interface InfoSection extends Omit<AboutLink, 'img'> {
+    icon: string;
+  }
+
+  interface IndexPageConfig {
+    aboutLinks: AboutLink[];
+    infoSection: InfoSection[];
+  }
+
+  const indexPageConfig: IndexPageConfig;
+  export default indexPageConfig;
 }

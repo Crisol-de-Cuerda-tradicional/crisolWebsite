@@ -44,6 +44,7 @@ const ButtonGoTop = () => {
           background: var(--color-primary);
           border-radius: var(--border-radius);
           border: none;
+          cursor: pointer;
 
           transition: opacity 0.3s ease-in-out;
         }

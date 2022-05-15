@@ -21,9 +21,10 @@ interface ITeacher extends IContent<{ name: string; picture: string }> {
 
 interface ITeachersProps {
   teachers: ITeacher[];
+  teachersPage: IContent<{ title: string; hero: string }>;
 }
 
-const Teachers = ({ teachers }: ITeachersProps): JSX.Element => {
+const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
   const router = useRouter();
   const locale = (router.locale ?? 'es') as Language;
 
@@ -31,9 +32,7 @@ const Teachers = ({ teachers }: ITeachersProps): JSX.Element => {
     <Layout>
       <Hero
         background="teachers_bg.jpeg"
-        pageTitle={`${
-          teachersConfig.title.year_page[(locale as 'en' | 'es') ?? 'es']
-        } - ${config.startDate.getFullYear()}`}
+        pageTitle={`${teachersPage.meta.title} - ${config.startDate.getFullYear()}`}
       />
       <ContentLayout>
         <div className="teachers__links">
@@ -101,6 +100,7 @@ const Teachers = ({ teachers }: ITeachersProps): JSX.Element => {
 
           .links__item {
             width: 123px;
+            cursor: pointer;
           }
         }
 
@@ -118,10 +118,10 @@ export default Teachers;
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const { teachers } = config;
-
+  const teachersPage = await getContent(locale ?? 'es', 'teachers/teachers');
   const teachersContent = await Promise.all(
     teachers.map(async teacher => {
-      const teacherSection = await getContent(locale ?? 'es', `teachers/${teacher.id}`);
+      const teacherSection = await getContent(locale ?? 'es', `teachers/bios/${teacher.id}`);
       return {
         ...teacherSection,
         ...teacher,
@@ -132,6 +132,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
       teachers: teachersContent,
+      teachersPage,
     },
   };
 };

@@ -1,0 +1,18 @@
+aboutLinks:
+  - title: spirit_title
+    subtitle: spirit_subtitle
+    img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test3.jpg
+    link: /about/crisol-spirit
+  - title: clases_title
+    subtitle: clases_subtitle
+    img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test2.jpg
+    link: /about/classes
+  - title: history_title
+    subtitle: history_subtitle
+    img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test.jpg
+    link: /about/history
+infoSection:
+  - title:
+    subtitle:
+    icon:
+    link:
