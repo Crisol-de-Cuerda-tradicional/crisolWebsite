@@ -12,7 +12,7 @@ const ExpandingImg = ({ bgSrc, maxWidth, children }: IExpandingImgProps): JSX.El
     <div className="wrapper">
       {children}
       <div className="img--expand">
-        <Image src={bgSrc} layout="fill" alt="background" />
+        <Image src={bgSrc} layout="fill" alt="background" priority />
       </div>
       <style jsx>{`
         .wrapper {
@@ -31,6 +31,7 @@ const ExpandingImg = ({ bgSrc, maxWidth, children }: IExpandingImgProps): JSX.El
             width: 100%;
             aspect-ratio: 1;
             z-index: -1;
+            transform: scale(1.01);
           }
 
           &:hover .img--expand {

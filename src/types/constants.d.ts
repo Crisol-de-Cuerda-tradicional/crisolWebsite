@@ -1,3 +1,5 @@
+type Language = 'en' | 'es';
+type Translation = Record<Language, string>;
 declare module '*config.yml' {
   interface ICurrentYearTeacher {
     id: string;
@@ -8,7 +10,9 @@ declare module '*config.yml' {
     nameShort: string;
     startDate: Date;
     endDate: Date;
-    registrationOpen: boolean;
+    displayRegistrationCaptcha: boolean;
+    displayRegistrationCTA: boolean;
+    registrationLink: string;
     teachers: ICurrentYearTeacher[];
     pendingTeachers: boolean;
     newsletterLink: string;
@@ -79,8 +83,8 @@ declare module '*translations.yml' {
 
 declare module '*indexPage.yml' {
   interface AboutLink {
-    title: string;
-    subtitle: string;
+    title: Translation;
+    subtitle: Translation;
     img: string;
     link: string;
   }
@@ -90,8 +94,12 @@ declare module '*indexPage.yml' {
   }
 
   interface IndexPageConfig {
+    registrationCaptcha: Translation;
+    registrationCta: Translation;
+    knowMoreButton: Translation;
     aboutLinks: AboutLink[];
     infoSection: InfoSection[];
+    pendingTeachers: Translation;
   }
 
   const indexPageConfig: IndexPageConfig;

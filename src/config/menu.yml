@@ -50,10 +50,10 @@ registration:
   en: Registration
   es: Inscripciones
   link: /registration
-legalDisclaymer:
-  en: Legal disclaymer
+legalDisclaimer:
+  en: Legal disclaimer
   es: Avíso legal
-  link: /legal-disclaymer
+  link: /legal-disclaimer
 privacyPolicy:
   en: Privacy Policy
   es: Política de privacidad

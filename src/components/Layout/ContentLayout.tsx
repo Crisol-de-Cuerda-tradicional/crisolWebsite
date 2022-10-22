@@ -1,12 +1,13 @@
 import { ReactNode } from 'react';
 
 interface IContentLayoutProps {
+  id?: string;
   children: ReactNode;
 }
 
-const ContentLayout = ({ children }: IContentLayoutProps) => {
+const ContentLayout = ({ id, children }: IContentLayoutProps) => {
   return (
-    <div className="content">
+    <section id={id} className="content">
       {children}
       <style jsx>{`
         .content {
@@ -20,7 +21,7 @@ const ContentLayout = ({ children }: IContentLayoutProps) => {
           flex-direction: column;
         }
       `}</style>
-    </div>
+    </section>
   );
 };
 

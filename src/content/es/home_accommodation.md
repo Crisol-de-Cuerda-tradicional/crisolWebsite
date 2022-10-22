@@ -1,6 +1,6 @@
 ---
 title: Alojamiento
-background: https://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/night.jpg
+background: home_accommodation_bg.jpg
 imgs:
   - https://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja3.jpg
   - https://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja1.jpg

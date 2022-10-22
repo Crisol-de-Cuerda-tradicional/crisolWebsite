@@ -45,6 +45,7 @@ const Button = ({
           box-shadow: 0 0 8px var(--color-dark);
 
           transition: all 0.4s cubic-bezier(0.41, -0.6, 0.41, 1.6);
+          cursor: pointer;
 
           .btn__text {
             font-weight: bold;
@@ -57,7 +58,7 @@ const Button = ({
             transform: scale(1.08);
 
             .btn__text {
-              transform: scale(1.15);
+              transform: scale(1.12);
             }
           }
         }

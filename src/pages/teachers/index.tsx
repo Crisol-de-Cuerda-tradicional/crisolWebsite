@@ -31,7 +31,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
   return (
     <Layout>
       <Hero
-        background="teachers_bg.jpeg"
+        background={teachersPage.meta.hero}
         pageTitle={`${teachersPage.meta.title} - ${config.startDate.getFullYear()}`}
       />
       <ContentLayout>
@@ -80,8 +80,6 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
           padding: 1rem 0 2rem 0;
           border-top: 1px solid var(--color-neutral);
 
-          scroll-snap-align: start;
-
           .img__wrapper {
             float: left;
             margin: 0 auto 1rem auto;
@@ -118,7 +116,10 @@ export default Teachers;
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const { teachers } = config;
-  const teachersPage = await getContent(locale ?? 'es', 'teachers/teachers');
+  const teachersPage = await getContent<{ title: string; hero: string }>(
+    locale ?? 'es',
+    'teachers/teachers'
+  );
   const teachersContent = await Promise.all(
     teachers.map(async teacher => {
       const teacherSection = await getContent(locale ?? 'es', `teachers/bios/${teacher.id}`);

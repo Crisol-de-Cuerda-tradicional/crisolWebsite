@@ -27,7 +27,7 @@ const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, loca
               />
             </div>
             <div className="section__text">
-              <RenderMarkdown content={descriptionSection.content}></RenderMarkdown>
+              <RenderMarkdown content={descriptionSection.content} />
             </div>
           </section>
           <section className="section location">
@@ -41,10 +41,10 @@ const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, loca
                 scrolling="no"
                 marginHeight={0}
                 marginWidth={0}
-              ></iframe>
+              />
             </div>
             <div className="section__text">
-              <RenderMarkdown content={locationSection.content}></RenderMarkdown>
+              <RenderMarkdown content={locationSection.content} />
             </div>
           </section>
         </div>

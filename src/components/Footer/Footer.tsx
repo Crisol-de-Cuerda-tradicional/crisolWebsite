@@ -21,8 +21,8 @@ const Footer = () => {
           </a>
         </Link>
         <div className="footer__policies">
-          <Link href={menu.legalDisclaymer.link} passHref>
-            <a>{menu.legalDisclaymer[locale]}</a>
+          <Link href={menu.legalDisclaimer.link} passHref>
+            <a>{menu.legalDisclaimer[locale]}</a>
           </Link>
           <Link href={menu.privacyPolicy.link} passHref>
             <a>{menu.privacyPolicy[locale]}</a>
@@ -34,7 +34,9 @@ const Footer = () => {
         <div className="footer__subscribe">
           {translations.newsletter[locale]}
           <Link href={config.newsletterLink} passHref>
-            <Button>{translations.subscribe[locale]}</Button>
+            <a>
+              <Button>{translations.subscribe[locale]}</Button>
+            </a>
           </Link>
         </div>
       </div>

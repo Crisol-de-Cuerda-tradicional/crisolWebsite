@@ -14,7 +14,7 @@ const Contact: NextPage<IContactProps> = ({ contactPage }) => {
     <Layout>
       <Hero background={contactPage.meta.hero} pageTitle={contactPage.meta.title} />
       <ContentLayout>
-        <RenderMarkdown content={contactPage.content}></RenderMarkdown>
+        <RenderMarkdown content={contactPage.content} />
       </ContentLayout>
     </Layout>
   );

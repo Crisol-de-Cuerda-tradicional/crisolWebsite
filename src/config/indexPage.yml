@@ -1,18 +1,46 @@
+registrationCaptcha:
+  en: Limited availability!
+  es: Plazas limitadas!
+registrationCta:
+  en: Register now
+  es: Regístrate
+
 aboutLinks:
-  - title: spirit_title
-    subtitle: spirit_subtitle
+  - title:
+      en: The Spirit of Crisol
+      es: El Espíritu Crisol
+    subtitle:
+      en: Why are we here?
+      es: ¿Por qué estamos aquí?
     img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test3.jpg
     link: /about/crisol-spirit
-  - title: clases_title
-    subtitle: clases_subtitle
+  - title:
+      en: The Lessons
+      es: Las Clases
+    subtitle:
+      en: How do they work and what is special about them?
+      es: ¿Cómo funcionan y qué tienen de especial?
     img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test2.jpg
     link: /about/classes
-  - title: history_title
-    subtitle: history_subtitle
+  - title:
+      en: A bit of History
+      es: Un Poco de Historia
+    subtitle:
+      en: How it all started
+      es: ¿Cómo empezó todo?
     img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test.jpg
     link: /about/history
+
 infoSection:
-  - title:
-    subtitle:
-    icon:
-    link:
+  - title: ''
+    subtitle: ''
+    icon: ''
+    link: ''
+
+knowMoreButton:
+  en: Know more
+  es: Saber más
+
+pendingTeachers:
+  en: More teachers to confirm. Visit us soon!
+  es: Más profesores a confirmar. ¡Visítanos pronto!

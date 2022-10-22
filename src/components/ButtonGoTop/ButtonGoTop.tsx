@@ -26,7 +26,7 @@ const ButtonGoTop = () => {
 
   return (
     <>
-      <button className={`goTop ${!showTopBtn ? 'hidden' : ''}`} onClick={goToTop}></button>
+      <button className={`goTop ${!showTopBtn ? 'hidden' : ''}`} onClick={goToTop} />
       <style jsx>{`
         .hidden {
           opacity: 0;

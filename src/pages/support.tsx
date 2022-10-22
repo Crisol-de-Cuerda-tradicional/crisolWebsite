@@ -14,7 +14,7 @@ const Support: NextPage<ISupportProps> = ({ supportPage }) => {
     <Layout>
       <Hero background={supportPage.meta.hero} pageTitle={supportPage.meta.title} />
       <ContentLayout>
-        <RenderMarkdown content={supportPage.content}></RenderMarkdown>
+        <RenderMarkdown content={supportPage.content} />
       </ContentLayout>
     </Layout>
   );

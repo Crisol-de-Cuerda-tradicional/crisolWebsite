@@ -1,10 +1,12 @@
 name: Crisol de Cuerda
 nameShort: Crisol
 
-startDate: 2022-07-31
-endDate: 2022-08-07
+startDate: 2023-07-30
+endDate: 2023-08-06
 
-registrationOpen: true
+displayRegistrationCaptcha: true
+displayRegistrationCTA: true
+registrationLink: https://crisol.lobber.eu/
 
 teachers:
   - id: alasdair_fraser
