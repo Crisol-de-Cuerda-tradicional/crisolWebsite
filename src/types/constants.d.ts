@@ -38,6 +38,7 @@ declare module '*crisolBookIndex.yml' {
 
   interface CrisolBookIndex {
     lastUpdated: Date;
+    downloadLink: string;
     index: CrisolBookEntry[];
   }
   const crisolBoookIndex: CrisolBookIndex;
@@ -89,19 +90,35 @@ declare module '*indexPage.yml' {
     link: string;
   }
 
-  interface InfoSection extends Omit<AboutLink, 'img'> {
-    icon: string;
-  }
+  interface InfoSection extends Omit<AboutLink, 'img'> {}
 
   interface IndexPageConfig {
     registrationCaptcha: Translation;
     registrationCta: Translation;
     knowMoreButton: Translation;
     aboutLinks: AboutLink[];
-    infoSection: InfoSection[];
+    infoSection: Record<string, InfoSection>;
     pendingTeachers: Translation;
   }
 
   const indexPageConfig: IndexPageConfig;
   export default indexPageConfig;
+}
+
+declare module '*media.yml' {
+  interface IMedia {
+    videos: {
+      title: string;
+      urlId: string;
+    }[];
+    bg: string;
+    title: Translation;
+    mediaCaptcha: Translation;
+    videosTitle: Translation;
+    photosTitle: Translation;
+    photosAlbumId: string;
+  }
+
+  const mediaPageConfig: IMedia;
+  export default mediaPageConfig;
 }

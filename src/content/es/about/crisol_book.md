@@ -1,7 +1,6 @@
 ---
 title: El crisol book
 hero: crisol_book_bg.jpeg
-downloadLink: http://www.crisoldecuerda.com/wp-content/uploads/2020/07/PDF-The-Crisol-Book-2020-07-19.pdf
 ---
 
 El Crisol Book fue recopilado en 2018 en conmemoración del 10º aniversario de Crisol de Cuerda. Recoge todos aquellos temas que se han enseñado en Crisol y que se han podido recopilar mediante grabaciones de audio, vídeos, partituras y manuscritos. Aun que faltan algunos temas, esperamos poder incorporarlos en el futuro.

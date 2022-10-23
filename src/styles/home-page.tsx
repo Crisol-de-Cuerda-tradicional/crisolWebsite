@@ -199,4 +199,27 @@ export default css`
       }
     }
   }
+
+  .information {
+    margin: 2rem 0;
+
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+    }
+
+    &__cardwrapper {
+      width: 400px;
+      text-align: center;
+      color: var(--color-primary);
+      padding: 2rem;
+
+      h2,
+      p {
+        color: var(--color-dark);
+      }
+    }
+  }
 `;

@@ -9,7 +9,7 @@ const nextConfig = {
     defaultLocale: 'es',
   },
   images: {
-    domains: ['crisoldecuerda.com', 'www.crisoldecuerda.com'],
+    domains: ['crisoldecuerda.com', 'www.crisoldecuerda.com', 'lh3.googleusercontent.com'],
   },
 };
 

@@ -23,7 +23,7 @@ const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
       <Hero background={crisolBookPage.meta.hero} pageTitle={crisolBookPage.meta.title} />
       <ContentLayout>
         <RenderMarkdown content={crisolBookPage.content} />
-        <Link href={crisolBookPage.meta.downloadLink} passHref>
+        <Link href={crisolBook.downloadLink} passHref>
           <a className="download__btn" download>
             {translations.download_crisol_book[locale]}
           </a>

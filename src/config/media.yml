@@ -1,0 +1,26 @@
+bg: media.jpg
+title:
+  en: Media
+  es: Media
+mediaCaptcha:
+  en: Wanna see what Crisol looks like? Here's what we did in our past editions.
+  es: ¿Quieres ver lo que pasa en Crisol? Esto es lo que hicimos en las últimas ediciones.
+
+videosTitle:
+  en: Videos
+  es: Vídeos
+photosTitle:
+  en: Gallery
+  es: Galería
+
+videos:
+  - title: Crisol de Cuerda 2022 - Making of
+    urlId: lTXRn6YVzQw
+  - title: Crisol de Cuerda 2019 - Making of
+    urlId: WZfZ8eTAru8
+  - title: Crisol de Cuerda 2018 - Making of
+    urlId: QXNVBsOhnqc
+  - title: Anatomía Crisol, el documental
+    urlId: WC7YX0ngoTY
+
+photosAlbumId: qdK5sZuLwYTMdgBh6

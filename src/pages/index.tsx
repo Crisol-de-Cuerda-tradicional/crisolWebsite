@@ -2,6 +2,8 @@ import type { GetStaticProps, NextPage } from 'next';
 import dayjs from 'dayjs';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import RenderMarkdown from '../components/RenderMarkdown/RenderMarkdown';
 import Layout from '../components/Layout/Layout';
 import { getContent, IContent } from '../utils/getContent';
@@ -12,7 +14,6 @@ import Button from '../components/Button/Button';
 import ContentLayout from '../components/Layout/ContentLayout';
 import ExpandingImg from '../components/ExpandingImg/ExpandingImg';
 import homePageStyles from '../styles/home-page';
-import Hero from '../components/Hero/Hero';
 import Image from 'next/image';
 
 const formatDates = (starting: Date, ending: Date, locale: string) => {
@@ -145,6 +146,53 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               })}
             </div>
           </ContentLayout>
+        </section>
+        <section id="information" className="information">
+          <div className="centered">
+            <h1>{`${config.nameShort} ${config.startDate.getFullYear()}`}</h1>
+          </div>
+          <div className="information__wrapper">
+            <div className="information__cardwrapper">
+              <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
+              <h2>{indexConfig.infoSection.information.title[locale]}</h2>
+              <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
+              <Link href={indexConfig.infoSection.information.link} passHref>
+                <a>
+                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                </a>
+              </Link>
+            </div>
+            <div className="information__cardwrapper">
+              <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
+              <h2>{indexConfig.infoSection.prices.title[locale]}</h2>
+              <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
+              <Link href={indexConfig.infoSection.prices.link} passHref>
+                <a>
+                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                </a>
+              </Link>
+            </div>
+            <div className="information__cardwrapper">
+              <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
+              <h2>{indexConfig.infoSection.register.title[locale]}</h2>
+              <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
+              <Link href={indexConfig.infoSection.register.link} passHref>
+                <a>
+                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                </a>
+              </Link>
+            </div>
+            <div className="information__cardwrapper">
+              <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
+              <h2>{indexConfig.infoSection.scholarships.title[locale]}</h2>
+              <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
+              <Link href={indexConfig.infoSection.scholarships.link} passHref>
+                <a>
+                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                </a>
+              </Link>
+            </div>
+          </div>
         </section>
       </Layout>
       <style jsx>{homePageStyles}</style>

@@ -32,10 +32,38 @@ aboutLinks:
     link: /about/history
 
 infoSection:
-  - title: ''
-    subtitle: ''
-    icon: ''
-    link: ''
+  information:
+    title:
+      en: Important information
+      es: Información importante
+    subtitle:
+      en: Everything you need to know about Crisol de Cuerda. And some advice as well!
+      es: Todo lo que necesitas saber acerca de Crisol de Cuerda. ¡Todos nuestros consejos!
+    link: /registration#terms-and-conditions
+  prices:
+    title:
+      en: Prices
+      es: Precios
+    subtitle:
+      en: Here's the information about our prices. Register early and get an early bird discount!
+      es: Infórmate acerca de los precios. Cuanto antes te inscribas, más económico te resultará!
+    link: /registration#prices
+  register:
+    title:
+      en: How to register
+      es: Cómo inscribirse
+    subtitle:
+      en: The registration form has been simplified to make it as easy as possible!
+      es: Hemos mejorado nuestro formulario para que inscribirse resulte de lo más sencillo
+    link: /registration#how-to-register
+  scholarships:
+    title:
+      en: Scholarships
+      es: Becas
+    subtitle:
+      en: There's a scholarship program at your disposal to help those who need it most
+      es: Como cada año, ponemos a vuestra disposición nuestro programa de becas
+    link: /registration#scholarships
 
 knowMoreButton:
   en: Know more
