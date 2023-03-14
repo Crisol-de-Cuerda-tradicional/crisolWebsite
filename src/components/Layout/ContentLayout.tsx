@@ -19,6 +19,8 @@ const ContentLayout = ({ id, children }: IContentLayoutProps) => {
 
           display: flex;
           flex-direction: column;
+
+          transition: transform 0.5s ease-in-out;
         }
       `}</style>
     </section>

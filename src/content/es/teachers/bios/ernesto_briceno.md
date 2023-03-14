@@ -1,3 +1,8 @@
+---
+name: Ernesto Briceño
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/ernersto-nav.jpg
+---
+
 En Barcelona España cursó estudios en el Aula de Música Moderna, seminarios de Film Scoring con Jose Nieto, estudia con Enric Alberich, Frances Burrul, Tomas Lorenzo y Horacio Fumero entre otros.
 
 Berklee College of Music, Boston, MA, estudia con Mat Glaser, Darol Anger, John Blake, Mimi Rabson entre otros. En Film Scoring estudió con Richard Davis, Ruth Mendelson, Joe Smith o Don Wilkins.

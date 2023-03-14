@@ -1,1 +1,6 @@
+---
+name: Juan Arriola
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2017/01/Jaime-Muñoz-foto-env-123x123-2017.jpg
+---
+
 Es uno de los fiddlers más destacados dentro de la música tradicional vasca. Su primer acercamiento al fiddle fue de forma autodidacta para continuar posteriormente sus estudios de violín en el Conservatorio Superior de San Sebastián. Siempre ha mantenido su amor por el repertorio tradicional al que ha contribuido como miembro del grupo Alboka, con el que grabó dos trabajos. Ha colaborado en varios proyectos discográficos. Junto a Arkaitz Miner ha grabado el disco Hariari Tiraka en el que interpretan melodías tradicionales vascas en formato de 2 fiddles con la colaboración de Alasdair Fraser y Natalie Haas. Ha creado además numerosas composiciones y conseguido un estilo rico y personal de interpretación. Hoy dedica su tiempo a la enseñanza de música en escuelas de música.

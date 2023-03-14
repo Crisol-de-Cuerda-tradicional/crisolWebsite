@@ -5,7 +5,6 @@ import { useRouter } from 'next/router';
 
 import config from '../../config/config.yml';
 import translations, { Language } from '../../config/translations.yml';
-import teachersConfig from '../../config/teachers.yml';
 
 import Hero from '../../components/Hero/Hero';
 import ContentLayout from '../../components/Layout/ContentLayout';

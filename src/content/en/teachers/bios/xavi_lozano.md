@@ -1,3 +1,8 @@
+---
+name: Xavi Lozano
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2017/01/Jaime-Muñoz-foto-env-123x123-2017.jpg
+---
+
 Comes from classical education, but has always been in touch with all sorts of musical identities: from traditional to experimental passing through all sorts of fusions.
 
 Specialised in traditional aerophones, he’s collaborated with and been a part of multiple projects and artists (Lluís Llach, Mª del Mar Bonet, Eliseo Parra, Jorge Drexler, Silvia Pérez-Cruz, Marc Parrot, Xavi Maristany, Carles Santos, Tactequeté, Kepa Junquera, La Fura dels Baus, L’Auditori, Museu de la Música, Museu Etnològic de Barcelona, Coetus, Orquesta Mediterranea de Sao Paulo, Expo Shanghai 2010, TEDx…).

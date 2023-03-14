@@ -1,3 +1,8 @@
+---
+name: Tony McManus
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2017/01/Jaime-Muñoz-foto-env-123x123-2017.jpg
+---
+
 Tony McManus nació en 1965 en Paisley, Escocia, en una familia de fuertes raíces irlandesas.
 
 Las clases de violín que recibía en el colegio le llevaron a coger la mandolina, y más tarde, a los 10 años, la guitarra. Desde esa edad la música tradicional le cautivó al escucharla en casa, en grabaciones o en la radio.

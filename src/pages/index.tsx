@@ -76,124 +76,126 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             </div>
           </div>
         </section>
-        <ContentLayout id="about_crisol">
-          <div className="centered">
-            <h2>{whatIsSection.meta.title}</h2>
-            <RenderMarkdown content={whatIsSection.content} />
-          </div>
-        </ContentLayout>
-        <section className="about__featured">
-          {indexConfig.aboutLinks.map(link => {
-            return (
-              <ExpandingImg key={link.link} bgSrc={link.img}>
-                <div className="about__content">
-                  <h2 className="about__title">{link.title[locale]}</h2>
-                  <p className="about__subtitle">{link.title[locale]}</p>
-                  <Link href={link.link} passHref>
-                    <a>
-                      <Button variant="light" size="xsm">
-                        {indexConfig.knowMoreButton[locale]}
-                      </Button>
-                    </a>
-                  </Link>
-                </div>
-              </ExpandingImg>
-            );
-          })}
-        </section>
-        <section id="teachers" className="teachers">
-          <div className="centered">
-            <h1>{`${translations.teachers[locale]} ${config.startDate.getFullYear()}`}</h1>
-          </div>
-          <div className="teachers__content">
-            {teachersContent.map(teacher => {
+        <div className="floater">
+          <ContentLayout id="about_crisol">
+            <div className="centered">
+              <h2>{whatIsSection.meta.title}</h2>
+              <RenderMarkdown content={whatIsSection.content} />
+            </div>
+          </ContentLayout>
+          <section className="about__featured">
+            {indexConfig.aboutLinks.map(link => {
               return (
-                <Link key={teacher.id} href={`${locale}/teachers#${teacher.id}`} passHref>
-                  <a className="teachers__link">
-                    <ExpandingImg bgSrc={teacher.meta.picture} maxWidth="250px">
-                      <div className="teachers__infocontainer">
-                        <div className="teachers__info">
-                          <p>{teacher.meta.name}</p>
-                          <p>{translations[teacher.instrument][locale]}</p>
-                        </div>
-                      </div>
-                    </ExpandingImg>
-                  </a>
-                </Link>
+                <ExpandingImg key={link.link} bgSrc={link.img}>
+                  <div className="about__content">
+                    <h2 className="about__title">{link.title[locale]}</h2>
+                    <p className="about__subtitle">{link.title[locale]}</p>
+                    <Link href={link.link} passHref>
+                      <a>
+                        <Button variant="light" size="xsm">
+                          {indexConfig.knowMoreButton[locale]}
+                        </Button>
+                      </a>
+                    </Link>
+                  </div>
+                </ExpandingImg>
               );
             })}
-          </div>
-          {config.pendingTeachers ? (
-            <div className="centered teachers__more">{indexConfig.pendingTeachers[locale]}</div>
-          ) : null}
-        </section>
-        <section id="accommodation" className="accommodation">
-          <ContentLayout>
-            <h1>{accommodationSection.meta.title}</h1>
-            <RenderMarkdown content={accommodationSection.content} />
-            <Link href={`/${locale}/accommodation`} passHref>
-              <a>
-                <Button variant="light">{indexConfig.knowMoreButton[locale]}</Button>
-              </a>
-            </Link>
-            <div className="accommodation__images">
-              {accommodationSection.meta.imgs.map(imgSrc => {
+          </section>
+          <section id="teachers" className="teachers">
+            <div className="centered">
+              <h1>{`${translations.teachers[locale]} ${config.startDate.getFullYear()}`}</h1>
+            </div>
+            <div className="teachers__content">
+              {teachersContent.map(teacher => {
                 return (
-                  <div key={imgSrc} className="accommodation__images__wrapper">
-                    <Image src={imgSrc} layout="fill" objectFit="cover" alt="accommodation" />
-                  </div>
+                  <Link key={teacher.id} href={`${locale}/teachers#${teacher.id}`} passHref>
+                    <a className="teachers__link">
+                      <ExpandingImg bgSrc={teacher.meta.picture} maxWidth="250px">
+                        <div className="teachers__infocontainer">
+                          <div className="teachers__info">
+                            <p>{teacher.meta.name}</p>
+                            <p>{translations[teacher.instrument][locale]}</p>
+                          </div>
+                        </div>
+                      </ExpandingImg>
+                    </a>
+                  </Link>
                 );
               })}
             </div>
-          </ContentLayout>
-        </section>
-        <section id="information" className="information">
-          <div className="centered">
-            <h1>{`${config.nameShort} ${config.startDate.getFullYear()}`}</h1>
-          </div>
-          <div className="information__wrapper">
-            <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
-              <h2>{indexConfig.infoSection.information.title[locale]}</h2>
-              <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
-              <Link href={indexConfig.infoSection.information.link} passHref>
+            {config.pendingTeachers ? (
+              <div className="centered teachers__more">{indexConfig.pendingTeachers[locale]}</div>
+            ) : null}
+          </section>
+          <section id="accommodation" className="accommodation">
+            <ContentLayout>
+              <h1>{accommodationSection.meta.title}</h1>
+              <RenderMarkdown content={accommodationSection.content} />
+              <Link href={`/${locale}/accommodation`} passHref>
                 <a>
-                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                  <Button variant="light">{indexConfig.knowMoreButton[locale]}</Button>
                 </a>
               </Link>
+              <div className="accommodation__images">
+                {accommodationSection.meta.imgs.map(imgSrc => {
+                  return (
+                    <div key={imgSrc} className="accommodation__images__wrapper">
+                      <Image src={imgSrc} layout="fill" objectFit="cover" alt="accommodation" />
+                    </div>
+                  );
+                })}
+              </div>
+            </ContentLayout>
+          </section>
+          <section id="information" className="information">
+            <div className="centered">
+              <h1>{`${config.nameShort} ${config.startDate.getFullYear()}`}</h1>
             </div>
-            <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
-              <h2>{indexConfig.infoSection.prices.title[locale]}</h2>
-              <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
-              <Link href={indexConfig.infoSection.prices.link} passHref>
-                <a>
-                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-                </a>
-              </Link>
+            <div className="information__wrapper">
+              <div className="information__cardwrapper">
+                <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
+                <h2>{indexConfig.infoSection.information.title[locale]}</h2>
+                <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
+                <Link href={indexConfig.infoSection.information.link} passHref>
+                  <a>
+                    <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                  </a>
+                </Link>
+              </div>
+              <div className="information__cardwrapper">
+                <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
+                <h2>{indexConfig.infoSection.prices.title[locale]}</h2>
+                <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
+                <Link href={indexConfig.infoSection.prices.link} passHref>
+                  <a>
+                    <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                  </a>
+                </Link>
+              </div>
+              <div className="information__cardwrapper">
+                <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
+                <h2>{indexConfig.infoSection.register.title[locale]}</h2>
+                <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
+                <Link href={indexConfig.infoSection.register.link} passHref>
+                  <a>
+                    <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                  </a>
+                </Link>
+              </div>
+              <div className="information__cardwrapper">
+                <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
+                <h2>{indexConfig.infoSection.scholarships.title[locale]}</h2>
+                <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
+                <Link href={indexConfig.infoSection.scholarships.link} passHref>
+                  <a>
+                    <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                  </a>
+                </Link>
+              </div>
             </div>
-            <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
-              <h2>{indexConfig.infoSection.register.title[locale]}</h2>
-              <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
-              <Link href={indexConfig.infoSection.register.link} passHref>
-                <a>
-                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-                </a>
-              </Link>
-            </div>
-            <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
-              <h2>{indexConfig.infoSection.scholarships.title[locale]}</h2>
-              <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
-              <Link href={indexConfig.infoSection.scholarships.link} passHref>
-                <a>
-                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </Layout>
       <style jsx>{homePageStyles}</style>
       <style jsx>{`

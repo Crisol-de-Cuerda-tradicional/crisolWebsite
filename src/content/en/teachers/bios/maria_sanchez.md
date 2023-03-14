@@ -1,3 +1,8 @@
+---
+name: María Sánchez
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2017/01/Jaime-Muñoz-foto-env-123x123-2017.jpg
+---
+
 In 1998 she starts her training in figure skating. Six years later she starts teaching skating to different groups both for leisure and competition, which she has been doing to the present day.
 
 In 2005 she discovers the world dances and the European Bal Folk. She falls in love with this genre of music and dance and that feeling impels her to participate in plenty of festivals and workshops across Europe.

@@ -1,3 +1,8 @@
+---
+name: Basile Bremaud
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/photo-basile-small-150x150.jpg
+---
+
 Through the violin and singing, he practices the traditional music from the Massif Central in France (regions of Auvergne, Limousin, Languedoc). He is deeply impressed with the force of this artistic expression, where singing, dancing and instrumental practicing are one. Nowadays, he researches the sound and the energy present in this music. He vividly experiences how its elements turn into movement through the dance bands he has founded (Duo Artense, Tornamai, TRES, la Clèda, Fai Petar).
 
 He puts into perspective his knowledge on historic music (has taken part in the Musiciens de St Julien, under the direction of F. Lazarevic) and the experimental music from the collective La Nòvia (Flux, Trio Puech/Gourdon/Brémaud, la Baracande).

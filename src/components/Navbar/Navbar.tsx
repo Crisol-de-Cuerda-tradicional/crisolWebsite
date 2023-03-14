@@ -43,7 +43,7 @@ const Navbar = () => {
           justify-content: space-between;
           align-items: self-end;
           background-color: var(--color-dark);
-          padding: 1rem;
+          padding: 1rem 2rem;
           z-index: 100;
         }
       `}</style>

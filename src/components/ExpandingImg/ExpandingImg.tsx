@@ -30,7 +30,6 @@ const ExpandingImg = ({ bgSrc, maxWidth, children }: IExpandingImgProps): JSX.El
             transition: transform 0.3s ease-in-out;
             width: 100%;
             aspect-ratio: 1;
-            z-index: -1;
             transform: scale(1.01);
           }
 

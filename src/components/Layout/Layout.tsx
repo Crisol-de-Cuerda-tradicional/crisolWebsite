@@ -19,15 +19,18 @@ const Layout = ({ children }: ILayoutProps) => {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Navbar />
-      <Menu />
-      <div className="main">{children}</div>
-      <Footer />
+      <Menu>
+        <Navbar />
+        <div className="main">{children}</div>
+        <Footer />
+      </Menu>
       <style jsx>{`
         .main {
           width: 100%;
           margin: 0;
+          min-height: calc(100vh - 90px - 325px);
           position: relative;
+          background-color: var(--color-light);
         }
       `}</style>
     </>
