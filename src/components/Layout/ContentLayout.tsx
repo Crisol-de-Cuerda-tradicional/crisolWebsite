@@ -16,6 +16,7 @@ const ContentLayout = ({ id, children }: IContentLayoutProps) => {
           margin: 0 auto;
           position: relative;
           padding: 2rem;
+          min-height: calc(100vh - 90px - 325px);
 
           display: flex;
           flex-direction: column;

@@ -1,161 +1,162 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { NextRouter, useRouter } from 'next/router';
+import { ReactNode } from 'react';
 import config from '../../config/config.yml';
-import menu from '../../config/menu.yml';
+import menu, { MenuItem } from '../../config/menu.yml';
 import translations, { Language } from '../../config/translations.yml';
+
+interface IMenuItemProps {
+  menuItem: MenuItem;
+  pathPrefix?: string;
+  noHighlight?: boolean;
+  locale: Language;
+  router: NextRouter;
+  children?: ReactNode;
+}
+
+const MenuLink = ({
+  menuItem,
+  pathPrefix,
+  noHighlight,
+  locale,
+  children,
+  router,
+}: IMenuItemProps) => {
+  const route = `${pathPrefix ?? ''}${menuItem.link}`;
+  return (
+    <Link href={route} replace>
+      <a className={`${router.pathname === route && !noHighlight ? 'active-nav' : ''}`}>
+        {children ?? menuItem[locale]}
+      </a>
+    </Link>
+  );
+};
 
 const Menu = () => {
   const router = useRouter();
   const locale = (router.locale ?? 'es') as Language;
+  const itemProps = { locale, router };
+
+  const toggleMenu = () => {
+    const queries = { ...router.query };
+    delete queries.menu;
+    router.push(
+      {
+        query: queries,
+      },
+      undefined,
+      { scroll: false }
+    );
+  };
   return (
     <>
       <div
-        className={`modal__background ${router.query.menu === 'true' ? 'is-active' : ''}`}
+        className="menu__background"
         onClick={e => {
           e.stopPropagation();
-
-          const queries = { ...router.query };
-          delete queries.menu;
-          router.push(
-            {
-              query: queries,
-            },
-            undefined,
-            { scroll: false }
-          );
+          toggleMenu();
         }}
       >
-        a
-      </div>
-      <nav
-        className={`menu ${router.query.menu === 'true' ? 'is-active' : ''}`}
-        onClick={e => e.stopPropagation()}
-      >
-        <ul>
-          <li>
-            <Link href={menu.home.link} replace>
-              <a>{menu.home[locale]}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={menu.about.link} replace>
-              <a>{menu.about[locale]}</a>
-            </Link>
-            <ul>
-              <li>
-                <Link href={`/about${menu['crisol-spirit'].link}`} replace>
-                  <a>{menu['crisol-spirit'][locale]}</a>
-                </Link>
-              </li>
-              <li>
-                <Link href={`/about${menu.classes.link}`} replace>
-                  <a>{menu.classes[locale]}</a>
-                </Link>
-              </li>
-              <li>
-                <Link href={`/about${menu.history.link}`} replace>
-                  <a>{menu.history[locale]}</a>
-                </Link>
-              </li>
-              <li>
-                <Link href={`/about${menu.media.link}`} replace>
-                  <a>{menu.media[locale]}</a>
-                </Link>
-              </li>
-              <li>
-                <Link href={`/about${menu['crisol-book'].link}`} replace>
-                  <a>{menu['crisol-book'][locale]}</a>
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <Link href={menu.teachers.link} replace>
-              <a>{menu.teachers[locale]}</a>
-            </Link>
-            <ul>
-              <li>
-                <Link href={menu.teachers.link} replace>
-                  <a>
+        <nav
+          className={`menu ${router.query.menu === 'true' ? 'is-active' : ''}`}
+          onClick={e => {
+            e.stopPropagation();
+          }}
+        >
+          <ul>
+            <li>
+              <MenuLink menuItem={menu.home} {...itemProps} />
+            </li>
+            <li>
+              <MenuLink menuItem={menu.about} {...itemProps} />
+              <ul>
+                <li>
+                  <MenuLink menuItem={menu['crisol-spirit']} pathPrefix="/about" {...itemProps} />
+                </li>
+                <li>
+                  <MenuLink menuItem={menu.classes} pathPrefix="/about" {...itemProps} />
+                </li>
+                <li>
+                  <MenuLink menuItem={menu.history} pathPrefix="/about" {...itemProps} />
+                </li>
+                <li>
+                  <MenuLink menuItem={menu.media} pathPrefix="/about" {...itemProps} />
+                </li>
+                <li>
+                  <MenuLink menuItem={menu['crisol-book']} pathPrefix="/about" {...itemProps} />
+                </li>
+              </ul>
+            </li>
+            <li>
+              <MenuLink menuItem={menu.teachers} noHighlight {...itemProps} />
+              <ul>
+                <li>
+                  <MenuLink menuItem={menu.teachers} {...itemProps}>
                     {menu.teachers[locale]} {config.startDate.getFullYear()}
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href={menu['teachers-annuary'].link} replace>
-                  <a>{menu['teachers-annuary'][locale]}</a>
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <Link href={menu.accommodation.link} replace>
-              <a>{menu.accommodation[locale]}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={menu.support.link} replace>
-              <a>{menu.support[locale]}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={menu.contact.link} replace>
-              <a>{menu.contact[locale]}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={menu.registration.link} replace>
-              <a>{menu.registration[locale]}</a>
-            </Link>
-          </li>
-        </ul>
-        <p>{translations.languages[locale]}:</p>
-        <ul>
-          <li>
-            <Link href={router.pathname} locale="es">
-              <a className={`${locale === 'es' ? 'active-lng' : ''}`}>
-                {translations.spanish[locale]}
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href={router.pathname} locale="en">
-              <a className={`${locale === 'en' ? 'active-lng' : ''}`}>
-                {translations.english[locale]}
-              </a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <style jsx>{`
-        .modal__background {
-          background-color: transparent;
+                  </MenuLink>
+                </li>
+                <li>
+                  <MenuLink
+                    menuItem={menu['teachers-annuary']}
+                    pathPrefix="/teachers"
+                    {...itemProps}
+                  />
+                </li>
+              </ul>
+            </li>
+            <li>
+              <MenuLink menuItem={menu.accommodation} {...itemProps} />
+            </li>
+            <li>
+              <MenuLink menuItem={menu.support} {...itemProps} />
+            </li>
+            <li>
+              <MenuLink menuItem={menu.contact} {...itemProps} />
+            </li>
+            <li>
+              <MenuLink menuItem={menu.registration} {...itemProps} />
+            </li>
+          </ul>
+          <p>{translations.languages[locale]}:</p>
+          <ul>
+            <li>
+              <Link href={router.pathname} locale="es">
+                <a className={`${locale === 'es' ? 'active-lng' : ''}`}>
+                  {translations.spanish[locale]}
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href={router.pathname} locale="en">
+                <a className={`${locale === 'en' ? 'active-lng' : ''}`}>
+                  {translations.english[locale]}
+                </a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <style jsx global>{`
+        .menu__background {
           position: fixed;
           top: 0;
           left: 0;
-          right: 0;
-          bottom: 0;
           width: 100vw;
           height: 100vh;
-          z-index: 89;
-          display: none;
-
-          &.is-active {
-            display: block;
-          }
+          background-color: var(--color-dark);
+          z-index: -1;
         }
 
         .menu {
-          width: 20rem;
-          height: calc(100vh - 83px);
+          width: 17rem;
+          height: 100vh;
           position: fixed;
-          top: calc(0 + 83px);
-          right: -20rem;
-          background-color: var(--color-dark);
-          z-index: 90;
+          top: 0;
+          right: 0rem;
+          padding: 3rem 0;
+          z-index: 3;
           color: var(--color-white);
           overflow-y: auto;
-          padding-bottom: 3rem;
 
           transition: right 0.5s ease-in-out;
 
@@ -193,6 +194,12 @@ const Menu = () => {
             padding: 0.5rem;
             width: 100%;
             height: 2.5rem;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+
+            &.active-nav {
+              background-color: var(--color-neutral);
+            }
           }
 
           & ul > li > a,
