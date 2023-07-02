@@ -1,3 +1,8 @@
+---
+name: María Sánchez
+picture: http://www.crisoldecuerda.com/wp-content/uploads/2016/01/Mar%C3%ADa-Sanchez-foto-peque%C3%B1a.jpg
+---
+
 En el año 1998 comienza su formación en patinaje artístico. Seis años después comienza a dar clases de patinaje a grupos de ocio y de competición hasta la actualidad.
 
 En 2005 conoce las danzas del mundo y el Bal Folk Europeo, se enamora de este género musical y de sus danzas e impulsa el deseo de participar en multitud de festivales y talleres por toda Europa.

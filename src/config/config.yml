@@ -11,9 +11,9 @@ registrationLink: https://crisol.lobber.eu/
 teachers:
   - id: alasdair_fraser
     instrument: fiddle
-  - id: francesc_tomas
+  - id: zoe_conway
     instrument: fiddle
-  - id: lena_jonsson
+  - id: jose_climent
     instrument: fiddle
   - id: blanca_altable
     instrument: fiddle
@@ -21,23 +21,23 @@ teachers:
     instrument: fiddle
   - id: natalie_haas
     instrument: cello
-  - id: marta_roma
+  - id: alec_brown
     instrument: cello
-  - id: adam_johannson
+  - id: john_mcintyre
     instrument: guitar
-  - id: nicolas_quemener
+  - id: chuchi_cuadrado
     instrument: guitar
-  - id: jeanmichel_veillon
+  - id: louise_mulcahy
     instrument: flute
   - id: xose_liz
     instrument: flute
   - id: ana_rossi
     instrument: voice
-  - id: suso_cancelas
+  - id: betlem_burcet
     instrument: dance
-  - id: galen_fraser
+  - id: maria_san_miguel
     instrument: house_band
-  - id: alberto_ablanedo
+  - id: galen_fraser
     instrument: house_band
 
 pendingTeachers: false

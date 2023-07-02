@@ -1,21 +1,18 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import { GetStaticProps } from 'next';
-import { useRouter } from 'next/router';
-
-import config from '../../config/config.yml';
-import translations, { Language } from '../../config/translations.yml';
-
 import Hero from '../../components/Hero/Hero';
 import ContentLayout from '../../components/Layout/ContentLayout';
 import Layout from '../../components/Layout/Layout';
-import { getContent, IContent } from '../../utils/getContent';
+import Image from 'next/image';
 import RenderMarkdown from '../../components/RenderMarkdown/RenderMarkdown';
 import ButtonGoTop from '../../components/ButtonGoTop/ButtonGoTop';
+import { GetStaticProps } from 'next';
+import { IContent, getContent } from '../../utils/getContent';
+import config from '../../config/config.yml';
+import teachersConfig from '../../config/teachers.yml';
 
 interface ITeacher extends IContent<{ name: string; picture: string }> {
   id: string;
-  instrument: string;
+  years: string[];
 }
 
 interface ITeachersProps {
@@ -24,9 +21,6 @@ interface ITeachersProps {
 }
 
 const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
-  const router = useRouter();
-  const locale = (router.locale ?? 'es') as Language;
-
   return (
     <Layout>
       <Hero
@@ -46,9 +40,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
                       height="123"
                       alt={teacher.meta.name}
                     />
-                    <p>
-                      {teacher.meta.name} - {translations[teacher.instrument][locale]}
-                    </p>
+                    <p>{teacher.meta.name}</p>
                   </div>
                 </Link>
               </div>
@@ -58,7 +50,10 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
         {teachers.map(teacher => {
           return (
             <section id={teacher.id} key={teacher.id}>
-              <h2>{teacher.meta.name}</h2>
+              <span className="teacher__header">
+                <h2>{teacher.meta.name}</h2>
+                <p className="teacher__years">({teacher.years.join(', ')})</p>
+              </span>
               <div className="img__wrapper">
                 <Image
                   src={teacher.meta.picture}
@@ -100,6 +95,18 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
             cursor: pointer;
           }
         }
+        .teacher {
+          &__header {
+            display: flex;
+            gap: 1rem;
+            align-items: baseline;
+          }
+
+          &__years {
+            font-size: var(--size-md);
+            color: var(--color-neutral);
+          }
+        }
 
         @media (min-width: 340px) {
           section .img__wrapper {
@@ -114,7 +121,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
 export default Teachers;
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const { teachers } = config;
+  const { teachers } = teachersConfig;
   const teachersPage = await getContent<{ title: string; hero: string }>(
     locale ?? 'es',
     'teachers/teachers'

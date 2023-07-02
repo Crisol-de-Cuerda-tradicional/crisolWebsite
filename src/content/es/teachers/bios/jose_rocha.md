@@ -1,3 +1,8 @@
+---
+name: José Ramón Rocha
+picture: http://crisoldecuerda.com/wp-content/uploads/2015/01/Foto-Xose-rOCHA.jpg
+---
+
 León 1963, calor. A Coruña 1967, lluvia.
 
 La música despierta entre guitarras de barrio y de playa. El conservatorio a los 16. Sólo algunas personas en el recuerdo, lo demás mejor olvidarlo.
