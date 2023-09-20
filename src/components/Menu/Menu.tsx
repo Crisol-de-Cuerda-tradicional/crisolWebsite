@@ -38,16 +38,20 @@ const Menu = () => {
   const itemProps = { locale, router };
 
   useEffect(() => {
-    window.addEventListener('keyup', handleEsc);
+    window.addEventListener('keyup', handleKeyboard);
 
     return () => {
-      window.removeEventListener('keyup', handleEsc);
+      window.removeEventListener('keyup', handleKeyboard);
     };
   });
 
   const toggleMenu = useCallback(() => {
     const queries = { ...router.query };
-    delete queries.menu;
+    if (queries.menu) {
+      delete queries.menu;
+    } else {
+      queries.menu = 'true';
+    }
     router.push(
       {
         query: queries,
@@ -57,9 +61,14 @@ const Menu = () => {
     );
   }, [router]);
 
-  const handleEsc = useCallback(
+  const handleKeyboard = useCallback(
     (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && router.query.menu === 'true') {
+      const toggles: boolean[] = [
+        e.key === 'Escape' && router.query.menu === 'true', // Close menu on ESC
+        e.key === 'm', // Toggle menu on M
+      ];
+
+      if (toggles.some(t => t)) {
         toggleMenu();
       }
     },
