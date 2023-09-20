@@ -83,6 +83,10 @@ export default css`
       h2 {
         margin: 0;
       }
+
+      a {
+        width: fit-content;
+      }
     }
   }
 

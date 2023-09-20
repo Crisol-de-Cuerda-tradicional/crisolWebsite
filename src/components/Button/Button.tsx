@@ -58,7 +58,7 @@ const Button = ({
             transform: scale(1.08);
 
             .btn__text {
-              transform: scale(1.12);
+              transform: scale(1.1);
             }
           }
         }
