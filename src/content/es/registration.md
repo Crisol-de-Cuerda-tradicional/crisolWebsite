@@ -1,5 +1,6 @@
 ---
 title: Inscripciones
+hero: support_bg.jpeg
 ---
 
 ### CÓMO INSCRIBIRSE

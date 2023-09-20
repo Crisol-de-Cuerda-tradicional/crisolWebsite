@@ -1,5 +1,6 @@
 ---
 title: Registration
+hero: support_bg.jpeg
 ---
 
 ### HOW TO REGISTER
@@ -81,7 +82,7 @@ The candidate will apply for the scholarship sending an e-mail at [inscripciones
 
 All applications and documentation must be received before the 10th of April.
 
-#### SCHOLARSHIP RULING
+#### SCHOLARSHIP RULING
 
 The scholarship rulings will be communicated to the candidates on the 15th of April.
 
