@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { NextRouter, useRouter } from 'next/router';
-import { ReactNode } from 'react';
+import { ReactNode, useCallback, useEffect } from 'react';
 import config from '../../config/config.yml';
 import menu, { MenuItem } from '../../config/menu.yml';
 import translations, { Language } from '../../config/translations.yml';
@@ -37,7 +37,15 @@ const Menu = () => {
   const locale = (router.locale ?? 'es') as Language;
   const itemProps = { locale, router };
 
-  const toggleMenu = () => {
+  useEffect(() => {
+    window.addEventListener('keyup', handleEsc);
+
+    return () => {
+      window.removeEventListener('keyup', handleEsc);
+    };
+  });
+
+  const toggleMenu = useCallback(() => {
     const queries = { ...router.query };
     delete queries.menu;
     router.push(
@@ -47,7 +55,17 @@ const Menu = () => {
       undefined,
       { scroll: false }
     );
-  };
+  }, [router]);
+
+  const handleEsc = useCallback(
+    (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && router.query.menu === 'true') {
+        toggleMenu();
+      }
+    },
+    [toggleMenu, router]
+  );
+
   return (
     <>
       <div
