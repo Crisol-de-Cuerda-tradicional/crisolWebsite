@@ -195,6 +195,10 @@ const Menu = () => {
             right: 0;
           }
 
+          p {
+            margin-top: 3rem;
+          }
+
           & ul {
             list-style-type: none;
             background-color: var(--color-dark);
