@@ -98,9 +98,6 @@ const Menu = () => {
               <MenuLink menuItem={menu.about} {...itemProps} />
               <ul>
                 <li>
-                  <MenuLink menuItem={menu['crisol-spirit']} pathPrefix="/about" {...itemProps} />
-                </li>
-                <li>
                   <MenuLink menuItem={menu.classes} pathPrefix="/about" {...itemProps} />
                 </li>
                 <li>
@@ -133,9 +130,6 @@ const Menu = () => {
             </li>
             <li>
               <MenuLink menuItem={menu.accommodation} {...itemProps} />
-            </li>
-            <li>
-              <MenuLink menuItem={menu.support} {...itemProps} />
             </li>
             <li>
               <MenuLink menuItem={menu.contact} {...itemProps} />

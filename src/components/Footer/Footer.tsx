@@ -20,17 +20,6 @@ const Footer = () => {
             <Image src="/logo.png" height="90" width="352" alt={config.name} />
           </a>
         </Link>
-        <div className="footer__policies">
-          <Link href={menu.legalDisclaimer.link} passHref>
-            <a>{menu.legalDisclaimer[locale]}</a>
-          </Link>
-          <Link href={menu.privacyPolicy.link} passHref>
-            <a>{menu.privacyPolicy[locale]}</a>
-          </Link>
-          <Link href={menu.cookies.link} passHref>
-            <a>{menu.cookies[locale]}</a>
-          </Link>
-        </div>
         <div className="footer__subscribe">
           {translations.newsletter[locale]}
           <Link href={config.newsletterLink} passHref>
@@ -68,7 +57,7 @@ const Footer = () => {
             </a>
           </Link>
         </div>
-        <div>&copy;2022 Created by Bernat Duran</div>
+        <div>&copy;2023 Created by Bernat Duran</div>
       </div>
 
       <style jsx>{`
