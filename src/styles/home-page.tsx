@@ -119,7 +119,7 @@ export default css`
       justify-content: center;
     }
 
-    &__link {
+    :global(&__link) {
       width: 250px;
     }
 

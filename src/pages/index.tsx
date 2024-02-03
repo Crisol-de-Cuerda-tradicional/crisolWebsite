@@ -67,10 +67,8 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
                 <h2>{indexConfig.registrationCaptcha[locale]}</h2>
               ) : null}
               {config.displayRegistrationCTA ? (
-                <Link href={config.registrationLink} passHref>
-                  <a target="_blank">
-                    <Button size="xlg">{indexConfig.registrationCta[locale]}</Button>
-                  </a>
+                <Link href={config.registrationLink} target="_blank">
+                  <Button size="xlg">{indexConfig.registrationCta[locale]}</Button>
                 </Link>
               ) : null}
             </div>
@@ -89,12 +87,10 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
                 <div className="about__content">
                   <h2 className="about__title">{link.title[locale]}</h2>
                   <p className="about__subtitle">{link.title[locale]}</p>
-                  <Link href={link.link} passHref>
-                    <a>
-                      <Button variant="light" size="xsm">
-                        {indexConfig.knowMoreButton[locale]}
-                      </Button>
-                    </a>
+                  <Link href={link.link}>
+                    <Button variant="light" size="xsm">
+                      {indexConfig.knowMoreButton[locale]}
+                    </Button>
                   </Link>
                 </div>
               </ExpandingImg>
@@ -108,17 +104,19 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
           <div className="teachers__content">
             {teachersContent.map(teacher => {
               return (
-                <Link key={teacher.id} href={`/${locale}/teachers#${teacher.id}`} passHref>
-                  <a className="teachers__link">
-                    <ExpandingImg bgSrc={teacher.meta.picture} maxWidth="250px">
-                      <div className="teachers__infocontainer">
-                        <div className="teachers__info">
-                          <p>{teacher.meta.name}</p>
-                          <p>{translations[teacher.instrument][locale]}</p>
-                        </div>
+                <Link
+                  key={teacher.id}
+                  href={`/${locale}/teachers#${teacher.id}`}
+                  className="teachers__link"
+                >
+                  <ExpandingImg bgSrc={teacher.meta.picture} maxWidth="250px">
+                    <div className="teachers__infocontainer">
+                      <div className="teachers__info">
+                        <p>{teacher.meta.name}</p>
+                        <p>{translations[teacher.instrument][locale]}</p>
                       </div>
-                    </ExpandingImg>
-                  </a>
+                    </div>
+                  </ExpandingImg>
                 </Link>
               );
             })}
@@ -131,16 +129,20 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
           <ContentLayout>
             <h1>{accommodationSection.meta.title}</h1>
             <RenderMarkdown content={accommodationSection.content} />
-            <Link href={`/${locale}/accommodation`} passHref>
-              <a>
-                <Button variant="light">{indexConfig.knowMoreButton[locale]}</Button>
-              </a>
+            <Link href={`/${locale}/accommodation`}>
+              <Button variant="light">{indexConfig.knowMoreButton[locale]}</Button>
             </Link>
             <div className="accommodation__images">
               {accommodationSection.meta.imgs.map(imgSrc => {
                 return (
                   <div key={imgSrc} className="accommodation__images__wrapper">
-                    <Image src={imgSrc} layout="fill" objectFit="cover" alt="accommodation" />
+                    <Image
+                      src={imgSrc}
+                      fill
+                      sizes="100%"
+                      style={{ objectFit: 'cover' }}
+                      alt="accommodation"
+                    />
                   </div>
                 );
               })}
@@ -156,40 +158,32 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
               <h2>{indexConfig.infoSection.information.title[locale]}</h2>
               <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
-              <Link href={indexConfig.infoSection.information.link} passHref>
-                <a>
-                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-                </a>
+              <Link href={indexConfig.infoSection.information.link}>
+                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
               </Link>
             </div>
             <div className="information__cardwrapper">
               <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
               <h2>{indexConfig.infoSection.prices.title[locale]}</h2>
               <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
-              <Link href={indexConfig.infoSection.prices.link} passHref>
-                <a>
-                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-                </a>
+              <Link href={indexConfig.infoSection.prices.link}>
+                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
               </Link>
             </div>
             <div className="information__cardwrapper">
               <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
               <h2>{indexConfig.infoSection.register.title[locale]}</h2>
               <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
-              <Link href={indexConfig.infoSection.register.link} passHref>
-                <a>
-                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-                </a>
+              <Link href={indexConfig.infoSection.register.link}>
+                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
               </Link>
             </div>
             <div className="information__cardwrapper">
               <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
               <h2>{indexConfig.infoSection.scholarships.title[locale]}</h2>
               <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
-              <Link href={indexConfig.infoSection.scholarships.link} passHref>
-                <a>
-                  <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-                </a>
+              <Link href={indexConfig.infoSection.scholarships.link}>
+                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
               </Link>
             </div>
           </div>

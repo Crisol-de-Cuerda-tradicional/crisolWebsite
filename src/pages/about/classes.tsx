@@ -17,7 +17,13 @@ const Classes = ({ classesPage }: IClassesProps): JSX.Element => {
       <ContentLayout>
         <section>
           <div className="img__wrapper">
-            <Image src={classesPage.meta.img} layout="fill" objectFit="contain" alt="Classes" />
+            <Image
+              src={classesPage.meta.img}
+              fill
+              sizes="100%"
+              style={{ objectFit: 'contain' }}
+              alt="Classes"
+            />
           </div>
           <RenderMarkdown content={classesPage.content} />
         </section>

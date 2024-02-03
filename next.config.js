@@ -9,7 +9,26 @@ const nextConfig = {
     defaultLocale: 'es',
   },
   images: {
-    domains: ['crisoldecuerda.com', 'www.crisoldecuerda.com', 'lh3.googleusercontent.com'],
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: '**.crisoldecuerda.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'http',
+        hostname: 'crisoldecuerda.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
 };
 

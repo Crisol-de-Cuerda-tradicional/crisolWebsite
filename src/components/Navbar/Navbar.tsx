@@ -8,10 +8,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <Link href="/" passHref>
-        <a>
-          <Image src="/logo.png" height={51} width={200} alt={config.name} />
-        </a>
+      <Link href="/">
+        <Image src="/logo.png" height={51} width={200} alt={config.name} />
       </Link>
       <button
         className={`hamburger hamburger--spin ${router.query.menu === 'true' ? 'is-active' : ''}`}

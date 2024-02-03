@@ -30,9 +30,9 @@ const Media = ({ photos }: IMediaProps): JSX.Element => {
                 <iframe
                   width="100%"
                   height="315"
-                  src={`https://www.youtube.com/embed/${video.urlId}`}
-                  title="YouTube video player"
-                  frameBorder="0"
+                  src={`https://www.youtube-nocookie.com/embed/${video.urlId}`}
+                  title={video.title}
+                  style={{ border: 0 }}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
@@ -47,13 +47,18 @@ const Media = ({ photos }: IMediaProps): JSX.Element => {
               <Link
                 key={photo}
                 href={`https://photos.app.goo.gl/${mediaConfig.photosAlbumId}`}
-                passHref
+                target="_blank"
               >
-                <a target="_blank">
-                  <div className="photos__card">
-                    <Image src={photo} layout="fill" objectFit="cover" alt="photo" priority />
-                  </div>
-                </a>
+                <div className="photos__card">
+                  <Image
+                    src={photo}
+                    fill
+                    sizes="100%"
+                    style={{ objectFit: 'cover' }}
+                    alt="photo"
+                    priority
+                  />
+                </div>
               </Link>
             );
           })}

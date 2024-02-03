@@ -21,8 +21,9 @@ const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, loca
             <div className="section__frame">
               <Image
                 src={`/images/${descriptionSection.meta.img}`}
-                layout="fill"
-                objectFit="contain"
+                fill
+                sizes="100%"
+                style={{ objectFit: 'contain' }}
                 alt="Granja Escuela Arlanzón"
               />
             </div>
@@ -37,10 +38,13 @@ const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, loca
                 height="100%"
                 id="gmap_canvas"
                 src={locationSection.meta.locationSrc}
-                frameBorder="0"
-                scrolling="no"
-                marginHeight={0}
-                marginWidth={0}
+                style={{
+                  border: 0,
+                  overflow: 'hidden',
+                  margin: 0,
+                }}
+                title="Granja Escuela Arlanzón"
+                loading="lazy"
               />
             </div>
             <div className="section__text">

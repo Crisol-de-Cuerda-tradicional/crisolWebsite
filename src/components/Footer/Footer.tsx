@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import config from '../../config/config.yml';
 import translations, { Language } from '../../config/translations.yml';
-import menu from '../../config/menu.yml';
 import Button from '../Button/Button';
 
 const Footer = () => {
@@ -15,46 +14,32 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__content">
-        <Link href="/" passHref>
-          <a>
-            <Image src="/logo.png" height="90" width="352" alt={config.name} />
-          </a>
+        <Link href="/">
+          <Image src="/logo.png" height="90" width="352" alt={config.name} />
         </Link>
         <div className="footer__subscribe">
           {translations.newsletter[locale]}
-          <Link href={config.newsletterLink} passHref>
-            <a>
-              <Button>{translations.subscribe[locale]}</Button>
-            </a>
+          <Link href={config.newsletterLink}>
+            <Button>{translations.subscribe[locale]}</Button>
           </Link>
         </div>
       </div>
       <div className="footer__social">
         <div className="social__links">
-          <Link href={config.socialMedia.instagram} passHref>
-            <a>
-              <FontAwesomeIcon icon={brands('instagram')} size="2x" />
-            </a>
+          <Link href={config.socialMedia.instagram}>
+            <FontAwesomeIcon icon={brands('instagram')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.tiktok} passHref>
-            <a>
-              <FontAwesomeIcon icon={brands('tiktok')} size="2x" />
-            </a>
+          <Link href={config.socialMedia.tiktok}>
+            <FontAwesomeIcon icon={brands('tiktok')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.spotify} passHref>
-            <a>
-              <FontAwesomeIcon icon={brands('spotify')} size="2x" />
-            </a>
+          <Link href={config.socialMedia.spotify}>
+            <FontAwesomeIcon icon={brands('spotify')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.youtube} passHref>
-            <a>
-              <FontAwesomeIcon icon={brands('youtube')} size="2x" />
-            </a>
+          <Link href={config.socialMedia.youtube}>
+            <FontAwesomeIcon icon={brands('youtube')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.facebook} passHref>
-            <a>
-              <FontAwesomeIcon icon={brands('facebook')} size="2x" />
-            </a>
+          <Link href={config.socialMedia.facebook}>
+            <FontAwesomeIcon icon={brands('facebook')} size="2x" />
           </Link>
         </div>
         <div>&copy;2023 Created by Bernat Duran</div>

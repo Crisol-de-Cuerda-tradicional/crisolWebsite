@@ -23,8 +23,9 @@ const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
           <div className="img__wrapper">
             <Image
               src={`/images/${teachersSection.meta.image}`}
-              layout="fill"
-              objectFit="contain"
+              fill
+              sizes="100%"
+              style={{ objectFit: 'contain' }}
               alt={teachersSection.meta.title}
             />
           </div>

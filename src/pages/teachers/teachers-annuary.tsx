@@ -32,7 +32,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
           {teachers.map(teacher => {
             return (
               <div key={teacher.id}>
-                <Link href={`#${teacher.id}`} passHref>
+                <Link href={`#${teacher.id}`}>
                   <div className="links__item">
                     <Image
                       src={teacher.meta.picture}

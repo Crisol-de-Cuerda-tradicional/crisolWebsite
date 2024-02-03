@@ -12,7 +12,7 @@ const ExpandingImg = ({ bgSrc, maxWidth, children }: IExpandingImgProps): JSX.El
     <div className="wrapper">
       {children}
       <div className="img--expand">
-        <Image src={bgSrc} layout="fill" alt="background" priority />
+        <Image src={bgSrc} fill sizes="100%" alt="background" priority />
       </div>
       <style jsx>{`
         .wrapper {

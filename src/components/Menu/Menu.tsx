@@ -24,10 +24,12 @@ const MenuLink = ({
 }: IMenuItemProps) => {
   const route = `${pathPrefix ?? ''}${menuItem.link}`;
   return (
-    <Link href={route} replace>
-      <a className={`${router.pathname === route && !noHighlight ? 'active-nav' : ''}`}>
-        {children ?? menuItem[locale]}
-      </a>
+    <Link
+      href={route}
+      replace
+      className={`${router.pathname === route && !noHighlight ? 'active-nav' : ''}`}
+    >
+      {children ?? menuItem[locale]}
     </Link>
   );
 };
@@ -141,17 +143,21 @@ const Menu = () => {
           <p>{translations.languages[locale]}:</p>
           <ul>
             <li>
-              <Link href={router.pathname} locale="es">
-                <a className={`${locale === 'es' ? 'active-lng' : ''}`}>
-                  {translations.spanish[locale]}
-                </a>
+              <Link
+                href={router.pathname}
+                locale="es"
+                className={`${locale === 'es' ? 'active-lng' : ''}`}
+              >
+                {translations.spanish[locale]}
               </Link>
             </li>
             <li>
-              <Link href={router.pathname} locale="en">
-                <a className={`${locale === 'en' ? 'active-lng' : ''}`}>
-                  {translations.english[locale]}
-                </a>
+              <Link
+                href={router.pathname}
+                locale="en"
+                className={`${locale === 'en' ? 'active-lng' : ''}`}
+              >
+                {translations.english[locale]}
               </Link>
             </li>
           </ul>
