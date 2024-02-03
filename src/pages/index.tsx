@@ -108,7 +108,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
           <div className="teachers__content">
             {teachersContent.map(teacher => {
               return (
-                <Link key={teacher.id} href={`${locale}/teachers#${teacher.id}`} passHref>
+                <Link key={teacher.id} href={`/${locale}/teachers#${teacher.id}`} passHref>
                   <a className="teachers__link">
                     <ExpandingImg bgSrc={teacher.meta.picture} maxWidth="250px">
                       <div className="teachers__infocontainer">
