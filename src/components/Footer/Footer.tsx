@@ -1,16 +1,16 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
+import Link from 'next/link';
 
-import config from '../../config/config.yml';
-import translations, { Language } from '../../config/translations.yml';
-import Button from '../Button/Button';
+import { Button } from '@components';
+import config from '@config/config.yml';
+import translations from '@config/translations.yml';
+import { useLocale } from '@hooks';
 
-const Footer = () => {
-  const router = useRouter();
-  const locale = (router.locale ?? 'es') as Language;
+export const Footer = () => {
+  const locale = useLocale();
+
   return (
     <div className="footer">
       <div className="footer__content">
@@ -114,5 +114,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;

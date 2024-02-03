@@ -1,20 +1,18 @@
 import type { GetStaticProps, NextPage } from 'next';
-import dayjs from 'dayjs';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import RenderMarkdown from '../components/RenderMarkdown/RenderMarkdown';
-import Layout from '../components/Layout/Layout';
-import { getContent, IContent } from '../utils/getContent';
-import config from '../config/config.yml';
-import indexConfig from '../config/indexPage.yml';
-import translations, { Language } from '../config/translations.yml';
-import Button from '../components/Button/Button';
-import ContentLayout from '../components/Layout/ContentLayout';
-import ExpandingImg from '../components/ExpandingImg/ExpandingImg';
-import homePageStyles from '../styles/home-page';
-import Image from 'next/image';
+import dayjs from 'dayjs';
+
+import { Button, ContentLayout, ExpandingImg, Layout, RenderMarkdown } from '@components';
+import config from '@config/config.yml';
+import indexConfig from '@config/indexPage.yml';
+import translations, { Language } from '@config/translations.yml';
+import homePageStyles from '@styles/home-page';
+import { getContent, IContent } from '@utils/getContent';
 
 const formatDates = (starting: Date, ending: Date, locale: string) => {
   if (locale === 'es')

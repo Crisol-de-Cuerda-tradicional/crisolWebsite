@@ -1,17 +1,13 @@
+import { GetStaticProps } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 
-import config from '../../config/config.yml';
-import translations, { Language } from '../../config/translations.yml';
+import config from '@config/config.yml';
+import translations, { Language } from '@config/translations.yml';
 
-import Hero from '../../components/Hero/Hero';
-import ContentLayout from '../../components/Layout/ContentLayout';
-import Layout from '../../components/Layout/Layout';
-import { getContent, IContent } from '../../utils/getContent';
-import RenderMarkdown from '../../components/RenderMarkdown/RenderMarkdown';
-import ButtonGoTop from '../../components/ButtonGoTop/ButtonGoTop';
+import { ButtonGoTop, ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { getContent, IContent } from '@utils/getContent';
 
 interface ITeacher extends IContent<{ name: string; picture: string }> {
   id: string;

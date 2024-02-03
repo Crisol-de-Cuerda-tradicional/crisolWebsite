@@ -1,12 +1,11 @@
 import { GetStaticProps } from 'next';
-import Hero from '../../components/Hero/Hero';
-import Layout from '../../components/Layout/Layout';
-import mediaConfig from '../../config/media.yml';
-import ContentLayout from '../../components/Layout/ContentLayout';
-import { useRouter } from 'next/router';
 import Image from 'next/image';
-import { getPhotos } from '../../utils/getPhotos';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+
+import { ContentLayout, Hero, Layout } from '@components';
+import mediaConfig from '@config/media.yml';
+import { getPhotos } from '@utils/getPhotos';
 
 interface IMediaProps {
   photos: string[];

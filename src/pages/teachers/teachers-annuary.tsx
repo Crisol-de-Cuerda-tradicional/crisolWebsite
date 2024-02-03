@@ -1,14 +1,11 @@
-import Link from 'next/link';
-import Hero from '../../components/Hero/Hero';
-import ContentLayout from '../../components/Layout/ContentLayout';
-import Layout from '../../components/Layout/Layout';
-import Image from 'next/image';
-import RenderMarkdown from '../../components/RenderMarkdown/RenderMarkdown';
-import ButtonGoTop from '../../components/ButtonGoTop/ButtonGoTop';
 import { GetStaticProps } from 'next';
-import { IContent, getContent } from '../../utils/getContent';
-import config from '../../config/config.yml';
-import teachersConfig from '../../config/teachers.yml';
+import Image from 'next/image';
+import Link from 'next/link';
+
+import { ButtonGoTop, ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import config from '@config/config.yml';
+import teachersConfig from '@config/teachers.yml';
+import { IContent, getContent } from '@utils/getContent';
 
 interface ITeacher extends IContent<{ name: string; picture: string }> {
   id: string;

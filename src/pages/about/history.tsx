@@ -1,9 +1,7 @@
 import { GetStaticProps } from 'next';
-import Hero from '../../components/Hero/Hero';
-import ContentLayout from '../../components/Layout/ContentLayout';
-import Layout from '../../components/Layout/Layout';
-import RenderMarkdown from '../../components/RenderMarkdown/RenderMarkdown';
-import { getContent, IContent } from '../../utils/getContent';
+
+import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { getContent, IContent } from '@utils/getContent';
 
 interface IHistoryProps {
   historyPage: IContent<{ title: string; hero: string }>;

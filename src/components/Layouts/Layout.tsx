@@ -1,16 +1,15 @@
 import Head from 'next/head';
-import { useRouter } from 'next/router';
-import { ReactNode } from 'react';
-import Footer from '../Footer/Footer';
-import Menu from '../Menu/Menu';
-import Navbar from '../Navbar/Navbar';
+import { ReactNode, useContext } from 'react';
+
+import { ButtonGoTop, Footer, Menu, MenuContext, Navbar } from '@components';
 
 interface ILayoutProps {
   children: ReactNode;
 }
 
-const Layout = ({ children }: ILayoutProps) => {
-  const router = useRouter();
+export const Layout = ({ children }: ILayoutProps) => {
+  const { showMenu, toggleMenu } = useContext(MenuContext);
+
   return (
     <>
       <Head>
@@ -22,21 +21,12 @@ const Layout = ({ children }: ILayoutProps) => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Menu />
-      <div className={`main ${router.query.menu === 'true' ? 'active-menu' : ''}`}>
+      <div className={`main ${showMenu ? 'active-menu' : ''}`}>
         <div
-          className={`modal__background ${router.query.menu === 'true' ? 'is-active' : ''}`}
+          className={`modal__background ${showMenu ? 'is-active' : ''}`}
           onClick={e => {
             e.stopPropagation();
-
-            const queries = { ...router.query };
-            delete queries.menu;
-            router.push(
-              {
-                query: queries,
-              },
-              undefined,
-              { scroll: false }
-            );
+            toggleMenu();
           }}
         ></div>
         <div className="content">
@@ -95,5 +85,3 @@ const Layout = ({ children }: ILayoutProps) => {
     </>
   );
 };
-
-export default Layout;

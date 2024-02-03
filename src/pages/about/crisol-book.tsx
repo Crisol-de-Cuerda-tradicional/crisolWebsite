@@ -1,14 +1,12 @@
 import { GetStaticProps, NextPage } from 'next';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import Hero from '../../components/Hero/Hero';
-import ContentLayout from '../../components/Layout/ContentLayout';
-import Layout from '../../components/Layout/Layout';
-import RenderMarkdown from '../../components/RenderMarkdown/RenderMarkdown';
-import { getContent, IContent } from '../../utils/getContent';
-import translations, { Language } from '../../config/translations.yml';
-import crisolBook from '../../config/crisolBookIndex.yml';
+
+import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import crisolBook from '@config/crisolBookIndex.yml';
+import translations, { Language } from '@config/translations.yml';
+import { getContent, IContent } from '@utils/getContent';
 import dayjs from 'dayjs';
+import { useRouter } from 'next/router';
 
 interface ICrisolBookProps {
   crisolBookPage: IContent<{ title: string; hero: string; downloadLink: string }>;

@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import config from '../../config/config.yml';
 
-const Navbar = () => {
-  const router = useRouter();
+import config from '@config/config.yml';
+import { useContext } from 'react';
+import { MenuContext } from '@components';
+
+export const Navbar = () => {
+  const { showMenu, toggleMenu } = useContext(MenuContext);
 
   return (
     <div className="navbar">
@@ -12,20 +14,9 @@ const Navbar = () => {
         <Image src="/logo.png" height={51} width={200} alt={config.name} />
       </Link>
       <button
-        className={`hamburger hamburger--spin ${router.query.menu === 'true' ? 'is-active' : ''}`}
+        className={`hamburger hamburger--spin ${showMenu ? 'is-active' : ''}`}
         type="button"
-        onClick={() => {
-          const queries = { ...router.query };
-          if (queries.menu) delete queries.menu;
-          else queries.menu = 'true';
-          router.push(
-            {
-              query: queries,
-            },
-            undefined,
-            { scroll: false }
-          );
-        }}
+        onClick={toggleMenu}
       >
         <span className="hamburger-box">
           <span className="hamburger-inner" />
@@ -48,5 +39,3 @@ const Navbar = () => {
     </div>
   );
 };
-
-export default Navbar;

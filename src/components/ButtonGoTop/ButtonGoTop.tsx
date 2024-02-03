@@ -1,32 +1,12 @@
-import Link from 'next/link';
+import { useGoTopCustom } from '@hooks';
 import { useEffect, useState } from 'react';
 
-const ButtonGoTop = () => {
-  const [showTopBtn, setShowTopBtn] = useState(false);
-  useEffect(() => {
-    const handleButtonDisplay = () => {
-      if (window.scrollY > 400) {
-        setShowTopBtn(true);
-      } else {
-        setShowTopBtn(false);
-      }
-    };
-    window.addEventListener('scroll', handleButtonDisplay);
-    return () => {
-      window.removeEventListener('scroll', handleButtonDisplay);
-    };
-  }, []);
-
-  const goToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
+export const ButtonGoTop = () => {
+  const { showGoTop, goToTopAction } = useGoTopCustom(400);
 
   return (
     <>
-      <button className={`goTop ${!showTopBtn ? 'hidden' : ''}`} onClick={goToTop} />
+      <button className={`goTop ${!showGoTop ? 'hidden' : ''}`} onClick={goToTopAction} />
       <style jsx>{`
         .hidden {
           opacity: 0;
@@ -60,5 +40,3 @@ const ButtonGoTop = () => {
     </>
   );
 };
-
-export default ButtonGoTop;

@@ -3,7 +3,7 @@ interface IHeroProps {
   pageTitle: string;
 }
 
-const Hero = ({ background, pageTitle }: IHeroProps): JSX.Element => {
+export const Hero = ({ background, pageTitle }: IHeroProps): JSX.Element => {
   return (
     <div className="hero">
       <h1 className="hero__title">{pageTitle}</h1>
@@ -44,5 +44,3 @@ const Hero = ({ background, pageTitle }: IHeroProps): JSX.Element => {
     </div>
   );
 };
-
-export default Hero;

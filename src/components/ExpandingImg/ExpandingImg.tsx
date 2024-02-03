@@ -7,7 +7,7 @@ interface IExpandingImgProps {
   children?: ReactNode;
 }
 
-const ExpandingImg = ({ bgSrc, maxWidth, children }: IExpandingImgProps): JSX.Element => {
+export const ExpandingImg = ({ bgSrc, maxWidth, children }: IExpandingImgProps): JSX.Element => {
   return (
     <div className="wrapper">
       {children}
@@ -41,5 +41,3 @@ const ExpandingImg = ({ bgSrc, maxWidth, children }: IExpandingImgProps): JSX.El
     </div>
   );
 };
-
-export default ExpandingImg;

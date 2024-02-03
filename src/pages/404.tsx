@@ -1,5 +1,4 @@
-import ContentLayout from '../components/Layout/ContentLayout';
-import Layout from '../components/Layout/Layout';
+import { ContentLayout, Layout } from '@components';
 
 export default function Custom404() {
   return (

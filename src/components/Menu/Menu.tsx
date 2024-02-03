@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import { NextRouter, useRouter } from 'next/router';
-import { ReactNode, useCallback, useEffect } from 'react';
-import config from '../../config/config.yml';
-import menu, { MenuItem } from '../../config/menu.yml';
-import translations, { Language } from '../../config/translations.yml';
+import { ReactNode, useContext } from 'react';
+
+import config from '@config/config.yml';
+import menu, { MenuItem } from '@config/menu.yml';
+import translations, { Language } from '@config/translations.yml';
+import { MenuContext } from './MenuContext';
+import { useLocale } from '@hooks';
 
 interface IMenuItemProps {
   menuItem: MenuItem;
@@ -34,48 +37,11 @@ const MenuLink = ({
   );
 };
 
-const Menu = () => {
+export const Menu = () => {
+  const { showMenu, toggleMenu } = useContext(MenuContext);
   const router = useRouter();
-  const locale = (router.locale ?? 'es') as Language;
+  const locale = useLocale();
   const itemProps = { locale, router };
-
-  useEffect(() => {
-    window.addEventListener('keyup', handleKeyboard);
-
-    return () => {
-      window.removeEventListener('keyup', handleKeyboard);
-    };
-  });
-
-  const toggleMenu = useCallback(() => {
-    const queries = { ...router.query };
-    if (queries.menu) {
-      delete queries.menu;
-    } else {
-      queries.menu = 'true';
-    }
-    router.push(
-      {
-        query: queries,
-      },
-      undefined,
-      { scroll: false }
-    );
-  }, [router]);
-
-  const handleKeyboard = useCallback(
-    (e: KeyboardEvent) => {
-      const toggles: boolean[] = [
-        e.key === 'Escape' && router.query.menu === 'true', // Close menu on ESC
-        e.key === 'm', // Toggle menu on M
-      ];
-
-      if (toggles.some(t => t)) {
-        toggleMenu();
-      }
-    },
-    [toggleMenu, router]
-  );
 
   return (
     <>
@@ -87,7 +53,7 @@ const Menu = () => {
         }}
       >
         <nav
-          className={`menu ${router.query.menu === 'true' ? 'is-active' : ''}`}
+          className={`menu ${showMenu ? 'is-active' : ''}`}
           onClick={e => {
             e.stopPropagation();
           }}
@@ -254,5 +220,3 @@ const Menu = () => {
     </>
   );
 };
-
-export default Menu;

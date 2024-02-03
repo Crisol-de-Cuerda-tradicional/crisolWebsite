@@ -5,7 +5,7 @@ interface IContentLayoutProps {
   children: ReactNode;
 }
 
-const ContentLayout = ({ id, children }: IContentLayoutProps) => {
+export const ContentLayout = ({ id, children }: IContentLayoutProps) => {
   return (
     <section id={id} className="content">
       {children}
@@ -25,5 +25,3 @@ const ContentLayout = ({ id, children }: IContentLayoutProps) => {
     </section>
   );
 };
-
-export default ContentLayout;

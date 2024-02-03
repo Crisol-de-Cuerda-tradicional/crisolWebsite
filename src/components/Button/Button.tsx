@@ -1,28 +1,7 @@
-import { ButtonHTMLAttributes } from 'react';
+import { fontColorConverter } from './helpers';
+import { IButtonProps } from './types';
 
-interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'neutral' | 'dark' | 'light';
-  size?: 'xxlg' | 'xlg' | 'lg' | 'md' | 'sm' | 'xsm';
-  outline?: boolean;
-  children: string;
-}
-
-const fontColorConverter = (variant: IButtonProps['variant']): IButtonProps['variant'] => {
-  switch (variant) {
-    case 'primary':
-      return 'dark';
-    case 'dark':
-      return 'light';
-    case 'neutral':
-      return 'dark';
-    case 'light':
-      return 'dark';
-    default:
-      return 'dark';
-  }
-};
-
-const Button = ({
+export const Button = ({
   children,
   variant = 'primary',
   outline = false,
@@ -89,5 +68,3 @@ const Button = ({
     </>
   );
 };
-
-export default Button;

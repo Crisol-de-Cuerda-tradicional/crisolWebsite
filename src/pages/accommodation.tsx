@@ -1,10 +1,8 @@
 import { GetStaticProps, NextPage } from 'next';
 import Image from 'next/image';
-import Hero from '../components/Hero/Hero';
-import ContentLayout from '../components/Layout/ContentLayout';
-import Layout from '../components/Layout/Layout';
-import RenderMarkdown from '../components/RenderMarkdown/RenderMarkdown';
-import { getContent, IContent } from '../utils/getContent';
+
+import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { getContent, IContent } from '@utils/getContent';
 
 interface IAccommodationProps {
   descriptionSection: IContent<{ title: string; img: string; hero: string }>;

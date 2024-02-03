@@ -1,9 +1,7 @@
 import { GetStaticProps, NextPage } from 'next';
-import { IContent, getContent } from '../utils/getContent';
-import Layout from '../components/Layout/Layout';
-import Hero from '../components/Hero/Hero';
-import ContentLayout from '../components/Layout/ContentLayout';
-import RenderMarkdown from '../components/RenderMarkdown/RenderMarkdown';
+
+import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { IContent, getContent } from '@utils/getContent';
 
 interface IRegistrationProps {
   registrationPage: IContent<{ title: string; hero: string }>;
