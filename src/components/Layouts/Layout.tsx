@@ -21,19 +21,17 @@ export const Layout = ({ children }: ILayoutProps) => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Menu />
+      <div
+        className={`modal__background ${showMenu ? 'is-active' : ''}`}
+        onClick={e => {
+          e.stopPropagation();
+          toggleMenu();
+        }}
+      ></div>
       <div className={`main ${showMenu ? 'active-menu' : ''}`}>
-        <div
-          className={`modal__background ${showMenu ? 'is-active' : ''}`}
-          onClick={e => {
-            e.stopPropagation();
-            toggleMenu();
-          }}
-        ></div>
-        <div className="content">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <Navbar />
+        {children}
+        <Footer />
       </div>
       <style jsx>{`
         .main {
@@ -44,6 +42,7 @@ export const Layout = ({ children }: ILayoutProps) => {
           min-height: 100vh;
           margin: 0;
           overflow: scroll;
+          inset: 0;
           background-color: var(--color-white);
           box-shadow: 0 0 6px var(--color-neutral);
 
@@ -69,7 +68,7 @@ export const Layout = ({ children }: ILayoutProps) => {
 
         .modal__background {
           background-color: transparent;
-          position: absolute;
+          position: fixed;
           top: 0;
           left: 0;
           width: 100%;
@@ -79,6 +78,11 @@ export const Layout = ({ children }: ILayoutProps) => {
 
           &.is-active {
             display: block;
+            transform: translateX(-18rem);
+            top: 3rem;
+            height: calc(100vh - 6rem);
+            min-height: calc(100vh - 6rem);
+            border-radius: 2rem;
           }
         }
       `}</style>
