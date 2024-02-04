@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import Image from 'next/image';
 
-import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
 
 interface IAboutProps {
@@ -11,7 +11,7 @@ interface IAboutProps {
 
 const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
   return (
-    <Layout>
+    <>
       <Hero background={aboutPage.meta.hero} pageTitle={aboutPage.meta.title} />
       <ContentLayout>
         <section>
@@ -46,7 +46,7 @@ const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
           }
         }
       `}</style>
-    </Layout>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { ButtonGoTop, ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ButtonGoTop, ContentLayout, Hero, RenderMarkdown } from '@components';
 import config from '@config/config.yml';
 import teachersConfig from '@config/teachers.yml';
 import { IContent, getContent } from '@utils/getContent';
@@ -19,7 +19,7 @@ interface ITeachersProps {
 
 const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
   return (
-    <Layout>
+    <>
       <Hero
         background={teachersPage.meta.hero}
         pageTitle={`${teachersPage.meta.title} - ${config.startDate.getFullYear()}`}
@@ -111,7 +111,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
           }
         }
       `}</style>
-    </Layout>
+    </>
   );
 };
 

@@ -1,7 +1,7 @@
 import { GetStaticProps, NextPage } from 'next';
 import Link from 'next/link';
 
-import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import crisolBook from '@config/crisolBookIndex.yml';
 import translations, { Language } from '@config/translations.yml';
 import { getContent, IContent } from '@utils/getContent';
@@ -17,7 +17,7 @@ const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
   const locale = (router.locale ?? 'es') as Language;
 
   return (
-    <Layout>
+    <>
       <Hero background={crisolBookPage.meta.hero} pageTitle={crisolBookPage.meta.title} />
       <ContentLayout>
         <RenderMarkdown content={crisolBookPage.content} />
@@ -83,7 +83,7 @@ const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
           text-transform: capitalize;
         }
       `}</style>
-    </Layout>
+    </>
   );
 };
 

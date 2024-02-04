@@ -1,6 +1,6 @@
 import { GetStaticProps, NextPage } from 'next';
 
-import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { IContent, getContent } from '@utils/getContent';
 
 interface IContactProps {
@@ -9,12 +9,12 @@ interface IContactProps {
 
 const Contact: NextPage<IContactProps> = ({ contactPage }) => {
   return (
-    <Layout>
+    <>
       <Hero background={contactPage.meta.hero} pageTitle={contactPage.meta.title} />
       <ContentLayout>
         <RenderMarkdown content={contactPage.content} />
       </ContentLayout>
-    </Layout>
+    </>
   );
 };
 

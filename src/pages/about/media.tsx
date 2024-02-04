@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import { ContentLayout, Hero, Layout } from '@components';
+import { ContentLayout, Hero } from '@components';
 import mediaConfig from '@config/media.yml';
 import { getPhotos } from '@utils/getPhotos';
 
@@ -16,7 +16,7 @@ const Media = ({ photos }: IMediaProps): JSX.Element => {
   const locale = (router.locale ?? 'es') as Language;
 
   return (
-    <Layout>
+    <>
       <Hero background={mediaConfig.bg} pageTitle={mediaConfig.title[locale]} />
       <ContentLayout>
         <h2>{mediaConfig.mediaCaptcha[locale]}</h2>
@@ -92,7 +92,7 @@ const Media = ({ photos }: IMediaProps): JSX.Element => {
           }
         }
       `}</style>
-    </Layout>
+    </>
   );
 };
 

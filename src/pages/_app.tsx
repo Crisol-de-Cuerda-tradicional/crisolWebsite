@@ -9,9 +9,9 @@ import 'dayjs/locale/es';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import LocalizedFormat from 'dayjs/plugin/localizedFormat';
 
-import { MenuContextProvider } from '@components';
+import { Layout, MenuContextProvider } from '@components';
 
-import '@components/Navbar/Burger.scss';
+import '../components/Navbar/Burger.scss';
 import '@styles/globals.css';
 
 config.autoAddCss = false;
@@ -25,7 +25,9 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <MenuContextProvider>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </MenuContextProvider>
   );
 }

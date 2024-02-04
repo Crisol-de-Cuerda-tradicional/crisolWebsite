@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next';
 
-import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
 
 interface IHistoryProps {
@@ -9,12 +9,12 @@ interface IHistoryProps {
 
 const History = ({ historyPage }: IHistoryProps): JSX.Element => {
   return (
-    <Layout>
+    <>
       <Hero background={historyPage.meta.hero} pageTitle={historyPage.meta.title} />
       <ContentLayout>
         <RenderMarkdown content={historyPage.content} />
       </ContentLayout>
-    </Layout>
+    </>
   );
 };
 

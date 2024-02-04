@@ -1,7 +1,7 @@
 import { GetStaticProps, NextPage } from 'next';
 import Image from 'next/image';
 
-import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
 
 interface IAccommodationProps {
@@ -11,7 +11,7 @@ interface IAccommodationProps {
 
 const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, locationSection }) => {
   return (
-    <Layout>
+    <>
       <Hero background={descriptionSection.meta.hero} pageTitle={descriptionSection.meta.title} />
       <ContentLayout>
         <div className="flex--column">
@@ -94,7 +94,7 @@ const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, loca
           }
         }
       `}</style>
-    </Layout>
+    </>
   );
 };
 

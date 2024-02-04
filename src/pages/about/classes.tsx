@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import Image from 'next/image';
 
-import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
 
 interface IClassesProps {
@@ -10,7 +10,7 @@ interface IClassesProps {
 
 const Classes = ({ classesPage }: IClassesProps): JSX.Element => {
   return (
-    <Layout>
+    <>
       <Hero background={classesPage.meta.hero} pageTitle={classesPage.meta.title} />
       <ContentLayout>
         <section>
@@ -42,7 +42,7 @@ const Classes = ({ classesPage }: IClassesProps): JSX.Element => {
           }
         }
       `}</style>
-    </Layout>
+    </>
   );
 };
 

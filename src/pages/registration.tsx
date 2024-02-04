@@ -1,6 +1,6 @@
 import { GetStaticProps, NextPage } from 'next';
 
-import { ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { IContent, getContent } from '@utils/getContent';
 
 interface IRegistrationProps {
@@ -9,12 +9,12 @@ interface IRegistrationProps {
 
 const Registration: NextPage<IRegistrationProps> = ({ registrationPage }) => {
   return (
-    <Layout>
+    <>
       <Hero background={registrationPage.meta.hero} pageTitle={registrationPage.meta.title} />
       <ContentLayout>
         <RenderMarkdown content={registrationPage.content} />
       </ContentLayout>
-    </Layout>
+    </>
   );
 };
 

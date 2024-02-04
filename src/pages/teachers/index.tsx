@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import config from '@config/config.yml';
 import translations, { Language } from '@config/translations.yml';
 
-import { ButtonGoTop, ContentLayout, Hero, Layout, RenderMarkdown } from '@components';
+import { ButtonGoTop, ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
 
 interface ITeacher extends IContent<{ name: string; picture: string }> {
@@ -24,7 +24,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
   const locale = (router.locale ?? 'es') as Language;
 
   return (
-    <Layout>
+    <>
       <Hero
         background={teachersPage.meta.hero}
         pageTitle={`${teachersPage.meta.title} - ${config.startDate.getFullYear()}`}
@@ -103,7 +103,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
           }
         }
       `}</style>
-    </Layout>
+    </>
   );
 };
 
