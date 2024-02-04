@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { ReactNode, useContext } from 'react';
 
-import { ButtonGoTop, Footer, Menu, MenuContext, Navbar } from '@components';
+import { Footer, Menu, MenuContext, Navbar } from '@components';
 
 interface ILayoutProps {
   children: ReactNode;

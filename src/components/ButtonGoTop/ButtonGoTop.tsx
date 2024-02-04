@@ -1,5 +1,4 @@
 import { useGoTopCustom } from '@hooks';
-import { useEffect, useState } from 'react';
 
 export const ButtonGoTop = () => {
   const { showGoTop, goToTopAction } = useGoTopCustom(400);
