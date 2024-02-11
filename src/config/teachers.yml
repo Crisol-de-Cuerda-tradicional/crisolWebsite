@@ -21,6 +21,7 @@ teachers:
       - 2019
       - 2022
       - 2023
+      - 2024
   - id: alberto_ablanedo
     name: Alberto Ablanedo
     years:
@@ -67,6 +68,7 @@ teachers:
     name: Betlem Burcet
     years:
       - 2023
+      - 2024
   - id: blanca_altable
     name: Blanca Altable
     years:
@@ -78,6 +80,7 @@ teachers:
       - 2018
       - 2022
       - 2023
+      - 2024
   - id: casey_driessen
     name: Casey Driessen
     years:
@@ -222,6 +225,7 @@ teachers:
       - 2019
       - 2022
       - 2023
+      - 2024
   - id: nicolas_quemener
     name: Nicolas Quemener
     years:
@@ -274,6 +278,7 @@ teachers:
       - 2019
       - 2022
       - 2023
+      - 2024
   - id: zoe_conway
     name: Zoë Conway
     years:

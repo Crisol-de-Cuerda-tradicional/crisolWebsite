@@ -1,46 +1,26 @@
 name: Crisol de Cuerda
 nameShort: Crisol
 
-startDate: 2023-07-30
-endDate: 2023-08-06
+startDate: 2024-07-28
+endDate: 2024-08-04
 
-displayRegistrationCaptcha: true
-displayRegistrationCTA: true
+displayRegistrationCaptcha: false
+displayRegistrationCTA: false
 registrationLink: https://crisol.lobber.eu/
 
 teachers:
   - id: alasdair_fraser
     instrument: fiddle
-  - id: zoe_conway
-    instrument: fiddle
-  - id: jose_climent
-    instrument: fiddle
   - id: blanca_altable
-    instrument: fiddle
-  - id: paula_gomez
     instrument: fiddle
   - id: natalie_haas
     instrument: cello
-  - id: alec_brown
-    instrument: cello
-  - id: john_mcintyre
-    instrument: guitar
-  - id: chuchi_cuadrado
-    instrument: guitar
-  - id: louise_mulcahy
-    instrument: flute
   - id: xose_liz
-    instrument: flute
-  - id: ana_rossi
-    instrument: voice
+    instrument: bouzouki
   - id: betlem_burcet
     instrument: dance
-  - id: maria_san_miguel
-    instrument: house_band
-  - id: galen_fraser
-    instrument: house_band
 
-pendingTeachers: false
+pendingTeachers: true
 
 newsletterLink: https://eepurl.com/ggOBLr
 socialMedia:
