@@ -12,7 +12,7 @@ aboutLinks:
     subtitle:
       en: Why are we here?
       es: ¿Por qué estamos aquí?
-    img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test3.jpg
+    img: /assets/images/index/crisol_spirit.jpg
     link: /about
   - title:
       en: The Lessons
@@ -20,7 +20,7 @@ aboutLinks:
     subtitle:
       en: How do they work and what is special about them?
       es: ¿Cómo funcionan y qué tienen de especial?
-    img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test2.jpg
+    img: /assets/images/index/classes.jpg
     link: /about/classes
   - title:
       en: A bit of History
@@ -28,7 +28,7 @@ aboutLinks:
     subtitle:
       en: How it all started
       es: ¿Cómo empezó todo?
-    img: http://www.crisoldecuerda.com/wp-content/uploads/2018/01/test.jpg
+    img: /assets/images/index/history.jpg
     link: /about/history
 
 infoSection:

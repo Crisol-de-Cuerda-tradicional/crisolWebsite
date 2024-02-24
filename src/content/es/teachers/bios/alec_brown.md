@@ -1,6 +1,5 @@
 ---
 name: Alec Brown
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2023/03/alec_brown300x300.png
 ---
 
 Alec Brown es un cellista contemporanio de Pine Bluff, Arkansas. Actualmente vive en Limerick, Irlanda. Tras completar su doctorado en interpretación en la Universidad de Limerick en 2019 se especializó en incorportar el cello a la música tradicional irlandesa. Alec sigue impulsando los límites del cello dentro del contexto idiomático de la música irlandesa, incorporando elementos de otros géneros musicales y colaborando con múltiples artistas de distintas tradiciones. Como resultado de este intercambio, su estilo mezcla técnicas de géneros y tradiciones diversas que resultan en un sonido propio y único.

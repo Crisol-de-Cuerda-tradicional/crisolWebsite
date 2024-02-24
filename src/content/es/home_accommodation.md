@@ -1,11 +1,11 @@
 ---
 title: Alojamiento
-background: home_accommodation_bg.jpg
+background: accommodation_bg.jpg
 imgs:
-  - http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja3.jpg
-  - http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja1.jpg
-  - http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja2.jpg
-  - http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja4.jpg
+  - /assets/images/index/accommodation_3.jpg
+  - /assets/images/index/accommodation_1.jpg
+  - /assets/images/index/accommodation_2.jpg
+  - /assets/images/index/accommodation_4.jpg
 ---
 
 Uno de los pilares importantes de este encuentro es la convivencia. Durante los 7 días del curso compartiremos numerosas experiencias, con el denominador común de la música y la danza, y esperamos que largas, enriquecedoras sesiones.

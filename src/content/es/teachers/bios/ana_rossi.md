@@ -1,6 +1,5 @@
 ---
 name: Ana Rossi
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/anarossi.jpg
 ---
 
 Posee una formación musical de largo recorrido, pasando por l’Aula de Jazz i Música Moderna del Conservari del Liceu, y que todavía continúa con Anna Catalá y la técnica Voice Craft, incidiendo especialmente en canto, educación del oído y armonia, pero también piano, danza y guitarra.

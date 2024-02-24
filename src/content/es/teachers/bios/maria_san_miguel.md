@@ -1,6 +1,5 @@
 ---
 name: María San Miguel
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2021/05/maria_sanmiguel500x500.jpg
 ---
 
 Comienza la práctica del violín a la edad de tres años, y desde entonces, mantiene una gran pasión por el instrumento y una auténtica vocación por la música. Continuó su formación clásica en el Conservatorio Profesional de Música de Valladolid y en el Conservatorio Superior de Castilla y León, pero su interés por completar su formación musical le ha llevado a pertenecer y colaborar con grupos de diversos estilos de música (Edu Soto Plan Renove Band, Mariachi Guerrilla, etc.). Sin embargo, su predilección por la música de otras culturas y su origen, le guió hasta la música folk escocesa y despertó su curiosidad por la interpretación de la música folclórica castellana en el violín.

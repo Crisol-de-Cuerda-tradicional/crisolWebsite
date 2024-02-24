@@ -1,6 +1,5 @@
 ---
 name: Clara Rodríguez
-picture: http://crisoldecuerda.com/wp-content/uploads/2015/01/clara.jpg
 ---
 
 Nacida en Madrid en 1976, lleva más de 10 años formándose en danzas folk del mundo: danzas tradicionales, danzas mediterráneas, danzas del atlántico… a través de diversos cursos y talleres impartidos por varias entidades y festivales, en España, Francia, Portugal e Italia.

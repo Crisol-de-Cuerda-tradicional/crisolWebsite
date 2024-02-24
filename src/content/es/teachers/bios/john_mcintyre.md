@@ -1,6 +1,5 @@
 ---
 name: John McIntyre
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2023/03/john_mcintyre300x300.png
 ---
 
 John creció en las montañas de Cooley, en el norte de Irlanda, y empezó a tocar la guitarra a los 8 años. Empezó su carrera como guitarrista eléctrico de la banda indie The Revs con los que actuó en varios festivales famosos como el Oxygen y el Slane en Irlanda, Reading and Leeds en el Reino Unido, e hizo extensas giras en los EEUU, Australia y Europe. Ha trabajado con productores de renombre y actualmente trabaja como productor y ingeniero de audio de múltiples géneros. A pesar de haber estudiado guitarra clásica y piano durante muchos años, John también ha estado inmerso en el idioma, canciones y música para baile tradicional del sudoeste de Donegal desde muy pequeño. Esta mezcla de estilos e influencias le dan a su música un caracter y sonoridad propias.

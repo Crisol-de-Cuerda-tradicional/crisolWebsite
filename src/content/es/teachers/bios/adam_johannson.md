@@ -1,6 +1,5 @@
 ---
 name: Adam Johannson
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2020/01/Adam300x300.png
 ---
 
 Adam Johansson es un guitarrista del norte de Suecia. Creció tocando blues y jazz. A los 14 años descubrió la música folk y se enamoró de su aspecto social. Desde entonces se dedica a explorar este género.

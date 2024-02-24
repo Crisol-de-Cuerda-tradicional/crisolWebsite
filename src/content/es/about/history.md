@@ -1,6 +1,6 @@
 ---
 title: Un poco de historia
-hero: history_bg.jpeg
+hero: history.jpeg
 ---
 
 Era el verano de 2007 cuando Blanca Altable y Javier Ortega coincidieron en Madrid, departiendo sobre inquietudes culturales y vitales; Blanca acudía ese año al taller de fiddle que Alasdair Fraser imparte regularmente en Skye (Escocia). Javier había conocido al músico a raíz de un espectacular concierto de Skyedance en Burgos, años atrás. Surgió la idea de proponerle hacer un taller musical en España, extendiendo la tradición iniciada en su tierra natal, Escocia, y continuada en California, tierra de adopción del dotado violinista.

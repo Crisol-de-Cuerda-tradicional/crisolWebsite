@@ -1,7 +1,7 @@
 ---
 title: The classes
 img: http://crisoldecuerda.com/wp-content/uploads/2012/02/lasclases-520x347.jpg
-hero: classes_bg.jpeg
+hero: classes.jpeg
 ---
 
 ### Philosophy

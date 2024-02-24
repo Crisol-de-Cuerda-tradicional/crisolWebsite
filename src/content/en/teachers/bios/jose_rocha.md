@@ -1,6 +1,5 @@
 ---
 name: José Ramón Rocha
-picture: http://crisoldecuerda.com/wp-content/uploads/2015/01/Foto-Xose-rOCHA.jpg
 ---
 
 León, 1963, it’s hot there. A Coruña 1967, it's wet there.

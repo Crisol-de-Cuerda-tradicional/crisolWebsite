@@ -20,7 +20,7 @@ const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
         <section>
           <div className="img__wrapper">
             <Image
-              src={`/images/${teachersSection.meta.image}`}
+              src={`/assets/images/about/${teachersSection.meta.image}`}
               fill
               sizes="100%"
               style={{ objectFit: 'contain' }}

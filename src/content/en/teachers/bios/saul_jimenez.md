@@ -1,6 +1,5 @@
 ---
 name: Saúl Jiménez
-picture: http://crisoldecuerda.com/wp-content/uploads/2015/01/foto-saul-Jimenez.jpg
 ---
 
 Saúl Jiménez Montalvo is a teacher of music in Primary Education in arts. For more than 10 years now he has been teaching in schools of Comunidad de Madrid. He uses and develops innovative methodologies such as the BAPNE method of Body Percussion, Soundpainting (The Art of Live Composition) by Walter Thompson, and the educational project LOVA (The Opera as means of learning).

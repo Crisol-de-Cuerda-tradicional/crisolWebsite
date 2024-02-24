@@ -1,6 +1,5 @@
 ---
 name: Ernesto Briceño
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2016/01/Ernesto-02-1-peque%C3%B1a-2016.jpg
 ---
 
 He studied in Barcelona, in the Aula de Música Moderna, in Film Scoring seminars with José Nieto, Enric Alberich, Frances Burrul, Tomas Lorenzo and Horacio Fumero.

@@ -1,6 +1,5 @@
 ---
 name: Francesc Tomás "Panxito"
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2020/01/panxito-500x500.jpg
 ---
 
 Born in the early 1960s in Ciudad de México, he is the grandson of exiled political refugees.

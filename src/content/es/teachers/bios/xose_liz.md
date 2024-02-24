@@ -1,6 +1,5 @@
 ---
 name: Xosé Liz
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2022/05/xose_liz300x300.png
 ---
 
 Toca tanto las flautas como la guitarra acústica, el bouzouqui o mandolina.

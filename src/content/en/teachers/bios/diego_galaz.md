@@ -1,6 +1,5 @@
 ---
 name: Diego Galaz
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2017/01/Foto-Diego-ancho-300.jpg
 ---
 
 Began his musical studies at the age of 6 with the composer Alejandro Yaüe and the violinist Isabel Vilá. Soon, he became involved with several bands in his native town of Burgos and starts experimenting with different musical genres (folk, blues, jazz, flamenco, pop, rock,…). In 1997 he joins the Spanish band La Cabra Mecánica.

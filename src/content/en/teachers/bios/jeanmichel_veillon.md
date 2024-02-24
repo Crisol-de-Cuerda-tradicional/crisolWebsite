@@ -1,6 +1,5 @@
 ---
 name: Jean-Michel Veillon
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2020/01/jm-veillon.jpg
 ---
 
 Born on the coast of Brittany, Jean-Michel Veillon is one of the most acclaimed wooden flute players in Europe. He was greatly influenced by the Irish flute masters and was the first one to adapt it to the Breton folk music. His style is unique and distinct.

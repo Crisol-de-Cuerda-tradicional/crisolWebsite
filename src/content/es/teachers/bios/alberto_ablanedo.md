@@ -1,6 +1,5 @@
 ---
 name: Alberto Ablanedo
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2020/01/AlbertoAblanedox777.jpg
 ---
 
 Alberto Ablanedo es uno de los músicos de la llamada “Generación Folk”, la segunda oleada de músicos asturianos que siguieron a los pioneros que revitalizaron la música tradicional asturiana en los 80.

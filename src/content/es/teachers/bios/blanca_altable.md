@@ -1,6 +1,5 @@
 ---
 name: Blanca Altable
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/blancaaltable.jpg
 ---
 
 Blanca Altable (1984) es una de las pocas violinistas en el entorno tradicional castellano. Comienza sus estudios de violín clásico a la edad de 5 años pero pronto se consagra a la vida de fiddler al crecer en una familia de músicos tradicionales.

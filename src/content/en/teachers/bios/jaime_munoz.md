@@ -1,6 +1,5 @@
 ---
 name: Jaime Muñóz
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2017/01/Jaime-Mu%C3%B1oz-foto-web-env-ancho-300-2017.jpg
 ---
 
 Multi-instrumentalist specialised in ethincal and medival sounds. He self-learnt to play the traditional flute and the accordion. Later on he attended several masterclasses by the Breton musician Jean-Michel Veillon, Kepa Junkera and several more seminars all over Europe.

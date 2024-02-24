@@ -1,6 +1,6 @@
 ---
 title: What's Crisol de Cuerda?
-hero: about_bg.jpeg
+hero: about.jpeg
 ---
 
 **CRISOL DE CUERDA** is a gathering, a camp, where **creativity**, **knowledge** and **freedom** converge. It is a space and a time for music lovers that are interested in both **tradition and innovation**, for those who search for new **inspirations** and those who are ready for a new experience; **surprising**, **enriching** and **unforgettable**.

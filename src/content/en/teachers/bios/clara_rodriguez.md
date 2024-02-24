@@ -1,6 +1,5 @@
 ---
 name: Clara Rodríguez
-picture: http://crisoldecuerda.com/wp-content/uploads/2015/01/clara.jpg
 ---
 
 Born in Madrid, 1976, she has been more than 10 years learning world folk dances: traditional, meditarrenean, dances of the atlantic, … through a number of courses and workshops by several organizations and festivals, in Spain, France, Portugal and Italy.

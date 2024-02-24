@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <Link href="/">
-        <Image src="/logo.png" height={51} width={200} alt={config.name} />
+        <Image src="/assets/logo.png" height={51} width={200} alt={config.name} />
       </Link>
       <button
         className={`hamburger hamburger--spin ${showMenu ? 'is-active' : ''}`}

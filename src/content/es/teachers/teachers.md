@@ -1,4 +1,4 @@
 ---
 title: Profesores
-hero: teachers_bg.jpeg
+hero: teachers.jpeg
 ---

@@ -1,6 +1,5 @@
 ---
 name: Xavi Lozano
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2018/02/Xavi_Lozano_300x.jpg
 ---
 
 Comes from classical education, but has always been in touch with all sorts of musical identities: from traditional to experimental passing through all sorts of fusions.

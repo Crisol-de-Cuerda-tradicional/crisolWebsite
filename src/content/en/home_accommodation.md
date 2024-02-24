@@ -1,11 +1,11 @@
 ---
 title: Accommodation
-background: home_accommodation_bg.jpg
+background: accommodation_bg.jpg
 imgs:
-  - http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja3.jpg
-  - http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja1.jpg
-  - http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja2.jpg
-  - http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/granja4.jpg
+  - /assets/images/index/accommodation_3.jpg
+  - /assets/images/index/accommodation_1.jpg
+  - /assets/images/index/accommodation_2.jpg
+  - /assets/images/index/accommodation_4.jpg
 ---
 
 The foundation of this camp is sharing and coexistence. During the 7 days of the camp we will share music and enriching experiences. We hope for fun and educational jam sessions too!

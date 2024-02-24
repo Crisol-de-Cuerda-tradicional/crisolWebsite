@@ -15,7 +15,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="footer__content">
         <Link href="/">
-          <Image src="/logo.png" height="90" width="352" alt={config.name} />
+          <Image src="/assets/logo.png" height="90" width="352" alt={config.name} />
         </Link>
         <div className="footer__subscribe">
           {translations.newsletter[locale]}

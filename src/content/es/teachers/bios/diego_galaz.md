@@ -1,6 +1,5 @@
 ---
 name: Diego Galaz
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2017/01/Foto-Diego-ancho-300.jpg
 ---
 
 Comienza sus estudios de música clásica a los 6 años de edad, con el maestro compositor Alejandro Yagüe. Culminará esta etapa recibiendo clases de mano de la prestigiosa violinista Isabel Vilá, durante más de 6 años. Pronto comienza a tomar contacto con diversas formaciones musicales de su ciudad ( música folk, flamenco, pop, rock, diversos cantautores…). Paralelamente a su formación académica (armonía moderna, guitarra y composición en la escuela musical IMT), empezará a formar parte de distintas bandas madrileñas de diversos estilos musicales. En 1997 comienza a formar parte de la banda “La Cabra Mecánica”.

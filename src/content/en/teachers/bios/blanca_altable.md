@@ -1,6 +1,5 @@
 ---
 name: Blanca Altable
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/blancaaltable.jpg
 ---
 
 Blanca Altable (1984) is one of the few fiddlers in the traditional scene in Castilla. She begins her studies of classic violin at 5 years of age, but soon she devotes herself to the fiddle, since hers is a family of traditional musicians.

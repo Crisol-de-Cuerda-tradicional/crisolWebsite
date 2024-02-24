@@ -1,6 +1,5 @@
 ---
 name: Ana Rossi
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/anarossi.jpg
 ---
 
 She has a long and extensive musical education, which includes the Aula de Jazz i Música Moderna del Conservari del Liceu, and still continues with Anna Catalá and Voice Craft technique. She has specialised in singing, ear training and harmony, but also studied piano, dance, and guitar.

@@ -1,6 +1,5 @@
 ---
 name: Alberto Ablanedo
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2020/01/AlbertoAblanedox777.jpg
 ---
 
 Alberto Ablanedo is one of the musicians from the “Folk Generation” in Asturias, following the steps of the musicians who took part in the first folk revival in the 80s.

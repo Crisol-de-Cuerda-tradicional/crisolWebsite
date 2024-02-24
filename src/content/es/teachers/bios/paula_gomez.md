@@ -1,6 +1,5 @@
 ---
 name: Paula Gómez
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2022/04/paula_gomez300x300-1.png
 ---
 
 Segoviana, apasionada de la música, la tradición y la diversidad cultural. En los últimos años, asombrada por la pedagogía y la posibilidad que le otorga como herramienta para trasmitir.

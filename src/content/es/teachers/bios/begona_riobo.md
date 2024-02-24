@@ -1,6 +1,5 @@
 ---
 name: Begoña Riobó
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/Bego%C3%B1a-Riob%C3%B3-foto1.jpg
 ---
 
 Es la violinista por excelencia del panorama folk gallego, comienza su trayectoria profesional en el año 2000 formando parte de la banda del gaitero Carlos Núñez durante una etapa que la llevó a pisar teatros y festivales a lo largo y ancho de los cinco continentes y tocar con primeras figuras del panorama folk, entre los que cabe citar a The Chieftains, Dan Ar Braz, Sharon Sahnon, o Solas; y participar en distintos trabajos discográficos entre ellos “Carlos Nuñez e Amigos” (Sony 2004) Premio de la Música al mejor disco de música tradicional 2005.

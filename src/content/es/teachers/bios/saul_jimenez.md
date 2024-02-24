@@ -1,6 +1,5 @@
 ---
 name: Saúl Jiménez
-picture: http://crisoldecuerda.com/wp-content/uploads/2015/01/foto-saul-Jimenez.jpg
 ---
 
 Saúl Jiménez Montalvo es Profesor de Educación Primaria especialista en el área de educación Artística en la asignatura de música más de 10 años en diversos colegios de la Comunidad de Madrid. Desarrolla diferentes metodologías de innovación pedagógica como el método de percusión corporal BAPNE, Soundpainting (The Art of live composition) de Walter Thompson y el proyecto educativo LOVA (La Ópera como Vehículo de Aprendizaje).

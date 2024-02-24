@@ -1,6 +1,5 @@
 ---
 name: Nicolas Quemener
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2022/03/nicolas_quemener500x500.png
 ---
 
 Nicolas Quemener es un guitarrista y multi-instrumentista Bretón conocido por su dominio de la afinación abierta. Originario de la región de Angers, pasó buena parte de su juventud en la Bretaña escuchando música irlandesa. Estudió percusión durante 4 años hasta que un amigo le regaló su primera guitarra.

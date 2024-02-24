@@ -1,7 +1,7 @@
 ---
 title: Accommodation
 img: accommodation.jpeg
-hero: accommodation_bg.jpeg
+hero: accommodation.jpeg
 ---
 
 The foundation of this camp is sharing and coexistence. During the 7 days of the camp we will share music, dancing, singing and many more enriching experiences. We hope for fun and educational jam sessions too! The Granja Escuela de Arlanzón will be our home, some 20 kms. from Burgos city. It is a tourism centre that will treat us really well and allow us to enjoy additional activities. Also, we will share the week with some farm animals living in La Granja Escuela. They will be part of our company too!.

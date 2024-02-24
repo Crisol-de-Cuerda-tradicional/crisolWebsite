@@ -1,6 +1,5 @@
 ---
 name: Xavi Lozano
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2018/02/Xavi_Lozano_300x.jpg
 ---
 
 Formado musicalmente en el mundo del clásico, siempre ha estado en contacto con todo tipo de música, de la tradicional a la experimental pasando por fusiones de todo tipo.

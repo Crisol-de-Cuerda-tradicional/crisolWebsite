@@ -1,6 +1,5 @@
 ---
 name: Alasdair Fraser
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/alasdairfraser.jpg
 ---
 
 Es uno de los grandes maestros del panorama folk mundial. Nacido en Clackmannan, descubrió el fiddle con 8 años y desde entonces lo ha acompañado. En 1973 ganó el concurso de fiddle “National Mod” y después de licenciarse en físicas decidió, en 1985, dedicarse de pleno a la música.

@@ -1,6 +1,5 @@
 ---
 name: Marta Roma
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2022/04/marta_roma300x300.png
 ---
 
 Marta Roma is a splendid and versatile cellist and singer from Barcelona who has an eclectic background in music and other arts. Marta has developed her unique approach through improvisation and singing in different genres and cultures. She has performed with great artists such as Gary Burton, Alejandro Sanz, Dream Theater, Susana Baca, A.R Rahman and many others.

@@ -1,6 +1,5 @@
 ---
 name: Zoë Conway
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2023/03/zoe_conway300x300.png
 ---
 
 Irish fiddle player, Zoë Conway, is a prodigious talent, equally at home in both traditional Irish and classical styles. Zoë has performed across the globe, both as a solo artist and also playing with international acts such as Riverdance, Damien Rice, Rodrigo y Gabriella, Lisa Hannigan, Nick Cave and Lou Reed among others. She is a holder of the much coveted All-Ireland Senior Fiddle Champion title, winning the prestigious competition in 2001. She was voted Best Traditional Female of the Year in Irish Music Magazine and she is also a featured musician on the current Leaving Certificate music syllabus in Ireland. Zoë is increasingly in demand as a tutor, regularly giving workshops and lectures on the merits of classical and traditional music on the violin. She has performed at festivals such as Glastonbury, L’Orient, Tonder and Womad and has also performed in some of the most prestigious concert halls in the world including The National Concert Hall, Dublin; The Kremlin, Russia; The Kennedy Centre, Washington; The Broadway Gershwin Theatre, New York and Carnegie Hall, New York.

@@ -1,6 +1,5 @@
 ---
 name: Jesús Enrique "Chuchi" Cuadrado
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/FOTO-CHUCHI-300x201.jpg
 ---
 
 Jesús Enrique “Chuchi” es ya una referencia en la guitarra folk contemporánea de la Península. Su versatilidad y estilo inconfundible han hecho de él uno de los guitarristas más preciados de la escena folk Peninsular. Cofundador de Vallarna, el Búho Dinámico junto a bouzoukista Carlos Martín Aires y del premiado dúo Blanca Altable & Chuchi2.

@@ -1,6 +1,5 @@
 ---
 name: Nicolas Quemener
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2022/03/nicolas_quemener500x500.png
 ---
 
 Nicolas Quemener is a Breton guitar player and multi-instrumentalist, well-known for his mastery of the open-tunning guitar. He was born in the region of Angers and spent most of his early years in Brittany. He studied percussion for 4 years until a friend gave him his first guitar.

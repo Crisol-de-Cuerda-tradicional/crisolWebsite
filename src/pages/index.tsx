@@ -83,7 +83,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             <ExpandingImg key={link.link} bgSrc={link.img}>
               <div className="about__content">
                 <h2 className="about__title">{link.title[locale]}</h2>
-                <p className="about__subtitle">{link.title[locale]}</p>
+                <p className="about__subtitle">{link.subtitle[locale]}</p>
                 <Link href={link.link}>
                   <Button variant="light" size="xsm">
                     {indexConfig.knowMoreButton[locale]}
@@ -106,7 +106,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
                 href={`/${locale}/teachers#${teacher.id}`}
                 className="teachers__link"
               >
-                <ExpandingImg bgSrc={teacher.meta.picture} maxWidth="250px">
+                <ExpandingImg bgSrc={`/assets/images/teachers/${teacher.id}.jpg`} maxWidth="250px">
                   <div className="teachers__infocontainer">
                     <div className="teachers__info">
                       <p>{teacher.meta.name}</p>
@@ -188,7 +188,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       <style jsx>{homePageStyles}</style>
       <style jsx>{`
         .accommodation {
-          background-image: url('/images/${accommodationSection.meta.background}');
+          background-image: url('/assets/images/index/${accommodationSection.meta.background}');
         }
       `}</style>
     </>

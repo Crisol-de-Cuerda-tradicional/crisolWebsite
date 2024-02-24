@@ -1,6 +1,5 @@
 ---
 name: Casey Driesen
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2015/01/Casey-Driesen-pic-2016.jpg
 ---
 
 Casey Driessen is (just like his music) inspired, unconventional and truly original. His distinct and soulful approach to the fiddle has led to collaborations with artists such as Béla Fleck (& the Flecktones), Bassekou Kouyate, Jerry Douglas, Tim O’Brien, Darrell Scott, Steve Earle, & Zac Brown Band. Driessen’s style of funky fiddle rhythm is quickly earning him the reputation as the leader of “The Chop,” a new percussive bow technique permeating every corner of the fiddle/violin world. A choptastic interpretation of Jerusalem Ridge on his debut record, 3D, earned him a GRAMMY nomination and was hailed a “tour de force” (New York Times). He currently performs as The Casey Driessen Singularity—a one man, one fiddle, one pedal board show of live looping and effects. Following a successful Kickstarter campaign, Driessen created Fiddle/Sticks: The Drummer Project—a collaborative exploration of rhythm that pairs him with landmark drummers and percussionists and documents these explorations through recordings and videos.

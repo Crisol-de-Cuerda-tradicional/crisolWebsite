@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es Crisol de Cuerda?
-hero: about_bg.jpeg
+hero: about.jpeg
 ---
 
 **CRISOL DE CUERDA** es un encuentro focalizado en la **música tradicional** en el que convergen **creatividad**, **práctica**, **conocimiento** y **libertad**. Es un espacio y un tiempo para **amantes de la música** que comparten su interés por la tradición y la innovación, para quienes buscan nuevas referencias y contactos para quienes deseen abrirse a una experiencia que puede ser **sorprendente**, **inolvidable** y **enriquecedora**.

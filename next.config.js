@@ -11,13 +11,11 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
         hostname: '**.crisoldecuerda.com',
         port: '',
         pathname: '/**',
       },
       {
-        protocol: 'http',
         hostname: 'crisoldecuerda.com',
         port: '',
         pathname: '/**',

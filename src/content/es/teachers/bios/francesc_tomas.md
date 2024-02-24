@@ -1,6 +1,5 @@
 ---
 name: Francesc Tomás "Panxito"
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2020/01/panxito-500x500.jpg
 ---
 
 Nació a principios de los sesenta, en la Ciudad de México, siendo nieto de exiliados y refugiados políticos.

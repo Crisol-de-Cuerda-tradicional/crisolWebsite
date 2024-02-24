@@ -1,6 +1,6 @@
 ---
 title: Registration
-hero: support_bg.jpeg
+hero: support.jpeg
 ---
 
 ### HOW TO REGISTER

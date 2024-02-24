@@ -1,6 +1,5 @@
 ---
 name: Anders Hall
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2018/05/DC387FCE-A3ED-40F6-93A6-481E2E4605F2-e1525270839490.jpeg
 ---
 
 Anders Hall was born in Arbrå, Hälsingland, Sweden.

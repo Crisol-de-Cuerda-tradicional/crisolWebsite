@@ -1,6 +1,6 @@
 ---
 title: Contact
-hero: contact_bg.jpeg
+hero: contact.jpeg
 ---
 
 If you have any doubts related to Crisol, please feel free to send us an [email](mailto:info@crisoldecuerda.com) and we will get in touch with you as soon as possible.

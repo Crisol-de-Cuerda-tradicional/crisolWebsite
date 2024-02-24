@@ -1,6 +1,5 @@
 ---
 name: Tony McManus
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2017/02/Tony-McManus-2017-ancho300-web.jpg
 ---
 
 Tony McManus nació en 1965 en Paisley, Escocia, en una familia de fuertes raíces irlandesas.

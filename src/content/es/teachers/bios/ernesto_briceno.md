@@ -1,6 +1,5 @@
 ---
 name: Ernesto Briceño
-picture: http://www.crisoldecuerda.com/wp-content/uploads/2016/01/Ernesto-02-1-peque%C3%B1a-2016.jpg
 ---
 
 En Barcelona España cursó estudios en el Aula de Música Moderna, seminarios de Film Scoring con Jose Nieto, estudia con Enric Alberich, Frances Burrul, Tomas Lorenzo y Horacio Fumero entre otros.
