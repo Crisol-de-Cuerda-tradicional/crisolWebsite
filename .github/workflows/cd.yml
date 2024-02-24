@@ -1,8 +1,8 @@
 name: 🚀 CD
 
 on:
-  push:
-    branches: [main]
+  release:
+    types: [published]
 
 jobs:
   deploy:
@@ -11,7 +11,7 @@ jobs:
       - name: 🛑 Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.11.0
 
-      - name: multiple command
+      - name: 🚀 Deploy website
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.DEPLOY_HOST }}
@@ -21,9 +21,15 @@ jobs:
           script: |
             cd /var/www/crisolWebsite
 
-            git switch main
-            git pull
-            npm ci
+            git fetch
+            git checkout ${{ github.ref_name }}
+
+            PREVIOUS=$(cat LAST_DEPLOYED_TAG)
+            git diff --name-only $PREVIOUS ${{ github.ref_name }} | grep package-lock.json
+
+            [[ $? -eq 0 ]] && npm ci
 
             npm run build
             pm2 restart crisolWebsite
+
+            echo "${{ github.ref_name }}" > LAST_DEPLOYED_TAG
