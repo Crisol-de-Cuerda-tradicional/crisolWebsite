@@ -5,17 +5,25 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: 🛑 Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.11.0
 
-      - name: ⬇️ Checkout
-        uses: actions/checkout@v3
+      - name: multiple command
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USERNAME }}
+          key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
+          port: ${{ secrets.DEPLOY_PORT }}
+          script: |
+            cd /var/www/crisolWebsite
 
-      - name: 📥 npm ci
-        uses: bahmutov/npm-install@v1.8.25
+            git switch main
+            git pull
+            npm ci
 
-      - name: 🐳 Build
-        run: npm run build
+            npm run build
+            pm2 restart crisolWebsite
