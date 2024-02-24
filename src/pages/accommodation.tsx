@@ -18,7 +18,7 @@ const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, loca
           <section className="section">
             <div className="section__frame">
               <Image
-                src={`/images/${descriptionSection.meta.img}`}
+                src={`https://www.crisoldecuerda.com/assets/images/accommodation/${descriptionSection.meta.img}`}
                 fill
                 sizes="100%"
                 style={{ objectFit: 'contain' }}

@@ -37,7 +37,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
                 <Link href={`#${teacher.id}`}>
                   <div className="links__item">
                     <Image
-                      src={`/assets/images/teachers/${teacher.id}.jpg`}
+                      src={`https://www.crisoldecuerda.com/assets/images/teachers/${teacher.id}.jpg`}
                       width="123"
                       height="123"
                       alt={teacher.meta.name}
@@ -57,7 +57,7 @@ const Teachers = ({ teachers, teachersPage }: ITeachersProps): JSX.Element => {
               <h2>{teacher.meta.name}</h2>
               <div className="img__wrapper">
                 <Image
-                  src={`/assets/images/teachers/${teacher.id}.jpg`}
+                  src={`https://www.crisoldecuerda.com/assets/images/teachers/${teacher.id}.jpg`}
                   width="300"
                   height="300"
                   alt={teacher.meta.name}

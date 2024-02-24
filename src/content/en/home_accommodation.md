@@ -2,10 +2,10 @@
 title: Accommodation
 background: accommodation_bg.jpg
 imgs:
-  - /assets/images/index/accommodation_3.jpg
-  - /assets/images/index/accommodation_1.jpg
-  - /assets/images/index/accommodation_2.jpg
-  - /assets/images/index/accommodation_4.jpg
+  - https://www.crisoldecuerda.com/assets/images/index/accommodation_3.jpg
+  - https://www.crisoldecuerda.com/assets/images/index/accommodation_1.jpg
+  - https://www.crisoldecuerda.com/assets/images/index/accommodation_2.jpg
+  - https://www.crisoldecuerda.com/assets/images/index/accommodation_4.jpg
 ---
 
 The foundation of this camp is sharing and coexistence. During the 7 days of the camp we will share music and enriching experiences. We hope for fun and educational jam sessions too!

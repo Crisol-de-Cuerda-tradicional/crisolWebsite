@@ -106,7 +106,10 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
                 href={`/${locale}/teachers#${teacher.id}`}
                 className="teachers__link"
               >
-                <ExpandingImg bgSrc={`/assets/images/teachers/${teacher.id}.jpg`} maxWidth="250px">
+                <ExpandingImg
+                  bgSrc={`https://www.crisoldecuerda.com/assets/images/teachers/${teacher.id}.jpg`}
+                  maxWidth="250px"
+                >
                   <div className="teachers__infocontainer">
                     <div className="teachers__info">
                       <p>{teacher.meta.name}</p>
@@ -188,7 +191,8 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       <style jsx>{homePageStyles}</style>
       <style jsx>{`
         .accommodation {
-          background-image: url('/assets/images/index/${accommodationSection.meta.background}');
+          background-image: url('https://www.crisoldecuerda.com/assets/images/index/${accommodationSection
+            .meta.background}');
         }
       `}</style>
     </>

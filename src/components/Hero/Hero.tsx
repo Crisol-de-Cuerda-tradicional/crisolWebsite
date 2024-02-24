@@ -15,7 +15,7 @@ export const Hero = ({ background, pageTitle }: IHeroProps): JSX.Element => {
           display: flex;
           align-items: flex-end;
 
-          background-image: url('/assets/images/heroes/${background}');
+          background-image: url('https://www.crisoldecuerda.com/assets/images/heroes/${background}');
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center;
