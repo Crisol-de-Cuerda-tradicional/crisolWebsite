@@ -24,6 +24,8 @@ jobs:
             git fetch
             git checkout ${{ github.ref_name }}
 
+            pm2 stop crisolWebsite
+
             PREVIOUS=$(cat LAST_DEPLOYED_TAG)
             git diff --name-only $PREVIOUS ${{ github.ref_name }} | grep package-lock.json
 

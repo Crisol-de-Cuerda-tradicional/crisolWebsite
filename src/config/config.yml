@@ -4,7 +4,7 @@ nameShort: Crisol
 startDate: 2024-07-28
 endDate: 2024-08-04
 
-displayRegistrationCaptcha: true
+displayRegistrationCaptcha: false
 displayRegistrationCTA: false
 registrationLink: https://crisol.lobber.eu/
 
