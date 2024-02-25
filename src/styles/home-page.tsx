@@ -16,6 +16,7 @@ export default css`
     width: 100%;
     height: 30rem;
     overflow: hidden;
+    background-color: var(--color-dark);
   }
 
   .hero {

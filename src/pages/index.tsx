@@ -45,7 +45,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
     <>
       <section className="hero__container">
         <video autoPlay loop muted>
-          <source src="http://www.crisoldecuerda.com/wp-content/uploads/2015/01/videoweb.mp4" />
+          <source src="http://www.crisoldecuerda.com/assets/media/videoweb.mp4" />
         </video>
         <div id="hero" className="hero">
           <div className="hero__page-title">

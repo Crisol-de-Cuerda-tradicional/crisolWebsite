@@ -53,10 +53,6 @@ export const Footer = () => {
       <style jsx>{`
         .footer {
           width: 100%;
-          background-image: url('http://www.crisoldecuerda.com/wp-content/themes/crisoltemplate/images/footerimg.jpg');
-          background-repeat: no-repeat;
-          background-position: center top;
-          background-size: cover;
           background-color: var(--color-black);
           padding: 0;
 
