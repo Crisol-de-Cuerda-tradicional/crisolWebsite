@@ -1,10 +1,17 @@
 teachers:
   - id: adam_johannson
+    lastInstrument: guitar
+    instruments:
+      - guitar
     name: Adam Johannson
     years:
       - 2019
       - 2022
+
   - id: alasdair_fraser
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Alasdair Fraser
     years:
       - 2008
@@ -22,15 +29,27 @@ teachers:
       - 2022
       - 2023
       - 2024
+
   - id: alberto_ablanedo
+    lastInstrument: bouzouki
+    instruments:
+      - bouzouki
     name: Alberto Ablanedo
     years:
       - 2022
+
   - id: alec_brown
+    lastInstrument: cello
+    instruments:
+      - cello
     name: Alec Brown
     years:
       - 2023
+
   - id: ana_rossi
+    lastInstrument: voice
+    instruments:
+      - voice
     name: Ana Rossi
     years:
       - 2015
@@ -40,21 +59,37 @@ teachers:
       - 2019
       - 2022
       - 2023
+
   - id: anders_hall
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Anders Hall
     years:
       - 2018
       - 2019
+
   - id: arkaitz_miner
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Arkaitz Miner
     years:
       - 2012
       - 2017
+
   - id: basile_bremaud
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Basile Brèmaud
     years:
       - 2015
+
   - id: begona_riobo
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Begoña Riobó
     years:
       - 2011
@@ -64,12 +99,20 @@ teachers:
       - 2016
       - 2017
       - 2018
+
   - id: betlem_burcet
+    lastInstrument: dance
+    instruments:
+      - dance
     name: Betlem Burcet
     years:
       - 2023
       - 2024
+
   - id: blanca_altable
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Blanca Altable
     years:
       - 2013
@@ -81,12 +124,20 @@ teachers:
       - 2022
       - 2023
       - 2024
+
   - id: casey_driessen
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Casey Driessen
     years:
       - 2014
       - 2016
+
   - id: chuchi_cuadrado
+    lastInstrument: guitar
+    instruments:
+      - guitar
     name: Jesús Enrique Cuadrado "Chuchi"
     years:
       - 2013
@@ -97,48 +148,84 @@ teachers:
       - 2018
       - 2019
       - 2023
+
   - id: clara_rodriguez
+    lastInstrument: dance
+    instruments:
+      - dance
     name: Clara Rodríguez
     years:
       - 2015
+
   - id: colin_cotter
+    lastInstrument: guitar
+    instruments:
+      - guitar
     name: Colin Cotter
     years:
       - 2016
+
   - id: david_aznar
+    lastInstrument: accordion
+    instruments:
+      - accordion
     name: David Aznar
     years:
       - 2015
       - 2016
       - 2017
+
   - id: diego_galaz
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Diego Galaz
     years:
       - 2009
       - 2010
       - 2011
       - 2017
+
   - id: ernesto_briceno
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Ernesto Briceño
     years:
       - 2016
       - 2018
+
   - id: francesc_tomas
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Francesc Tomás "Panxito"
     years:
       - 2019
       - 2022
+
   - id: galen_fraser
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Galen Fraser
     years:
       - 2019
       - 2022
       - 2023
+
   - id: hanneke_cassel
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Hanneke Cassel
     years:
       - 2015
+
   - id: jaime_munoz
+    lastInstrument: flute
+    instruments:
+      - flute
     name: Jaime Muñoz
     years:
       - 2010
@@ -146,24 +233,44 @@ teachers:
       - 2012
       - 2017
       - 2018
+
   - id: jeanmichel_veillon
+    lastInstrument: flute
+    instruments:
+      - flute
     name: Jean-Michel Veillon
     years:
       - 2022
+
   - id: john_mcintyre
+    lastInstrument: guitar
+    instruments:
+      - guitar
     name: John McIntyre
     years:
       - 2023
+
   - id: jose_climent
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: José Climent
     years:
       - 2023
+
   - id: jose_rocha
+    lastInstrument: cello
+    instruments:
+      - cello
     name: José Ramón Rocha
     years:
       - 2016
       - 2017
+
   - id: juan_arriola
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Juan Arriola
     years:
       - 2008
@@ -172,43 +279,75 @@ teachers:
       - 2011
       - 2012
       - 2013
+
   - id: lena_jonsson
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Lena Jonsson
     years:
       - 2022
+
   - id: louise_mulcahy
+    lastInstrument: flute
+    instruments:
+      - flute
     name: Louise Mulcahy
     years:
       - 2023
+
   - id: maria_san_miguel
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: María San Miguel
     years:
       - 2019
       - 2022
       - 2023
+
   - id: maria_sanchez
+    lastInstrument: dance
+    instruments:
+      - dance
     name: María Sánchez
     years:
       - 2016
       - 2017
       - 2018
+
   - id: marta_roma
+    lastInstrument: cello
+    instruments:
+      - cello
     name: Marta Roma
     years:
       - 2017
       - 2019
       - 2022
+
   - id: marti_hosta
+    lastInstrument: percussion
+    instruments:
+      - percussion
     name: Martí Hosta
     years:
       - 2018
+
   - id: martin_melendez
+    lastInstrument: cello
+    instruments:
+      - cello
     name: Martín Meléndez
     years:
       - 2014
       - 2015
       - 2016
+
   - id: natalie_haas
+    lastInstrument: cello
+    instruments:
+      - cello
     name: Natalie Haas
     years:
       - 2008
@@ -226,47 +365,85 @@ teachers:
       - 2022
       - 2023
       - 2024
+
   - id: nicolas_quemener
+    lastInstrument: guitar
+    instruments:
+      - guitar
     name: Nicolas Quemener
     years:
       - 2022
+
   - id: paula_gomez
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Paula Gómez
     years:
       - 2017
       - 2022
       - 2023
+
   - id: quico_puges
+    lastInstrument: cello
+    instruments:
+      - cello
     name: Quico Pugès Suárez
     years:
       - 2018
+
   - id: roberto_cubero
+    lastInstrument: mandolin
+    instruments:
+      - mandolin
     name: Roberto Cubero
     years:
       - 2017
       - 2018
       - 2019
+
   - id: saul_jimenez
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Saúl Jiménez Montalvo
     years:
       - 2015
+
   - id: suso_cancelas
+    lastInstrument: dance
+    instruments:
+      - dance
     name: Suso Cancelas
     years:
       - 2014
       - 2019
       - 2022
+
   - id: tony_mcmanus
+    lastInstrument: guitar
+    instruments:
+      - guitar
     name: Tony McManus
     years:
       - 2017
       - 2018
+
   - id: xavi_lozano
+    lastInstrument: flute
+    instruments:
+      - flute
     name: Xavi Lozano
     years:
       - 2018
       - 2019
+
   - id: xose_liz
+    lastInstrument: bouzouki
+    instruments:
+      - flute
+      - guitar
+      - bouzouki
     name: Xosé Liz
     years:
       - 2011
@@ -279,7 +456,11 @@ teachers:
       - 2022
       - 2023
       - 2024
+
   - id: zoe_conway
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
     name: Zoë Conway
     years:
       - 2023

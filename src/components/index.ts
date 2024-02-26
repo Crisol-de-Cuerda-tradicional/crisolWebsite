@@ -7,3 +7,5 @@ export * from './Layouts';
 export * from './Menu';
 export * from './Navbar';
 export * from './RenderMarkdown';
+export * from './Teacher';
+export * from './TeacherCard';

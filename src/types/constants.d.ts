@@ -48,6 +48,8 @@ declare module '*crisolBookIndex.yml' {
 declare module '*teachers.yml' {
   interface Teacher {
     id: string;
+    lastInstrument: string;
+    instruments: string[];
     name: string;
     years: number[];
   }

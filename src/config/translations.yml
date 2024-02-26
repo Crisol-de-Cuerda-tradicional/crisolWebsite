@@ -37,6 +37,15 @@ house_band:
 bouzouki:
   en: Bouzouki
   es: Buzuki
+accordion:
+  en: Accordion
+  es: Acordeón
+percussion:
+  en: Percussion
+  es: Percusión
+mandolin:
+  en: Mandolin
+  es: Mandolina
 download_crisol_book:
   en: Download the Crisol Book
   es: Descarga el Crisol Book
