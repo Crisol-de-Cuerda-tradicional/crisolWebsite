@@ -8,18 +8,6 @@ displayRegistrationCaptcha: false
 displayRegistrationCTA: false
 registrationLink: https://crisol.lobber.eu/
 
-teachers:
-  - id: alasdair_fraser
-    instrument: fiddle
-  - id: blanca_altable
-    instrument: fiddle
-  - id: natalie_haas
-    instrument: cello
-  - id: xose_liz
-    instrument: bouzouki
-  - id: betlem_burcet
-    instrument: dance
-
 pendingTeachers: true
 
 newsletterLink: https://eepurl.com/ggOBLr

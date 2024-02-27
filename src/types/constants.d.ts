@@ -1,10 +1,6 @@
 type Language = 'en' | 'es';
 type Translation = Record<Language, string>;
 declare module '*config.yml' {
-  interface ICurrentYearTeacher {
-    id: string;
-    instrument: string;
-  }
   interface Config {
     name: string;
     nameShort: string;
@@ -13,7 +9,6 @@ declare module '*config.yml' {
     displayRegistrationCaptcha: boolean;
     displayRegistrationCTA: boolean;
     registrationLink: string;
-    teachers: ICurrentYearTeacher[];
     pendingTeachers: boolean;
     newsletterLink: string;
     socialMedia: {

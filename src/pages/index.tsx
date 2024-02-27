@@ -15,9 +15,12 @@ import {
 } from "@components";
 import config from "@config/config.yml";
 import indexConfig from "@config/indexPage.yml";
+import teachersConfig from "@config/teachers.yml";
 import translations, { Language } from "@config/translations.yml";
 import homePageStyles from "@styles/home-page";
 import { getContent, IContent } from "@utils/getContent";
+import { baseUrl } from "@utils/baseUrl";
+import { ITeacher } from "@crisolTypes/Teacher";
 
 const formatDates = (starting: Date, ending: Date, locale: string) => {
   if (locale === "es")
@@ -32,15 +35,7 @@ const formatDates = (starting: Date, ending: Date, locale: string) => {
 
 interface IHomeProps {
   whatIsSection: IContent<{ title: string }>;
-  teachersContent: {
-    id: string;
-    instrument: string;
-    meta: {
-      name: string;
-      picture: string;
-    };
-    content: string;
-  }[];
+  teachersContent: ITeacher[];
   accommodationSection: IContent<{
     title: string;
     background: string;
@@ -59,7 +54,7 @@ const Home: NextPage<IHomeProps> = ({
     <>
       <section className="hero__container">
         <video autoPlay loop muted>
-          <source src="http://www.crisoldecuerda.com/assets/media/videoweb.mp4" />
+          <source src={baseUrl("/media/videoweb.mp4")} />
         </video>
         <div id="hero" className="hero">
           <div className="hero__page-title">
@@ -129,13 +124,13 @@ const Home: NextPage<IHomeProps> = ({
                 className="teachers__link"
               >
                 <ExpandingImg
-                  bgSrc={`https://www.crisoldecuerda.com/assets/images/teachers/${teacher.id}.jpg`}
+                  bgSrc={baseUrl(`/images/teachers/${teacher.id}.jpg`)}
                   maxWidth="250px"
                 >
                   <div className="teachers__infocontainer">
                     <div className="teachers__info">
                       <p>{teacher.meta.name}</p>
-                      <p>{translations[teacher.instrument][locale]}</p>
+                      <p>{translations[teacher.lastInstrument][locale]}</p>
                     </div>
                   </div>
                 </ExpandingImg>
@@ -237,8 +232,9 @@ const Home: NextPage<IHomeProps> = ({
       <style jsx>{homePageStyles}</style>
       <style jsx>{`
         .accommodation {
-          background-image: url("https://www.crisoldecuerda.com/assets/images/index/${accommodationSection
-            .meta.background}");
+          background-image: url(${baseUrl(
+            "/images/index/" + accommodationSection.meta.background,
+          )});
         }
       `}</style>
     </>
@@ -248,7 +244,10 @@ const Home: NextPage<IHomeProps> = ({
 export default Home;
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const { teachers } = config;
+  const { teachers } = teachersConfig;
+  const currentTeachers = teachers.filter(teacher =>
+    teacher.years.includes(config.startDate.getFullYear()),
+  );
 
   const whatIsSection = await getContent(locale ?? "es", "about/about");
   const accommodationSection = await getContent<{
@@ -256,8 +255,9 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     background: string;
     imgs: string[];
   }>(locale ?? "es", "home_accommodation");
+
   const teachersContent = await Promise.all(
-    teachers.map(async teacher => {
+    currentTeachers.map(async teacher => {
       const teacherSection = await getContent<{
         name: string;
         picture: string;
