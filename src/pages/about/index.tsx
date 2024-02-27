@@ -1,8 +1,9 @@
-import { GetStaticProps } from 'next';
-import Image from 'next/image';
+import { GetStaticProps } from "next";
+import Image from "next/image";
 
-import { ContentLayout, Hero, RenderMarkdown } from '@components';
-import { getContent, IContent } from '@utils/getContent';
+import { ContentLayout, Hero, RenderMarkdown } from "@components";
+import { getContent, IContent } from "@utils/getContent";
+import { baseUrl } from "@utils/baseUrl";
 
 interface IAboutProps {
   aboutPage: IContent<{ title: string; hero: string }>;
@@ -20,10 +21,10 @@ const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
         <section>
           <div className="img__wrapper">
             <Image
-              src={`https://www.crisoldecuerda.com/assets/images/about/${teachersSection.meta.image}`}
+              src={baseUrl(`/images/about/${teachersSection.meta.image}`)}
               fill
               sizes="100%"
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
               alt={teachersSection.meta.title}
             />
           </div>
@@ -53,8 +54,8 @@ const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
 export default About;
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const aboutPage = await getContent(locale ?? 'es', 'about/about');
-  const teachersSection = await getContent(locale ?? 'es', 'about/teachers');
+  const aboutPage = await getContent(locale ?? "es", "about/about");
+  const teachersSection = await getContent(locale ?? "es", "about/teachers");
 
   return {
     props: {

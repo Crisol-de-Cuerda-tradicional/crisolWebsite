@@ -1,8 +1,9 @@
-import Image from 'next/image';
-import { RenderMarkdown } from '../RenderMarkdown';
-import { ITeacher } from '@crisolTypes/Teacher';
-import translations from '@config/translations.yml';
-import { useLocale } from '@hooks';
+import Image from "next/image";
+import { RenderMarkdown } from "../RenderMarkdown";
+import { ITeacher } from "@crisolTypes/Teacher";
+import translations from "@config/translations.yml";
+import { useLocale } from "@hooks";
+import { baseUrl } from "@utils/baseUrl";
 
 type TeacherCardProps = {
   teacher: ITeacher;
@@ -17,14 +18,14 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
         <span className="teacher__header--title">
           <h2>{teacher.meta.name}</h2>
           <p className="teacher__header--instruments">
-            {teacher.instruments.map(i => translations[i][locale]).join(', ')}
+            {teacher.instruments.map(i => translations[i][locale]).join(", ")}
           </p>
         </span>
-        <p className="teacher__header--subtitle">{teacher.years.join(', ')}</p>
+        <p className="teacher__header--subtitle">{teacher.years.join(", ")}</p>
       </div>
       <div className="img__wrapper">
         <Image
-          src={`https://www.crisoldecuerda.com/assets/images/teachers/${teacher.id}.jpg`}
+          src={baseUrl(`/images/teachers/${teacher.id}.jpg`)}
           width="300"
           height="300"
           alt={teacher.meta.name}

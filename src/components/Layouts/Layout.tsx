@@ -1,7 +1,8 @@
-import Head from 'next/head';
-import { ReactNode, useContext } from 'react';
+import Head from "next/head";
+import { ReactNode, useContext } from "react";
 
-import { Footer, Menu, MenuContext, Navbar } from '@components';
+import { Footer, Menu, MenuContext, Navbar } from "@components";
+import { baseUrl } from "@utils/baseUrl";
 
 interface ILayoutProps {
   children: ReactNode;
@@ -18,17 +19,17 @@ export const Layout = ({ children }: ILayoutProps) => {
           name="description"
           content="Crisol de Cuerda is a traditional violin, cello, guitar and fulte music camp celebrated in Spain"
         />
-        <link rel="icon" href="https://www.crisoldecuerda.com/assets/favicon.png" />
+        <link rel="icon" href={baseUrl("/favicon.png")} />
       </Head>
       <Menu />
       <div
-        className={`modal__background ${showMenu ? 'is-active' : ''}`}
+        className={`modal__background ${showMenu ? "is-active" : ""}`}
         onClick={e => {
           e.stopPropagation();
           toggleMenu();
         }}
       ></div>
-      <div className={`main ${showMenu ? 'active-menu' : ''}`}>
+      <div className={`main ${showMenu ? "active-menu" : ""}`}>
         <Navbar />
         {children}
         <Footer />

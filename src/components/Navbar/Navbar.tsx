@@ -1,9 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
-import config from '@config/config.yml';
-import { useContext } from 'react';
-import { MenuContext } from '@components';
+import config from "@config/config.yml";
+import { useContext } from "react";
+import { MenuContext } from "@components";
+import { baseUrl } from "@utils/baseUrl";
 
 export const Navbar = () => {
   const { showMenu, toggleMenu } = useContext(MenuContext);
@@ -12,14 +13,14 @@ export const Navbar = () => {
     <div className="navbar">
       <Link href="/">
         <Image
-          src="https://www.crisoldecuerda.com/assets/logo.png"
+          src={baseUrl("/logo.png")}
           height={51}
           width={200}
           alt={config.name}
         />
       </Link>
       <button
-        className={`hamburger hamburger--spin ${showMenu ? 'is-active' : ''}`}
+        className={`hamburger hamburger--spin ${showMenu ? "is-active" : ""}`}
         type="button"
         onClick={toggleMenu}
       >
