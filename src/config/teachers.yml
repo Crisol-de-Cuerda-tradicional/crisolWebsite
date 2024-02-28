@@ -12,6 +12,15 @@ teachers:
     lastInstrument: fiddle
     instruments:
       - fiddle
+    media:
+      spotify: 1SEfFbNsLpiSaaSfnEObpj
+      instagram: https://www.instagram.com/drivenbow
+      website: https://alasdairfraser.com
+      fb: https://www.facebook.com/profile.php?id=100063504522623
+      tiktok: https://www.tiktok.com/tag/alasdairfraser
+      soundcloud: https://soundcloud.com/alasdair-fraser-official
+      youtubeVideo: ct5s0HC84ts
+      youtubeChannel: https://www.youtube.com/channel/UCadEjme5oZuy7-tbEsVXImg
     name: Alasdair Fraser
     years:
       - 2008
@@ -113,6 +122,8 @@ teachers:
     lastInstrument: fiddle
     instruments:
       - fiddle
+    media:
+      spotify: 5p64uab8k3FgK1DL1yD2zB
     name: Blanca Altable
     years:
       - 2013

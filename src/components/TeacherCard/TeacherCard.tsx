@@ -4,6 +4,7 @@ import { ITeacher } from "@crisolTypes/Teacher";
 import translations from "@config/translations.yml";
 import { useLocale } from "@hooks";
 import { baseUrl } from "@utils/baseUrl";
+import { Spotify } from "../Spotify";
 
 type TeacherCardProps = {
   teacher: ITeacher;
@@ -16,22 +17,29 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
     <section id={teacher.id} key={teacher.id}>
       <div className="teacher__header">
         <span className="teacher__header--title">
-          <h2>{teacher.meta.name}</h2>
+          <h2>{teacher.name}</h2>
           <p className="teacher__header--instruments">
             {teacher.instruments.map(i => translations[i][locale]).join(", ")}
           </p>
         </span>
         <p className="teacher__header--subtitle">{teacher.years.join(", ")}</p>
       </div>
-      <div className="img__wrapper">
-        <Image
-          src={baseUrl(`/images/teachers/${teacher.id}.jpg`)}
-          width="300"
-          height="300"
-          alt={teacher.meta.name}
-        />
+      <div className="media">
+        <div className="img__wrapper">
+          <Image
+            src={baseUrl(`/images/teachers/${teacher.id}.jpg`)}
+            width="360"
+            height="360"
+            alt={teacher.name}
+          />
+        </div>
+        {teacher.media?.spotify ? (
+          <Spotify wide artistId={teacher.media.spotify} />
+        ) : null}
       </div>
+      <div className="teacher__links"></div>
       <RenderMarkdown content={teacher.content} />
+
       <style jsx>{`
         section {
           scroll-margin-top: 89px;
@@ -70,6 +78,13 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
               color: var(--color-neutral);
             }
           }
+        }
+
+        .media {
+          display: flex;
+          gap: 1rem;
+          align-items: flex-start;
+          flex-wrap: wrap;
         }
 
         @media (min-width: 340px) {

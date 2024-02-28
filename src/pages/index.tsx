@@ -129,7 +129,7 @@ const Home: NextPage<IHomeProps> = ({
                 >
                   <div className="teachers__infocontainer">
                     <div className="teachers__info">
-                      <p>{teacher.meta.name}</p>
+                      <p>{teacher.name}</p>
                       <p>{translations[teacher.lastInstrument][locale]}</p>
                     </div>
                   </div>
