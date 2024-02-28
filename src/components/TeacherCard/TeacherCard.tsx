@@ -5,6 +5,10 @@ import translations from "@config/translations.yml";
 import { useLocale } from "@hooks";
 import { baseUrl } from "@utils/baseUrl";
 import { Spotify } from "../Spotify";
+import { YoutubeEmbed } from "../YoutubeEmbed";
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { brands, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 type TeacherCardProps = {
   teacher: ITeacher;
@@ -36,8 +40,48 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
         {teacher.media?.spotify ? (
           <Spotify wide artistId={teacher.media.spotify} />
         ) : null}
+        {teacher.media?.youtubeVideo ? (
+          <YoutubeEmbed
+            embedId={teacher.media.youtubeVideo}
+            title={teacher.name}
+            wide
+          />
+        ) : null}
       </div>
-      <div className="teacher__links"></div>
+      {teacher.media ? (
+        <div className="teacher__links">
+          {teacher.media.website ? (
+            <Link href={teacher.media.website} target="_blank">
+              <FontAwesomeIcon icon={solid("globe")} size="2x" />
+            </Link>
+          ) : null}
+          {teacher.media.instagram ? (
+            <Link href={teacher.media.instagram} target="_blank">
+              <FontAwesomeIcon icon={brands("instagram")} size="2x" />
+            </Link>
+          ) : null}
+          {teacher.media.tiktok ? (
+            <Link href={teacher.media.tiktok} target="_blank">
+              <FontAwesomeIcon icon={brands("tiktok")} size="2x" />
+            </Link>
+          ) : null}
+          {teacher.media.soundcloud ? (
+            <Link href={teacher.media.soundcloud} target="_blank">
+              <FontAwesomeIcon icon={brands("soundcloud")} size="2x" />
+            </Link>
+          ) : null}
+          {teacher.media.youtubeChannel ? (
+            <Link href={teacher.media.youtubeChannel} target="_blank">
+              <FontAwesomeIcon icon={brands("youtube")} size="2x" />
+            </Link>
+          ) : null}
+          {teacher.media.fb ? (
+            <Link href={teacher.media.fb} target="_blank">
+              <FontAwesomeIcon icon={brands("facebook")} size="2x" />
+            </Link>
+          ) : null}
+        </div>
+      ) : null}
       <RenderMarkdown content={teacher.content} />
 
       <style jsx>{`
@@ -45,11 +89,6 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
           scroll-margin-top: 89px;
           padding: 1rem 0 2rem 0;
           border-top: 1px solid var(--color-neutral);
-
-          .img__wrapper {
-            float: left;
-            margin: 0 auto 1rem auto;
-          }
         }
 
         .teacher {
@@ -78,6 +117,13 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
               color: var(--color-neutral);
             }
           }
+
+          &__links {
+            display: flex;
+            gap: 1rem;
+            justify-content: left;
+            margin-top: 1rem;
+          }
         }
 
         .media {
@@ -85,12 +131,6 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
           gap: 1rem;
           align-items: flex-start;
           flex-wrap: wrap;
-        }
-
-        @media (min-width: 340px) {
-          section .img__wrapper {
-            margin: 0 1rem 1rem 0;
-          }
         }
       `}</style>
     </section>

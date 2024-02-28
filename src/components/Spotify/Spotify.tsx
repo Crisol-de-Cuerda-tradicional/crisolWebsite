@@ -14,7 +14,7 @@ export const Spotify = ({
   style = {},
   wide = false,
   width = wide ? undefined : 360,
-  height = 380,
+  height = 360,
   loading = "lazy",
   allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
   ...props
