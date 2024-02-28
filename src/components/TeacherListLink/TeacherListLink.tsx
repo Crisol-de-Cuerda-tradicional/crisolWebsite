@@ -24,10 +24,10 @@ export const TeacherListLink = ({
           src={baseUrl(`/images/teachers/${teacher.id}.jpg`)}
           width="123"
           height="123"
-          alt={teacher.meta.name}
+          alt={teacher.name}
         />
         <p>
-          {teacher.meta.name}
+          {teacher.name}
           {withInstrument
             ? ` - ${translations[teacher.lastInstrument][locale]}`
             : ""}
