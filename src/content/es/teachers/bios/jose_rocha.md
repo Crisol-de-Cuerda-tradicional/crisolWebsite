@@ -1,7 +1,3 @@
----
-name: José Ramón Rocha
----
-
 León 1963, calor. A Coruña 1967, lluvia.
 
 La música despierta entre guitarras de barrio y de playa. El conservatorio a los 16. Sólo algunas personas en el recuerdo, lo demás mejor olvidarlo.

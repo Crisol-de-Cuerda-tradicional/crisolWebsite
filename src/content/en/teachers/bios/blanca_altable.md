@@ -1,7 +1,3 @@
----
-name: Blanca Altable
----
-
 Blanca Altable (1984) is one of the few fiddlers in the traditional scene in Castilla. She begins her studies of classic violin at 5 years of age, but soon she devotes herself to the fiddle, since hers is a family of traditional musicians.
 
 With a particular and creative vision, she makes much of her repertoire from the dulzaina, her field work as a fiddler consisting in adapting scores for dulzaina to the fiddle. Particularly, music from the center and north of Castilla, since her grandfather, Simón Altable, was a dulzaina player, and started Blanca in the oral tradition from this region.

@@ -1,7 +1,3 @@
----
-name: Jesús Enrique "Chuchi" Cuadrado
----
-
 Jesús Enrique “Chuchi” is a big name in folk contemporary guitar world in Spain. His versatility and style have made him be one of the most precious guitar players in the Iberian Peninsula folk scene. Cofounder of Vallarna, the Buho Dinámico duo with bouzoukist Carlos Martín Aires and the awarded folk duo Blanca Altable & Chuchi⎮.
 
 As guitarist, composer or arranger he has worked with Folkfussion, A Gramalleira (recording with Goyo Yebes from Celtas Cortos), Celtas Cortos (folk cover of Retales de una Vida), Xerfa, María Salgado and Anxo Lorenzo (Galician pipes virtuoso).

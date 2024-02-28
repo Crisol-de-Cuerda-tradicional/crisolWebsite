@@ -1,7 +1,3 @@
----
-name: Jesús Enrique "Chuchi" Cuadrado
----
-
 Jesús Enrique “Chuchi” es ya una referencia en la guitarra folk contemporánea de la Península. Su versatilidad y estilo inconfundible han hecho de él uno de los guitarristas más preciados de la escena folk Peninsular. Cofundador de Vallarna, el Búho Dinámico junto a bouzoukista Carlos Martín Aires y del premiado dúo Blanca Altable & Chuchi2.
 
 ​Como guitarrista, compositor y arreglista ha trabajado con Folkfussion, A Gramalleira, grabando con Goyo Yebes de Celtas Cortos, Celtas Cortos (versión folk “Retales de una Vida”), Xerfa, María Salgado y Anxo Lorenzo (considerado mundialmente un virtuoso de la gaita).

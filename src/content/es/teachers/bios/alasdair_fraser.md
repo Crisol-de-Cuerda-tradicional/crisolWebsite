@@ -1,7 +1,3 @@
----
-name: Alasdair Fraser
----
-
 Es uno de los grandes maestros del panorama folk mundial. Nacido en Clackmannan, descubrió el fiddle con 8 años y desde entonces lo ha acompañado. En 1973 ganó el concurso de fiddle “National Mod” y después de licenciarse en físicas decidió, en 1985, dedicarse de pleno a la música.
 
 Es un intérprete de exquisita riqueza, dinamismo y delicadeza, que ha inspirado a miles de fiddlers de todo el mundo con sus trabajos discográficos, actuaciones y, durante más de 20 años, con sus “fiddle camps” en Escocia y California. Ahora también en España. Ha colaborado como compositor e intérprete para bandas sonoras de películas como Titanic, El Último Mohicano, Wyatt Earp y The Spitfire Grill.

@@ -1,7 +1,3 @@
----
-name: Diego Galaz
----
-
 Began his musical studies at the age of 6 with the composer Alejandro Yaüe and the violinist Isabel Vilá. Soon, he became involved with several bands in his native town of Burgos and starts experimenting with different musical genres (folk, blues, jazz, flamenco, pop, rock,…). In 1997 he joins the Spanish band La Cabra Mecánica.
 
 He has collaborated and recorded with many well-known musicians: Kroke, Marta Sebestyen, Kepa Junquera and many more.

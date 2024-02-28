@@ -1,5 +1,1 @@
----
-name: Galen Fraser
----
-
 Galen Fraser is an accomplished fiddle player, composer, engineer and producer from the foothills of Northern California. Best known for his modern take on Celtic traditional music, he tours with the praised Galen Fraser Quartet, Soulsha, and the Europe-based Atlantic Folk Trio. Fraser has played with renowned musicians such as Alasdair Fraser, Natalie & Brittany Haas, Martin Melendez (of the Aupa Quartet), Hanneke Cassel, and Colin Cotter. He has performed at The Mandavi Centre, The Palace of Fine Arts, Symphony Hall in Boston, Ma, with members of the Boston Symphony Orchestra, and many other esteemed venues in the United States and Europe. With a love for improvisation and composition, Galen’s passion led him to pursue music as a career, earning his Bachelor’s Degree in Songwriting from Berklee College of Music. In August 2016, Galen released his debut solo album, “Mischief Managed” featuring all original fiddle music and songs with guests such as Natalie Haas, Alasdair Fraser, Jenna Moynihan and Conor Hearn.

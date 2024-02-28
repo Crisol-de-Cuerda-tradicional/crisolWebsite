@@ -1,7 +1,3 @@
----
-name: Paula Gómez
----
-
 Segoviana, apasionada de la música, la tradición y la diversidad cultural. En los últimos años, asombrada por la pedagogía y la posibilidad que le otorga como herramienta para trasmitir.
 
 Comienza sus estudios en el conservatorio profesional de Segovia, pero no es hasta que conoce a Blanca Altable, violinista castellana y acude a Crisol de Cuerda, que encuentra su camino en la música. Más tarde, amplía su formación en armonía, improvisación y composición en la escuela de Música Creativa de Madrid y los cursos de ESMUC en Barcelona, continuando este camino junto a Vanesa Muela y Cristina Pérez Tejera, con las que aprende percusión tradicional castellana.

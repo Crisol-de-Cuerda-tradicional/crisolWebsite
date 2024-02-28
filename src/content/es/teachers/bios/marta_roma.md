@@ -1,7 +1,3 @@
----
-name: Marta Roma
----
-
 Maravillosa y versátil chelista y cantante de Barcelona, con un bagaje y experiencia multifacéticos en música y arte. Marta ha desarrollado su propio enfoque creativo con la improvisación y cantando diferentes géneros musicales, estilos y culturas. Ha actuado con grandes artistas como Gary Burton, Alejandro Sanz, Dream Theater, Susana Baca, A.R Rahman y muchos más.
 
 Marta ha realizado giras por todo el mundo y ha actuado y ofrecido talleres y master clases en países como España, México, Colombia, Cuba, Brasil, EEUU, Japón, Filipinas y la República Dominicana.

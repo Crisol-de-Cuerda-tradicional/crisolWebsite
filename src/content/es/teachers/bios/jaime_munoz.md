@@ -1,7 +1,3 @@
----
-name: Jaime Muñóz
----
-
 Músico multi-instrumentista especializado en sonidos étnicos y medievales. Aprende a tocar flautas tradicionales y acordeón diatónico de manera autodidacta acudiendo posteriormente a diversos cursos y talleres de especialización: seminario de flauta travesera de madera impartido por Jean-Michael Veillon en Bretaña; curso de acordeón vasco impartido por Kepa Junkera en La Coruña; seminario de acordeón diatónico en Lyon, Francia; seminario de Kaval (flauta búlgara) en Pamporovo, Bulgaria; clases de clarinete estilo búlgaro e oriental con Ivo Hristov, seminarios en La Escuela de Música Creativa y el Taller de músicos de Madrid.
 
 Es miembro fundador del grupo de música tradicional contemporánea “La Musgaña”, con quien ha grabado ocho discos y realizado giras y conciertos durante los últimos 28 años en: Estados Unidos, Canadá, Marruecos, Argelia, Alemania, Italia, Francia, Eslovenia, Irlanda, Hungría, Inglaterra, Serbia, Suecia, India, Finlandia, Túnez, México, Grecia y gran parte de la geografía española.

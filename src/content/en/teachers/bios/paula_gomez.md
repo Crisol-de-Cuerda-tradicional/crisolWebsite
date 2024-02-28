@@ -1,7 +1,3 @@
----
-name: Paula Gómez
----
-
 From Segovia, passionate about music, tradition and cultural diversity. Over the last few years, she’s been amazed by teaching and its capacity to transfer much more than just notes.
 
 She begins her musical studies in conservatorio profesional de Segovia, but she doesn’t find her true passion in music until she meets Blanca Altable and attends Crisol de Cuerda. Later on, she expands her knowledge of harmony, improvisation and composition in Música Creativa de Madrid and ESMUC in Barcelona. Following the same steps as Vanesa Muela and Cristina Pérez Tejera, she studies traditional percussion from Castilla.

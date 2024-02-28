@@ -1,7 +1,3 @@
----
-name: José Ramón Rocha
----
-
 León, 1963, it’s hot there. A Coruña 1967, it's wet there.
 
 Music awakens amongst guitars in his neighborhood and the beach. At 16, the conservatory. Very few people worth remembering from this era.

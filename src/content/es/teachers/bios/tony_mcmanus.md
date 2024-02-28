@@ -1,7 +1,3 @@
----
-name: Tony McManus
----
-
 Tony McManus nació en 1965 en Paisley, Escocia, en una familia de fuertes raíces irlandesas.
 
 Las clases de violín que recibía en el colegio le llevaron a coger la mandolina, y más tarde, a los 10 años, la guitarra. Desde esa edad la música tradicional le cautivó al escucharla en casa, en grabaciones o en la radio.

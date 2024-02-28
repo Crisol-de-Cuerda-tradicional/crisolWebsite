@@ -1,5 +1,1 @@
----
-name: Louise Mulcahy
----
-
 Louise Mulcahy es una de las instrumentistas con más talento de la escena musical irlandesa. Louise tiene fama internacional como flautista, pero también es conocida como intérprete de gaita irlandesa (uilleann pipe) y whistle. Es miembro de la familia Mulcahy, que se precia en ser una de las principales familias en cuanto a defensa de la tradición irlandesa. Ha grabado 4 álbumes con su padre Mick y hermana Michelle y en 2014 publicó su primer album en solitario (Tuning the Road) que fué aclamado por la crítica (Bill Margeson – “un album maravilloso interpretado por una músico verdaderamente fantástica”). Ha realizado extensas giras por todo el mundo, incluyendo actuaciones en Asia, Nueva Zelanda, Australia, Europa, América y Canadá. Louise fué votada Artista Femenina del Año en en los Ireland Awards de 2017 y, junto con su padre y hermana, recibió el prestigioso premio Album del Año Tradconnect en 2017 por el album ‘The Reel Note’. Louise es contributora habitual de programas musicales tanto irlandeses como internacionales en televisión y radio.

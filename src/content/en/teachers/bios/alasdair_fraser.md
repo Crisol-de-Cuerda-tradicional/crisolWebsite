@@ -1,7 +1,3 @@
----
-name: Alasdair Fraser
----
-
 Is one of the great masters of Scottish folk music. Born in Clackmannan, he discovered the fiddle at age 8, and it has accompanied him ever since. In 1973 he won the “National Mod” fiddle competition, and after graduating from university with a degree in physics he decided in 1985 to dedicate his life to music.
 
 He is an exquisite performer, both dynamic and delicate, who has inspired millions of fiddlers around the world with his albums, performances and, for more than 20 years, his fiddle camps in Scotland and California. Now also in Spain.

@@ -1,6 +1,6 @@
 import { IContent } from '@utils/getContent';
 
-export interface ITeacher extends IContent<{ name: string; picture: string }> {
+export interface ITeacher extends IContent<undefined> {
   id: string;
   lastInstrument: string;
   instruments: string[];

@@ -1,5 +1,1 @@
----
-name: Galen Fraser
----
-
 Galen Fraser es Fiddler (violinista) y compositor nacido en el Norte de California. Ha heredado todo el conocimiento del folk escocés y americano de su familia, que durante generaciones ha llevado el folk al más alto nivel. Su pasión por cantar y componer le condujeron a estudiar “songwriting” (composición) en la Universidad de Berklee (Boston). Ha tocado junto con grandes iconos del folk como Alasdair Fraser, Nathalie Haas, Brittany Haas, Hanneke Cassel… En el último año ha debutado con su nuevo álbum “Mischief Managed” en los festival internacionales de música celta en Glasgow “Celtic Connections” y en el “California World Music Festival”. Actualmente reside en Valladolid donde estudia la tradición musical y cultural del norte de España y es miembro del grupo “Atlantic Folk Trio”. En los Estados Unidos sigue con su proyecto “Galen Fraser Quartet” a la vez que experimenta la fusión de estilos africanos, celtas y funkis con la banda “Soulsha”.
