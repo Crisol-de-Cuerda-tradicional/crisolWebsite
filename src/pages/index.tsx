@@ -71,8 +71,8 @@ const Home: NextPage<IHomeProps> = ({
           </div>
 
           <div className="hero__registration">
-            {config.displayRegistrationCaptcha ? (
-              <h2>{indexConfig.registrationCaptcha[locale]}</h2>
+            {config.displayRegistrationSlogan ? (
+              <h2>{indexConfig.registrationSlogan[locale]}</h2>
             ) : null}
             {config.displayRegistrationCTA ? (
               <Link href={config.registrationLink} target="_blank">

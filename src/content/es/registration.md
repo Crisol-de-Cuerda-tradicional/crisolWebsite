@@ -3,102 +3,66 @@ title: Inscripciones
 hero: support.jpeg
 ---
 
-### CÓMO INSCRIBIRSE
+## Precios
+El precio para la matrícula general será de **{{ price }}€**, incluyendo la reserva de plaza, alojamiento, comida y las clases durante toda la semana.
 
-- Rellena el formulario en “[INSCRIPCIÓN](https://crisol.lobber.eu)” y ve siguiendo las instrucciones que se presentan, lee atentamente las explicaciones, y haz click en ENVIAR. Es imprescindible la aceptación del documento de exención de responsabilidades por todos los asistentes y, en el caso de los menores de edad, por su padre/madre/tutor legal.
-- Precios: tienes toda la información [AQUI](#precios)
-- No realices ningún pago hasta que recibas nuestro primer correo de confirmación de matrícula.
-- A partir de nuestro primer correo de confirmación, tienes 1 semanas para pagar los primeros 60€ (del total del importe de la matrícula), en concepto de depósito, y no serán reembolsables.
-- El resto del pago pendiente deberá ser efectuado antes del 1 de Mayo (en caso de cancelación por parte del participante después de esta fecha, se perderá el 80% del importe del curso).
-- Si el participante así lo desea, puede pagar el importe completo del curso en un único pago, siendo 60€ no reembolsables, y el resto reembolsable hasta el 1 de Mayo, fecha tras la cual se perdería el 80% del importe del curso.
-- Una vez abonado el importe del curso, cualquier cancelación por parte del participante supondrá la perdida del 80% del importe de la inscripción.
-- Modos de pago: actualmente solo aceptamos transferencia bancaria para todos los residentes en la Union Europea. Estos son nuestros datos bancarios:
-  - IBAN: ES42 2100 1532 7422 0003 0236
-  - SWIFT: CAIXESBBXXX
-  - DIRECCION de la oficina: 1529-Burgos-Hacienda- calle Vitoria, 56 – Burgos – Spain
-- Muy importante: No olvides poner el nombre completo del alumno en el CONCEPTO de la transferencia para que podamos efectuar el registro completo.
-- Si vienes desde fuera de la Union Europea, ponte en contacto con nosotros inscripciones@crisoldecuerda.com, para conocer las opciones de pago. Existe la posibilidad de hacer pagos en metálico.
-- En el caso de los menores de 18 que vayan sin acompañante adulto, su padre/madre/tutor legal debe rellenar, imprimir, firmar y enviarnos una autorización de asistencia. Podrás descargar un modelo durante el proceso de inscripción.
-- Una vez llevado a cabo este proceso, la organización de Crisol de Cuerda se pondrá en contacto contigo para confirmarte que la matrícula se ha llevado a cabo correctamente, y darte información adicional sobre el curso.
-  Ya sabes que puedes contactarnos AQUI, si tienes cualquier duda.
+## Proceso de inscripción
+- Rellena el formulario de {{{ registrationLink }}} y ve siguiendo las instrucciones que se presentan, lee atentamente las explicaciones, y haz click en ENVIAR. Es imprescindible la aceptación del documento de exención de responsabilidades por todos los asistentes y, en el caso de los menores de edad, por su padre/madre/tutor legal. No realices ningún pago hasta que recibas nuestro primer correo de confirmación de matrícula.
+- A partir de nuestro primer correo de confirmación, tienes 1 semana para pagar los primeros {{ bookingFee }}€ (del total del importe de la matrícula) en concepto de reserva. El resto del pago pendiente deberá ser efectuado antes del {{ endOfEarlyRegistrationDate }}. También es posible pagar el importe completo del curso en un único pago. *Si el participante ha solicitado la beca de Crisol, deberá esperar a la resolución de la misma para abonar el importe de la matrícula.
+- Los participantes que se inscriban después del {{ endOfEarlyRegistrationDate }} deberán abonar el importe total de la matrícula en un plazo de 1 semana desde la emisión del correo de confirmación de plaza.
+- Una vez llevado a cabo este proceso, la organización de Crisol de Cuerda se pondrá en contacto contigo para confirmarte que la matrícula se ha llevado a cabo correctamente y darte información adicional sobre el curso.
 
-### PRECIOS
+\* Cancelaciones: el importe de la reserva ({{ bookingFee }}€) en ningún caso será reembolsado. De no abonar la reserva en los plazos establecidos, la organización cancelará dicha inscripción y se perderá su derecho a plaza. En caso de cancelación por parte del participante después de haber abonado el importe total del curso (después del {{ endOfEarlyRegistrationDate }}), se perderá lo correspondiente al {{ refundLimit }}% del total de la matrícula ({{ registrationRemainder }}€).
 
-| <!-- -->                                                                 | <!-- -->          |
-| ------------------------------------------------------------------------ | ----------------- |
-| PRECIO TOTAL PARA VIOLÍN, CELLO, GUITARRA, FLAUTA                        |                   |
-| Precio de matrícula                                                      | 600 €             |
-| Descuento por matrícula temprana \*                                      | 5% descuento \*\* |
-| Menores de 18 años, estudiantes universitarios, desempleados y jubilados | 5% descuento \*\* |
-| Reserva de plaza                                                         | 60 € \*\*\*       |
+## Métodos de pago
+Actualmente solo aceptamos transferencia bancaria para todos los residentes en la Unión Europea. Si vienes desde fuera de la Unión Europea, ponte en contacto con nosotros en inscripciones@crisoldecuerda.com para conocer las opciones de pago.
 
-\* El descuento por matrícula temprana se aplicará automáticamente a todos los alumnos matriculados antes del 3 de Abril
+Estos son nuestros datos bancarios:
 
-\*\* Descuentos acumulables.
+- IBAN:    ES42 2100 1532 7422 0003 0236
+- SWIFT: CAIXESBBXXX
+- Dirección de la oficina: 1529-Burgos-Hacienda- calle Vitoria, 56 – Burgos – Spain
 
-\*\*\* La reserva de plaza supone la garantía de una plaza. Este importe (60 €) se descontará del precio total. Si el solicitante decide no matricularse, dicha cantidad no será reembolsada.
+**Muy importante**: No olvides poner el nombre completo del alumno en el CONCEPTO de la transferencia para que podamos efectuar el registro completo.
 
-_Nota_: El precio total de la matrícula incluye la reserva de plaza, alojamiento, comida y las clases.
+## Menores de edad
+En Crisol de Cuerda no existe una restricción de edad para nuestros participantes, por lo que los alumnos menores de edad pueden inscribirse teniendo en cuenta las siguientes condiciones:
 
-### PROGRAMA AUTOGESTIONADO DE BECAS
+- Desde 14 a 17 años: sus padres/madres o tutores legales deberán firmar y enviarnos una autorización por la cual los alumnos se comprometen, entre otras cuestiones, a participar en todas las actividades del campamento y no abandonar los límites del albergue a menos que vaya acompañado de un adulto responsable. Toda acción que no se corresponda con las normas o valores del campamento quedará bajo la responsabilidad de sus padres o tutores legales. Podrás descargar un modelo durante el proceso de inscripción y en el siguiente enlace. Además, se deberá adjuntar una copia del DNI del tutor y la tarjeta sanitaria del alumno.
+  - {{{ underageAuthorisation }}}
+- Menores de 14 años: deberán ir acompañados por su padre/madre o tutor legal durante el transcurso de la semana, que deberá estar inscritos al curso. En caso de no poder asistir al curso como participante, podrá delegar la tutoría del menor a otro participante mediante el documento de autorización de menores. De no cumplir estas condiciones, la inscripción del menor será cancelada y se devolverá el importe íntegro de la matrícula del participante. Ponte en contacto con nosotros si deseas más información.
+  - {{{ under14Authorisation }}}
+  - {{{ acceptanceOfGuardianship }}}
 
-#### CRISOL DE CUERDA – GRANJA ESCUELA ARLANZÓN
+Está estrictamente prohibido el consumo de drogas para todos los participantes y el consumo de alcohol a los menores de 18 años durante el desarrollo del curso. El incumplimiento de esta norma constituirá causa suficiente de expulsión del curso sin que ello dé derecho a reembolso de cantidad alguna.
 
-La Asociación Crisol de Cuerda Tradicional, entidad sin ánimo de lucro, y la Granja Escuela Arlanzón ofrecen en esta edición del Fiddle Camp Crisol de Cuerda un programa autogestionado de becas para poder ayudar, en la medida de lo posible, a aquellas personas con mayor dificultad económica.
+## Programa autogestionado de becas
+La Asociación Crisol de Cuerda Tradicional, entidad sin ánimo de lucro, ofrece un programa autogestionado de becas para poder ayudar, en la medida de lo posible, a aquellas personas con mayor dificultad económica.
 
-#### CONSIDERACIONES GENERALES
+Las becas consisten en un descuento de un {{ scholarshipDiscount }}% sobre el coste total del curso. Están dirigidas a aquellas personas que por falta de recursos económicos les suponga un sacrificio económico excesivo el pago de las tarifas del curso, especialmente a estudiantes emancipados, desempleados, o trabajadores de rentas bajas. También se valorarán los casos fuera de estos siempre que atestigüen mediante la documentación precisa su situación de precariedad económica. En cualquiera de los supuestos es necesario aportar la documentación necesaria para acreditar la situación económica descrita por el solicitante.
 
-Las becas están dirigidas a personas que por falta de recursos económicos no puedan permitirse (o suponga un sacrificio económico excesivo) el pago de las tarifas del curso. Principalmente dirigidas a estudiantes emancipados, desempleados, o trabajadores de rentas bajas. Sin embargo, se valorarán también los casos fuera de éstos siempre que atestigüen mediante la documentación precisa su situación de precariedad económica. Se tendrá también en cuenta la situación de familia numerosa y el número de personas al cargo. En cualquiera de los supuestos es necesario aportar la documentación necesaria para acreditar la situación económica descrita por el solicitante.
+La concesión de la beca conlleva una implicación especial por parte del becado durante la semana, que ayudará a la organización en tareas concretas para el buen funcionamiento del campamento. Se designarán al inicio de la semana y pueden suponer el ayudar al montaje del comedor, la limpieza de espacios comunes, etc.
 
-Aunque se solicite la beca, es necesario realizar la reserva de plaza como cualquier otro participante, y especificar en el formulario que se tiene intención de solicitar una beca. En caso de no ser seleccionado/a, la organización realizará la devolución de los 60€ de la reserva al participante si este decide no seguir adelante con su inscripción.
-
-Los datos del solicitante serán siempre verídicos. Por su parte, la Asociación Crisol de Cuerda Tradicional, se compromete a preservar el carácter privado de los datos, así como no hacer uso de esos datos más que para la valoración de concesión de la beca.
-
-Tendrá gran peso para la concesión de la beca, la exposición en la Carta de Motivación donde se expondrá por qué se desea acudir al curso. Insistimos: una carta no son dos líneas. Por favor, intentad transmitirnos vuestro entusiasmo por vivir la experiencia.
-
-Si la organización detecta cierta dejadez en cumplimentar este apartado podría contemplar la posibilidad de que las becas queden desiertas.
-
-La Asociación se reserva la posibilidad de ofrecer otras ayudas/colaboración, cuando así lo considere
-
-#### BECAS DE AYUDA
-
-- Consistente en un descuento de un 25% sobre el coste total del curso.
-- Este descuento no será acumulable con otros. El cálculo del precio siempre se efectuará respecto al precio total del curso.
-- La concesión de estas becas conlleva una implicación especial durante la semana por parte del becado que ayudará a la organización en tareas concretas para el buen funcionamiento de Crisol de Cuerda.
-
-#### DOCUMENTACIÓN A PRESENTAR
-
+### Documentación a presentar
 - Fotocopia del D.N.I.
 - Documentación suficiente para demostrar la situación económica particular por la que se solicita la beca: certificado de IRPF, documento de la aprobación de prestación por desempleo, etc.
-- Documento que demuestre la distancia a recorrer: factura de luz, teléfono, empadronamiento, etc.
+- Documento que demuestre la distancia a recorrer: factura de luz, teléfono, empadronamiento, etc. Cada caso será tratado de manera personal y confidencial.
 - Curriculum Vitae o exposición que demuestre la trayectoria e interés en el instrumento. No se harán distinciones positivas entre profesionales o aficionados.
-- Carta de motivación donde se explique por qué se solicita la ayuda y por qué se desea acudir al curso. Por favor, pon especial cuidado en este punto. Es importante e imprescindible que nos transmitas tus motivaciones para venir a Crisol y razones para pedir beca. Necesitamos ver tu interés en el documento.
+- Carta de motivación donde se explique por qué se solicita la ayuda y por qué se desea acudir al curso. Por favor, pon especial cuidado en este punto. Es importante e imprescindible que nos transmitas tus motivaciones para venir a Crisol y razones para pedir beca. Insistimos: una carta no son dos líneas. Por favor, intentad transmitirnos vuestro entusiasmo por vivir la experiencia.
 
-#### CÓMO Y DÓNDE SE SOLICITAN
+### Presentación de la solicitud
+El aspirante solicitará la beca por correo electrónico a inscripciones@crisoldecuerda.com, adjuntando la documentación requerida. Aunque se solicite la beca, es necesario realizar la reserva de plaza como cualquier otro participante y los {{ bookingFee }}€ iniciales, además de especificar en el formulario que se tiene intención de solicitar una beca.
 
-El aspirante solicitará la beca por correo electrónico a [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com), adjuntando la documentación requerida (descrita más arriba).
+El plazo de presentación de la documentación finaliza el {{ scholarshipLimitDate }}. Después de esta fecha, enviaremos un correo a los solicitantes con la confirmación o desestimación de las solicitudes.
 
-#### PLAZO DE SOLICITUD
-
-El plazo para presentación de proyectos y documentación finaliza el 10 de Abril.
-
-#### RESOLUCIÓN DE LAS BECAS
-
-El nombre de los becados/as se dará a conocer el 15 de Abril.
-
-### CONDICIONES DEL CURSO
-
+### Condiciones generales
 - El pago de matrícula incluye la reserva de plaza; el alojamiento con desayuno, comida y cena; el curso completo (clases, talleres) y los gastos de gestión. Pueden surgir actividades voluntarias adicionales que correrán por cuenta de los participantes del curso.
 - La organización Crisol de Cuerda no provee el transporte al curso, aunque facilitará medios para que los participantes puedan ponerse en contacto y compartir transporte, reduciendo así su coste.
 - El alojamiento será en habitaciones compartidas. Si deseas otras opciones ponte en contacto con nosotros.
 - Los participantes se respetarán en todo momento.
 - La organización Crisol de Cuerda se reserva el derecho de admisión al curso o de expulsión del mismo a toda persona cuyo comportamiento no respete las normas mínimas de convivencia, o pueda claramente suponer un peligro potencial para otros participantes o para el buen funcionamiento del curso.
-- Está estrictamente prohibido el consumo de drogas para todos los participantes, y el consumo de alcohol a los menores de 18 años, durante el desarrollo del curso. El incumplimiento de esta norma constituirá causa suficiente de expulsión del curso sin que ello dé derecho a reembolso de cantidad alguna.
-- Los menores de 14 años deberán ir acompañados del padre/madre o tutor legal. En tal caso, el acompañante debe pagar su alojamiento como “acompañante”, que incluye únicamente el alojamiento y la comida. En caso de no haber espacio suficiente en el albergue y que no se pueda/quiera delegar la tutoría del menor a otro participante mediante el documento de autorización de menores, la inscripción del menor será cancelada y se devolverá el importe íntegro de la matrícula del participante.
-- La organización proveerá de monitores específicos para el cuidado de menores (siempre que haya una demanda mínima de 3 niños).
-- La organización Crisol de Cuerda no se responsabiliza de los daños físicos que puedan sufrir los participantes dentro o fuera de las instalaciones donde se lleva a cabo el curso, como tampoco de las pérdidas, robos o daños que pudieran sufrir las propiedades personales, incluídos los instrumentos, si bien en todo momento se intentará velar por la seguridad de los asistentes.
+- La organización Crisol de Cuerda no se responsabiliza de los daños físicos que puedan sufrir los participantes dentro o fuera de las instalaciones donde se lleva a cabo el curso, como tampoco de las pérdidas, robos o daños que pudieran sufrir las propiedades personales, incluidos los instrumentos, si bien en todo momento se intentará velar por la seguridad de los asistentes.
 - Las clases y talleres se impartirán en inglés y/o en castellano dependiendo del profesor que las imparta. La organización no contará con traductores, aunque tradicionalmente tanto profesores como asistentes colaboran para lograr un buen entendimiento.
-- No olvides darle un repaso a la sección “¿Qué Es Crisol? – Las Clases”, para obtener más información sobre las clases.
-- Durante la semana se harán fotografías y algunas grabaciones de video y audio que podrán ser empleadas para difundir el evento en posteriores ediciones, así como en la elaboración de una memoria ilustrativa.
+- Durante la semana se harán fotografías y algunas grabaciones de video y audio que podrán ser empleadas para difundir el evento en posteriores ediciones, así como en la elaboración de una memoria ilustrativa. La inscripción a Crisol de Cuerda implica la cesion de tus derechos de imagen para esta finalidad.
 
 <u>Con la formalización de la matrícula, el participante acepta automáticamente las condiciones del curso Crisol de Cuerda Tradicional arriba expuestas.</u>

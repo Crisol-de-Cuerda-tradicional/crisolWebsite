@@ -1,31 +1,38 @@
-import { GetStaticProps, NextPage } from 'next';
-import Link from 'next/link';
+import { GetStaticProps, NextPage } from "next";
+import Link from "next/link";
 
-import { ContentLayout, Hero, RenderMarkdown } from '@components';
-import crisolBook from '@config/crisolBookIndex.yml';
-import translations, { Language } from '@config/translations.yml';
-import { getContent, IContent } from '@utils/getContent';
-import dayjs from 'dayjs';
-import { useRouter } from 'next/router';
+import { ContentLayout, Hero, RenderMarkdown } from "@components";
+import crisolBook from "@config/crisolBookIndex.yml";
+import translations from "@config/translations.yml";
+import { getContent, IContent } from "@utils/getContent";
+import dayjs from "dayjs";
+import { useLocale } from "@hooks";
 
 interface ICrisolBookProps {
-  crisolBookPage: IContent<{ title: string; hero: string; downloadLink: string }>;
+  crisolBookPage: IContent<{
+    title: string;
+    hero: string;
+    downloadLink: string;
+  }>;
 }
 
 const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
-  const router = useRouter();
-  const locale = (router.locale ?? 'es') as Language;
+  const locale = useLocale();
 
   return (
     <>
-      <Hero background={crisolBookPage.meta.hero} pageTitle={crisolBookPage.meta.title} />
+      <Hero
+        background={crisolBookPage.meta.hero}
+        pageTitle={crisolBookPage.meta.title}
+      />
       <ContentLayout>
         <RenderMarkdown content={crisolBookPage.content} />
         <Link href={crisolBook.downloadLink} className="download__btn" download>
           {translations.download_crisol_book[locale]}
         </Link>
         <p>
-          {translations.last_update[locale]}: {dayjs(crisolBook.lastUpdated).format('ll')}
+          {translations.last_update[locale]}:{" "}
+          {dayjs(crisolBook.lastUpdated).format("ll")}
         </p>
         <section>
           <h2>{translations.crisol_book_index[locale]}:</h2>
@@ -33,12 +40,16 @@ const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
             {crisolBook.index.map((tune, i) => (
               <li key={`${tune.title}-${i}`} className="index__tune">
                 <div className="tune__title">
-                  <b>{tune.title}</b> -{' '}
+                  <b>{tune.title}</b> -{" "}
                   <em>
-                    {tune.author === 'traditional' ? translations.traditional[locale] : tune.author}
+                    {tune.author === "traditional"
+                      ? translations.traditional[locale]
+                      : tune.author}
                   </em>
                 </div>
-                <div className="tune__origin">{translations[tune.origin][locale]}</div>
+                <div className="tune__origin">
+                  {translations[tune.origin][locale]}
+                </div>
               </li>
             ))}
           </ul>
@@ -90,7 +101,7 @@ const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
 export default CrisolBook;
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const crisolBookPage = await getContent(locale ?? 'es', 'about/crisol_book');
+  const crisolBookPage = await getContent(locale ?? "es", "about/crisol_book");
   return {
     props: {
       crisolBookPage,

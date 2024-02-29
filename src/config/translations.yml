@@ -130,3 +130,15 @@ teachers:
 all:
   en: All
   es: Todos
+registration:
+  en: Registration
+  es: Inscripción
+underage_authorisation:
+  en: Authorisation for underage students (older than 14yo)
+  es: Autorización menores de edad (mayores de 14 años)
+under_14_authorisation:
+  en: Authorisation for students under 14yo (signed by the legal guardian)
+  es: Autorización menores de 14 años (por parte del tutor)
+acceptance_of_guardianship:
+  en: Acceptance of guardianship (signed by the designated tutor)
+  es: Aceptación de la tutela (por parte del tutor designado)

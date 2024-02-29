@@ -4,7 +4,18 @@ nameShort: Crisol
 startDate: 2024-07-28
 endDate: 2024-08-04
 
-displayRegistrationCaptcha: true
+registration:
+  coursePrice: 675
+  bookingFee: 60
+  refundLimit: 80 # percentage
+  endOfEarlyRegistrationDate: 2024-05-01
+  underageAuthorisationFile: /docs/underage_authorisation.pdf
+  under14AuthorisationFile: /docs/under14_authorisation.pdf
+  acceptanceOfGuardianshipFile: /docs/acceptance_of_guardianship.pdf
+  scholarshipDiscount: 25 # percentage
+  scholarshipLimitDate: 2024-04-10
+
+displayRegistrationSlogan: true
 displayRegistrationCTA: false
 registrationLink: https://crisol.lobber.eu/
 

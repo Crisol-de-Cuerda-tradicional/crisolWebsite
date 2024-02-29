@@ -6,11 +6,22 @@ declare module '*config.yml' {
     nameShort: string;
     startDate: Date;
     endDate: Date;
-    displayRegistrationCaptcha: boolean;
+    displayRegistrationSlogan: boolean;
     displayRegistrationCTA: boolean;
     registrationLink: string;
     pendingTeachers: boolean;
     newsletterLink: string;
+    registration: {
+      coursePrice: number;
+      bookingFee: number;
+      refundLimit: number;
+      endOfEarlyRegistrationDate: Date;
+      underageAuthorisationFile: string;
+      under14AuthorisationFile: string;
+      acceptanceOfGuardianshipFile: string;
+      scholarshipDiscount: number;
+      scholarshipLimitDate: Date;
+    };
     socialMedia: {
       instagram: string;
       facebook: string;
@@ -90,7 +101,7 @@ declare module '*indexPage.yml' {
   interface InfoSection extends Omit<AboutLink, 'img'> {}
 
   interface IndexPageConfig {
-    registrationCaptcha: Translation;
+    registrationSlogan: Translation;
     registrationCta: Translation;
     knowMoreButton: Translation;
     aboutLinks: AboutLink[];
