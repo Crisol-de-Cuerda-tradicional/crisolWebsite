@@ -18,6 +18,7 @@ jobs:
           username: ${{ secrets.DEPLOY_USERNAME }}
           key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
           port: ${{ secrets.DEPLOY_PORT }}
+          command_timeout: 20m
           script: |
             cd /var/www/crisolWebsite
 
