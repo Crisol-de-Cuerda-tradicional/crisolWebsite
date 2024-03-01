@@ -22,12 +22,14 @@ It is strongly suggested to bring a recording device in order to record the less
 
 They will happen in the mornings, with breaks. Your choices of instrument are:
 
-- Violin for Beginners (Fiddle): these lessons are focused on attendants with few or no experience playing the instrument. This group will have a dedicated teacher with years of experience
-- Attendants with some experience: For each instrument there will be several teachers that will rotate between different levels. The available instruments are:
-  - Violin (Fiddle)
-  - Cello
-  - Guitar
-  - Flute. These classes will be taught on a wooden flute tuned in D. In order to make the best out of the lessons, we recommend you to have either a chromatic flute or one tuned in D (lower octave)
+- Violin for Beginners (Fiddle): these lessons are focused on students with few or no experience playing the instrument. This group will have a dedicated teacher with years of experience.
+- Students with some experience: For each instrument there will be several teachers who will rotate between different levels. The available instruments are:
+
+  - Violín (Fiddle): We offer **3 levels** of fiddle that range from **intermediate to advanced**.
+  - Cello: We offer **2 levels** of cello (**intermediate and advanced**). For the intermediate level, students are expected to have mastery of **1st to 4th position** and a certain ease in interpretation.
+  - Guitar: We offer **2 levels** of guitar (**intermediate and advanced**). For the intermediate level, mastery of chord placement and ease in basic transitions is required, as well as a certain fluency with the pick (rhythms and picking).
+  - Flute: We offer **2 levels** of flute (**intermediate and advanced**). For the intermediate level, mastery of basic embouchure and airflow technique is required, allowing for good stability in sound and mastery of D major and G major positions.
+  - Bouzouki: We offer **a single advanced level** of bouzouki. Mastery of basic bouzouki or acoustic guitar technique is required. Knowledge of basic chords and their transitions, as well as a good mastery of pick technique (rhythmic patterns and picking).
 
 ---
 
