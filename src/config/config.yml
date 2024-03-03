@@ -9,15 +9,15 @@ registration:
   bookingFee: 60
   refundLimit: 80 # percentage
   endOfEarlyRegistrationDate: 2024-05-01
-  underageAuthorisationFile: /docs/underage_authorisation.pdf
-  under14AuthorisationFile: /docs/under14_authorisation.pdf
-  acceptanceOfGuardianshipFile: /docs/acceptance_of_guardianship.pdf
+  underageAuthorisationFile: /docs/over-14-authorisation.pdf
+  under14AuthorisationFile: /docs/under-14-authorisation.pdf
+  acceptanceOfGuardianshipFile: /docs/under-14-acceptance-of-guardianship.pdf
   scholarshipDiscount: 25 # percentage
   scholarshipLimitDate: 2024-04-10
 
 displayRegistrationSlogan: true
 displayRegistrationCTA: false
-registrationLink: https://crisol.lobber.eu/
+registrationLink: https://inscripciones.crisoldecuerda.com
 
 pendingTeachers: true
 

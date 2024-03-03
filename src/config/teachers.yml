@@ -3,6 +3,17 @@ teachers:
     lastInstrument: guitar
     instruments:
       - guitar
+    media:
+      # bandcamp:
+      # fb:
+      # instagram:
+      # soundcloud:
+      # spotify:
+      # tiktok:
+      # twitter:
+      # website:
+      # youtubeChannel:
+      # youtubeVideo:
     name: Adam Johannson
     years:
       - 2019
@@ -13,14 +24,16 @@ teachers:
     instruments:
       - fiddle
     media:
-      spotify: 1SEfFbNsLpiSaaSfnEObpj
-      instagram: https://www.instagram.com/drivenbow
-      website: https://alasdairfraser.com
+      # bandcamp:
       fb: https://www.facebook.com/profile.php?id=100063504522623
-      tiktok: https://www.tiktok.com/tag/alasdairfraser
+      instagram: https://www.instagram.com/drivenbow
       soundcloud: https://soundcloud.com/alasdair-fraser-official
-      youtubeVideo: ct5s0HC84ts
+      spotify: 1SEfFbNsLpiSaaSfnEObpj
+      # tiktok:
+      # twitter:
+      website: https://alasdairfraser.com
       youtubeChannel: https://www.youtube.com/channel/UCadEjme5oZuy7-tbEsVXImg
+      # youtubeVideo:
     name: Alasdair Fraser
     years:
       - 2008
@@ -43,6 +56,17 @@ teachers:
     lastInstrument: bouzouki
     instruments:
       - bouzouki
+    media:
+      # bandcamp:
+      # fb:
+      # instagram:
+      # soundcloud:
+      # spotify:
+      # tiktok:
+      twitter: https://twitter.com/folkenlared
+      # website:
+      youtubeChannel: https://www.youtube.com/@AlbertoAblanedo
+      # youtubeVideo:
     name: Alberto Ablanedo
     years:
       - 2022
@@ -51,6 +75,17 @@ teachers:
     lastInstrument: cello
     instruments:
       - cello
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/alecbrownmusic
+      # soundcloud:
+      spotify: 6WhBlm6n1SD7qhNUZc3uEC
+      # tiktok:
+      twitter: https://twitter.com/alecbrownmusic
+      # website:
+      # youtubeChannel:
+      # youtubeVideo:
     name: Alec Brown
     years:
       - 2023
@@ -59,6 +94,17 @@ teachers:
     lastInstrument: voice
     instruments:
       - voice
+    media:
+      bandcamp: https://anarossi.bandcamp.com
+      # fb:
+      instagram: https://www.instagram.com/anarossiarias/
+      # soundcloud:
+      spotify: 5YiYxfGOBBuY3L5x69dbRQ
+      # tiktok:
+      # twitter:
+      website: https://anarossi.es/
+      youtubeChannel: https://www.youtube.com/channel/UCCoCAnAsCVf-4kLPrViXtPg
+      # youtubeVideo:
     name: Ana Rossi
     years:
       - 2015
@@ -73,6 +119,17 @@ teachers:
     lastInstrument: fiddle
     instruments:
       - fiddle
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/hallfiddle
+      # soundcloud:
+      spotify: 0mCL7mlDB7zRLL13b0fM3q
+      # tiktok:
+      # twitter:
+      website: https://www.thenordicfiddlersbloc.com/
+      # youtubeChannel:
+      # youtubeVideo:
     name: Anders Hall
     years:
       - 2018
@@ -82,6 +139,17 @@ teachers:
     lastInstrument: fiddle
     instruments:
       - fiddle
+    media:
+      # bandcamp:
+      # fb:
+      # instagram:
+      # soundcloud:
+      spotify: 1zKIA3574JXMBl3bBbV9hU
+      # tiktok:
+      # twitter:
+      # website:
+      # youtubeChannel:
+      # youtubeVideo:
     name: Arkaitz Miner
     years:
       - 2012
@@ -306,6 +374,14 @@ teachers:
     name: Louise Mulcahy
     years:
       - 2023
+
+  - id: luis_nicolas_carrete
+    lastInstrument: guitar
+    instruments:
+      - guitar
+    name: Luis Nicolás Carrete
+    years:
+      - 2024
 
   - id: maria_san_miguel
     lastInstrument: fiddle

@@ -5,15 +5,17 @@ export interface ITeacher extends IContent<undefined> {
   lastInstrument: string;
   instruments: string[];
   media?: {
-    spotify?: string;
-    instagram?: string;
-    website?: string;
+    bandcamp?: string;
     fb?: string;
-    tiktok?: string;
+    instagram?: string;
     soundcloud?: string;
-    youtubeVideo?: string;
+    spotify?: string;
+    tiktok?: string;
+    twitter?: string;
+    website?: string;
     youtubeChannel?: string;
-  }
+    youtubeVideo?: string;
+  };
   name: string;
   years: number[];
 }

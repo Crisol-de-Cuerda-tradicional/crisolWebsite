@@ -1,14 +1,14 @@
-import Image from "next/image";
-import { RenderMarkdown } from "../RenderMarkdown";
-import { ITeacher } from "@crisolTypes/Teacher";
-import translations from "@config/translations.yml";
-import { useLocale } from "@hooks";
-import { baseUrl } from "@utils/baseUrl";
-import { Spotify } from "../Spotify";
-import { YoutubeEmbed } from "../YoutubeEmbed";
-import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { brands, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
+import Image from 'next/image';
+import { RenderMarkdown } from '../RenderMarkdown';
+import { ITeacher } from '@crisolTypes/Teacher';
+import translations from '@config/translations.yml';
+import { useLocale } from '@hooks';
+import { baseUrl } from '@utils/baseUrl';
+import { Spotify } from '../Spotify';
+import { YoutubeEmbed } from '../YoutubeEmbed';
+import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 type TeacherCardProps = {
   teacher: ITeacher;
@@ -23,10 +23,10 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
         <span className="teacher__header--title">
           <h2>{teacher.name}</h2>
           <p className="teacher__header--instruments">
-            {teacher.instruments.map(i => translations[i][locale]).join(", ")}
+            {teacher.instruments.map(i => translations[i][locale]).join(', ')}
           </p>
         </span>
-        <p className="teacher__header--subtitle">{teacher.years.join(", ")}</p>
+        <p className="teacher__header--subtitle">{teacher.years.join(', ')}</p>
       </div>
       <div className="media">
         <div className="img__wrapper">
@@ -37,47 +37,51 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
             alt={teacher.name}
           />
         </div>
-        {teacher.media?.spotify ? (
-          <Spotify wide artistId={teacher.media.spotify} />
-        ) : null}
+        {teacher.media?.spotify ? <Spotify wide artistId={teacher.media.spotify} /> : null}
         {teacher.media?.youtubeVideo ? (
-          <YoutubeEmbed
-            embedId={teacher.media.youtubeVideo}
-            title={teacher.name}
-            wide
-          />
+          <YoutubeEmbed embedId={teacher.media.youtubeVideo} title={teacher.name} wide />
         ) : null}
       </div>
       {teacher.media ? (
         <div className="teacher__links">
           {teacher.media.website ? (
             <Link href={teacher.media.website} target="_blank">
-              <FontAwesomeIcon icon={solid("globe")} size="2x" />
+              <FontAwesomeIcon icon={solid('globe')} size="2x" />
             </Link>
           ) : null}
           {teacher.media.instagram ? (
             <Link href={teacher.media.instagram} target="_blank">
-              <FontAwesomeIcon icon={brands("instagram")} size="2x" />
+              <FontAwesomeIcon icon={brands('instagram')} size="2x" />
             </Link>
           ) : null}
           {teacher.media.tiktok ? (
             <Link href={teacher.media.tiktok} target="_blank">
-              <FontAwesomeIcon icon={brands("tiktok")} size="2x" />
+              <FontAwesomeIcon icon={brands('tiktok')} size="2x" />
             </Link>
           ) : null}
           {teacher.media.soundcloud ? (
             <Link href={teacher.media.soundcloud} target="_blank">
-              <FontAwesomeIcon icon={brands("soundcloud")} size="2x" />
+              <FontAwesomeIcon icon={brands('soundcloud')} size="2x" />
+            </Link>
+          ) : null}
+          {teacher.media.bandcamp ? (
+            <Link href={teacher.media.bandcamp} target="_blank">
+              <FontAwesomeIcon icon={brands('bandcamp')} size="2x" />
             </Link>
           ) : null}
           {teacher.media.youtubeChannel ? (
             <Link href={teacher.media.youtubeChannel} target="_blank">
-              <FontAwesomeIcon icon={brands("youtube")} size="2x" />
+              <FontAwesomeIcon icon={brands('youtube')} size="2x" />
             </Link>
           ) : null}
           {teacher.media.fb ? (
             <Link href={teacher.media.fb} target="_blank">
-              <FontAwesomeIcon icon={brands("facebook")} size="2x" />
+              <FontAwesomeIcon icon={brands('facebook')} size="2x" />
+            </Link>
+          ) : null}
+          {teacher.media.twitter ? (
+            <Link href={teacher.media.twitter} target="_blank">
+              <FontAwesomeIcon icon={brands('twitter')} size="2x" />
             </Link>
           ) : null}
         </div>
