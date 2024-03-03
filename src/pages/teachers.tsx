@@ -1,29 +1,25 @@
-import { GetStaticProps } from "next";
+import { GetStaticProps } from 'next';
 
-import translations from "@config/translations.yml";
-import teachersConfig from "@config/teachers.yml";
+import translations from '@config/translations.yml';
+import teachersConfig from '@config/teachers.yml';
 
-import { ButtonGoTop, ContentLayout, Hero, TeacherCard } from "@components";
-import { getContent, IContent } from "@utils/getContent";
-import { TeacherListLink } from "@components";
-import type { ITeacher } from "@crisolTypes/Teacher";
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
-import { useLocale } from "@hooks";
-import { NextParsedUrlQuery } from "next/dist/server/request-meta";
+import { ContentLayout, Hero, TeacherCard } from '@components';
+import { getContent, IContent } from '@utils/getContent';
+import { TeacherListLink } from '@components';
+import type { ITeacher } from '@crisolTypes/Teacher';
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+import Link from 'next/link';
+import { useLocale } from '@hooks';
+import { NextParsedUrlQuery } from 'next/dist/server/request-meta';
 
 interface ITeachersProps {
   teachers: ITeacher[];
   teachersPage: IContent<{ title: string; hero: string }>;
-  years: (number | "all")[];
+  years: (number | 'all')[];
 }
 
-const Teachers = ({
-  teachers,
-  teachersPage,
-  years,
-}: ITeachersProps): JSX.Element => {
+const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Element => {
   const router = useRouter();
   const locale = useLocale();
   const [filteredTeachers, setFilteredTeachers] = useState(teachers);
@@ -33,15 +29,15 @@ const Teachers = ({
       setFilteredTeachers(() => teachers);
     } else {
       const filtered = teachers.filter(teacher =>
-        teacher.years.includes(Number(router.query.year)),
+        teacher.years.includes(Number(router.query.year))
       );
       setFilteredTeachers(() => filtered);
     }
   }, [router, teachers]);
 
-  const handleQueryParam = (year: number | "all"): NextParsedUrlQuery => {
+  const handleQueryParam = (year: number | 'all'): NextParsedUrlQuery => {
     const queries = { ...router.query };
-    if (year === "all") {
+    if (year === 'all') {
       delete queries.year;
       return queries;
     }
@@ -53,10 +49,7 @@ const Teachers = ({
 
   return (
     <>
-      <Hero
-        background={teachersPage.meta.hero}
-        pageTitle={teachersPage.meta.title}
-      />
+      <Hero background={teachersPage.meta.hero} pageTitle={teachersPage.meta.title} />
       <ContentLayout>
         <div className="years">
           {years.map(year => {
@@ -70,13 +63,9 @@ const Teachers = ({
                   shallow
                 >
                   <span
-                    className={
-                      router.query.year === year.toString()
-                        ? "years__year--active"
-                        : ""
-                    }
+                    className={router.query.year === year.toString() ? 'years__year--active' : ''}
                   >
-                    {year === "all" ? translations[year][locale] : year}
+                    {year === 'all' ? translations[year][locale] : year}
                   </span>
                 </Link>
               </div>
@@ -86,19 +75,12 @@ const Teachers = ({
 
         <div className="teachers__links">
           {filteredTeachers.map(teacher => {
-            return (
-              <TeacherListLink
-                key={teacher.id}
-                teacher={teacher}
-                withInstrument
-              />
-            );
+            return <TeacherListLink key={teacher.id} teacher={teacher} withInstrument />;
           })}
         </div>
         {filteredTeachers.map(teacher => {
           return <TeacherCard key={teacher.id} teacher={teacher} />;
         })}
-        <ButtonGoTop />
       </ContentLayout>
       <style jsx>{`
         .years {
@@ -110,7 +92,7 @@ const Teachers = ({
 
           &__year:not(:last-child):after {
             color: var(--color-primary);
-            content: "-";
+            content: '-';
             margin-left: 1rem;
           }
 
@@ -147,8 +129,8 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const { teachers } = teachersConfig;
 
   const teachersPage = await getContent<{ title: string; hero: string }>(
-    locale ?? "es",
-    "teachers/teachers",
+    locale ?? 'es',
+    'teachers/teachers'
   );
 
   const years = teachers.flatMap(teacher => teacher.years);
@@ -156,22 +138,19 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
 
   const teachersContent = await Promise.all(
     teachers.map(async teacher => {
-      const teacherSection = await getContent(
-        locale ?? "es",
-        `teachers/bios/${teacher.id}`,
-      );
+      const teacherSection = await getContent(locale ?? 'es', `teachers/bios/${teacher.id}`);
       return {
         ...teacherSection,
         ...teacher,
       };
-    }),
+    })
   );
 
   return {
     props: {
       teachers: teachersContent,
       teachersPage,
-      years: ["all", ...uniqueYears],
+      years: ['all', ...uniqueYears],
     },
   };
 };

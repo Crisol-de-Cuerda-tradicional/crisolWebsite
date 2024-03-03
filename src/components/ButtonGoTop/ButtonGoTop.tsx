@@ -1,7 +1,24 @@
 import { useGoTopCustom } from '@hooks';
+import { RefObject, useEffect, useState } from 'react';
 
-export const ButtonGoTop = () => {
-  const { showGoTop, goToTopAction } = useGoTopCustom(400);
+type ButtonGoTopProps = {
+  parentRef: RefObject<HTMLDivElement>;
+};
+
+export const ButtonGoTop = ({ parentRef }: ButtonGoTopProps) => {
+  const { showGoTop, goToTopAction } = useGoTopCustom(400, parentRef);
+  const [xPosition, setXPosition] = useState(parentRef.current?.clientWidth ?? 0);
+
+  useEffect(() => {
+    if (!parentRef.current) return;
+    setXPosition(parentRef.current.clientWidth);
+  }, [parentRef]);
+
+  useEffect(() => {
+    const parent = parentRef.current;
+    window.addEventListener('resize', () => setXPosition(parent?.clientWidth ?? 0));
+    return window.removeEventListener('resize', () => setXPosition(0));
+  });
 
   return (
     <>
@@ -14,8 +31,10 @@ export const ButtonGoTop = () => {
 
         .goTop {
           position: sticky;
-          bottom: 2rem;
+          bottom: 1rem;
           align-self: flex-end;
+          left: calc(${xPosition ?? 0}px - 45px - 1rem);
+          margin: 1rem;
           z-index: 1;
 
           width: 45px;
