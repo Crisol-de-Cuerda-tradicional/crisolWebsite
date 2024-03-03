@@ -12,7 +12,14 @@ export const ExpandingImg = ({ bgSrc, maxWidth, children }: IExpandingImgProps):
     <div className="wrapper">
       {children}
       <div className="img--expand">
-        <Image src={bgSrc} fill sizes="100%" alt="background" priority />
+        <Image
+          src={bgSrc}
+          fill
+          sizes="100%"
+          alt="background"
+          style={{ objectFit: 'cover' }}
+          priority
+        />
       </div>
       <style jsx>{`
         .wrapper {

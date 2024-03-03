@@ -35,6 +35,9 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
             width="360"
             height="360"
             alt={teacher.name}
+            style={{
+              objectFit: 'cover',
+            }}
           />
         </div>
         {teacher.media?.spotify ? <Spotify wide artistId={teacher.media.spotify} /> : null}
