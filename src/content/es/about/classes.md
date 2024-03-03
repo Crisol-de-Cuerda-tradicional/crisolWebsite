@@ -26,9 +26,9 @@ Se impartirán por la mañana con descansos intermedios. Las opciones son:
 - Alumnado con alguna experiencia previa: Para cada instrumento, el profesorado del mismo irá rotando por sus diferentes grupos. Las especialidades son:
   - Violín (Fiddle): Contamos con **3 niveles** de fiddle que van de **intermedio a avanzado**.
   - Cello: Contamos con **2 niveles** de cello (**intermedio y avanzado**). Para el nivel intermedio se pide que los alumnos tengan domino **de 1a a 4a posición** y cierta soltura en la interpretación.
-  - Guitarra: Contamos con **2 niveles** de guitarra (**intermedio y avanzado**). Para el nivel intermedio se require dominar la colocación de acordes y facilidad en las trancisiones básicas, así como tener cierta soltura con la púa (ritmos y punteo).
+  - Guitarra: Contamos con **2 niveles** de guitarra (**intermedio y avanzado**). Para el nivel intermedio se require dominar la colocación de acordes y facilidad en las transiciones básicas, así como tener cierta soltura con la púa (ritmos y punteo).
   - Flauta. Contamos con **2 niveles** de flauta (**intermedio y avanzado**). Para el nivel intermedio se requiere dominio de la técnica básica de embocadura y columna de aire, que permita tener buena estabilidad en el sonido y dominio de las posiciones de Re mayor y Sol mayor.
-  - Bouzouki: Contamos con **un único nivel avanzado** de bouzouki. Se require dominar con soltura la técnica básica de bouzouki o guitarra acústica. Conocimiento de los acordees básicos y sus transiciones, asó como un buen dominio de la técnica de púa (patrones rítmicos y punteo).
+  - Bouzouki: Contamos con **un único nivel avanzado** de bouzouki. Se require dominar con soltura la técnica básica de bouzouki o guitarra acústica. Conocimiento de los acordes básicos y sus transiciones, asó como un buen dominio de la técnica de púa (patrones rítmicos y punteo).
 
 ---
 
