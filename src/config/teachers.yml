@@ -367,6 +367,14 @@ teachers:
     years:
       - 2022
 
+  - id: lisardo_prieto
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
+    name: Lisardo Prieto
+    years:
+      - 2024
+
   - id: louise_mulcahy
     lastInstrument: flute
     instruments:
@@ -435,6 +443,17 @@ teachers:
     lastInstrument: cello
     instruments:
       - cello
+    media:
+      # bandcamp:
+      fb: http://www.facebook.com/NatalieHaasCello
+      # instagram:
+      soundcloud: https://soundcloud.com/natalie-haas-1
+      spotify: 41sqaarfB2kCWssI6jM10V
+      # tiktok:
+      # twitter:
+      website: https://www.nataliehaas.com/
+      youtubeChannel: https://www.youtube.com/channel/UC0LIpFuC1FS6MSHEK4Roz-Q
+      youtubeVideo: 7iLlIQ8Bs-Q
     name: Natalie Haas
     years:
       - 2008
@@ -531,6 +550,17 @@ teachers:
       - flute
       - guitar
       - bouzouki
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/xoseliz/
+      soundcloud: https://soundcloud.com/user-497551159
+      # spotify:
+      # tiktok:
+      # twitter:
+      # website:
+      youtubeChannel: https://www.youtube.com/channel/UC5k5f86Z8NLFKGKYHTMUvFA
+      youtubeVideo: giDHRL7tSuQ
     name: Xosé Liz
     years:
       - 2011

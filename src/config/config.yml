@@ -5,8 +5,8 @@ startDate: 2024-07-28
 endDate: 2024-08-04
 
 registration:
-  coursePrice: 675
-  bookingFee: 60
+  coursePrice: 750
+  bookingFee: 75
   refundLimit: 80 # percentage
   endOfEarlyRegistrationDate: 2024-05-01
   underageAuthorisationFile: /docs/over-14-authorisation.pdf
