@@ -15,8 +15,8 @@ registration:
   scholarshipDiscount: 25 # percentage
   scholarshipLimitDate: 2024-04-10
 
-displayRegistrationSlogan: true
-displayRegistrationCTA: false
+displayRegistrationSlogan: false
+displayRegistrationCTA: true
 registrationLink: https://inscripciones.crisoldecuerda.com
 
 pendingTeachers: true
