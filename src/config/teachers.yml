@@ -516,6 +516,25 @@ teachers:
     years:
       - 2015
 
+  - id: silvia_quesada
+    lastInstrument: voice
+    instruments:
+      - voice
+    media:
+      # bandcamp:
+      fb: https://www.facebook.com/silviaquesadafrancos/
+      instagram: https://www.instagram.com/quesada_silvia
+      # soundcloud:
+      spotify: 5PwlED4GXgnqItHK1v6d0y
+      # tiktok:
+      twitter: https://twitter.com/silviaquesada
+      # website:
+      # youtubeChannel:
+      # youtubeVideo:
+    name: Silvia Quesada
+    years:
+      - 2024
+
   - id: suso_cancelas
     lastInstrument: dance
     instruments:
