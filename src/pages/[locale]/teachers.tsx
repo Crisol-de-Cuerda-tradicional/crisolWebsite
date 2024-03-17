@@ -1,17 +1,17 @@
 import { GetStaticProps } from 'next';
+import { NextParsedUrlQuery } from 'next/dist/server/request-meta';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 
 import translations from '@config/translations.yml';
 import teachersConfig from '@config/teachers.yml';
 
 import { ContentLayout, Hero, TeacherCard } from '@components';
 import { getContent, IContent } from '@utils/getContent';
-import { TeacherListLink } from '@components';
+import { Link, TeacherListLink } from '@components';
 import type { ITeacher } from '@crisolTypes/Teacher';
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
-import Link from 'next/link';
 import { useLocale } from '@hooks';
-import { NextParsedUrlQuery } from 'next/dist/server/request-meta';
+import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface ITeachersProps {
   teachers: ITeacher[];
@@ -125,7 +125,8 @@ const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Elemen
 
 export default Teachers;
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
+const getStaticProps: GetStaticProps = async ctx => {
+  const locale = getLocale(ctx);
   const { teachers } = teachersConfig;
 
   const teachersPage = await getContent<{ title: string; hero: string }>(
@@ -154,3 +155,5 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     },
   };
 };
+
+export { getStaticPaths, getStaticProps };

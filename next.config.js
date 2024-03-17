@@ -3,12 +3,10 @@ const withYaml = require('next-plugin-yaml');
 
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
 
-  i18n: {
-    locales: ['es', 'en'],
-    defaultLocale: 'es',
-  },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         hostname: '**.crisoldecuerda.com',

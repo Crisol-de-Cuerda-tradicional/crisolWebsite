@@ -1,9 +1,8 @@
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
-import Link from 'next/link';
 
-import { Button } from '@components';
+import { Button, Link } from '@components';
 import config from '@config/config.yml';
 import translations from '@config/translations.yml';
 import { useLocale } from '@hooks';

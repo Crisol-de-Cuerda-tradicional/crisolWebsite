@@ -1,12 +1,13 @@
 import { GetStaticProps, NextPage } from 'next';
+import dayjs from 'dayjs';
 
 import config from '@config/config.yml';
 import translations from '@config/translations.yml';
 import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { IContent, getContent } from '@utils/getContent';
 import { parseTemplate } from '@utils/parseTemplate';
-import dayjs from 'dayjs';
 import { baseUrl } from '@utils/baseUrl';
+import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface IRegistrationProps {
   registrationPage: IContent<{ title: string; hero: string }>;
@@ -25,11 +26,12 @@ const Registration: NextPage<IRegistrationProps> = ({ registrationPage }) => {
 
 export default Registration;
 
-export const getStaticProps: GetStaticProps = async ({ locale = 'es' }) => {
-  const registrationText = translations.registration[locale as Language].toUpperCase();
-  const underageAuthorisationText = translations.underage_authorisation[locale as Language];
-  const under14AuthorisationText = translations.under_14_authorisation[locale as Language];
-  const acceptanceOfGuardianshipText = translations.acceptance_of_guardianship[locale as Language];
+const getStaticProps: GetStaticProps = async ctx => {
+  const locale = getLocale(ctx);
+  const registrationText = translations.registration[locale].toUpperCase();
+  const underageAuthorisationText = translations.underage_authorisation[locale];
+  const under14AuthorisationText = translations.under_14_authorisation[locale];
+  const acceptanceOfGuardianshipText = translations.acceptance_of_guardianship[locale];
 
   const { coursePrice, refundLimit } = config.registration;
   const registrationRemainder = Math.round(coursePrice * refundLimit) / 100;
@@ -46,7 +48,7 @@ export const getStaticProps: GetStaticProps = async ({ locale = 'es' }) => {
       : registrationText,
     bookingFee: config.registration.bookingFee,
     endOfEarlyRegistrationDate: dayjs(config.registration.endOfEarlyRegistrationDate)
-      .locale(locale ?? 'es')
+      .locale(locale)
       .format(dateFormats[locale]),
     refundLimit: config.registration.refundLimit,
     registrationRemainder,
@@ -61,7 +63,7 @@ export const getStaticProps: GetStaticProps = async ({ locale = 'es' }) => {
     )}" download target="_blank">${acceptanceOfGuardianshipText}</a>`,
     scholarshipDiscount: config.registration.scholarshipDiscount,
     scholarshipLimitDate: dayjs(config.registration.scholarshipLimitDate)
-      .locale(locale ?? 'es')
+      .locale(locale)
       .format(dateFormats[locale]),
   };
 
@@ -75,3 +77,5 @@ export const getStaticProps: GetStaticProps = async ({ locale = 'es' }) => {
     },
   };
 };
+
+export { getStaticPaths, getStaticProps };

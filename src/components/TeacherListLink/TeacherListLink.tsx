@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 import translations from '@config/translations.yml';
 import { ITeacher } from '@crisolTypes/Teacher';
+import { Link } from '@components';
 import { useLocale } from '@hooks';
 import { baseUrl } from '@utils/baseUrl';
 

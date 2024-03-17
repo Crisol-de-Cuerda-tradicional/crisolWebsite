@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
+import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface IClassesProps {
   classesPage: IContent<{ title: string; hero: string; img: string }>;
@@ -48,8 +49,9 @@ const Classes = ({ classesPage }: IClassesProps): JSX.Element => {
 
 export default Classes;
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const classesPage = await getContent(locale ?? 'es', 'about/classes');
+const getStaticProps: GetStaticProps = async ctx => {
+  const locale = getLocale(ctx);
+  const classesPage = await getContent(locale, 'about/classes');
 
   return {
     props: {
@@ -57,3 +59,5 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     },
   };
 };
+
+export { getStaticPaths, getStaticProps };

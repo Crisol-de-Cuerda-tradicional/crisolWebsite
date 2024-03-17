@@ -1,12 +1,12 @@
+import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
-import { ITeacher } from '@crisolTypes/Teacher';
+
+import { Link, RenderMarkdown, Spotify, YoutubeEmbed } from '@components';
 import translations from '@config/translations.yml';
+import { ITeacher } from '@crisolTypes/Teacher';
 import { useLocale } from '@hooks';
 import { baseUrl } from '@utils/baseUrl';
-import { RenderMarkdown, Spotify, YoutubeEmbed } from '@components';
-import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 type TeacherCardProps = {
   teacher: ITeacher;

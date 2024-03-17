@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
 import { baseUrl } from '@utils/baseUrl';
+import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface IAccommodationProps {
   descriptionSection: IContent<{ title: string; img: string; hero: string }>;
@@ -101,9 +102,10 @@ const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, loca
 
 export default Accommodation;
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const descriptionSection = await getContent(locale ?? 'es', 'accommodation');
-  const locationSection = await getContent(locale ?? 'es', 'accommodation_location');
+const getStaticProps: GetStaticProps = async ctx => {
+  const locale = getLocale(ctx);
+  const descriptionSection = await getContent(locale, 'accommodation');
+  const locationSection = await getContent(locale, 'accommodation_location');
   return {
     props: {
       descriptionSection,
@@ -111,3 +113,5 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     },
   };
 };
+
+export { getStaticPaths, getStaticProps };

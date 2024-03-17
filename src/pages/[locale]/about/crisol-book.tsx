@@ -1,11 +1,11 @@
+import dayjs from 'dayjs';
 import { GetStaticProps, NextPage } from 'next';
-import Link from 'next/link';
 
-import { ContentLayout, Hero, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, Link, RenderMarkdown } from '@components';
 import crisolBook from '@config/crisolBookIndex.yml';
 import translations from '@config/translations.yml';
 import { getContent, IContent } from '@utils/getContent';
-import dayjs from 'dayjs';
+import { getLocale, getStaticPaths } from '@utils/getStatic';
 import { useLocale } from '@hooks';
 
 interface ICrisolBookProps {
@@ -92,11 +92,14 @@ const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
 
 export default CrisolBook;
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const crisolBookPage = await getContent(locale ?? 'es', 'about/crisol_book');
+const getStaticProps: GetStaticProps = async ctx => {
+  const locale = getLocale(ctx);
+  const crisolBookPage = await getContent(locale, 'about/crisol_book');
   return {
     props: {
       crisolBookPage,
     },
   };
 };
+
+export { getStaticPaths, getStaticProps };
