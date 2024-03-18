@@ -490,6 +490,25 @@ teachers:
       - 2022
       - 2023
 
+  - id: pepin_munhalen
+    lastInstrument: flute
+    instruments:
+      - flute
+    media:
+      # bandcamp:
+      # fb:
+      # instagram:
+      # soundcloud:
+      spotify: 5YUx4y6iJf3FkVdyxLOc88
+      # tiktok:
+      # twitter:
+      # website:
+      # youtubeChannel:
+      # youtubeVideo:
+    name: Pepín de Muñalen
+    years:
+      - 2024
+
   - id: quico_puges
     lastInstrument: cello
     instruments:
