@@ -135,6 +135,25 @@ teachers:
       - 2018
       - 2019
 
+  - id: aoife_granville
+    lastInstrument: flute
+    instruments:
+      - flute
+    media:
+      # bandcamp:
+      fb: http://www.facebook.com/aoife.granville3
+      instagram: http://www.instagram.com/aoifegranville5
+      # soundcloud:
+      spotify: 0spvAdgEvBuoMAXQ221orj
+      # tiktok:
+      twitter: http://www.twitter.com/aoifegranville
+      # website:
+      # youtubeChannel:
+      youtubeVideo: IS8A_7sR7c8
+    name: Aoife Granville
+    years:
+      - 2024
+
   - id: arkaitz_miner
     lastInstrument: fiddle
     instruments:
@@ -181,6 +200,17 @@ teachers:
     lastInstrument: dance
     instruments:
       - dance
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/betlem11/
+      # soundcloud:
+      # spotify:
+      # tiktok:
+      # twitter:
+      website: https://www.mediterraniaescola.cat/
+      youtubeChannel: https://www.youtube.com/@betlemburcet7318
+      youtubeVideo: TSvsERERYec
     name: Betlem Burcet
     years:
       - 2023
