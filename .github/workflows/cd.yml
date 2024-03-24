@@ -4,35 +4,35 @@ on:
   release:
     types: [published]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 🛑 Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.12.1
+      - name: ⬇️ Checkout
+        uses: actions/checkout@v4
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '21'
+
+      - name: 📥 Download deps
+        uses: bahmutov/npm-install@v1
+
+      - name: 🚧 Build
+        run: npm run build
 
       - name: 🚀 Deploy website
-        uses: appleboy/ssh-action@v1.0.3
+        uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USERNAME }}
           key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
           port: ${{ secrets.DEPLOY_PORT }}
-          command_timeout: 20m
-          script: |
-            cd /var/www/crisolWebsite
-
-            git fetch
-            git checkout ${{ github.ref_name }}
-
-            pm2 stop crisolWebsite
-
-            PREVIOUS=$(cat LAST_DEPLOYED_TAG)
-            git diff --name-only $PREVIOUS ${{ github.ref_name }} | grep package-lock.json
-
-            [ $? -eq 0 ] && npm install
-
-            npm run build
-            pm2 restart crisolWebsite
-
-            echo "${{ github.ref_name }}" > LAST_DEPLOYED_TAG
+          source: out/*
+          target: /var/www/crisol-website
+          strip_components: 1

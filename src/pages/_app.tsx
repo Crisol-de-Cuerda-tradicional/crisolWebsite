@@ -13,7 +13,6 @@ import { useLocale } from '@hooks';
 
 import '../components/Navbar/Burger.scss';
 import '@styles/globals.css';
-import { useLocale } from '@hooks';
 
 config.autoAddCss = false;
 
