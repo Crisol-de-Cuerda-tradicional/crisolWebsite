@@ -1,13 +1,13 @@
-import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
-import Link from "next/link";
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
+import Link from 'next/link';
 
-import { Button } from "@components";
-import config from "@config/config.yml";
-import translations from "@config/translations.yml";
-import { useLocale } from "@hooks";
-import { baseUrl } from "@utils/baseUrl";
+import { Button } from '@components';
+import config from '@config/config.yml';
+import translations from '@config/translations.yml';
+import { useLocale } from '@hooks';
+import { baseUrl } from '@utils/baseUrl';
 
 export const Footer = () => {
   const locale = useLocale();
@@ -16,12 +16,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="footer__content">
         <Link href="/">
-          <Image
-            src={baseUrl("/logo.png")}
-            height="90"
-            width="352"
-            alt={config.name}
-          />
+          <Image src={baseUrl('/logo.png')} height="90" width="352" alt={config.name} />
         </Link>
         <div className="footer__subscribe">
           {translations.newsletter[locale]}
@@ -32,20 +27,20 @@ export const Footer = () => {
       </div>
       <div className="footer__social">
         <div className="social__links">
-          <Link href={config.socialMedia.instagram}>
-            <FontAwesomeIcon icon={brands("instagram")} size="2x" />
+          <Link href={config.socialMedia.instagram} target="_blank">
+            <FontAwesomeIcon icon={brands('instagram')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.tiktok}>
-            <FontAwesomeIcon icon={brands("tiktok")} size="2x" />
+          <Link href={config.socialMedia.tiktok} target="_blank">
+            <FontAwesomeIcon icon={brands('tiktok')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.spotify}>
-            <FontAwesomeIcon icon={brands("spotify")} size="2x" />
+          <Link href={config.socialMedia.spotify} target="_blank">
+            <FontAwesomeIcon icon={brands('spotify')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.youtube}>
-            <FontAwesomeIcon icon={brands("youtube")} size="2x" />
+          <Link href={config.socialMedia.youtube} target="_blank">
+            <FontAwesomeIcon icon={brands('youtube')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.facebook}>
-            <FontAwesomeIcon icon={brands("facebook")} size="2x" />
+          <Link href={config.socialMedia.facebook} target="_blank">
+            <FontAwesomeIcon icon={brands('facebook')} size="2x" />
           </Link>
         </div>
         <div>&copy;2023 Created by Bernat Duran</div>

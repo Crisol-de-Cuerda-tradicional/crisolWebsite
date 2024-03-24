@@ -1,5 +1,4 @@
 import type { AppProps } from 'next/app';
-import { useRouter } from 'next/router';
 
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -10,6 +9,7 @@ import advancedFormat from 'dayjs/plugin/advancedFormat';
 import LocalizedFormat from 'dayjs/plugin/localizedFormat';
 
 import { Layout, MenuContextProvider } from '@components';
+import { useLocale } from '@hooks';
 
 import '../components/Navbar/Burger.scss';
 import '@styles/globals.css';
@@ -20,8 +20,8 @@ dayjs.extend(advancedFormat);
 dayjs.extend(LocalizedFormat);
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const router = useRouter();
-  dayjs.locale(router.locale);
+  const locale = useLocale();
+  dayjs.locale(locale);
 
   return (
     <MenuContextProvider>

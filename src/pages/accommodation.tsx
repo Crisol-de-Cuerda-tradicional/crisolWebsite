@@ -1,36 +1,28 @@
-import { GetStaticProps, NextPage } from "next";
-import Image from "next/image";
+import { GetStaticProps, NextPage } from 'next';
+import Image from 'next/image';
 
-import { ContentLayout, Hero, RenderMarkdown } from "@components";
-import { getContent, IContent } from "@utils/getContent";
-import { baseUrl } from "@utils/baseUrl";
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
+import { getContent, IContent } from '@utils/getContent';
+import { baseUrl } from '@utils/baseUrl';
 
 interface IAccommodationProps {
   descriptionSection: IContent<{ title: string; img: string; hero: string }>;
   locationSection: IContent<{ locationSrc: string }>;
 }
 
-const Accommodation: NextPage<IAccommodationProps> = ({
-  descriptionSection,
-  locationSection,
-}) => {
+const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, locationSection }) => {
   return (
     <>
-      <Hero
-        background={descriptionSection.meta.hero}
-        pageTitle={descriptionSection.meta.title}
-      />
+      <Hero background={descriptionSection.meta.hero} pageTitle={descriptionSection.meta.title} />
       <ContentLayout>
         <div className="flex--column">
           <section className="section">
             <div className="section__frame">
               <Image
-                src={baseUrl(
-                  `/images/accommodation/${descriptionSection.meta.img}`,
-                )}
+                src={baseUrl(`/images/accommodation/${descriptionSection.meta.img}`)}
                 fill
                 sizes="100%"
-                style={{ objectFit: "contain" }}
+                style={{ objectFit: 'contain' }}
                 alt="Granja Escuela Arlanzón"
               />
             </div>
@@ -47,7 +39,7 @@ const Accommodation: NextPage<IAccommodationProps> = ({
                 src={locationSection.meta.locationSrc}
                 style={{
                   border: 0,
-                  overflow: "hidden",
+                  overflow: 'hidden',
                   margin: 0,
                 }}
                 title="Granja Escuela Arlanzón"
@@ -110,11 +102,8 @@ const Accommodation: NextPage<IAccommodationProps> = ({
 export default Accommodation;
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const descriptionSection = await getContent(locale ?? "es", "accommodation");
-  const locationSection = await getContent(
-    locale ?? "es",
-    "accommodation_location",
-  );
+  const descriptionSection = await getContent(locale ?? 'es', 'accommodation');
+  const locationSection = await getContent(locale ?? 'es', 'accommodation_location');
   return {
     props: {
       descriptionSection,

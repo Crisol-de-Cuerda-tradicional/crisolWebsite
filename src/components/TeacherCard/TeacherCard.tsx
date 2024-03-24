@@ -1,11 +1,9 @@
 import Image from 'next/image';
-import { RenderMarkdown } from '../RenderMarkdown';
 import { ITeacher } from '@crisolTypes/Teacher';
 import translations from '@config/translations.yml';
 import { useLocale } from '@hooks';
 import { baseUrl } from '@utils/baseUrl';
-import { Spotify } from '../Spotify';
-import { YoutubeEmbed } from '../YoutubeEmbed';
+import { RenderMarkdown, Spotify, YoutubeEmbed } from '@components';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro';

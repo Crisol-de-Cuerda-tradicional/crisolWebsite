@@ -1,19 +1,18 @@
-import { GetStaticProps } from "next";
-import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import { GetStaticProps } from 'next';
+import Image from 'next/image';
+import Link from 'next/link';
 
-import { ContentLayout, Hero, YoutubeEmbed } from "@components";
-import mediaConfig from "@config/media.yml";
-import { getPhotos } from "@utils/getPhotos";
+import { ContentLayout, Hero, YoutubeEmbed } from '@components';
+import mediaConfig from '@config/media.yml';
+import { getPhotos } from '@utils/getPhotos';
+import { useLocale } from '@hooks';
 
 interface IMediaProps {
   photos: string[];
 }
 
 const Media = ({ photos }: IMediaProps): JSX.Element => {
-  const router = useRouter();
-  const locale = (router.locale ?? "es") as Language;
+  const locale = useLocale();
 
   return (
     <>
@@ -45,7 +44,7 @@ const Media = ({ photos }: IMediaProps): JSX.Element => {
                     src={photo}
                     fill
                     sizes="100%"
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: 'cover' }}
                     alt="photo"
                     priority
                   />

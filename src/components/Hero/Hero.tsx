@@ -1,4 +1,4 @@
-import { baseUrl } from "@utils/baseUrl";
+import { baseUrl } from '@utils/baseUrl';
 
 interface IHeroProps {
   background: string;
@@ -17,7 +17,7 @@ export const Hero = ({ background, pageTitle }: IHeroProps): JSX.Element => {
           display: flex;
           align-items: flex-end;
 
-          background-image: url(${baseUrl("/images/heroes/" + background)});
+          background-image: url(${baseUrl('/images/heroes/' + background)});
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center;
