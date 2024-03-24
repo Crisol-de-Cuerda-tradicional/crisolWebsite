@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
 import { baseUrl } from '@utils/baseUrl';
+import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface IAboutProps {
   aboutPage: IContent<{ title: string; hero: string }>;
@@ -53,9 +54,10 @@ const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
 
 export default About;
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const aboutPage = await getContent(locale ?? 'es', 'about/about');
-  const teachersSection = await getContent(locale ?? 'es', 'about/teachers');
+const getStaticProps: GetStaticProps = async ctx => {
+  const locale = getLocale(ctx);
+  const aboutPage = await getContent(locale, 'about/about');
+  const teachersSection = await getContent(locale, 'about/teachers');
 
   return {
     props: {
@@ -64,3 +66,5 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     },
   };
 };
+
+export { getStaticPaths, getStaticProps };

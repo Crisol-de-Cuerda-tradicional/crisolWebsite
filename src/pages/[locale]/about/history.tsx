@@ -2,6 +2,7 @@ import { GetStaticProps } from 'next';
 
 import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';
+import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface IHistoryProps {
   historyPage: IContent<{ title: string; hero: string }>;
@@ -20,8 +21,9 @@ const History = ({ historyPage }: IHistoryProps): JSX.Element => {
 
 export default History;
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const historyPage = await getContent(locale ?? 'es', 'about/history');
+const getStaticProps: GetStaticProps = async ctx => {
+  const locale = getLocale(ctx);
+  const historyPage = await getContent(locale, 'about/history');
 
   return {
     props: {
@@ -29,3 +31,5 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     },
   };
 };
+
+export { getStaticPaths, getStaticProps };

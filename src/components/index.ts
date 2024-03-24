@@ -4,6 +4,7 @@ export * from './ExpandingImg';
 export * from './Footer';
 export * from './Hero';
 export * from './Layouts';
+export * from './Link';
 export * from './Menu';
 export * from './Navbar';
 export * from './RenderMarkdown';

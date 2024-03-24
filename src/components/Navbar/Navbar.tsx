@@ -1,9 +1,8 @@
+import { useContext } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import config from '@config/config.yml';
-import { useContext } from 'react';
-import { MenuContext } from '@components';
+import { MenuContext, Link } from '@components';
 import { baseUrl } from '@utils/baseUrl';
 
 export const Navbar = () => {

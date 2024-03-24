@@ -1,8 +1,6 @@
-import Head from 'next/head';
 import { ReactNode, useContext, useRef } from 'react';
 
 import { ButtonGoTop, Footer, Menu, MenuContext, Navbar } from '@components';
-import { baseUrl } from '@utils/baseUrl';
 
 interface ILayoutProps {
   children: ReactNode;
@@ -14,14 +12,6 @@ export const Layout = ({ children }: ILayoutProps) => {
 
   return (
     <>
-      <Head>
-        <title>Crisol de Cuerda Tradicional</title>
-        <meta
-          name="description"
-          content="Crisol de Cuerda is a traditional violin, cello, guitar and fulte music camp celebrated in Spain"
-        />
-        <link rel="icon" href={baseUrl('/favicon.png')} />
-      </Head>
       <Menu />
       <div
         className={`modal__background ${showMenu ? 'is-active' : ''}`}

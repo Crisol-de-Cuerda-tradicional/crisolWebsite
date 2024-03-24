@@ -1,11 +1,11 @@
-import Link from 'next/link';
 import { NextRouter, useRouter } from 'next/router';
 import { ReactNode, useContext } from 'react';
 
 import menu, { MenuItem } from '@config/menu.yml';
 import translations, { Language } from '@config/translations.yml';
-import { MenuContext } from './MenuContext';
+import { Link } from '@components';
 import { useLocale } from '@hooks';
+import { MenuContext } from './MenuContext';
 
 interface IMenuItemProps {
   menuItem: MenuItem;

@@ -1,10 +1,10 @@
 import { GetStaticProps } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 
-import { ContentLayout, Hero, YoutubeEmbed } from '@components';
+import { ContentLayout, Hero, Link, YoutubeEmbed } from '@components';
 import mediaConfig from '@config/media.yml';
 import { getPhotos } from '@utils/getPhotos';
+import { getStaticPaths } from '@utils/getStatic';
 import { useLocale } from '@hooks';
 
 interface IMediaProps {
@@ -89,9 +89,11 @@ const Media = ({ photos }: IMediaProps): JSX.Element => {
 
 export default Media;
 
-export const getStaticProps: GetStaticProps = async () => {
+const getStaticProps: GetStaticProps = async () => {
   const photos = await getPhotos(mediaConfig.photosAlbumId);
   return {
     props: { photos },
   };
 };
+
+export { getStaticPaths, getStaticProps };
