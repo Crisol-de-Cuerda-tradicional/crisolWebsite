@@ -4,6 +4,7 @@ const withYaml = require('next-plugin-yaml');
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  trailingSlash: true,
 
   images: {
     unoptimized: true,
