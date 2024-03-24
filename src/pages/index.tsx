@@ -15,8 +15,13 @@ export const useRedirect = (path?: string) => {
       return;
     }
 
-    languageDetector.cache && languageDetector.cache(detectedLng);
+    // if the path already has the detected language, do nothing
+    if (to.startsWith('/' + detectedLng)) {
+      router.replace(to);
+      return;
+    }
 
+    languageDetector.cache && languageDetector.cache(detectedLng);
     router.replace('/' + detectedLng + to);
   });
 
