@@ -323,6 +323,25 @@ teachers:
       - 2022
       - 2023
 
+  - id: gerry_oconnor
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
+    media:
+      # bandcamp:
+      fb: https://www.facebook.com/GerryOConnorFiddle
+      # instagram:
+      # soundcloud:
+      spotify: 0NHsynkxhVhz1cBuAAteN0
+      # tiktok:
+      # twitter:
+      website: https://www.gerryoconnor.net
+      # youtubeChannel:
+      youtubeVideo: w492gyDGGs8
+    name: Gerry O'Connor
+    years:
+      - 2024
+
   - id: hanneke_cassel
     lastInstrument: fiddle
     instruments:
