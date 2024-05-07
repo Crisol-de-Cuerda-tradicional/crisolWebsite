@@ -266,6 +266,25 @@ teachers:
     years:
       - 2015
 
+  - id: caoimhin_ofearghail
+    lastInstrument: guitar
+    instruments:
+      - guitar
+    media:
+      bandcamp: https://caoimhnfearghail1.bandcamp.com/album/flute-fiddle
+      # fb:
+      instagram: https://www.instagram.com/caoimhinofearghail
+      # soundcloud:
+      # spotify:
+      # tiktok:
+      # twitter:
+      website: https://www.caoimhinofearghail.ie/
+      youtubeChannel: https://www.youtube.com/@caoimhinofearghail1317
+      # youtubeVideo:
+    name: Caoimhín Ó Fearghail
+    years:
+      - 2024
+
   - id: colin_cotter
     lastInstrument: guitar
     instruments:
