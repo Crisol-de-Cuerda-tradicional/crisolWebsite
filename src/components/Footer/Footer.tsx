@@ -42,7 +42,12 @@ export const Footer = () => {
             <FontAwesomeIcon icon={brands('facebook')} size="2x" />
           </Link>
         </div>
-        <div>&copy;2023 Created by Bernat Duran</div>
+        <div>
+          &copy;2023 Created by{' '}
+          <a href="https://github.com/Ishdril" rel="noopener noreferrer" target="_blank">
+            Bernat Duran
+          </a>
+        </div>
       </div>
 
       <style jsx>{`
