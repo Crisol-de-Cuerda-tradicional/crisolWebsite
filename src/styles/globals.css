@@ -26,7 +26,6 @@ body {
   font-family: Roboto, Helvetica Neue, sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
-  scroll-snap-type: y proximity;
 }
 
 a {
@@ -57,4 +56,23 @@ h3 {
 
 * {
   box-sizing: border-box;
+}
+
+h1:has(.anchor),
+h2:has(.anchor),
+h3:has(.anchor),
+h4:has(.anchor),
+h5:has(.anchor),
+h6:has(.anchor) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.icon.icon-link {
+  background-image: url('https://img.icons8.com/material-rounded/20/link--v1.png');
+  display: block;
+  height: 20px;
+  width: 20px;
 }

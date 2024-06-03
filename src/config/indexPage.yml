@@ -13,7 +13,9 @@ aboutLinks:
       en: Why are we here?
       es: ¿Por qué estamos aquí?
     img: https://www.crisoldecuerda.com/assets/images/index/crisol_spirit.jpg
-    link: /about
+    link:
+      en: /about
+      es: /about
   - title:
       en: The Lessons
       es: Las Clases
@@ -21,7 +23,9 @@ aboutLinks:
       en: How do they work and what is special about them?
       es: ¿Cómo funcionan y qué tienen de especial?
     img: https://www.crisoldecuerda.com/assets/images/index/classes.jpg
-    link: /about/classes
+    link:
+      en: /about/classes
+      es: /about/classes
   - title:
       en: A bit of History
       es: Un Poco de Historia
@@ -29,7 +33,9 @@ aboutLinks:
       en: How it all started
       es: ¿Cómo empezó todo?
     img: https://www.crisoldecuerda.com/assets/images/index/history.jpg
-    link: /about/history
+    link:
+      en: /about/history
+      es: /about/history
 
 infoSection:
   information:
@@ -39,7 +45,9 @@ infoSection:
     subtitle:
       en: Everything you need to know about Crisol de Cuerda. And some advice as well!
       es: Todo lo que necesitas saber acerca de Crisol de Cuerda. ¡Todos nuestros consejos!
-    link: /about
+    link:
+      en: /about
+      es: /about
   prices:
     title:
       en: Prices
@@ -47,7 +55,9 @@ infoSection:
     subtitle:
       en: Here's the information about our prices. Limited availability, don't miss your spot!
       es: Infórmate acerca de los precios. ¡Plazas limitadas, no te lo pierdas!
-    link: /registration
+    link:
+      en: /registration/#prices
+      es: /registration/#precios
   register:
     title:
       en: How to register
@@ -55,7 +65,9 @@ infoSection:
     subtitle:
       en: The registration form has been simplified to make it as easy as possible!
       es: Hemos mejorado nuestro formulario para que inscribirse resulte de lo más sencillo
-    link: /registration
+    link:
+      en: /registration/#registration-process
+      es: /registration/#proceso-de-inscripción
   scholarships:
     title:
       en: Scholarships
@@ -63,7 +75,9 @@ infoSection:
     subtitle:
       en: There's a scholarship program at your disposal to help those who need it most
       es: Como cada año, ponemos a vuestra disposición nuestro programa de becas
-    link: /registration
+    link:
+      en: /registration/#scholarship-program
+      es: /registration/#programa-autogestionado-de-becas
 
 knowMoreButton:
   en: Know more

@@ -30,7 +30,7 @@ export const Link = ({ children, skipLocaleHandling, ...rest }: LinkProps) => {
 
   return (
     <>
-      <NextLink {...rest} href={href} onClick={locale ? localeOnClick : rest.onClick}>
+      <NextLink {...rest} href={href} onClick={locale ? localeOnClick : rest.onClick} scroll={true}>
         {children}
       </NextLink>
     </>

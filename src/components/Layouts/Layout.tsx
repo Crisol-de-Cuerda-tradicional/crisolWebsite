@@ -35,6 +35,7 @@ export const Layout = ({ children }: ILayoutProps) => {
           min-height: 100vh;
           margin: 0;
           overflow: scroll;
+          scroll-padding-top: 110px;
           inset: 0;
           background-color: var(--color-white);
           box-shadow: 0 0 6px var(--color-neutral);

@@ -79,11 +79,11 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       <section className="about__featured">
         {indexConfig.aboutLinks.map(link => {
           return (
-            <ExpandingImg key={link.link} bgSrc={link.img}>
+            <ExpandingImg key={link.link[locale]} bgSrc={link.img}>
               <div className="about__content">
                 <h2 className="about__title">{link.title[locale]}</h2>
                 <p className="about__subtitle">{link.subtitle[locale]}</p>
-                <Link href={link.link}>
+                <Link href={link.link[locale]}>
                   <Button variant="light" size="xsm">
                     {indexConfig.knowMoreButton[locale]}
                   </Button>
@@ -157,7 +157,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
             <h2>{indexConfig.infoSection.information.title[locale]}</h2>
             <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
-            <Link href={indexConfig.infoSection.information.link}>
+            <Link href={indexConfig.infoSection.information.link[locale]}>
               <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
             </Link>
           </div>
@@ -165,7 +165,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
             <h2>{indexConfig.infoSection.prices.title[locale]}</h2>
             <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
-            <Link href={indexConfig.infoSection.prices.link}>
+            <Link href={indexConfig.infoSection.prices.link[locale]}>
               <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
             </Link>
           </div>
@@ -173,7 +173,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
             <h2>{indexConfig.infoSection.register.title[locale]}</h2>
             <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
-            <Link href={indexConfig.infoSection.register.link}>
+            <Link href={indexConfig.infoSection.register.link[locale]}>
               <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
             </Link>
           </div>
@@ -181,7 +181,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
             <h2>{indexConfig.infoSection.scholarships.title[locale]}</h2>
             <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
-            <Link href={indexConfig.infoSection.scholarships.link}>
+            <Link href={indexConfig.infoSection.scholarships.link[locale]}>
               <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
             </Link>
           </div>
@@ -208,7 +208,7 @@ const getStaticProps: GetStaticProps = async ctx => {
     teacher.years.includes(config.startDate.getFullYear())
   );
 
-  const whatIsSection = await getContent(locale, 'about/about');
+  const whatIsSection = await getContent(locale, 'about/about', { generateHeadingLinks: false });
   const accommodationSection = await getContent<{
     title: string;
     background: string;

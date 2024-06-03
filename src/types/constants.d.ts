@@ -95,7 +95,7 @@ declare module '*indexPage.yml' {
     title: Translation;
     subtitle: Translation;
     img: string;
-    link: string;
+    link: Translation;
   }
 
   interface InfoSection extends Omit<AboutLink, 'img'> {}
