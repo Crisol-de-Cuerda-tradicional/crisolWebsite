@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import { Button, Link } from '@components';
 import config from '@config/config.yml';
+import menu from '@config/menu.yml';
 import translations from '@config/translations.yml';
 import { useLocale } from '@hooks';
 import { baseUrl } from '@utils/baseUrl';
@@ -42,7 +43,13 @@ export const Footer = () => {
             <FontAwesomeIcon icon={brands('facebook')} size="2x" />
           </Link>
         </div>
-        <div>
+      </div>
+      <div className="footer__legal">
+        <div className="legal__policies">
+          <Link href={menu.legalDisclaimer.link}>{menu.legalDisclaimer[locale]}</Link>
+          <Link href={menu.privacyPolicy.link}>{menu.privacyPolicy[locale]}</Link>
+        </div>
+        <div className="legal__created">
           &copy;2023 Created by{' '}
           <a href="https://github.com/Ishdril" rel="noopener noreferrer" target="_blank">
             Bernat Duran
@@ -50,7 +57,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style jsx global>{`
         .footer {
           width: 100%;
           background-color: var(--color-black);
@@ -67,20 +74,6 @@ export const Footer = () => {
 
             color: var(--color-white);
             font-size: 1.25rem;
-
-            .footer__policies {
-              display: flex;
-              flex-direction: column;
-              gap: 1rem;
-              text-align: center;
-
-              text-decoration: underline;
-
-              & > a {
-                display: inline-block;
-                color: var(--color-white);
-              }
-            }
 
             .footer__subscribe {
               border: var(--color-primary) solid 2px;
@@ -100,6 +93,7 @@ export const Footer = () => {
           display: flex;
           flex-wrap: wrap;
           gap: 2rem;
+          row-gap: 1rem;
           justify-content: center;
           align-items: center;
 
@@ -109,6 +103,37 @@ export const Footer = () => {
             display: flex;
             justify-content: center;
             gap: 1rem;
+          }
+        }
+        .footer__legal {
+          width: 100%;
+          background-color: var(--color-black);
+          color: var(--color-light);
+          padding: 0;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-wrap: wrap;
+          gap: 2rem;
+          padding: 2rem;
+          margin: 0 auto;
+
+          & > * {
+            width: 300px;
+          }
+
+          .legal__policies {
+            a {
+              display: flex;
+              flex-direction: column;
+
+              color: var(--color-light);
+              font-weight: 400;
+              text-decoration: underline;
+            }
           }
         }
       `}</style>
