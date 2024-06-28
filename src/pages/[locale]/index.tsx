@@ -1,27 +1,27 @@
 import type { GetStaticProps, NextPage } from 'next';
+import Head from 'next/head';
 import Image from 'next/image';
 
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import dayjs from 'dayjs';
 
 import { Button, ContentLayout, ExpandingImg, Link, RenderMarkdown } from '@components';
 import config from '@config/config.yml';
 import indexConfig from '@config/indexPage.yml';
 import teachersConfig from '@config/teachers.yml';
 import translations from '@config/translations.yml';
+import { ITeacher } from '@crisolTypes/Teacher';
+import { useLocale } from '@hooks';
 import homePageStyles from '@styles/home-page';
 import { getContent, IContent } from '@utils/getContent';
 import { baseUrl } from '@utils/baseUrl';
-import { ITeacher } from '@crisolTypes/Teacher';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
-import Head from 'next/head';
-import { useLocale } from '@hooks';
+import { tz } from '@utils/timezone';
 
 const formatDates = (starting: Date, ending: Date, locale: string) => {
   if (locale === 'es')
-    return `del ${dayjs(starting).format('D [de] MMMM')} al ${dayjs(ending).format('D [de] MMMM')}`;
-  else return `from ${dayjs(starting).format('MMMM Do')} until ${dayjs(ending).format('MMMM Do')}`;
+    return `del ${tz(starting).format('D [de] MMMM')} al ${tz(ending).format('D [de] MMMM')}`;
+  else return `from ${tz(starting).format('MMMM Do')} until ${tz(ending).format('MMMM Do')}`;
 };
 
 interface IHomeProps {

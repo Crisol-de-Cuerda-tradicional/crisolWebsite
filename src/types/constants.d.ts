@@ -6,6 +6,7 @@ declare module '*config.yml' {
     nameShort: string;
     startDate: Date;
     endDate: Date;
+    dateTimezone: string;
     displayRegistrationSlogan: boolean;
     displayRegistrationCTA: boolean;
     registrationLink: string;

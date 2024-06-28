@@ -1,12 +1,12 @@
-import dayjs from 'dayjs';
 import { GetStaticProps, NextPage } from 'next';
 
 import { ContentLayout, Hero, Link, RenderMarkdown } from '@components';
 import crisolBook from '@config/crisolBookIndex.yml';
 import translations from '@config/translations.yml';
+import { useLocale } from '@hooks';
 import { getContent, IContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
-import { useLocale } from '@hooks';
+import { tz } from '@utils/timezone';
 
 interface ICrisolBookProps {
   crisolBookPage: IContent<{
@@ -28,7 +28,7 @@ const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
           {translations.download_crisol_book[locale]}
         </Link>
         <p>
-          {translations.last_update[locale]}: {dayjs(crisolBook.lastUpdated).format('ll')}
+          {translations.last_update[locale]}: {tz(crisolBook.lastUpdated).format('ll')}
         </p>
         <section>
           <h2>{translations.crisol_book_index[locale]}:</h2>

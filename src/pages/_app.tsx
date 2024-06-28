@@ -7,6 +7,8 @@ import 'dayjs/locale/en';
 import 'dayjs/locale/es';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import LocalizedFormat from 'dayjs/plugin/localizedFormat';
+import utc from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone';
 
 import { Layout, MenuContextProvider } from '@components';
 import { useLocale } from '@hooks';
@@ -18,6 +20,8 @@ config.autoAddCss = false;
 
 dayjs.extend(advancedFormat);
 dayjs.extend(LocalizedFormat);
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 function MyApp({ Component, pageProps }: AppProps) {
   const locale = useLocale();

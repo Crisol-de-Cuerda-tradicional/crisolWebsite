@@ -1,5 +1,4 @@
 import { GetStaticProps, NextPage } from 'next';
-import dayjs from 'dayjs';
 
 import config from '@config/config.yml';
 import translations from '@config/translations.yml';
@@ -8,6 +7,7 @@ import { IContent, getContent } from '@utils/getContent';
 import { parseTemplate } from '@utils/parseTemplate';
 import { baseUrl } from '@utils/baseUrl';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
+import { tz } from '@utils/timezone';
 
 interface IRegistrationProps {
   registrationPage: IContent<{ title: string; hero: string }>;
@@ -47,9 +47,9 @@ const getStaticProps: GetStaticProps = async ctx => {
       ? `<a href="${config.registrationLink}">${registrationText}</a>`
       : registrationText,
     bookingFee: config.registration.bookingFee,
-    endOfEarlyRegistrationDate: dayjs(config.registration.endOfEarlyRegistrationDate)
-      .locale(locale)
-      .format(dateFormats[locale]),
+    endOfEarlyRegistrationDate: tz(config.registration.endOfEarlyRegistrationDate).format(
+      dateFormats[locale]
+    ),
     refundLimit: config.registration.refundLimit,
     registrationRemainder,
     underageAuthorisation: `<a href="${baseUrl(
@@ -62,9 +62,7 @@ const getStaticProps: GetStaticProps = async ctx => {
       config.registration.acceptanceOfGuardianshipFile
     )}" download target="_blank">${acceptanceOfGuardianshipText}</a>`,
     scholarshipDiscount: config.registration.scholarshipDiscount,
-    scholarshipLimitDate: dayjs(config.registration.scholarshipLimitDate)
-      .locale(locale)
-      .format(dateFormats[locale]),
+    scholarshipLimitDate: tz(config.registration.scholarshipLimitDate).format(dateFormats[locale]),
   };
 
   const registrationPage = await getContent(locale, 'registration');

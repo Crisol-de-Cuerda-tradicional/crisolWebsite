@@ -3,6 +3,7 @@ nameShort: Crisol
 
 startDate: 2024-07-28
 endDate: 2024-08-04
+dateTimezone: Europe/Madrid
 
 registration:
   coursePrice: 750
