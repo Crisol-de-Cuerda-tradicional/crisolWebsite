@@ -148,45 +148,47 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
           </div>
         </ContentLayout>
       </section>
-      <section id="information" className="information">
-        <div className="centered">
-          <h1>{`${config.nameShort} ${config.startDate.getFullYear()}`}</h1>
-        </div>
-        <div className="information__wrapper">
-          <div className="information__cardwrapper">
-            <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
-            <h2>{indexConfig.infoSection.information.title[locale]}</h2>
-            <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
-            <Link href={indexConfig.infoSection.information.link}>
-              <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-            </Link>
+      {config.hideRegistrationPage ? null : (
+        <section id="information" className="information">
+          <div className="centered">
+            <h1>{`${config.nameShort} ${config.startDate.getFullYear()}`}</h1>
           </div>
-          <div className="information__cardwrapper">
-            <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
-            <h2>{indexConfig.infoSection.prices.title[locale]}</h2>
-            <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
-            <Link href={indexConfig.infoSection.prices.link}>
-              <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-            </Link>
+          <div className="information__wrapper">
+            <div className="information__cardwrapper">
+              <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
+              <h2>{indexConfig.infoSection.information.title[locale]}</h2>
+              <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
+              <Link href={indexConfig.infoSection.information.link}>
+                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+              </Link>
+            </div>
+            <div className="information__cardwrapper">
+              <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
+              <h2>{indexConfig.infoSection.prices.title[locale]}</h2>
+              <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
+              <Link href={indexConfig.infoSection.prices.link}>
+                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+              </Link>
+            </div>
+            <div className="information__cardwrapper">
+              <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
+              <h2>{indexConfig.infoSection.register.title[locale]}</h2>
+              <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
+              <Link href={indexConfig.infoSection.register.link}>
+                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+              </Link>
+            </div>
+            <div className="information__cardwrapper">
+              <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
+              <h2>{indexConfig.infoSection.scholarships.title[locale]}</h2>
+              <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
+              <Link href={indexConfig.infoSection.scholarships.link}>
+                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+              </Link>
+            </div>
           </div>
-          <div className="information__cardwrapper">
-            <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
-            <h2>{indexConfig.infoSection.register.title[locale]}</h2>
-            <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
-            <Link href={indexConfig.infoSection.register.link}>
-              <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-            </Link>
-          </div>
-          <div className="information__cardwrapper">
-            <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
-            <h2>{indexConfig.infoSection.scholarships.title[locale]}</h2>
-            <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
-            <Link href={indexConfig.infoSection.scholarships.link}>
-              <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
-            </Link>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
       <style jsx>{homePageStyles}</style>
       <style jsx>{`
         .accommodation {

@@ -27,6 +27,12 @@ const Registration: NextPage<IRegistrationProps> = ({ registrationPage }) => {
 export default Registration;
 
 const getStaticProps: GetStaticProps = async ctx => {
+  if (config.hideRegistrationPage) {
+    return {
+      notFound: true,
+    };
+  }
+
   const locale = getLocale(ctx);
   const registrationText = translations.registration[locale].toUpperCase();
   const underageAuthorisationText = translations.underage_authorisation[locale];

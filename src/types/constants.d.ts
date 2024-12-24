@@ -10,6 +10,7 @@ declare module '*config.yml' {
     displayRegistrationSlogan: boolean;
     displayRegistrationCTA: boolean;
     registrationLink: string;
+    hideRegistrationPage: boolean;
     pendingTeachers: boolean;
     newsletterLink: string;
     registration: {

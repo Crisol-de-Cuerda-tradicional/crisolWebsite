@@ -1,6 +1,7 @@
 import { NextRouter, useRouter } from 'next/router';
 import { ReactNode, useContext } from 'react';
 
+import config from '@config/config.yml';
 import menu, { MenuItem } from '@config/menu.yml';
 import translations, { Language } from '@config/translations.yml';
 import { Link } from '@components';
@@ -87,9 +88,11 @@ export const Menu = () => {
             <li>
               <MenuLink menuItem={menu.contact} {...itemProps} />
             </li>
-            <li>
-              <MenuLink menuItem={menu.registration} {...itemProps} />
-            </li>
+            {config.hideRegistrationPage ? null : (
+              <li>
+                <MenuLink menuItem={menu.registration} {...itemProps} />
+              </li>
+            )}
           </ul>
           <p>{translations.languages[locale]}:</p>
           <ul>
