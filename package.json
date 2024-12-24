@@ -19,7 +19,7 @@
     "dayjs": "^1.11.10",
     "gray-matter": "^4.0.3",
     "handlebars": "^4.7.8",
-    "next": "14.2.10",
+    "next": "14.2.15",
     "next-language-detector": "^1.1.0",
     "next-plugin-yaml": "^1.0.1",
     "react": "18.2.0",
