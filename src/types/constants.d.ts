@@ -92,14 +92,15 @@ declare module '*translations.yml' {
 }
 
 declare module '*indexPage.yml' {
-  interface AboutLink {
+  interface InfoSection {
     title: Translation;
     subtitle: Translation;
-    img: string;
     link: string;
   }
 
-  interface InfoSection extends Omit<AboutLink, 'img'> {}
+  interface AboutLink extends InfoSection {
+    img: string;
+  }
 
   interface IndexPageConfig {
     registrationSlogan: Translation;

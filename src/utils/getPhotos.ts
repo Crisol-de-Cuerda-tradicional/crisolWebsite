@@ -3,7 +3,7 @@ import axios from 'axios';
 export const getPhotos = async (albumId: string): Promise<string[]> => {
   const regex = /\["(https:\/\/lh3\.googleusercontent\.com\/pw\/[a-zA-Z0-9\-_]*)"/g;
 
-  function extractPhotos(content: any): string[] {
+  function extractPhotos(content: string): string[] {
     const links = new Set<string>();
     let match;
     while ((match = regex.exec(content))) {

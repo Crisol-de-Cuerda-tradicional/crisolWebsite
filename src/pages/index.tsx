@@ -21,7 +21,7 @@ export const useRedirect = (path?: string) => {
       return;
     }
 
-    languageDetector.cache && languageDetector.cache(detectedLng);
+    if (languageDetector.cache) languageDetector.cache(detectedLng);
     router.replace('/' + detectedLng + to);
   });
 
