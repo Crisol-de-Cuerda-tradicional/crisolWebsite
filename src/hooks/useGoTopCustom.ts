@@ -1,6 +1,6 @@
 import { RefObject, useCallback, useEffect, useState } from 'react';
 
-export const useGoTopCustom = (yShift: number, ref: RefObject<HTMLDivElement>) => {
+export const useGoTopCustom = (yShift: number, ref: RefObject<HTMLDivElement | null>) => {
   const [showGoTop, setShowGoTop] = useState(false);
 
   const handleScroll = useCallback(() => {

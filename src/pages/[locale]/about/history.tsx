@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import { JSX } from 'react';
 
 import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import { getContent, IContent } from '@utils/getContent';

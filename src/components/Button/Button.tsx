@@ -1,3 +1,4 @@
+import { JSX } from 'react';
 import { fontColorConverter } from './helpers';
 import { IButtonProps } from './types';
 

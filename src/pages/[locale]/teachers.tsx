@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import { NextParsedUrlQuery } from 'next/dist/server/request-meta';
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { JSX, useEffect, useState } from 'react';
 
 import translations from '@config/translations.yml';
 import teachersConfig from '@config/teachers.yml';

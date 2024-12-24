@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next';
 import Image from 'next/image';
+import { JSX } from 'react';
 
 import { ContentLayout, Hero, Link, YoutubeEmbed } from '@components';
 import mediaConfig from '@config/media.yml';

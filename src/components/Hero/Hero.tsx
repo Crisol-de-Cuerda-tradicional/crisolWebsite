@@ -1,5 +1,6 @@
 import { baseUrl } from '@utils/baseUrl';
 import Head from 'next/head';
+import { JSX } from 'react';
 
 interface IHeroProps {
   background: string;

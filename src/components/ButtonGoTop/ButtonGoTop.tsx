@@ -2,7 +2,7 @@ import { useGoTopCustom } from '@hooks';
 import { RefObject, useEffect, useState } from 'react';
 
 type ButtonGoTopProps = {
-  parentRef: RefObject<HTMLDivElement>;
+  parentRef: RefObject<HTMLDivElement | null>;
 };
 
 export const ButtonGoTop = ({ parentRef }: ButtonGoTopProps) => {

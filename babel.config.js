@@ -6,7 +6,7 @@ module.exports = function (api) {
         require.resolve('next/babel'),
         {
           'styled-jsx': {
-            plugins: [require.resolve('styled-jsx-plugin-sass')],
+            plugins: [require.resolve('styled-jsx-plugin-postcss')],
           },
         },
       ],

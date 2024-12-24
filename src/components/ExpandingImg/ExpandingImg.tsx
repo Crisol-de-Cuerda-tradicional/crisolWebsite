@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ReactNode } from 'react';
+import { JSX, ReactNode } from 'react';
 
 interface IExpandingImgProps {
   bgSrc: string;
