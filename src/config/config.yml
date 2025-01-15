@@ -1,27 +1,27 @@
 name: Crisol de Cuerda
 nameShort: Crisol
 
-startDate: 2024-07-28
-endDate: 2024-08-04
+startDate: 2025-07-27
+endDate: 2025-08-03
 dateTimezone: Europe/Madrid
 
 registration:
   coursePrice: 750
   bookingFee: 75
   refundLimit: 80 # percentage
-  endOfEarlyRegistrationDate: 2024-05-01
+  endOfEarlyRegistrationDate: 2025-05-01
   underageAuthorisationFile: /docs/over-14-authorisation.pdf
   under14AuthorisationFile: /docs/under-14-authorisation.pdf
   acceptanceOfGuardianshipFile: /docs/under-14-acceptance-of-guardianship.pdf
   scholarshipDiscount: 25 # percentage
-  scholarshipLimitDate: 2024-04-10
+  scholarshipLimitDate: 2025-04-10
 
 displayRegistrationSlogan: false
 displayRegistrationCTA: false
 registrationLink: https://inscripciones.crisoldecuerda.com
 hideRegistrationPage: true
 
-pendingTeachers: false
+pendingTeachers: true
 
 newsletterLink: https://eepurl.com/ggOBLr
 socialMedia:
