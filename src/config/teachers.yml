@@ -51,6 +51,7 @@ teachers:
       - 2022
       - 2023
       - 2024
+      - 2025
 
   - id: alberto_ablanedo
     lastInstrument: bouzouki
@@ -233,6 +234,7 @@ teachers:
       - 2022
       - 2023
       - 2024
+      - 2025
 
   - id: casey_driessen
     lastInstrument: fiddle
@@ -442,6 +444,7 @@ teachers:
     name: Lisardo Prieto
     years:
       - 2024
+      - 2025
 
   - id: louise_mulcahy
     lastInstrument: flute
@@ -458,6 +461,7 @@ teachers:
     name: Luis Nicolás Carrete
     years:
       - 2024
+      -2025
 
   - id: maria_san_miguel
     lastInstrument: fiddle
@@ -576,6 +580,7 @@ teachers:
     name: Pepín de Muñalen
     years:
       - 2024
+      - 2025
 
   - id: quico_puges
     lastInstrument: cello
@@ -585,6 +590,7 @@ teachers:
     years:
       - 2018
       - 2024
+      - 2025
 
   - id: roberto_cubero
     lastInstrument: mandolin
@@ -622,6 +628,7 @@ teachers:
     name: Silvia Quesada
     years:
       - 2024
+      - 2025
 
   - id: suso_cancelas
     lastInstrument: dance
@@ -680,6 +687,7 @@ teachers:
       - 2022
       - 2023
       - 2024
+      - 2025
 
   - id: zoe_conway
     lastInstrument: fiddle
