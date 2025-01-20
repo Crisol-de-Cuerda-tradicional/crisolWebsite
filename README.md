@@ -93,38 +93,10 @@ To modify the content of the website, you need to know if you want to change the
 
 You can repeat the steps 1 to 4 for every file that you want to modify and as many times as you need.
 
-Once you've done all the changes, you will have to release the code to the live website.
-
 ## Publishing a new version
 
-Publishing a new version sounds fancy, but it's actually a simple process. A new version can include one small change or several changes at once.
+All the updates are automatically published to the website.
 
-Let's start by clicking on the "releases" link:
-
-![releases](/docs/click_releases.png)
-
-This will bring you to the releases page where you can see the content of the previous versions. You'll have to click on "Draft a new release":
-
-![draft new release](/docs/draft_release.png)
-
-I here you'll have to fill 2 things: a version number, and the release content.
-
-The version number can be set in the tag box:
-
-![generate new tag](/docs/generate_new_tag.png)
-
-You'll notice a list of all the previous tags. When creating a release we want to make sure that we generate a **NEW** tag. Tags must be sequential and follow a specific convention. For content changes, you only have to increase the last number. So if the last tag is 0.3.4, the next sequential number would be 0.3.5
-
-There is no limit to how many digit each number can have, so 12.158.1621 is a valid version number if the previous value was 12.158.1620.
-
-![about version numbers](/docs/about_tag_numbers.png)
-
-Now that you've selected the new version, you have to provide a title and a description of the release. The title is just a headline. It's recommended that the description includes a list of all the changes that you have done. The content of the description is a markdown, so you can write a lot of text or include bullet points. Up to you.
-
-![edit release content](/docs/edit_release_content.png)
-
-Once you're dont, click on "Publish release" and your job is done!
-
-If you want to monitor the release process, you can check the actions tab. A process will be running while the changes are uploaded. Once it's finished, you will be able to see the changes on the website.
+After saving a file, if you want to monitor the release process, you can check the actions tab. A process will be running while the changes are uploaded. Once it's finished, you will be able to see the changes on the website.
 
 ![release action](/docs/release_action.png)
