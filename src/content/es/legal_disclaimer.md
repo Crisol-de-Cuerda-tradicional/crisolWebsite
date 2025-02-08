@@ -7,7 +7,7 @@ De conformidad con lo establecido en la Ley 34/2002, de 11 de julio, de servicio
 
 #### 1. DATOS IDENTIFICATIVOS
 
-Usted está visitando la página web [www.crisoldecuerda.com](https://www.crisoldecuerda.com) titularidad de CRISOL DE CUERDA TRADICIONAL, con domicilio social en C/ IGLESIA Nº 21 (09199 CASTAÑARES) BURGOS, con NIF G09503152, en adelante, el TITULAR.
+Usted está visitando la página web [www.crisoldecuerda.com](https://www.crisoldecuerda.com) titularidad de CRISOL DE CUERDA TRADICIONAL, con domicilio social en C/ IGLESIA Nº 21 (09199 CASTAÑARES) BURGOS, con NIF G09503152, inscrita en el Registro de Asociaciones de la Junta de Castilla y León con el número 4032/1, en adelante, el TITULAR.
 
 Puede contactar con el Titular por cualquiera de los siguientes medios:
 
@@ -17,11 +17,11 @@ Correo electrónico de contacto: [info@crisoldecuerda.com](mailto:info@crisoldec
 
 Mediante el presente documento ponemos en su conocimiento los términos y condiciones que regulan el uso del sitio web y/o app del Titular, así como de los servicios y contenidos asociados. Dicho uso implica la adquisición de la condición de “usuario” y, con dicha condición, una serie de derechos y obligaciones.
 
-A los efectos anteriormente descritos, le informamos que es de su responsabilidad acceder a las condiciones legales insertas en la presente web, así como, a las políticas de privacidad, cookies o en su caso, condiciones de venta y leerlas detenidamente. Recomendamos:
+**A los efectos anteriormente descritos, le informamos que es de su responsabilidad acceder a las condiciones legales insertas en la presente web, así como, a las políticas de privacidad, cookies o en su caso, condiciones de venta y leerlas detenidamente.** Recomendamos:
 
-a. Que visite las mismas cada vez que pretenda acceder o utilizar los servicios y contenidos del sitio y
+a. **Que visite las mismas cada vez que pretenda acceder o utilizar los servicios y contenidos del sitio y**
 
-b. Que imprima o almacene en su sistema una copia.
+b. **Que imprima o almacene en su sistema una copia.**
 
 #### 3. USO DEL PORTAL
 
@@ -29,7 +29,7 @@ Esta web proporciona el acceso a multitud de información, servicios, programas 
 
 El Usuario asume la responsabilidad del uso del portal en los términos que mediante la presente se establecen. Dicha responsabilidad se extiende al registro que fuese necesario para acceder a determinados servicios o contenidos. En dicho registro, el Usuario será responsable de aportar información veraz y lícita. Como consecuencia de este registro, al Usuario se le puede proporcionar una contraseña de la que será asimismo responsable, comprometiéndose a hacer un uso diligente y confidencial de la misma.
 
-El Usuario se compromete a hacer un uso adecuado de los contenidos y servicios (por ejemplo, servicios de chat, foros de discusión o grupos de noticias) que el Titular ofrece a través de su portal y, con carácter enunciativo pero no limitativo, a no emplearlos para:
+**El Usuario se compromete a hacer un uso adecuado de los contenidos y servicios** (por ejemplo, servicios de chat, foros de discusión o grupos de noticias) que el Titular ofrece a través de su portal y, con carácter enunciativo pero no limitativo, **a no emplearlos para:**
 
 - Incurrir en actividades ilícitas, ilegales o contrarias a la buena fe y al orden público.
 
@@ -41,7 +41,7 @@ El Usuario se compromete a hacer un uso adecuado de los contenidos y servicios (
 
 - Utilizar el sitio web ni las informaciones que en él se contienen con fines comerciales, políticos, publicitarios y para cualquier uso comercial, sobre todo en el envío de correos electrónicos no solicitados.
 
-El Titular se reserva el derecho a retirar todos aquellos comentarios y aportaciones que vulneren el respeto a la dignidad de la persona, que sean discriminatorios, xenófobos, racistas, pornográficos, que atenten contra la juventud o la infancia, el orden o la seguridad pública o que, a su juicio, no resultarán adecuados para su publicación. En cualquier caso, el Titular no será responsable de las opiniones vertidas por los usuarios a través de los foros, chats, u otras herramientas de participación.
+El Titular se reserva el derecho a retirar todos aquellos comentarios y aportaciones que vulneren el respeto a la dignidad de la persona, que sean discriminatorios, xenófobos, racistas, pornográficos, que atenten contra la juventud o la infancia, el orden o la seguridad pública o que, a su juicio, no resultarán adecuados para su publicación. **En cualquier caso, el Titular no será responsable de las opiniones vertidas por los usuarios a través de los foros, chats, u otras herramientas de participación.**
 
 #### 4. PROTECCIÓN DE DATOS
 
@@ -51,7 +51,7 @@ Todo lo relativo al tratamiento de sus datos personales se encuentra recogido en
 
 El Titular es propietario de todos los derechos de propiedad intelectual e industrial de su página web, así como de los elementos contenidos en la misma (a título enunciativo: imágenes, fotografías, sonido, audio, vídeo, software o textos, marcas o logotipos, combinaciones de colores, estructura y diseño, selección de materiales usados, programas de ordenador necesarios para su funcionamiento, acceso y uso, etc.), titularidad del Titular o bien de sus licenciantes.
 
-Todos los derechos reservados. En virtud de lo dispuesto en los artículos 8 y 32.1, párrafo segundo, de la Ley de Propiedad Intelectual, quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización del Titular.
+**Todos los derechos reservados.** En virtud de lo dispuesto en los artículos 8 y 32.1, párrafo segundo, de la Ley de Propiedad Intelectual, **quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización del Titular.**
 
 #### 6. EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD
 
@@ -101,8 +101,8 @@ Esta web dirige sus servicios a usuarios mayores de 18 años. Los menores de est
 
 #### 13. MEDIDAS DE SEGURIDAD - SSL
 
-El Titular ha contratado para su sitio web un certificado SSL («Secure Sockets Layer»). Dicho certificado SSL permite proteger toda la información personal y confidencial que se pueda manejar en un sitio web, independientemente de la información que se esté transmitiendo, como por ejemplo, desde cualquiera de los formularios de contacto del sitio web hasta el servidor o los datos introducidos para la suscripción de boletines de noticias, accesos a las áreas protegidas, etc.
+El Titular ha contratado para su sitio web un certificado **SSL** («Secure Sockets Layer»). Dicho certificado SSL permite proteger toda la información personal y confidencial que se pueda manejar en un sitio web, independientemente de la información que se esté transmitiendo, como por ejemplo, desde cualquiera de los formularios de contacto del sitio web hasta el servidor o los datos introducidos para la suscripción de boletines de noticias, accesos a las áreas protegidas, etc.
 
 La dirección del sitio web aparecerá en color verde, activándose el protocolo “https” que permite conexiones seguras desde un servidor web al navegador del usuario.
 
-Última revisión 16 de Junio de 2023
+Última revisión 31 de Enero de 2025

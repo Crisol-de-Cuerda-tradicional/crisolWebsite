@@ -1,106 +1,153 @@
 ---
-title: Política de privacidad
+title: Privacy Policy
 hero: contact.jpeg
 ---
 
-The objective of this policy is to inform interested parties about the various processing carried out by this organization through the website and that affect their personal data, in accordance with the provisions of Regulation (EU) 2016/679 of the European Parliament and of the Council of April 27, 2016, and Organic Law 3/2018, of December 5, on Personal Data Protection and guarantee of digital rights.
+**This page has been automatically translated for informational purposes. In case of discrepancies, the original Spanish version shall prevail.**
+
+The purpose of this policy is to inform interested parties about the various data processing activities carried out by this organization through its website, affecting their personal data, in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of April 27, 2016, and Organic Law 3/2018 of December 5, on the Protection of Personal Data and Guarantee of Digital Rights.
 
 #### 1. IDENTIFICATION AND CONTACT DETAILS OF THE CONTROLLER
 
-CRISOL DE CUERDA TRADICIONAL, domiciled at C/ IGLESIA Nº 21 (09199 CASTAÑARES) BURGOS, with NIF G09503152, contact phone and email [info@crisoldecuerda.com](mailto:info@crisoldecuerda.com)
+CRISOL DE CUERDA TRADICIONAL, located at C/ IGLESIA Nº 21 (09199 CASTAÑARES) BURGOS, with NIF G09503152, contact phone number and email [info@crisoldecuerda.com](mailto:info@crisoldecuerda.com)
 
 #### 2. PURPOSES OF PROCESSING YOUR PERSONAL DATA
 
-- USERS/NAVIGATORS OF THE CONTROLLER'S WEBSITE: We will process the personal data provided for:
+- USERS/VISITORS OF THE CONTROLLER’S WEBSITE
 
-  - Addressing requests, complaints, and incidents communicated through our contact channels incorporated into the website.
+  We will process the personal data provided for:
 
-  - Understanding the behavior of the navigator within the web to detect possible cyber-attacks on our web.
+  - Addressing requests, complaints, and incidents communicated through our contact channels on the website.
 
-  - Complying with the legal obligations that directly apply to us and regulate our activity.
+  - Understanding user behavior on the website to detect potential cyber-attacks.
+
+  - Complying with applicable legal obligations regulating our activity.
 
   - Protecting and exercising our rights or responding to claims of any kind.
 
-  - If applicable, sending commercial communications related to the goods or services that make up our activity and/or news or bulletins related to our sector. Refusing to provide us with authorization will make it impossible to send you information from the entity.
+  - Sending commercial communications related to our goods or services and/or sector-related news or bulletins (subject to your authorization).
 
-  - If applicable, managing your participation in contests and promotions carried out by the entity. Refusing to provide us with authorization will make it impossible to participate.
+  - Managing participation in contests and promotions (subject to your authorization).
 
-  - If applicable, sending satisfaction and/or quality surveys. Refusing to provide us with authorization will make it impossible to evaluate the service provided.
+  - Sending satisfaction and/or quality surveys (subject to your authorization).
 
-#### 3. LEGAL BASIS OF PROCESSING
+  - Managing user registration on our website and generating login credentials (subject to your authorization).
 
-- USERS/NAVIGATORS OF THE CONTROLLER'S WEBSITE
+- MEMBERS/ASSOCIATES
 
-  - Based on the consent you have given us to process your data for the indicated purposes. Refusal to provide your personal data will make it impossible to process your data for the mentioned purposes.
+  In addition to the purposes outlined for users/visitors, we will also process your data for:
 
-  - To comply with the legal obligations that apply to us. In this case, the interested party cannot refuse the processing of personal data.
+  - Managing your registration and membership status.
 
-  - In our legitimate interest to protect our image, business, and track record by preventing attacks on our website. In this case, the interested party cannot refuse the processing of personal data, although they may exercise, if applicable, the rights recognized in the "rights" section of this policy.
+  - Managing your attendance at events _(subject to your authorization)._
 
-#### 4. DATA RETENTION PERIODS OR CRITERIA
+- VOLUNTEERS
 
-The personal data provided will be kept for the time necessary to fulfill the purposes for which they were initially collected.
+  In addition to the purposes outlined for users/visitors, we will also process your data for:
 
-Once the data are no longer necessary for the processing in question, they will be duly blocked to be made available, if applicable, to the competent Public Administrations and Bodies, Judges, and Courts or the Public Prosecutor's Office, during the limitation period of actions that may arise from the relationship maintained with the client and/or the legally established retention periods.
+  - Managing your registration and status as a volunteer.
 
-#### 5. AUTOMATED DECISIONS AND PROFILING
+  - Informing you about volunteer opportunities, courses, and related news (subject to your authorization).
 
-The website does not make automated decisions or create profiles.
+#### 3. LEGAL BASIS FOR PROCESSING
 
-#### 6. RECIPIENTS
+- USERS/VISITORS OF THE WEBSITE
 
-During the period of processing your personal data, the organization may transfer your data to the following recipients:
+  - Your **consent** for processing your data for the stated purposes. Refusal will prevent us from processing your data for these purposes.
 
-- Judges and Courts.
+  - **Compliance with legal obligations.** In this case, you cannot object to data processing.
 
-- Law Enforcement Authorities.
+  - **Legitimate interest** in protecting our website from cyber-attacks. You may exercise your rights as detailed in the "Rights" section of this policy.
 
-- Other competent public authorities or bodies, when the controller has a legal obligation to provide the personal data.
+- MEMBERS/ASSOCIATES
 
-- If applicable, to those Data Processors who provide us with services.
+  - Your **consent** for processing your data for the stated purposes.
 
-#### 7. INTERNATIONAL DATA TRANSFERS
+  - **Execution of a contract** or **pre-contractual measures**.
 
-The organization does not carry out any International Data Transfers. If international data transfers become necessary in the future, the level of protection in the destination country will be verified, and the guarantees required by the regulations will be adopted.
+  - **Compliance with legal obligations**.
 
-#### 8. SOCIAL NETWORKS
+  - **Legitimate interest** in protecting our website from cyber-attacks.
 
-To involve you in our activity and keep you informed about our news, we inform you that CRISOL DE CUERDA TRADICIONAL has a profile on Social Networks.
+- VOLUNTEERS
 
-All users have the opportunity to join our social networks or groups. However, please note that unless we request your data directly (e.g., through marketing actions, contests, promotions, or any other valid form), your data will belong to the corresponding Social Network, so we recommend you carefully read their terms of use and privacy policies and ensure you configure your preferences regarding data processing.
+  - Your **consent** for processing your data for the stated purposes.
 
-Below, we detail the link to the privacy policy of the various Social Networks where we have a presence, so you can access their privacy policies at any time and configure your profile to ensure your privacy:
+  - **Compliance with legal obligations**.
 
-**Facebook**: https://www.facebook.com/privacy/policy
+  - **Legitimate interest** in protecting our website from cyber-attacks.
 
-**Instagram**: https://privacycenter.instagram.com/policy
+#### 4. WEBSITE TOOLS AND PLUGINS
 
-**Spotify**: https://www.spotify.com/es/legal/privacy-policy
+- Google Maps
 
-**Youtube**: https://www.youtube.com/intl/ALL_es/howyoutubeworks/our-commitments/protecting-user-data
+We use **Google Maps (API)** to display interactive maps on our website. Google may collect and store information when using this service. Please note that using Google Maps may involve **international data transfers** not covered by an adequacy decision of the European Commission, meaning they may lack the required level of protection under the GDPR.
 
-**TikTok**: https://www.tiktok.com/legal/page/eea/privacy-policy
+We recommend reviewing **Google's privacy policy** [here](https://policies.google.com/privacy?hl=en).
 
-#### 9. RIGHTS
+- YouTube
 
-Interested parties can request more information about the processing of their personal data and exercise their rights of access, rectification, deletion, and request the limitation of processing of their personal data, oppose it, request its portability (where technically possible), withdraw the given consent and, if applicable, not be subject to a decision based solely on automated processing, including profiling.
+Our website uses **plugins from YouTube**, a platform operated by Google. YouTube only associates your browsing behavior with your personal profile if you are logged into your account. To prevent this, log out before using the plugin.
 
-To do this, you can use the forms provided by the organization or send a written request to the postal or email address referenced in the heading. For appropriate purposes, we inform you that you may be asked for your ID or any other similar document to verify your identity, provided this cannot be done by less intrusive means.
+We recommend reviewing **YouTube’s privacy policy** [here](https://policies.google.com/privacy?hl=en).
 
-If you feel that your rights regarding the protection of your personal data have been violated, especially if you have not obtained satisfaction in exercising your rights, you can file a complaint with the competent Data Protection Authority (Spanish Data Protection Agency), through its website www.aepd.es
+#### 5. DATA RETENTION PERIODS OR CRITERIA
 
-In compliance with Article 21 of Law 34/2002 on Information Society Services and Electronic Commerce, if you do not wish to receive more information about our services, you can unsubscribe by clicking on the "Unsubscribe" section of the email.
+Personal data will be retained as long as necessary to fulfill the purposes for which they were collected. Once they are no longer needed, they will be properly blocked and made available to relevant public authorities, courts, or prosecutors for the applicable limitation periods.
 
-#### 10. DATA ACCURACY
+**Data retention periods:**
 
-The interested party guarantees that the provided data are true, accurate, complete, and up-to-date; committing to inform of any changes regarding the data provided, through the channels enabled for this purpose and indicated in point one of this policy. They will be responsible for any damage or harm, both direct and indirect, that may arise as a result of non-compliance with this obligation.
+- **CIVIL CODE:** 1 to 5 years, depending on the case (Articles 1964.2 and 1968.2).
 
-In the event that the user provides data of third parties, they declare that they have the consent of the interested parties and commit to inform them of the information contained in this clause, exempting the organization from any responsibility arising from the failure to comply with this obligation.
+- **COMMERCIAL CODE:** 6 years (Article 30) for business-related records (invoices, receipts, bank documents, etc.).
 
-#### 11. MODIFICATIONS AND UPDATES
+- **GENERAL TAX LAW:** 4 years (Articles 66-70) for tax-related records.
 
-This privacy policy may be modified/updated based on legal requirements or to adapt this policy to the instructions issued by the Spanish Data Protection Agency, or due to changes on our website. Therefore, we advise users to periodically visit our Privacy Policy.
+- **LAW 10/2010 ON PREVENTION OF MONEY LAUNDERING AND FINANCING OF TERRORISM:** 10 years (Article 25).
 
-If you have any questions about this policy, you can contact CRISOL DE CUERDA TRADICIONAL through the forms provided by the organization, or send a written request to the postal or email address referenced in the heading.
+#### 6. AUTOMATED DECISION-MAKING AND PROFILING
 
-Last reviewed May 20, 2024
+Our website does **not** engage in **automated decision-making** or **profiling**.
+
+#### 7. RECIPIENTS
+
+During the data processing period, your data may be shared with:
+
+- Courts and tribunals.
+- Law enforcement agencies.
+- Other competent public authorities.
+- Data processors providing services to our organization.
+
+#### 8. INTERNATIONAL DATA TRANSFERS
+
+Our organization **does not** perform **international data transfers**. If necessary in the future, we will assess the data protection level of the destination country and implement required safeguards.
+
+#### 9. SOCIAL MEDIA
+
+To keep you informed about our activities, **CRISOL DE CUERDA TRADICIONAL** maintains profiles on social media platforms. Please note that unless we directly request your data, your data belongs to the respective social network. We encourage you to review their privacy policies:
+
+- **Facebook**: [https://www.facebook.com/privacy/policy](https://www.facebook.com/privacy/policy)
+- **Instagram**: [https://privacycenter.instagram.com/policy](https://privacycenter.instagram.com/policy)
+- **Spotify**: [https://www.spotify.com/legal/privacy-policy](https://www.spotify.com/legal/privacy-policy)
+- **YouTube**: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+- **TikTok**: [https://www.tiktok.com/legal/page/eea/privacy-policy](https://www.tiktok.com/legal/page/eea/privacy-policy)
+
+#### 10. RIGHTS
+
+You may request information about your personal data processing and exercise your rights of **access, rectification, erasure, restriction, objection, portability, and withdrawal of consent**. Requests can be submitted via the organization's provided postal or email addresses.
+
+If you believe your data protection rights have been violated, you may file a complaint with the **Spanish Data Protection Agency** at [www.aepd.es](https://www.aepd.es/en).
+
+In accordance with **Article 21 of Law 34/2002** on Information Society Services and Electronic Commerce, you may unsubscribe from commercial communications by emailing [info@crisoldecuerda.com](mailto:info@crisoldecuerda.com) with the subject **"UNSUBSCRIBE."**
+
+#### 11. DATA ACCURACY
+
+The data subject guarantees that the data provided is **accurate, complete, and up to date** and agrees to report any changes. If providing third-party data, they confirm having obtained the data subject’s consent.
+
+#### 12. CHANGES AND UPDATES
+
+This privacy policy may be updated due to **legal requirements** or **changes to our website**. We recommend users review this policy periodically.
+
+For inquiries, contact **CRISOL DE CUERDA TRADICIONAL** via the provided postal or email addresses.
+
+Last reviewed: January 31, 2025
