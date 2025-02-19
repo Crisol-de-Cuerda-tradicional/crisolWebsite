@@ -68,7 +68,7 @@ El aspirante solicitará la beca por correo electrónico a [inscripciones@crisol
 
 El plazo de presentación de la documentación finaliza el {{ scholarshipLimitDate }}. Después de esta fecha, enviaremos un correo a los solicitantes con la confirmación o desestimación de las solicitudes.
 
-### Condiciones generales
+## Condiciones generales
 
 - El pago de matrícula incluye la reserva de plaza; el alojamiento con desayuno, comida y cena; el curso completo (clases, talleres) y los gastos de gestión. Pueden surgir actividades voluntarias adicionales que correrán por cuenta de los participantes del curso.
 - La organización Crisol de Cuerda no provee el transporte al curso, aunque facilitará medios para que los participantes puedan ponerse en contacto y compartir transporte, reduciendo así su coste.
