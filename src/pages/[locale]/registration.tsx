@@ -8,6 +8,7 @@ import { IContent, getContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
 import { parseTemplate } from '@utils/parseTemplate';
 import { tz } from '@utils/timezone';
+import dayjs from 'dayjs';
 
 interface IRegistrationProps {
   registrationPage: IContent<{ title: string; hero: string }>;
@@ -34,6 +35,7 @@ const getStaticProps: GetStaticProps = async ctx => {
   }
 
   const locale = getLocale(ctx);
+  dayjs.locale(locale);
   const registrationText = translations.registration[locale].toUpperCase();
   const underageAuthorisationText = translations.underage_authorisation[locale];
   const under14AuthorisationText = translations.under_14_authorisation[locale];
