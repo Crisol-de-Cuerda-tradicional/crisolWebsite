@@ -1,12 +1,12 @@
 import { GetStaticProps, NextPage } from 'next';
 
+import { ContentLayout, Hero, RenderMarkdown } from '@components';
 import config from '@config/config.yml';
 import translations from '@config/translations.yml';
-import { ContentLayout, Hero, RenderMarkdown } from '@components';
-import { IContent, getContent } from '@utils/getContent';
-import { parseTemplate } from '@utils/parseTemplate';
 import { baseUrl } from '@utils/baseUrl';
+import { IContent, getContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
+import { parseTemplate } from '@utils/parseTemplate';
 import { tz } from '@utils/timezone';
 
 interface IRegistrationProps {
@@ -68,6 +68,8 @@ const getStaticProps: GetStaticProps = async ctx => {
       config.registration.acceptanceOfGuardianshipFile
     )}" download target="_blank">${acceptanceOfGuardianshipText}</a>`,
     scholarshipDiscount: config.registration.scholarshipDiscount,
+    familyDiscount: config.registration.familyDiscount,
+    familyDiscountMinimum: config.registration.familyDiscountMinimum,
     scholarshipLimitDate: tz(config.registration.scholarshipLimitDate).format(dateFormats[locale]),
   };
 

@@ -14,12 +14,14 @@ registration:
   under14AuthorisationFile: /docs/under-14-authorisation.pdf
   acceptanceOfGuardianshipFile: /docs/under-14-acceptance-of-guardianship.pdf
   scholarshipDiscount: 25 # percentage
-  scholarshipLimitDate: 2025-04-10
+  familyDiscount: 10 # percentage
+  familyDiscountMinimum: 3
+  scholarshipLimitDate: 2025-04-20
 
-displayRegistrationSlogan: false
+displayRegistrationSlogan: true
 displayRegistrationCTA: false
 registrationLink: https://inscripciones.crisoldecuerda.com
-hideRegistrationPage: true
+hideRegistrationPage: false
 
 pendingTeachers: true
 

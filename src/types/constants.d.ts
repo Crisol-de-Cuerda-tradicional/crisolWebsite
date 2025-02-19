@@ -22,6 +22,8 @@ declare module '*config.yml' {
       under14AuthorisationFile: string;
       acceptanceOfGuardianshipFile: string;
       scholarshipDiscount: number;
+      familyDiscount: number;
+      familyDiscountMinimum: number;
       scholarshipLimitDate: Date;
     };
     socialMedia: {
