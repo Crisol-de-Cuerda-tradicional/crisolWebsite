@@ -1,0 +1,7 @@
+Inés Sánchez Mesonero es bailarina, profesora de baile y fanática del folklore. Lleva danzando con gran intensidad desde muy pequeña. Su formación cuenta con estilos muy variados: especializada en balfolk y bailes europeos, está constantemente estudiando sobre bailes de todo el mundo, tanto grupales, como de pareja, como individuales, pasando por el bollywood, la danza del vientre, bailes de Latinoamérica, África y Estados Unidos. También cuenta con experiencia en danzas más modernas como el contemporáneo o el funky.
+
+Llegó al mundo de los bailes populares en 2013 y desde entonces ha enseñado en Bretaña, Francia, Italia, España y Costa Rica, tanto a principiantes como a bailarines más experimentados. Trabaja tanto con adultos como con adolescentes y niños, porque todas las edades son maravillosas.
+
+Es una apasionada de la antropología, la sociología, los lenguajes (físicos, musicales y verbales: también es traductora), la pedagogía, el mundo rural y folklórico, sus orígenes y sus ritos. Su enfoque a la hora de enseñar no solo es formativo sino además danzaterapeútico, pues utiliza la profundización en los bailes populares y su variedad como herramienta para explorar las ricas capacidades físicas, sociales y mentales que habitan en todo ser humano; en realidad, su mayor pasión es hacer crecer en la gente la llama del baile.
+
+Para complementar su formación musical, en la actualidad estudia percusión y cantos populares en Aragón con músicos como Luis Miguel Bajén.

@@ -1,0 +1,7 @@
+Inés Sánchez Mesonero is a dancer, dance teacher, and folklore enthusiast. She has been dancing with great intensity since she was very young. Her training encompasses a wide variety of styles: specializing in balfolk and European dances, she is constantly studying dances from around the world, including group dances, partner dances, and solo dances, ranging from Bollywood, belly dancing, to dances from Latin America, Africa, and the United States. She also has experience in more modern dance styles such as contemporary and funky.
+
+She entered the world of popular dances in 2013 and since then has taught in Brittany, France, Italy, Spain, and Costa Rica, working with both beginners and more experienced dancers. She works with adults, teenagers, and children alike, because all ages are wonderful.
+
+She is passionate about anthropology, sociology, languages (physical, musical, and verbal: she is also a translator), pedagogy, and the rural and folkloric world, its origins, and rituals. Her teaching approach is not only educational but also dance-therapeutic, as she uses the exploration of popular dances and their variety as a tool to explore the rich physical, social, and mental capacities that inhabit every human being; in reality, her greatest passion is to ignite and nurture the flame of dance in people.
+
+To complement her musical training, she is currently studying percussion and popular songs in Aragon with musicians such as Luis Miguel Bajén.

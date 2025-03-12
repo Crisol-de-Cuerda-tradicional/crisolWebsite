@@ -371,6 +371,25 @@ teachers:
     years:
       - 2015
 
+  - id: ines_sanchez
+    lastInstrument: dance
+    instruments:
+      - dance
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/ines.saltamontes
+      # soundcloud:
+      # spotify:
+      # tiktok:
+      # twitter:
+      # website:
+      # youtubeChannel:
+      # youtubeVideo:
+    name: Inés Sánchez
+    years:
+      - 2025
+
   - id: jaime_munoz
     lastInstrument: flute
     instruments:
@@ -453,6 +472,25 @@ teachers:
     name: Louise Mulcahy
     years:
       - 2023
+
+  - id: lucia_lopez
+    lastInstrument: dance
+    instruments:
+      - dance
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/lucialopezenrique
+      # soundcloud:
+      # spotify:
+      # tiktok:
+      # twitter:
+      # website:
+      # youtubeChannel:
+      # youtubeVideo:
+    name: Lucía López
+    years:
+      - 2025
 
   - id: luis_nicolas_carrete
     lastInstrument: guitar
