@@ -678,6 +678,18 @@ teachers:
       - 2019
       - 2022
 
+  - id: toby_kuhn
+    lastInstrument: cello
+    instruments:
+      - cello
+    name: Toby Kuhn
+    years:
+      - 2025
+    media:
+      instagram: https://www.instagram.com/toby.cello
+      youtubeChannel: https://www.youtube.com/@tobykuhn441
+      youtubeVideo: wpyC8-1Ynvg
+
   - id: tony_mcmanus
     lastInstrument: guitar
     instruments:
