@@ -678,6 +678,21 @@ teachers:
       - 2019
       - 2022
 
+  - id: tatiana_hargreaves
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
+    media:
+      bandcamp: http://tatianahargreaves.bandcamp.com/
+      fb: https://www.facebook.com/tatianahargreaves
+      instagram: https://www.instagram.com/dragonfiddler
+      spotify: 63Xd2NZV9SzwjChcdH5QsK
+      website: https://www.tatianahargreaves.com
+      youtubeVideo: 76zNOeTh6Lg
+    name: Tatiana Hargreaves
+    years:
+      - 2025
+
   - id: toby_kuhn
     lastInstrument: cello
     instruments:
@@ -687,6 +702,7 @@ teachers:
       - 2025
     media:
       instagram: https://www.instagram.com/toby.cello
+      spotify: 1BBC6bIXPyvsWkJGCNmWY5
       youtubeChannel: https://www.youtube.com/@tobykuhn441
       youtubeVideo: wpyC8-1Ynvg
 
