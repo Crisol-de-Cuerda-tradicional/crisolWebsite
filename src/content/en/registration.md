@@ -29,6 +29,20 @@ This is our bank information:
 
 **Important**: Don’t forget to state the full name of the attendee in the CONCEPT of the transfer so that we can link it to the registration.
 
+## Donations
+
+While your registration fee covers your participation in the course, we want to share with you that Crisol de Cuerda is an event driven by all its members and depends more than ever on collective support to stay alive and growing.
+
+If you wish to contribute beyond the required amount, you can add an extra amount to your bank transfer as a donation.
+
+Each additional contribution helps us make Crisol sustainable and ensure it can continue to be held in the future. Furthermore, if we receive enough support, we can improve different aspects of the camp, whether in content, logistics, or infrastructure, making the experience even better for all participants.
+
+Crisol de Cuerda is a **non-profit association** and this donation may be eligible for tax benefits. For more information about this, please email us at [info@crisoldecuerda.com](mailto:info@crisoldecuerda.com).
+
+If you'd like to help, simply add any amount to your registration payment.
+
+**Every bit counts, and we truly appreciate your support!**
+
 ## Underage
 
 There is no age restriction to come to Crisol de Cuerda, i.e. underage students can register as long as they stick to the following conditions:

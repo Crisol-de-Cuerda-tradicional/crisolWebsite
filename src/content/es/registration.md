@@ -28,6 +28,22 @@ Estos son nuestros datos bancarios:
 
 **Muy importante**: No olvides poner el nombre completo del alumno en el CONCEPTO de la transferencia para que podamos efectuar el registro completo.
 
+## Donaciones
+
+Si bien la cantidad de tu inscripción cubre tu participación al curso, queremos compartir contigo que Crisol de Cuerda es un evento impulsado por todos sus miembros y depende más que nunca del apoyo colectivo para seguir vivo y creciendo.
+
+Si deseas contribuir más allá del importe requerido, puedes añadir una cantidad extra en tu transferencia como donativo.
+
+Cada contribución adicional nos ayuda a hacer que Crisol sea sostenible y pueda seguir celebrándose en el futuro.
+Además, si conseguimos suficiente apoyo, podremos mejorar diferentes aspectos del campamento, ya sea en contenidos, logística o infraestructura, haciendo que la experiencia sea aún mejor para todos los participantes.
+
+Crisol de Cuerda es una **asociación sin ánimo de lucro** y esta donación puede ser apta para beneficios fiscales.
+Para más información al respecto, envíanos un correo a [info@crisoldecuerda.com](mailto:info@crisoldecuerda.com).
+
+Si te animas a ayudar, simplemente añade cualquier cantidad a tu pago de inscripción.
+
+**¡Cada aporte cuenta y te lo agradecemos de corazón!**
+
 ## Menores de edad
 
 En Crisol de Cuerda no existe una restricción de edad para nuestros participantes, por lo que los alumnos menores de edad pueden inscribirse teniendo en cuenta las siguientes condiciones:
