@@ -371,6 +371,25 @@ teachers:
     years:
       - 2015
 
+  - id: hugo_franco
+    lastInstrument: guitar
+    instruments:
+      - guitar
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/musgofranco/
+      # soundcloud:
+      spotify: 4DI3XKcHGBdMYQDuafnst5
+      # tiktok:
+      # twitter:
+      # website:
+      youtubeChannel: https://www.youtube.com/@hummofranco
+      youtubeVideo: RXuj2QSITt8
+    name: Hugo Franco
+    years:
+      - 2025
+
   - id: ines_sanchez
     lastInstrument: dance
     instruments:
