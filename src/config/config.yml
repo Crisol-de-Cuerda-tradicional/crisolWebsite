@@ -19,7 +19,7 @@ registration:
   scholarshipLimitDate: 2025-04-20
 
 displayRegistrationSlogan: true
-displayRegistrationCTA: false
+displayRegistrationCTA: true
 registrationLink: https://inscripciones.crisoldecuerda.com
 hideRegistrationPage: false
 
