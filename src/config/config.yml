@@ -23,7 +23,7 @@ displayRegistrationCTA: true
 registrationLink: https://inscripciones.crisoldecuerda.com
 hideRegistrationPage: false
 
-pendingTeachers: true
+pendingTeachers: false
 
 newsletterLink: https://eepurl.com/ggOBLr
 socialMedia:
