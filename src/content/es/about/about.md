@@ -9,7 +9,7 @@ A pies del río Arlanzón, en el pueblo con el mismo nombre y a pocos kilómetro
 
 Guiados por maestros de dichos instrumentos, nos acercaremos a la música desde un punto de vista **divertido** y **práctico** en un entorno que nos permite unir música y naturaleza, valor añadido que refuerza a ambos en este proyecto educativo, acogedor y seguro, único en la Península.
 
-Entre estos grandes maestros tendremos como siempre a **Alasdair Fraser** y **Natalie Haas** ¡además de muchos otros! [Consulta la lista entera de profesores AQUI](/es/teachers)
+Entre estos grandes maestros tendremos como siempre a **Alasdair Fraser** ¡además de muchos otros! [Consulta la lista entera de profesores AQUI](/es/teachers)
 
 ---
 
