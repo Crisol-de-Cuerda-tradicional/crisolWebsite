@@ -25,6 +25,7 @@ declare module '*config.yml' {
       familyDiscount: number;
       familyDiscountMinimum: number;
       scholarshipLimitDate: Date;
+      referralDiscount: number;
     };
     socialMedia: {
       instagram: string;
@@ -51,8 +52,8 @@ declare module '*crisolBookIndex.yml' {
     downloadLink: string;
     index: CrisolBookEntry[];
   }
-  const crisolBoookIndex: CrisolBookIndex;
-  export default crisolBoookIndex;
+  const crisolBookIndex: CrisolBookIndex;
+  export default crisolBookIndex;
 }
 
 declare module '*teachers.yml' {

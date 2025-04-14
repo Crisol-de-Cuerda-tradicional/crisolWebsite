@@ -58,7 +58,13 @@ Está estrictamente prohibido el consumo de drogas para todos los participantes 
 
 ## Descuentos
 
+### Familias
+
 Ofrecemos un descuento de un {{ familyDiscount }}% para aquellas familias que quieran asistir juntos a Crisol. Este descuento se aplica a todas aquellas familias que registren al menos {{ familyDiscountMinimum }} miembros de la unidad familar, y se aplicará a todos los miembros que se inscriban.
+
+### Trae a tus amigos
+
+¿Tienes amigos que quieren venir a Crisol de Cuerda? Ponemos en marcha un programa de recomendación donde los dos os podéis beneficiar de un descuento. Si ya has estado en Crisol anteriormente y nos recomiendas a otro alumno **que no haya venido nunca a Crisol** os aplicaremos un {{ referralDiscount }}% a cada uno. El alumno nuevo solo puede recibir este descuento una vez, pero para los crisoleros antiguos este descuento es acumulable. Cuantos más amigos traigas, más barata será tu inscripción. Para poder aplicaros el descuento, ambos debéis indicar que venís por referencia en el campo de comentarios de la inscripción.
 
 Si tienes dudas sobre los criterios de eligibilidad o como solicitar el descuento, puedes contactar con nosotros en [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com).
 
@@ -82,7 +88,7 @@ La concesión de la beca conlleva una implicación especial por parte del becado
 
 El aspirante solicitará la beca por correo electrónico a [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com), adjuntando la documentación requerida. Aunque se solicite la beca, es necesario realizar la reserva de plaza como cualquier otro participante y los {{ bookingFee }}€ iniciales, además de especificar en el formulario que se tiene intención de solicitar una beca.
 
-El plazo de presentación de la documentación finaliza el {{ scholarshipLimitDate }}. Después de esta fecha, enviaremos un correo a los solicitantes con la confirmación o desestimación de las solicitudes.
+El plazo de presentación de la documentación finaliza el **{{ scholarshipLimitDate }}**. Después de esta fecha, enviaremos un correo a los solicitantes con la confirmación o desestimación de las solicitudes.
 
 ## Condiciones generales
 

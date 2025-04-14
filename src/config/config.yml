@@ -16,7 +16,8 @@ registration:
   scholarshipDiscount: 25 # percentage
   familyDiscount: 10 # percentage
   familyDiscountMinimum: 3
-  scholarshipLimitDate: 2025-04-20
+  scholarshipLimitDate: 2025-05-15
+  referralDiscount: 10 # percentage
 
 displayRegistrationSlogan: true
 displayRegistrationCTA: true

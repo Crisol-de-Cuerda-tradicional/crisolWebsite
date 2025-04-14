@@ -59,7 +59,13 @@ Consumption of any drugs is strictly forbidden to all the participants. Alcohol 
 
 ## Discounts
 
+### Families
+
 We offer a {{ familyDiscount }}% discount for families who want to attend Crisol de Cuerda together. This discount applies to family units registering at least {{ familyDiscountMinimum }} members, and it will be applied to all family members included in the registration.
+
+### Bring your friends
+
+Do you have friends who want to come to Crisol de Cuerda? We are launching a referral program where both of you can benefit from a discount. If you have attended Crisol before and recommend another student **who has never attended Crisol**, we will apply a {{ referralDiscount }}% discount to both of you. The new student can only receive the discount once, but for returning Crisol participants, this discount is cumulative. The more friends you bring, the cheaper your registration will be. To apply the discount, both of you must indicate that you are coming through a referral in the comments field of the registration form.
 
 If you have any questions about eligibility or how to apply the discount, feel free to contact us at [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com).
 
@@ -83,7 +89,7 @@ Accepting the scholarship also requires extra implication of the attendee, who w
 
 The applicant will request the scholarship via email at [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com), attaching the requested documents. The applicant must register and make the down-payment of {{ bookingFee }}€ like the rest of the attendees.
 
-The time limit to send the necessary documents is {{ scholarshipLimitDate }}. After this date, we will send an email to all the solicitors with the outcome of their application.
+The time limit to send the necessary documents is **{{ scholarshipLimitDate }}**. After this date, we will send an email to all the solicitors with the outcome of their application.
 
 ## Terms and conditions
 

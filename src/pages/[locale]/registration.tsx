@@ -73,6 +73,7 @@ const getStaticProps: GetStaticProps = async ctx => {
     familyDiscount: config.registration.familyDiscount,
     familyDiscountMinimum: config.registration.familyDiscountMinimum,
     scholarshipLimitDate: tz(config.registration.scholarshipLimitDate).format(dateFormats[locale]),
+    referralDiscount: config.registration.referralDiscount,
   };
 
   const registrationPage = await getContent(locale, 'registration');
