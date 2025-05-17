@@ -1,5 +1,6 @@
 import { baseUrl } from '@utils/baseUrl';
 import Document, { Head, Html, Main, NextScript } from 'next/document';
+
 import i18nextConfig from '../../next-i18next.config';
 
 class MyDocument extends Document {
@@ -15,6 +16,12 @@ class MyDocument extends Document {
           />
           <link rel="icon" href={baseUrl('/favicon.png')} />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            rel="preload"
+            as="image"
+            fetchPriority="high"
+            href={baseUrl('/images/video_poster.jpg')}
+          />
         </Head>
         <body>
           <Main />
