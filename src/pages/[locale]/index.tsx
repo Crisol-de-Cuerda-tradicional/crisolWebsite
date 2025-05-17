@@ -59,8 +59,10 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               de Cuerda
             </h1>
             <div className="hero__dates">
-              <h3>{formatDates(config.startDate, config.endDate, locale ?? 'es')}</h3>
-              <h1>{config.startDate.getFullYear()}</h1>
+              <span className="hero__dates--text">
+                {formatDates(config.startDate, config.endDate, locale ?? 'es')}
+              </span>
+              <span className="hero__dates--year">{config.startDate.getFullYear()}</span>
             </div>
           </div>
 
@@ -69,7 +71,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               <h2>{indexConfig.registrationSlogan[locale]}</h2>
             ) : null}
             {config.displayRegistrationCTA ? (
-              <Link href={config.registrationLink} target="_blank">
+              <Link href={config.registrationLink} target="_blank" className="test">
                 <Button size="xlg">{indexConfig.registrationCta[locale]}</Button>
               </Link>
             ) : null}

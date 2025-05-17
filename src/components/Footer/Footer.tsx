@@ -27,19 +27,19 @@ export const Footer = () => {
       </div>
       <div className="footer__social">
         <div className="social__links">
-          <Link href={config.socialMedia.instagram} target="_blank">
+          <Link href={config.socialMedia.instagram} target="_blank" aria-label="Instagram">
             <FontAwesomeIcon icon={brands('instagram')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.tiktok} target="_blank">
+          <Link href={config.socialMedia.tiktok} target="_blank" aria-label="TikTok">
             <FontAwesomeIcon icon={brands('tiktok')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.spotify} target="_blank">
+          <Link href={config.socialMedia.spotify} target="_blank" aria-label="Spotify">
             <FontAwesomeIcon icon={brands('spotify')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.youtube} target="_blank">
+          <Link href={config.socialMedia.youtube} target="_blank" aria-label="Youtube">
             <FontAwesomeIcon icon={brands('youtube')} size="2x" />
           </Link>
-          <Link href={config.socialMedia.facebook} target="_blank">
+          <Link href={config.socialMedia.facebook} target="_blank" aria-label="Facebook">
             <FontAwesomeIcon icon={brands('facebook')} size="2x" />
           </Link>
         </div>

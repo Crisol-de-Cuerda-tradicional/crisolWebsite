@@ -55,7 +55,7 @@ export default css`
         display: flex;
         gap: 1rem;
 
-        h3 {
+        &--text {
           flex-basis: 60%;
           color: var(--color-primary);
           margin: 0;
@@ -63,7 +63,11 @@ export default css`
           line-height: 1.6rem;
           text-transform: uppercase;
         }
-        h1 {
+        &--year {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          font-size: var(--size-xxxlg);
+          line-height: calc(1.5 * var(--size-xxxlg));
           flex-basis: 40%;
           color: var(--color-white);
           margin: 0;
@@ -78,15 +82,12 @@ export default css`
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      flex-grow: 0;
 
       padding: 1rem 0;
 
       h2 {
         margin: 0;
-      }
-
-      a {
-        width: fit-content;
       }
     }
   }

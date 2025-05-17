@@ -1,8 +1,8 @@
-import { useContext } from 'react';
 import Image from 'next/image';
+import { useContext } from 'react';
 
+import { Link, MenuContext } from '@components';
 import config from '@config/config.yml';
-import { MenuContext, Link } from '@components';
 import { baseUrl } from '@utils/baseUrl';
 
 export const Navbar = () => {
@@ -17,6 +17,9 @@ export const Navbar = () => {
         className={`hamburger hamburger--spin ${showMenu ? 'is-active' : ''}`}
         type="button"
         onClick={toggleMenu}
+        aria-label={showMenu ? 'Close menu' : 'Open menu'}
+        aria-expanded={showMenu}
+        aria-controls="menu"
       >
         <span className="hamburger-box">
           <span className="hamburger-inner" />

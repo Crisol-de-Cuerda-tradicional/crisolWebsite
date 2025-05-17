@@ -22,7 +22,11 @@ export const ButtonGoTop = ({ parentRef }: ButtonGoTopProps) => {
 
   return (
     <>
-      <button className={`goTop ${!showGoTop ? 'hidden' : ''}`} onClick={goToTopAction} />
+      <button
+        className={`goTop ${!showGoTop ? 'hidden' : ''}`}
+        onClick={goToTopAction}
+        aria-label="Go to top"
+      />
       <style jsx>{`
         .hidden {
           opacity: 0;
