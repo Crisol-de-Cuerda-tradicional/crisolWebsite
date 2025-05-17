@@ -13,8 +13,8 @@ import translations from '@config/translations.yml';
 import { ITeacher } from '@crisolTypes/Teacher';
 import { useLocale } from '@hooks';
 import homePageStyles from '@styles/home-page';
-import { getContent, IContent } from '@utils/getContent';
 import { baseUrl } from '@utils/baseUrl';
+import { getContent, IContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
 import { tz } from '@utils/timezone';
 
@@ -43,7 +43,13 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
         <title>{config.name}</title>
       </Head>
       <section className="hero__container">
-        <video autoPlay loop muted>
+        <video
+          autoPlay
+          loop
+          muted
+          poster={baseUrl('/images/video_poster.jpg')}
+          style={{ objectFit: 'cover' }}
+        >
           <source src={baseUrl('/media/videoweb.mp4')} />
         </video>
         <div id="hero" className="hero">
