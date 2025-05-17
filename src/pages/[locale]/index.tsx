@@ -42,7 +42,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       <Head>
         <title>{config.name}</title>
       </Head>
-      <section className="hero__container">
+      <div className="hero__container">
         <video
           autoPlay
           loop
@@ -77,7 +77,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             ) : null}
           </div>
         </div>
-      </section>
+      </div>
       <ContentLayout id="about_crisol">
         <div className="centered">
           <h2>{whatIsSection.meta.title}</h2>
@@ -103,7 +103,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       </section>
       <section id="teachers" className="teachers">
         <div className="centered">
-          <h1>{`${translations.teachers[locale]} ${config.startDate.getFullYear()}`}</h1>
+          <h2>{`${translations.teachers[locale]} ${config.startDate.getFullYear()}`}</h2>
         </div>
         <div className="teachers__content">
           {teachersContent.map(teacher => {
@@ -134,7 +134,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       </section>
       <section id="accommodation" className="accommodation">
         <ContentLayout>
-          <h1>{accommodationSection.meta.title}</h1>
+          <h2>{accommodationSection.meta.title}</h2>
           <RenderMarkdown content={accommodationSection.content} />
           <Link href={`/accommodation`}>
             <Button variant="light">{indexConfig.knowMoreButton[locale]}</Button>
@@ -159,12 +159,12 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       {config.hideRegistrationPage ? null : (
         <section id="information" className="information">
           <div className="centered">
-            <h1>{`${config.nameShort} ${config.startDate.getFullYear()}`}</h1>
+            <h2>{`${config.nameShort} ${config.startDate.getFullYear()}`}</h2>
           </div>
           <div className="information__wrapper">
             <div className="information__cardwrapper">
               <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
-              <h2>{indexConfig.infoSection.information.title[locale]}</h2>
+              <h3>{indexConfig.infoSection.information.title[locale]}</h3>
               <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.information.link}>
                 <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
@@ -172,7 +172,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             </div>
             <div className="information__cardwrapper">
               <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
-              <h2>{indexConfig.infoSection.prices.title[locale]}</h2>
+              <h3>{indexConfig.infoSection.prices.title[locale]}</h3>
               <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.prices.link}>
                 <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
@@ -180,7 +180,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             </div>
             <div className="information__cardwrapper">
               <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
-              <h2>{indexConfig.infoSection.register.title[locale]}</h2>
+              <h3>{indexConfig.infoSection.register.title[locale]}</h3>
               <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.register.link}>
                 <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
@@ -188,7 +188,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             </div>
             <div className="information__cardwrapper">
               <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
-              <h2>{indexConfig.infoSection.scholarships.title[locale]}</h2>
+              <h3>{indexConfig.infoSection.scholarships.title[locale]}</h3>
               <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.scholarships.link}>
                 <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>

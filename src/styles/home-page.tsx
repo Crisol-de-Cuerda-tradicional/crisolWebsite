@@ -222,7 +222,7 @@ export default css`
       color: var(--color-primary);
       padding: 2rem;
 
-      h2,
+      h3,
       p {
         color: var(--color-dark);
       }
