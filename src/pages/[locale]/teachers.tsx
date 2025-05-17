@@ -3,14 +3,13 @@ import { NextParsedUrlQuery } from 'next/dist/server/request-meta';
 import { useRouter } from 'next/router';
 import { JSX, useEffect, useState } from 'react';
 
-import translations from '@config/translations.yml';
 import teachersConfig from '@config/teachers.yml';
+import translations from '@config/translations.yml';
 
-import { ContentLayout, Hero, TeacherCard } from '@components';
-import { getContent, IContent } from '@utils/getContent';
-import { Link, TeacherListLink } from '@components';
+import { ContentLayout, Hero, Link, TeacherCard, TeacherListLink } from '@components';
 import type { ITeacher } from '@crisolTypes/Teacher';
 import { useLocale } from '@hooks';
+import { getContent, IContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface ITeachersProps {
@@ -56,17 +55,14 @@ const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Elemen
             return (
               <div key={year} className="years__year">
                 <Link
+                  className={router.query.year === year.toString() ? 'years__year--active' : ''}
                   href={{
                     pathname: router.pathname,
                     query: handleQueryParam(year),
                   }}
                   shallow
                 >
-                  <span
-                    className={router.query.year === year.toString() ? 'years__year--active' : ''}
-                  >
-                    {year === 'all' ? translations[year][locale] : year}
-                  </span>
+                  <span>{year === 'all' ? translations[year][locale] : year}</span>
                 </Link>
               </div>
             );
@@ -82,7 +78,7 @@ const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Elemen
           return <TeacherCard key={teacher.id} teacher={teacher} />;
         })}
       </ContentLayout>
-      <style jsx>{`
+      <style jsx global>{`
         .years {
           display: flex;
           gap: 1rem;
@@ -90,16 +86,27 @@ const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Elemen
           margin-bottom: 2rem;
           font-size: var(--size-lg);
 
-          &__year:not(:last-child):after {
-            color: var(--color-primary);
-            content: '-';
-            margin-left: 1rem;
-          }
+          &__year {
+            &:not(:last-child):after {
+              color: var(--color-primary);
+              content: '-';
+              margin-left: 1rem;
+            }
 
-          &__year--active {
-            text-decoration: underline;
-            text-underline-offset: 0.5rem;
-            text-decoration-thickness: 3px;
+            a {
+              text-decoration: none;
+
+              &:hover {
+                color: var(--color-link);
+                text-decoration: underline;
+                text-decoration-color: var(--color-link-underline);
+              }
+            }
+
+            a.years__year--active {
+              text-decoration: underline;
+              text-decoration-color: var(--color-link-underline);
+            }
           }
         }
 

@@ -135,6 +135,18 @@ export const Footer = () => {
               text-decoration: underline;
             }
           }
+
+          .legal__created {
+            a {
+              color: var(--color-primary);
+
+              text-decoration: none;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
         }
       `}</style>
     </div>

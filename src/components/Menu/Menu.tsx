@@ -1,10 +1,10 @@
 import { NextRouter, useRouter } from 'next/router';
 import { ReactNode, useContext } from 'react';
 
+import { Link } from '@components';
 import config from '@config/config.yml';
 import menu, { MenuItem } from '@config/menu.yml';
 import translations, { Language } from '@config/translations.yml';
-import { Link } from '@components';
 import { useLocale } from '@hooks';
 import { MenuContext } from './MenuContext';
 
@@ -181,6 +181,7 @@ export const Menu = () => {
             height: 2.5rem;
             border-top-left-radius: 6px;
             border-bottom-left-radius: 6px;
+            text-decoration: none;
 
             &.active-nav {
               background-color: var(--color-neutral);

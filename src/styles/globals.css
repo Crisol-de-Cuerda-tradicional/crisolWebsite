@@ -8,6 +8,11 @@
   --color-black: #000000;
   --color-white: #ffffff;
 
+  --color-link: #000000;
+  --color-link-underline: var(--color-primary);
+  --color-link-hover: var(--color-primary);
+  --color-link-active: var(--color-primary);
+
   --border-radius: 4px;
 
   --size-xxxlg: 2.5rem;
@@ -30,9 +35,17 @@ body {
 }
 
 a {
-  color: var(--color-primary);
-  text-decoration: none;
+  color: var(--color-link);
   font-weight: bold;
+
+  text-decoration: underline;
+  text-decoration-color: var(--color-link-underline);
+  text-underline-offset: 3px;
+
+  &:hover,
+  &:active {
+    color: var(--color-link-hover);
+  }
 }
 
 h1 {
