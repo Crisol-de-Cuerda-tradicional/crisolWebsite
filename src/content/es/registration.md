@@ -1,6 +1,6 @@
 ---
 title: Inscripciones
-hero: support.jpeg
+hero: support.webp
 ---
 
 ## Precios

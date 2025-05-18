@@ -1,6 +1,6 @@
 ---
 title: Registration
-hero: support.jpeg
+hero: support.webp
 ---
 
 ## Prices

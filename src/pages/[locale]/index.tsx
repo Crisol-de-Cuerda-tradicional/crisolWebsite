@@ -49,21 +49,12 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             autoPlay
             loop
             muted
-            poster={baseUrl('/images/video_poster.jpg')}
+            poster={baseUrl('/images/video_poster.webp')}
             style={{ objectFit: 'cover' }}
           >
             <source src={baseUrl('/media/videoweb.mp4')} />
           </video>
-        ) : (
-          <Image
-            src={baseUrl('/images/video_poster.jpg')}
-            fill
-            priority
-            sizes="100%"
-            style={{ objectFit: 'cover' }}
-            alt="Crisol de Cuerda"
-          />
-        )}
+        ) : null}
         <div id="hero" className="hero">
           <div className="hero__page-title">
             <h1 className="hero__title">
@@ -126,7 +117,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
                 className="teachers__link"
               >
                 <ExpandingImg
-                  bgSrc={baseUrl(`/images/teachers/${teacher.id}.jpg`)}
+                  bgSrc={baseUrl(`/images/teachers/${teacher.id}.webp`)}
                   maxWidth="250px"
                 >
                   <div className="teachers__infocontainer">

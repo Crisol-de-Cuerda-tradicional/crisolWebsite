@@ -1,6 +1,6 @@
 ---
 title: A bit of history
-hero: history.jpeg
+hero: history.webp
 ---
 
 It was the summer of 2007 when Blanca Altable and Javier Ortega got together in Madrid, talking about cultural and vital thoughts; that year, Blanca was attending Alasdair Fraser’s fiddlecamp in the Isle of Skye (Scotland). Javier had the chance to know the musician years before in a spectacular concert of Skyedance, in Burgos. An idea arose: to propose Alasdair Fraser to make a fiddlecamp in Spain, extending the tradition initiated in his birth land, Scotland, and continued in California, land of adoption of this talented fiddler.

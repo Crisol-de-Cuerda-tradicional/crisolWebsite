@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-hero: contact.jpeg
+hero: contact.webp
 ---
 
 **This page has been automatically translated for informational purposes. In case of discrepancies, the original Spanish version shall prevail.**

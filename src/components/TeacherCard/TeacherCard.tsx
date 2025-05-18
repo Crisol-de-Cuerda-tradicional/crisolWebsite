@@ -29,7 +29,7 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
       <div className="media">
         <div className="img__wrapper">
           <Image
-            src={baseUrl(`/images/teachers/${teacher.id}.jpg`)}
+            src={baseUrl(`/images/teachers/${teacher.id}.webp`)}
             width="360"
             height="360"
             alt={teacher.name}

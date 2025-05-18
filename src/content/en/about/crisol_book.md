@@ -1,6 +1,6 @@
 ---
 title: THE CRISOL BOOK
-hero: crisol_book.jpeg
+hero: crisol_book.webp
 ---
 
 The Crisol Book was compiled in 2018 as a special edition meant to celebrate Crisol de Cuerda’s 10th anniversary. It a collection of the tunes that have been taught in Crisol over the years and has been gathered through audio recordings, videos, scores and manuscripts. Despite the fact that a few tunes are missing, it’s still a work in progress and we hope to add more tunes in the future.

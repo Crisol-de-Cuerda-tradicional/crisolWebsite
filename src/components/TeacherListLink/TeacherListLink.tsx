@@ -18,7 +18,7 @@ export const TeacherListLink = ({ teacher, withInstrument }: TeacherListLinkProp
     <Link href={`#${teacher.id}`} className="links__item">
       <div>
         <Image
-          src={baseUrl(`/images/teachers/${teacher.id}.jpg`)}
+          src={baseUrl(`/images/teachers/${teacher.id}.webp`)}
           width="123"
           height="123"
           alt={teacher.name}

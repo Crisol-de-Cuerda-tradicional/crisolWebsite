@@ -1,4 +1,4 @@
 ---
 title: Teachers
-hero: teachers.jpeg
+hero: teachers.webp
 ---

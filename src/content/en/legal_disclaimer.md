@@ -1,6 +1,6 @@
 ---
 title: Legal disclaimer
-hero: contact.jpeg
+hero: contact.webp
 ---
 
 **This document has been automatically translated for informational purposes. In case of discrepancies, the original Spanish version shall prevail.**

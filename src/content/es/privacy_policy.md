@@ -1,6 +1,6 @@
 ---
 title: Política de privacidad
-hero: contact.jpeg
+hero: contact.webp
 ---
 
 El objetivo de esta política es informar a los interesados acerca de los distintos tratamientos realizados por esta organización mediante la página web y que afecten a sus datos personales, de conformidad con lo establecido en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 y en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.

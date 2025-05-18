@@ -1,6 +1,6 @@
 ---
 title: The teachers
-image: alasdair_natalie.png
+image: alasdair_natalie.webp
 ---
 
 [Alasdair Fraser](https://www.alasdairfraser.com/) is the Alma Mater of the course; he is one of the best fiddlers of today’s folk music scene and a motivating teacher who directs similar projects in Scotland (Sabhal Mòr Ostaig), California ([Valley of the Moon Fiddle Camp](http://www.valleyofthemoon.org/) and [Sierra Fiddle Camp](http://www.sierrafiddlecamp.org/)) and also Australia ([Stringmania!](https://www.stringmaniacamp.com/)).

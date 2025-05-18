@@ -21,6 +21,12 @@ export const ContentLayout = ({ id, children }: IContentLayoutProps) => {
           display: flex;
           flex-direction: column;
         }
+
+        @media (max-width: 600px) {
+          .content {
+            padding: 0.5rem;
+          }
+        }
       `}</style>
     </section>
   );

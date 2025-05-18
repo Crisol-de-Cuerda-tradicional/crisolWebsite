@@ -1,7 +1,7 @@
 ---
 title: Las clases
-img: https://www.crisoldecuerda.com/assets/images/about/classes.jpg
-hero: classes.jpeg
+img: https://www.crisoldecuerda.com/assets/images/about/classes.webp
+hero: classes.webp
 ---
 
 ### Filosofía

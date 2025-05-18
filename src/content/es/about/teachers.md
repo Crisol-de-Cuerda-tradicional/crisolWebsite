@@ -1,6 +1,6 @@
 ---
 title: Los profesores
-image: alasdair_natalie.png
+image: alasdair_natalie.webp
 ---
 
 El Alma Mater del curso es [Alasdair Fraser](https://www.alasdairfraser.com/), uno de los mejores violinistas folk del mundo, un didacta dedicado y motivador nato, que lleva más de treinta años dirigiendo proyectos similares en Escocia (Sabhal Mòr Ostaig), California ([Valley of the Moon Fiddle Camp](http://www.valleyofthemoon.org/) y [Sierra Fiddle Camp](http://www.sierrafiddlecamp.org/)) y Australia ([Stringmania!](https://www.stringmaniacamp.com/)).

@@ -1,6 +1,6 @@
 ---
 title: Contacta
-hero: contact.jpeg
+hero: contact.webp
 ---
 
 Si quieres realizarnos cualquier tipo de consulta relacionada con Crisol de Cuerda, puedes enviarnos un [correo electrónico](mailto:info@crisoldecuerda.com) y te responderemos a la mayor brevedad posible.
