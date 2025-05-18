@@ -55,42 +55,82 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
       {teacher.media ? (
         <div className="teacher__links">
           {teacher.media.website ? (
-            <Link href={teacher.media.website} target="_blank">
+            <Link
+              href={teacher.media.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${teacher.name}'s website`}
+            >
               <FontAwesomeIcon icon={faGlobe} size="2x" />
             </Link>
           ) : null}
           {teacher.media.instagram ? (
-            <Link href={teacher.media.instagram} target="_blank">
+            <Link
+              href={teacher.media.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${teacher.name}'s instagram`}
+            >
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </Link>
           ) : null}
           {teacher.media.tiktok ? (
-            <Link href={teacher.media.tiktok} target="_blank">
+            <Link
+              href={teacher.media.tiktok}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${teacher.name}'s tiktok`}
+            >
               <FontAwesomeIcon icon={faTiktok} size="2x" />
             </Link>
           ) : null}
           {teacher.media.soundcloud ? (
-            <Link href={teacher.media.soundcloud} target="_blank">
+            <Link
+              href={teacher.media.soundcloud}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${teacher.name}'s soundcloud`}
+            >
               <FontAwesomeIcon icon={faSoundcloud} size="2x" />
             </Link>
           ) : null}
           {teacher.media.bandcamp ? (
-            <Link href={teacher.media.bandcamp} target="_blank">
+            <Link
+              href={teacher.media.bandcamp}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${teacher.name}'s bandcamp`}
+            >
               <FontAwesomeIcon icon={faBandcamp} size="2x" />
             </Link>
           ) : null}
           {teacher.media.youtubeChannel ? (
-            <Link href={teacher.media.youtubeChannel} target="_blank">
+            <Link
+              href={teacher.media.youtubeChannel}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${teacher.name}'s youtube`}
+            >
               <FontAwesomeIcon icon={faYoutube} size="2x" />
             </Link>
           ) : null}
           {teacher.media.fb ? (
-            <Link href={teacher.media.fb} target="_blank">
+            <Link
+              href={teacher.media.fb}
+              target="_blank"
+              aria-label={`${teacher.name}'s facebook`}
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faFacebook} size="2x" />
             </Link>
           ) : null}
           {teacher.media.twitter ? (
-            <Link href={teacher.media.twitter} target="_blank">
+            <Link
+              href={teacher.media.twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${teacher.name}'s twitter`}
+            >
               <FontAwesomeIcon icon={faTwitter} size="2x" />
             </Link>
           ) : null}
@@ -121,13 +161,13 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
 
           .teacher__header--subtitle {
             font-size: var(--size-md);
-            color: var(--color-neutral);
+            color: var(--color-font-secondary);
             margin-top: 0;
           }
 
           .teacher__header--instruments {
             font-size: var(--size-md);
-            color: var(--color-neutral);
+            color: var(--color-font-secondary);
           }
         }
 

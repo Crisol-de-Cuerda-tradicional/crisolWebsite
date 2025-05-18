@@ -1,6 +1,7 @@
 :root {
   --color-primary: #fc8006;
   --color-neutral: #999999;
+  --color-neutral-100: #585858;
   --color-dark: #1c1d1d;
   --color-light: #ffffff;
   --color-black: #000000;
@@ -10,6 +11,10 @@
   --color-link-underline: var(--color-primary);
   --color-link-hover: var(--color-primary);
   --color-link-active: var(--color-primary);
+
+  --color-font-secondary: var(--color-neutral-100);
+
+  --shadow: 0 0 6px var(--color-neutral);
 
   --border-radius: 4px;
 

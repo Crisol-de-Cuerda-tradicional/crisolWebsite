@@ -52,7 +52,7 @@ export const Layout = ({ children }: ILayoutProps) => {
           overflow: scroll;
           inset: 0;
           background-color: var(--color-white);
-          box-shadow: 0 0 6px var(--color-neutral);
+          box-shadow: var(--shadow);
           overscroll-behavior-y: none;
 
           transition: transform 0.4s cubic-bezier(0.51, 0.26, 0.44, 1.37),
