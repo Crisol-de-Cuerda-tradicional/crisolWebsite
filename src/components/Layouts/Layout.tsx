@@ -1,15 +1,24 @@
-import { ReactNode, useContext, useRef } from 'react';
+import { ReactNode, useContext, useEffect, useRef } from 'react';
 
 import { ButtonGoTop, Footer, Menu, MenuContext, Navbar } from '@components';
+import { useRouter } from 'next/router';
 
 interface ILayoutProps {
   children: ReactNode;
 }
 
 export const Layout = ({ children }: ILayoutProps) => {
+  const router = useRouter();
   const { showMenu, toggleMenu } = useContext(MenuContext);
   const mainRef = useRef<HTMLDivElement>(null);
+  const topRef = useRef<HTMLDivElement>(null);
 
+  useEffect(() => {
+    const handleRouteChange = () => {
+      topRef.current?.scrollIntoView();
+    };
+    router.events.on('routeChangeComplete', handleRouteChange);
+  }, [router]);
   return (
     <>
       <Menu />
@@ -22,11 +31,17 @@ export const Layout = ({ children }: ILayoutProps) => {
       ></div>
       <div className={`main ${showMenu ? 'active-menu' : ''}`} ref={mainRef}>
         <Navbar />
+        <div className="top" ref={topRef} />
         {children}
         <ButtonGoTop parentRef={mainRef} />
         <Footer />
       </div>
       <style jsx>{`
+        .top {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
         .main {
           position: absolute;
           top: 0;
