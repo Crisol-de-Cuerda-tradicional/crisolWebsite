@@ -11,7 +11,7 @@ import indexConfig from '@config/indexPage.yml';
 import teachersConfig from '@config/teachers.yml';
 import translations from '@config/translations.yml';
 import { ITeacher } from '@crisolTypes/Teacher';
-import { useLocale } from '@hooks';
+import { useLocale, useShouldLoadVideo } from '@hooks';
 import homePageStyles from '@styles/home-page';
 import { baseUrl } from '@utils/baseUrl';
 import { getContent, IContent } from '@utils/getContent';
@@ -36,6 +36,7 @@ interface IHomeProps {
 
 const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodationSection }) => {
   const locale = useLocale();
+  const shouldLoadVideo = useShouldLoadVideo();
 
   return (
     <>
@@ -43,15 +44,26 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
         <title>{config.name}</title>
       </Head>
       <div className="hero__container">
-        <video
-          autoPlay
-          loop
-          muted
-          poster={baseUrl('/images/video_poster.jpg')}
-          style={{ objectFit: 'cover' }}
-        >
-          <source src={baseUrl('/media/videoweb.mp4')} />
-        </video>
+        {shouldLoadVideo ? (
+          <video
+            autoPlay
+            loop
+            muted
+            poster={baseUrl('/images/video_poster.jpg')}
+            style={{ objectFit: 'cover' }}
+          >
+            <source src={baseUrl('/media/videoweb.mp4')} />
+          </video>
+        ) : (
+          <Image
+            src={baseUrl('/images/video_poster.jpg')}
+            fill
+            priority
+            sizes="100%"
+            style={{ objectFit: 'cover' }}
+            alt="Crisol de Cuerda"
+          />
+        )}
         <div id="hero" className="hero">
           <div className="hero__page-title">
             <h1 className="hero__title">
@@ -203,6 +215,13 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
           background-image: url(${baseUrl(
             '/images/index/' + accommodationSection.meta.background
           )});
+        }
+      `}</style>
+      <style jsx global>{`
+        .hero__container {
+          img {
+            filter: brightness(40%);
+          }
         }
       `}</style>
     </>
