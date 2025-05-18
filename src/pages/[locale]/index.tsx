@@ -2,7 +2,12 @@ import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 
-import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import {
+  faCircleCheck,
+  faCircleInfo,
+  faCircleQuestion,
+  faFile,
+} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Button, ContentLayout, ExpandingImg, Link, RenderMarkdown } from '@components';
@@ -166,7 +171,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
           </div>
           <div className="information__wrapper">
             <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={solid('circle-info')} size="4x" />
+              <FontAwesomeIcon className="icon" icon={faCircleInfo} size="4x" />
               <h3>{indexConfig.infoSection.information.title[locale]}</h3>
               <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.information.link}>
@@ -174,7 +179,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               </Link>
             </div>
             <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={solid('file')} size="4x" />
+              <FontAwesomeIcon className="icon" icon={faFile} size="4x" />
               <h3>{indexConfig.infoSection.prices.title[locale]}</h3>
               <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.prices.link}>
@@ -182,7 +187,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               </Link>
             </div>
             <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={solid('circle-check')} size="4x" />
+              <FontAwesomeIcon className="icon" icon={faCircleCheck} size="4x" />
               <h3>{indexConfig.infoSection.register.title[locale]}</h3>
               <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.register.link}>
@@ -190,7 +195,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               </Link>
             </div>
             <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={solid('circle-question')} size="4x" />
+              <FontAwesomeIcon className="icon" icon={faCircleQuestion} size="4x" />
               <h3>{indexConfig.infoSection.scholarships.title[locale]}</h3>
               <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.scholarships.link}>

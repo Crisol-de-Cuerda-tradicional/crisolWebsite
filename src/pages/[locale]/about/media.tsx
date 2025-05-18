@@ -4,9 +4,9 @@ import { JSX } from 'react';
 
 import { ContentLayout, Hero, Link, YoutubeEmbed } from '@components';
 import mediaConfig from '@config/media.yml';
+import { useLocale } from '@hooks';
 import { getPhotos } from '@utils/getPhotos';
 import { getStaticPaths } from '@utils/getStatic';
-import { useLocale } from '@hooks';
 
 interface IMediaProps {
   photos: string[];
@@ -56,32 +56,28 @@ const Media = ({ photos }: IMediaProps): JSX.Element => {
         </div>
       </ContentLayout>
       <style jsx>{`
-        .video {
-          &__wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
+        .video__wrapper {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2rem;
+          justify-content: center;
 
-            width: 100%;
-          }
-
-          &__container {
-            max-width: 560px;
-            width: 100vw;
-          }
+          width: 100%;
         }
 
-        .photos {
-          &__wrapper {
-            display: flex;
-            flex-wrap: wrap;
-          }
-          &__card {
-            position: relative;
-            width: 200px;
-            height: 200px;
-          }
+        .video__container {
+          max-width: 560px;
+          width: 100vw;
+        }
+
+        .photos__wrapper {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .photos__card {
+          position: relative;
+          width: 200px;
+          height: 200px;
         }
       `}</style>
     </>

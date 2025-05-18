@@ -22,7 +22,19 @@ class MyDocument extends Document {
             content="Crisol de Cuerda is a traditional violin, cello, guitar and fulte music camp celebrated in Spain"
           />
           <link rel="icon" href={baseUrl('/favicon.png')} />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          <link
+            id="google-fonts"
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            media="print"
+            crossOrigin="anonymous"
+            onLoad={() => {
+              const fonts = document.getElementById('google-fonts');
+              if (fonts) {
+                (fonts as HTMLLinkElement).media = 'all';
+              }
+            }}
+          />
           {this.shouldLoadVideo ? (
             <link
               rel="preload"

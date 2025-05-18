@@ -55,7 +55,7 @@ export default css`
         display: flex;
         gap: 1rem;
 
-        &--text {
+        .hero__dates--text {
           flex-basis: 60%;
           color: var(--color-primary);
           margin: 0;
@@ -63,7 +63,7 @@ export default css`
           line-height: 1.6rem;
           text-transform: uppercase;
         }
-        &--year {
+        .hero__dates--year {
           font-family: 'Montserrat', sans-serif;
           font-weight: 700;
           font-size: var(--size-xxxlg);
@@ -115,17 +115,17 @@ export default css`
   .teachers {
     margin: 3rem 0;
 
-    &__content {
+    .teachers__content {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
 
-    :global(&__link) {
+    :global(.teachers__link) {
       width: 250px;
     }
 
-    &__infocontainer {
+    .teachers__infocontainer {
       width: 100%;
       height: 100%;
       position: relative;
@@ -138,7 +138,7 @@ export default css`
       }
     }
 
-    &__info {
+    .teachers__info {
       position: absolute;
       bottom: -100%;
       width: 100%;
@@ -161,7 +161,7 @@ export default css`
       }
     }
 
-    &__more {
+    .teachers__more {
       width: 100%;
       padding: 2rem;
 
@@ -170,6 +170,12 @@ export default css`
       font-size: var(--size-xlg);
       text-transform: uppercase;
     }
+  }
+
+  .teachers__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .accommodation {
@@ -191,13 +197,13 @@ export default css`
       word-wrap: break-word;
     }
 
-    &__images {
+    .accommodation__images {
       display: flex;
       flex-wrap: wrap;
       gap: 1rem;
       margin-top: 2rem;
 
-      &__wrapper {
+      .accommodation__images__wrapper {
         border: 2px var(--color-white) solid;
         position: relative;
         width: 250px;
@@ -209,14 +215,14 @@ export default css`
   .information {
     margin: 2rem 0;
 
-    &__wrapper {
+    .information__wrapper {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       width: 100%;
     }
 
-    &__cardwrapper {
+    .information__cardwrapper {
       width: 400px;
       text-align: center;
       color: var(--color-primary);

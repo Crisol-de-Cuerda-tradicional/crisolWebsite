@@ -1,10 +1,19 @@
-import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 
 import { Link, RenderMarkdown, Spotify, YoutubeEmbed } from '@components';
 import translations from '@config/translations.yml';
 import { ITeacher } from '@crisolTypes/Teacher';
+import {
+  faBandcamp,
+  faFacebook,
+  faInstagram,
+  faSoundcloud,
+  faTiktok,
+  faTwitter,
+  faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { useLocale } from '@hooks';
 import { baseUrl } from '@utils/baseUrl';
 
@@ -47,42 +56,42 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
         <div className="teacher__links">
           {teacher.media.website ? (
             <Link href={teacher.media.website} target="_blank">
-              <FontAwesomeIcon icon={solid('globe')} size="2x" />
+              <FontAwesomeIcon icon={faGlobe} size="2x" />
             </Link>
           ) : null}
           {teacher.media.instagram ? (
             <Link href={teacher.media.instagram} target="_blank">
-              <FontAwesomeIcon icon={brands('instagram')} size="2x" />
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
             </Link>
           ) : null}
           {teacher.media.tiktok ? (
             <Link href={teacher.media.tiktok} target="_blank">
-              <FontAwesomeIcon icon={brands('tiktok')} size="2x" />
+              <FontAwesomeIcon icon={faTiktok} size="2x" />
             </Link>
           ) : null}
           {teacher.media.soundcloud ? (
             <Link href={teacher.media.soundcloud} target="_blank">
-              <FontAwesomeIcon icon={brands('soundcloud')} size="2x" />
+              <FontAwesomeIcon icon={faSoundcloud} size="2x" />
             </Link>
           ) : null}
           {teacher.media.bandcamp ? (
             <Link href={teacher.media.bandcamp} target="_blank">
-              <FontAwesomeIcon icon={brands('bandcamp')} size="2x" />
+              <FontAwesomeIcon icon={faBandcamp} size="2x" />
             </Link>
           ) : null}
           {teacher.media.youtubeChannel ? (
             <Link href={teacher.media.youtubeChannel} target="_blank">
-              <FontAwesomeIcon icon={brands('youtube')} size="2x" />
+              <FontAwesomeIcon icon={faYoutube} size="2x" />
             </Link>
           ) : null}
           {teacher.media.fb ? (
             <Link href={teacher.media.fb} target="_blank">
-              <FontAwesomeIcon icon={brands('facebook')} size="2x" />
+              <FontAwesomeIcon icon={faFacebook} size="2x" />
             </Link>
           ) : null}
           {teacher.media.twitter ? (
             <Link href={teacher.media.twitter} target="_blank">
-              <FontAwesomeIcon icon={brands('twitter')} size="2x" />
+              <FontAwesomeIcon icon={faTwitter} size="2x" />
             </Link>
           ) : null}
         </div>
@@ -96,39 +105,37 @@ export const TeacherCard = ({ teacher }: TeacherCardProps) => {
           border-top: 1px solid var(--color-neutral);
         }
 
-        .teacher {
-          &__header {
-            display: flex;
-            flex-direction: column;
+        .teacher__header {
+          display: flex;
+          flex-direction: column;
 
-            &--title {
-              display: flex;
-              gap: 1rem;
-              align-items: baseline;
-
-              & > * {
-                margin: 0;
-              }
-            }
-
-            &--subtitle {
-              font-size: var(--size-md);
-              color: var(--color-neutral);
-              margin-top: 0;
-            }
-
-            &--instruments {
-              font-size: var(--size-md);
-              color: var(--color-neutral);
-            }
-          }
-
-          &__links {
+          .teacher__header--title {
             display: flex;
             gap: 1rem;
-            justify-content: left;
-            margin-top: 1rem;
+            align-items: baseline;
+
+            & > * {
+              margin: 0;
+            }
           }
+
+          .teacher__header--subtitle {
+            font-size: var(--size-md);
+            color: var(--color-neutral);
+            margin-top: 0;
+          }
+
+          .teacher__header--instruments {
+            font-size: var(--size-md);
+            color: var(--color-neutral);
+          }
+        }
+
+        .teacher__links {
+          display: flex;
+          gap: 1rem;
+          justify-content: left;
+          margin-top: 1rem;
         }
 
         .media {

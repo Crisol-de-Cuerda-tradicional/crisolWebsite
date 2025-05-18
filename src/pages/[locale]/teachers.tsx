@@ -86,7 +86,7 @@ const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Elemen
           margin-bottom: 2rem;
           font-size: var(--size-lg);
 
-          &__year {
+          .years__year {
             &:not(:last-child):after {
               color: var(--color-primary);
               content: '-';
