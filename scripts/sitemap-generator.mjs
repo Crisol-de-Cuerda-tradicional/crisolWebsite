@@ -159,6 +159,10 @@ const generateSitemap = () => {
     const sitemapContent = generateSitemapXml(baseUrl, paths);
 
     // Write the sitemap to the public directory
+    if (!fs.existsSync(publicDir)) {
+      fs.mkdirSync(publicDir, { recursive: true });
+      console.log(`Created public directory: ${publicDir}`);
+    }
     fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapContent);
 
     // Also write to the out directory if it exists
