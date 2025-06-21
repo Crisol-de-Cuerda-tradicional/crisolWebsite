@@ -1,5 +1,6 @@
 ---
 title: Accommodation
+description: Stay at the welcoming Granja Escuela de Arlanzón, just 20km from Burgos, with full-board accommodation in shared dorms, beautiful natural surroundings, and facilities for up to 130 people.
 img: accommodation.webp
 hero: accommodation.webp
 ---

@@ -1,6 +1,6 @@
 import { GetStaticProps, NextPage } from 'next';
 
-import { ContentLayout, Hero, Link, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, Link, RenderMarkdown, SEO } from '@components';
 import crisolBook from '@config/crisolBookIndex.yml';
 import translations from '@config/translations.yml';
 import { useLocale } from '@hooks';
@@ -11,6 +11,7 @@ import { tz } from '@utils/timezone';
 interface ICrisolBookProps {
   crisolBookPage: IContent<{
     title: string;
+    description: string;
     hero: string;
     downloadLink: string;
   }>;
@@ -21,6 +22,20 @@ const CrisolBook: NextPage<ICrisolBookProps> = ({ crisolBookPage }) => {
 
   return (
     <>
+      <SEO
+        title={crisolBookPage.meta.title}
+        description={crisolBookPage.meta.description}
+        keywords={[
+          'Crisol Book',
+          'sheet music',
+          'traditional tunes',
+          'fiddle music',
+          'music collection',
+          'folk tunes',
+          'Spanish traditional music',
+          'music scores',
+        ]}
+      />
       <Hero background={crisolBookPage.meta.hero} pageTitle={crisolBookPage.meta.title} />
       <ContentLayout>
         <RenderMarkdown content={crisolBookPage.content} />

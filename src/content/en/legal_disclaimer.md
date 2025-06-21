@@ -1,5 +1,6 @@
 ---
 title: Legal disclaimer
+description: Legal information about Crisol de Cuerda including identification details, terms of use, intellectual property rights, applicable law, and data protection policies.
 hero: contact.webp
 ---
 

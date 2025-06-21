@@ -6,7 +6,7 @@ import { JSX, useEffect, useState } from 'react';
 import teachersConfig from '@config/teachers.yml';
 import translations from '@config/translations.yml';
 
-import { ContentLayout, Hero, Link, TeacherCard, TeacherListLink } from '@components';
+import { ContentLayout, Hero, Link, SEO, TeacherCard, TeacherListLink } from '@components';
 import type { ITeacher } from '@crisolTypes/Teacher';
 import { useLocale } from '@hooks';
 import { getContent, IContent } from '@utils/getContent';
@@ -14,7 +14,7 @@ import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface ITeachersProps {
   teachers: ITeacher[];
-  teachersPage: IContent<{ title: string; hero: string }>;
+  teachersPage: IContent<{ title: string; description: string; hero: string }>;
   years: (number | 'all')[];
 }
 
@@ -22,6 +22,15 @@ const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Elemen
   const router = useRouter();
   const locale = useLocale();
   const [filteredTeachers, setFilteredTeachers] = useState(teachers);
+
+  // Generate keywords from teacher instruments
+  const teacherKeywords = Array.from(
+    new Set(
+      teachers.flatMap(teacher =>
+        teacher.instruments.map(instrument => translations[instrument][locale] || instrument)
+      )
+    )
+  );
 
   useEffect(() => {
     if (!router.query.year) {
@@ -48,6 +57,17 @@ const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Elemen
 
   return (
     <>
+      <SEO
+        title={teachersPage.meta.title}
+        description={teachersPage.meta.description}
+        keywords={[
+          'music teachers',
+          'folk teachers',
+          'traditional music instructors',
+          'fiddle teachers',
+          ...teacherKeywords,
+        ]}
+      />
       <Hero background={teachersPage.meta.hero} pageTitle={teachersPage.meta.title} />
       <ContentLayout>
         <div className="years">

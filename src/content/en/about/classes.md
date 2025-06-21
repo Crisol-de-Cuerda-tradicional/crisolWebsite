@@ -1,5 +1,6 @@
 ---
 title: The classes
+description: Discover Crisol de Cuerda's unique teaching philosophy and class structure, where traditional music learning is combined with creativity and collaborative experiences for musicians of all levels.
 img: https://www.crisoldecuerda.com/assets/images/about/classes.webp
 hero: classes.webp
 ---

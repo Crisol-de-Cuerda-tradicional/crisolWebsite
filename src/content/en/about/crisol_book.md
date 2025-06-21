@@ -1,5 +1,6 @@
 ---
 title: THE CRISOL BOOK
+description: Explore the Crisol Book, a treasured collection of traditional tunes taught at Crisol de Cuerda over the years, compiled to celebrate the camp's 10th anniversary and share our musical legacy.
 hero: crisol_book.webp
 ---
 

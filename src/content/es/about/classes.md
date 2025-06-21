@@ -1,5 +1,6 @@
 ---
 title: Las clases
+description: Descubre la filosofía y estructura única de las clases en Crisol de Cuerda, donde el aprendizaje musical tradicional se combina con creatividad y experiencias colaborativas para músicos de todos los niveles.
 img: https://www.crisoldecuerda.com/assets/images/about/classes.webp
 hero: classes.webp
 ---

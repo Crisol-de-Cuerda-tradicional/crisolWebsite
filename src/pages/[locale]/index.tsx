@@ -57,6 +57,27 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             ? 'Crisol de Cuerda, campamento de música tradicional para violín, violonchelo, guitarra y flauta en España'
             : 'Crisol de Cuerda, traditional music camp for violin, cello, guitar and flute in Spain'
         }
+        keywords={[
+          'music camp',
+          'traditional music',
+          'folk music',
+          'fiddle',
+          'violin',
+          'cello',
+          'guitar',
+          'flute',
+          'Crisol de Cuerda',
+          'string instruments',
+          'violin workshop',
+          'cello workshop',
+          'Arlanzon',
+          'Burgos',
+          'Spain',
+          'music workshop',
+          'fiddle camp',
+          'Alasdair Fraser',
+          'Natalie Haas',
+        ]}
       />
       <div className="hero__container">
         {shouldLoadVideo ? (

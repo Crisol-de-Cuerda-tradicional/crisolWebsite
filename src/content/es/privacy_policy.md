@@ -1,5 +1,6 @@
 ---
 title: Política de privacidad
+description: Política de privacidad de Crisol de Cuerda. Información sobre el tratamiento de datos personales, derechos de los usuarios y medidas de seguridad conforme al RGPD y la LOPDGDD.
 hero: contact.webp
 ---
 

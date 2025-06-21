@@ -1,5 +1,6 @@
 ---
 title: Contacta
+description: Contacta con Crisol de Cuerda, un proyecto musical autogestionado organizado por la Asociación Crisol de Cuerda Tradicional. Descubre cómo puedes colaborar con este proyecto único.
 hero: contact.webp
 ---
 

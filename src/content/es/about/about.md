@@ -1,5 +1,6 @@
 ---
 title: ¿Qué es Crisol de Cuerda?
+description: Crisol de Cuerda es un campamento de música tradicional donde músicos de todos los niveles se reúnen para explorar la música tradicional en un entorno colaborativo y natural cerca de Burgos.
 hero: about.webp
 ---
 

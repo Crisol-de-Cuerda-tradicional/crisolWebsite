@@ -1,5 +1,6 @@
 ---
 title: El crisol book
+description: Explora el Crisol Book, una valiosa colección de temas tradicionales enseñados en Crisol de Cuerda a lo largo de los años, compilada para celebrar el 10º aniversario del campamento y compartir nuestro legado musical.
 hero: crisol_book.webp
 ---
 

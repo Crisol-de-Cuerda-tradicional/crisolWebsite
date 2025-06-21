@@ -1,5 +1,6 @@
 ---
 title: Alojamiento
+description: Disfruta de la convivencia única en la Granja Escuela de Arlanzón durante los talleres de Crisol de Cuerda. Alojamiento en pensión completa en un entorno natural privilegiado a 20 km de Burgos.
 img: accommodation.webp
 hero: accommodation.webp
 ---

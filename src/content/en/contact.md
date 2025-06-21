@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: Get in touch with Crisol de Cuerda, a non-profit organization dedicated to sharing musical knowledge. Contact us by email for any questions about our traditional music camp.
 hero: contact.webp
 ---
 

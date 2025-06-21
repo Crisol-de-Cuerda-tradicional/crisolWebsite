@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+description: Information about how Crisol de Cuerda processes personal data in compliance with EU GDPR and Spanish data protection regulations, including data collection, rights, and security measures.
 hero: contact.webp
 ---
 

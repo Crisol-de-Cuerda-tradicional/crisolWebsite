@@ -1,5 +1,6 @@
 ---
 title: A bit of history
+description: Learn about the origins of Crisol de Cuerda, from its inception in 2007 as a collaboration with renowned fiddler Alasdair Fraser to its growth into Spain's premier traditional music camp in beautiful natural settings.
 hero: history.webp
 ---
 

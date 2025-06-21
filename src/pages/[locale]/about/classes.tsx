@@ -2,17 +2,30 @@ import { GetStaticProps } from 'next';
 import Image from 'next/image';
 import { JSX } from 'react';
 
-import { ContentLayout, Hero, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown, SEO } from '@components';
 import { getContent, IContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface IClassesProps {
-  classesPage: IContent<{ title: string; hero: string; img: string }>;
+  classesPage: IContent<{ title: string; description: string; hero: string; img: string }>;
 }
 
 const Classes = ({ classesPage }: IClassesProps): JSX.Element => {
   return (
     <>
+      <SEO
+        title={classesPage.meta.title}
+        description={classesPage.meta.description}
+        keywords={[
+          'music classes',
+          'fiddle classes',
+          'traditional music learning',
+          'music lessons',
+          'teaching philosophy',
+          'music education',
+          'group lessons',
+        ]}
+      />
       <Hero background={classesPage.meta.hero} pageTitle={classesPage.meta.title} />
       <ContentLayout>
         <section>

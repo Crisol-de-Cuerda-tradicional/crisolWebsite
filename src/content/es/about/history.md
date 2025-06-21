@@ -1,5 +1,6 @@
 ---
 title: Un poco de historia
+description: Conoce los orígenes de Crisol de Cuerda, desde su concepción en 2007 como una colaboración con el reconocido violinista Alasdair Fraser hasta su evolución como el principal campamento de música tradicional de España.
 hero: history.webp
 ---
 

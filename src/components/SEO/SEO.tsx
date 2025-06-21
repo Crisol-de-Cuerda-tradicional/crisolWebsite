@@ -28,6 +28,8 @@ export const SEO = ({
     'summer camp',
     'folk music',
     'celtic music',
+    'Alasdair Fraser',
+    'Natalie Haas',
   ],
 }: SEOProps) => {
   const router = useRouter();

@@ -1,6 +1,6 @@
 import { GetStaticProps, NextPage } from 'next';
 
-import { ContentLayout, Hero, RenderMarkdown } from '@components';
+import { ContentLayout, Hero, RenderMarkdown, SEO } from '@components';
 import config from '@config/config.yml';
 import translations from '@config/translations.yml';
 import { baseUrl } from '@utils/baseUrl';
@@ -11,12 +11,26 @@ import { tz } from '@utils/timezone';
 import dayjs from 'dayjs';
 
 interface IRegistrationProps {
-  registrationPage: IContent<{ title: string; hero: string }>;
+  registrationPage: IContent<{ title: string; description: string; hero: string }>;
 }
 
 const Registration: NextPage<IRegistrationProps> = ({ registrationPage }) => {
   return (
     <>
+      <SEO
+        title={registrationPage.meta.title}
+        description={registrationPage.meta.description}
+        keywords={[
+          'registration',
+          'apply',
+          'music camp registration',
+          'course enrollment',
+          'join Crisol',
+          'booking',
+          'application process',
+          'payment',
+        ]}
+      />
       <Hero background={registrationPage.meta.hero} pageTitle={registrationPage.meta.title} />
       <ContentLayout>
         <RenderMarkdown content={registrationPage.content} />

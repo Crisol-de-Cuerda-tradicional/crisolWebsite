@@ -1,5 +1,6 @@
 ---
 title: Aviso legal
+description: Aviso legal de la web de Crisol de Cuerda. Información sobre la titularidad, condiciones de uso, propiedad intelectual y política de cookies del sitio web.
 hero: contact.webp
 ---
 

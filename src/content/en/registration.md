@@ -1,5 +1,6 @@
 ---
 title: Registration
+description: Learn how to register for Crisol de Cuerda music camp, including pricing information, application process, payment methods, and important dates for securing your spot at this unique traditional music experience.
 hero: support.webp
 ---
 

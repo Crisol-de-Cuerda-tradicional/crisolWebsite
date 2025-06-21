@@ -1,5 +1,6 @@
 ---
 title: What's Crisol de Cuerda?
+description: Crisol de Cuerda is a creative music camp where musicians of all levels gather to explore traditional music in a collaborative, natural environment near Burgos, Spain.
 hero: about.webp
 ---
 

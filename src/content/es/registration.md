@@ -1,5 +1,6 @@
 ---
 title: Inscripciones
+description: Información sobre el proceso de inscripción para los talleres de Crisol de Cuerda. Precios, plazos, solicitud de becas y política de cancelaciones.
 hero: support.webp
 ---
 

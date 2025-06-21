@@ -1,19 +1,33 @@
 import { GetStaticProps, NextPage } from 'next';
 import Image from 'next/image';
 
-import { ContentLayout, Hero, RenderMarkdown } from '@components';
-import { getContent, IContent } from '@utils/getContent';
+import { ContentLayout, Hero, RenderMarkdown, SEO } from '@components';
 import { baseUrl } from '@utils/baseUrl';
+import { getContent, IContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
 
 interface IAccommodationProps {
-  descriptionSection: IContent<{ title: string; img: string; hero: string }>;
+  descriptionSection: IContent<{ title: string; description: string; img: string; hero: string }>;
   locationSection: IContent<{ locationSrc: string }>;
 }
 
 const Accommodation: NextPage<IAccommodationProps> = ({ descriptionSection, locationSection }) => {
   return (
     <>
+      <SEO
+        title={descriptionSection.meta.title}
+        description={descriptionSection.meta.description}
+        keywords={[
+          'accommodation',
+          'lodging',
+          'Granja Escuela',
+          'Arlanzón',
+          'Burgos',
+          'shared dormitories',
+          'music camp facilities',
+          'full board',
+        ]}
+      />
       <Hero background={descriptionSection.meta.hero} pageTitle={descriptionSection.meta.title} />
       <ContentLayout>
         <div className="flex--column">
