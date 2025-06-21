@@ -9,7 +9,6 @@ const __dirname = path.dirname(__filename);
 // Get paths relative to project root
 const projectRoot = path.resolve(__dirname, '..');
 const staticSeoDir = path.join(projectRoot, 'src', 'static', 'seo');
-const publicDir = path.join(projectRoot, 'public');
 const outDir = path.join(projectRoot, 'out');
 
 /**
@@ -19,26 +18,19 @@ const copySeoFiles = () => {
   try {
     console.log('Copying SEO files...');
 
-    // Make sure the public directory exists
-    if (!fs.existsSync(publicDir)) {
-      fs.mkdirSync(publicDir, { recursive: true });
-      console.log(`Created public directory: ${publicDir}`);
+    // Make sure the out directory exists
+    if (!fs.existsSync(outDir)) {
+      fs.mkdirSync(outDir, { recursive: true });
+      console.log(`Created output directory: ${outDir}`);
     }
 
     // Copy robots.txt
     const sourceRobotsTxtPath = path.join(staticSeoDir, 'robots.txt');
     if (fs.existsSync(sourceRobotsTxtPath)) {
-      // Copy to public directory
-      const publicRobotsTxtPath = path.join(publicDir, 'robots.txt');
-      fs.copyFileSync(sourceRobotsTxtPath, publicRobotsTxtPath);
-      console.log(`robots.txt copied to: ${publicRobotsTxtPath}`);
-
-      // Also copy to the out directory if it exists
-      if (fs.existsSync(outDir)) {
-        const outRobotsTxtPath = path.join(outDir, 'robots.txt');
-        fs.copyFileSync(sourceRobotsTxtPath, outRobotsTxtPath);
-        console.log(`robots.txt also copied to: ${outRobotsTxtPath}`);
-      }
+      // Copy directly to the out directory
+      const outRobotsTxtPath = path.join(outDir, 'robots.txt');
+      fs.copyFileSync(sourceRobotsTxtPath, outRobotsTxtPath);
+      console.log(`robots.txt copied to: ${outRobotsTxtPath}`);
     } else {
       console.error(`Source robots.txt not found at ${sourceRobotsTxtPath}`);
       process.exit(1);

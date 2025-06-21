@@ -15,7 +15,7 @@ interface SEOProps {
 export const SEO = ({
   title = 'Crisol de Cuerda - Traditional Music Camp',
   description = 'Crisol de Cuerda is a traditional music camp for violin, cello, guitar, flute and other instruments celebrated in Spain',
-  image = '/images/og-image.jpg',
+  image = '/assets/logo.png',
   article = false,
   keywords = [
     'music camp',

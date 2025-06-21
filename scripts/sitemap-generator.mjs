@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 // Get paths relative to project root
 const projectRoot = path.resolve(__dirname, '..');
 const pagesDir = path.join(projectRoot, 'src', 'pages');
-const publicDir = path.join(projectRoot, 'public');
+const outDir = path.join(projectRoot, 'out');
 const staticSeoDir = path.join(projectRoot, 'src', 'static', 'seo');
 
 // Function to get all non-dynamic page routes
@@ -158,38 +158,24 @@ const generateSitemap = () => {
 
     const sitemapContent = generateSitemapXml(baseUrl, paths);
 
-    // Write the sitemap to the public directory
-    if (!fs.existsSync(publicDir)) {
-      fs.mkdirSync(publicDir, { recursive: true });
-      console.log(`Created public directory: ${publicDir}`);
+    // Write the sitemap directly to the out directory
+    if (!fs.existsSync(outDir)) {
+      fs.mkdirSync(outDir, { recursive: true });
+      console.log(`Created output directory: ${outDir}`);
     }
-    fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapContent);
-
-    // Also write to the out directory if it exists
-    const outDir = path.join(projectRoot, 'out');
-    if (fs.existsSync(outDir)) {
-      fs.writeFileSync(path.join(outDir, 'sitemap.xml'), sitemapContent);
-      console.log(`Sitemap also copied to: ${path.join(outDir, 'sitemap.xml')}`);
-    }
+    fs.writeFileSync(path.join(outDir, 'sitemap.xml'), sitemapContent);
 
     console.log(`Sitemap generated successfully with ${paths.length} URLs!`);
-    console.log(`Sitemap saved to: ${path.join(publicDir, 'sitemap.xml')}`);
+    console.log(`Sitemap saved to: ${path.join(outDir, 'sitemap.xml')}`);
 
-    // Copy robots.txt from source to output directories
+    // Copy robots.txt from source to output directory
     const sourceRobotsTxtPath = path.join(staticSeoDir, 'robots.txt');
-    const publicRobotsTxtPath = path.join(publicDir, 'robots.txt');
+    const outRobotsTxtPath = path.join(outDir, 'robots.txt');
 
     if (fs.existsSync(sourceRobotsTxtPath)) {
-      // Copy to public directory
-      fs.copyFileSync(sourceRobotsTxtPath, publicRobotsTxtPath);
-      console.log(`robots.txt copied from source to: ${publicRobotsTxtPath}`);
-
-      // Also copy to the out directory if it exists
-      if (fs.existsSync(outDir)) {
-        const outRobotsTxtPath = path.join(outDir, 'robots.txt');
-        fs.copyFileSync(sourceRobotsTxtPath, outRobotsTxtPath);
-        console.log(`robots.txt also copied to: ${outRobotsTxtPath}`);
-      }
+      // Copy directly to out directory
+      fs.copyFileSync(sourceRobotsTxtPath, outRobotsTxtPath);
+      console.log(`robots.txt copied from source to: ${outRobotsTxtPath}`);
     } else {
       console.warn(`Source robots.txt not found at ${sourceRobotsTxtPath}. Skipping copy.`);
     }
