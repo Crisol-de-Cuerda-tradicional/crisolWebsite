@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm run generate-sitemap",
+    "postbuild": "node scripts/copy-seo-files.mjs",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-sitemap": "node scripts/sitemap-generator.mjs"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -38,6 +40,7 @@
     "eslint": "^9.17.0",
     "eslint-config-next": "^15.1.2",
     "sass": "^1.83.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   }
 }

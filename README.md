@@ -51,6 +51,8 @@ This is the repository with the code for [Crisol de Cuerda](https://www.crisolde
       └── _app.tsx      -> Global layout of the application
       └── index.tsx     -> Home page
       └── ....
+    └── 📁static        -> Static files that are versioned
+      └── 📁seo         -> SEO files like robots.txt that are copied to public at build time
     └── 📁styles        -> Global styles of the app. Most pages contain their own stiles.
         |                  The Globals.css file contains a css reset definition.
         └── globals.css

@@ -1,5 +1,4 @@
 import type { GetStaticProps, NextPage } from 'next';
-import Head from 'next/head';
 import Image from 'next/image';
 
 import {
@@ -10,7 +9,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { Button, ContentLayout, ExpandingImg, Link, RenderMarkdown } from '@components';
+import { Button, ContentLayout, ExpandingImg, Link, RenderMarkdown, SEO } from '@components';
 import config from '@config/config.yml';
 import indexConfig from '@config/indexPage.yml';
 import teachersConfig from '@config/teachers.yml';
@@ -24,6 +23,12 @@ import { getLocale, getStaticPaths } from '@utils/getStatic';
 import { tz } from '@utils/timezone';
 
 const formatDates = (starting: Date, ending: Date, locale: string) => {
+  // Use a neutral format for initial render to avoid hydration mismatch
+  // The actual localized format will be applied after component mounts
+  if (typeof window === 'undefined') {
+    return `${tz(starting).format('YYYY-MM-DD')} - ${tz(ending).format('YYYY-MM-DD')}`;
+  }
+
   if (locale === 'es')
     return `del ${tz(starting).format('D [de] MMMM')} al ${tz(ending).format('D [de] MMMM')}`;
   else return `from ${tz(starting).format('MMMM Do')} until ${tz(ending).format('MMMM Do')}`;
@@ -45,9 +50,14 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
 
   return (
     <>
-      <Head>
-        <title>{config.name}</title>
-      </Head>
+      <SEO
+        title={config.name}
+        description={
+          locale === 'es'
+            ? 'Crisol de Cuerda, campamento de música tradicional para violín, violonchelo, guitarra y flauta en España'
+            : 'Crisol de Cuerda, traditional music camp for violin, cello, guitar and flute in Spain'
+        }
+      />
       <div className="hero__container">
         {shouldLoadVideo ? (
           <video
@@ -67,7 +77,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               de Cuerda
             </h1>
             <div className="hero__dates">
-              <span className="hero__dates--text">
+              <span className="hero__dates--text" suppressHydrationWarning>
                 {formatDates(config.startDate, config.endDate, locale ?? 'es')}
               </span>
               <span className="hero__dates--year">{config.startDate.getFullYear()}</span>
