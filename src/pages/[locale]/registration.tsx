@@ -3,6 +3,7 @@ import { GetStaticProps, NextPage } from 'next';
 import { ContentLayout, Hero, RenderMarkdown, SEO } from '@components';
 import config from '@config/config.yml';
 import translations from '@config/translations.yml';
+import { useLocale } from '@hooks';
 import { baseUrl } from '@utils/baseUrl';
 import { IContent, getContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
@@ -10,16 +11,29 @@ import { parseTemplate } from '@utils/parseTemplate';
 import { tz } from '@utils/timezone';
 import dayjs from 'dayjs';
 
+import { generateCourseSchema } from '../../static/seo/schemas';
+
 interface IRegistrationProps {
   registrationPage: IContent<{ title: string; description: string; hero: string }>;
 }
 
 const Registration: NextPage<IRegistrationProps> = ({ registrationPage }) => {
+  const locale = useLocale() as 'en' | 'es';
+
   return (
     <>
       <SEO
         title={registrationPage.meta.title}
         description={registrationPage.meta.description}
+        schema={generateCourseSchema(
+          locale,
+          locale === 'es'
+            ? 'Crisol de Cuerda - Taller de música tradicional para instrumentos de cuerda'
+            : 'Crisol de Cuerda - Traditional music workshop for string instruments',
+          locale === 'es'
+            ? 'Curso intensivo de música tradicional para violín, viola, violonchelo y guitarra con profesores de referencia internacional. Incluye alojamiento y pensión completa en la Granja Escuela Arlanzón.'
+            : 'Intensive traditional music workshop for violin, viola, cello and guitar with internationally renowned teachers. Includes accommodation and full board at Granja Escuela Arlanzón.'
+        )}
         keywords={[
           'registration',
           'apply',

@@ -1,3 +1,4 @@
+import config from '@config/config.yml';
 import { useLocale } from '@hooks';
 import { baseUrl } from '@utils/baseUrl';
 import Head from 'next/head';
@@ -10,6 +11,7 @@ interface SEOProps {
   image?: string;
   article?: boolean;
   keywords?: string[];
+  schema?: Record<string, unknown>; // JSON-LD Schema.org data
 }
 
 export const SEO = ({
@@ -31,6 +33,7 @@ export const SEO = ({
     'Alasdair Fraser',
     'Natalie Haas',
   ],
+  schema,
 }: SEOProps) => {
   const router = useRouter();
   const locale = useLocale();
@@ -102,6 +105,37 @@ export const SEO = ({
       {/* Alternate language versions - rendered client-side to avoid hydration mismatch */}
       {altLinks}
       <link rel="alternate" href={canonicalUrl} hrefLang="x-default" />
+
+      {/* JSON-LD Schema.org markup */}
+      {schema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      )}
+
+      {/* Default Organization schema if no custom schema is provided */}
+      {!schema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'Crisol de Cuerda',
+              url: 'https://crisoldecuerda.com',
+              logo: 'https://crisoldecuerda.com/assets/logo.png',
+              description,
+              contactPoint: {
+                '@type': 'ContactPoint',
+                email: 'info@crisoldecuerda.com',
+                contactType: 'Customer Support',
+              },
+              sameAs: [config.socialMedia.facebook, config.socialMedia.instagram],
+            }),
+          }}
+        />
+      )}
     </Head>
   );
 };

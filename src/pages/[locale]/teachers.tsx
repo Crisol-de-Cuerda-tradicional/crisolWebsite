@@ -11,6 +11,7 @@ import type { ITeacher } from '@crisolTypes/Teacher';
 import { useLocale } from '@hooks';
 import { getContent, IContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
+import { generateTeachersSchema } from 'src/static/seo/schemas';
 
 interface ITeachersProps {
   teachers: ITeacher[];
@@ -60,6 +61,7 @@ const Teachers = ({ teachers, teachersPage, years }: ITeachersProps): JSX.Elemen
       <SEO
         title={teachersPage.meta.title}
         description={teachersPage.meta.description}
+        schema={generateTeachersSchema(locale, teachers, translations)}
         keywords={[
           'music teachers',
           'folk teachers',

@@ -21,6 +21,7 @@ import { baseUrl } from '@utils/baseUrl';
 import { getContent, IContent } from '@utils/getContent';
 import { getLocale, getStaticPaths } from '@utils/getStatic';
 import { tz } from '@utils/timezone';
+import { generateIndexSchema } from 'src/static/seo/schemas';
 
 const formatDates = (starting: Date, ending: Date, locale: string) => {
   // Use a neutral format for initial render to avoid hydration mismatch
@@ -48,15 +49,17 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
   const locale = useLocale();
   const shouldLoadVideo = useShouldLoadVideo();
 
+  const description =
+    locale === 'es'
+      ? 'Crisol de Cuerda, campamento de música tradicional para violín, violonchelo, guitarra y flauta en España'
+      : 'Crisol de Cuerda, traditional music camp for violin, cello, guitar and flute in Spain';
+
   return (
     <>
       <SEO
         title={config.name}
-        description={
-          locale === 'es'
-            ? 'Crisol de Cuerda, campamento de música tradicional para violín, violonchelo, guitarra y flauta en España'
-            : 'Crisol de Cuerda, traditional music camp for violin, cello, guitar and flute in Spain'
-        }
+        description={description}
+        schema={generateIndexSchema(description, teachersContent)}
         keywords={[
           'music camp',
           'traditional music',
