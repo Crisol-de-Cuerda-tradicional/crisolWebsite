@@ -6,7 +6,7 @@ hero: support.webp
 
 ## Discounts available!
 
-We have discounts available for families and friends coming together. Check them out in our [discounts section](#discounts)!
+We have discounts available for families and friends coming together. Check them out in our **discounts section**!
 
 ## Prices
 

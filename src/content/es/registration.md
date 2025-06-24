@@ -6,7 +6,7 @@ hero: support.webp
 
 ## Descuentos disponibles!
 
-Tenemos descuentos disponibles para familias y amigos que vienen juntos. Consúltalos en la [sección de descuentos](#descuentos)!
+Tenemos descuentos disponibles para familias y amigos que vienen juntos. Consúltalos en la **sección de descuentos**!
 
 ## Precios
 
