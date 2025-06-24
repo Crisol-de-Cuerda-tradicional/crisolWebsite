@@ -4,6 +4,10 @@ description: Información sobre el proceso de inscripción para los talleres de 
 hero: support.webp
 ---
 
+## Descuentos disponibles!
+
+Tenemos descuentos disponibles para familias y amigos que vienen juntos. Consúltalos en la [sección de descuentos](#descuentos)!
+
 ## Precios
 
 El precio para la matrícula general será de **{{ price }}€**, incluyendo la reserva de plaza, alojamiento, comida y las clases durante toda la semana.

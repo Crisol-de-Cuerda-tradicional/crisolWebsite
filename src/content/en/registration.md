@@ -4,6 +4,10 @@ description: Learn how to register for Crisol de Cuerda music camp, including pr
 hero: support.webp
 ---
 
+## Discounts available!
+
+We have discounts available for families and friends coming together. Check them out in our [discounts section](#discounts)!
+
 ## Prices
 
 The general enrolment price will be **{{ price }}€**, including the reservation fee, accommodation, food, and classes for the entire week.
