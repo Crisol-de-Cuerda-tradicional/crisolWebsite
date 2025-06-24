@@ -62,6 +62,8 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
         schema={generateIndexSchema(description, teachersContent)}
         keywords={[
           'music camp',
+          'summer camp',
+          'music',
           'traditional music',
           'folk music',
           'fiddle',
