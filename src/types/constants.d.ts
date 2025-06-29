@@ -28,12 +28,13 @@ declare module '*config.yml' {
       referralDiscount: number;
     };
     socialMedia: {
-      instagram: string;
       facebook: string;
-      vimeo: string;
-      youtube: string;
+      instagram: string;
+      patreon: string;
       spotify: string;
       tiktok: string;
+      vimeo: string;
+      youtube: string;
     };
   }
   const config: Config;

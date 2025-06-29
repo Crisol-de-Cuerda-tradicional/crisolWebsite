@@ -1,6 +1,7 @@
 import {
   faFacebook,
   faInstagram,
+  faPatreon,
   faSpotify,
   faTiktok,
   faYoutube,
@@ -35,6 +36,9 @@ export const Footer = () => {
         <div className="social__links">
           <Link href={config.socialMedia.instagram} target="_blank" aria-label="Instagram">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </Link>
+          <Link href={config.socialMedia.patreon} target="_blank" aria-label="Patreon">
+            <FontAwesomeIcon icon={faPatreon} size="2x" />
           </Link>
           <Link href={config.socialMedia.tiktok} target="_blank" aria-label="TikTok">
             <FontAwesomeIcon icon={faTiktok} size="2x" />
