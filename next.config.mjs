@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-import withYaml from 'next-plugin-yaml';
-
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
@@ -27,6 +25,20 @@ const nextConfig = {
       },
     ],
   },
+
+  // Configure Turbopack to use yaml-loader for .yml and .yaml files
+  turbopack: {
+    rules: {
+      '*.yml': {
+        loaders: ['yaml-loader'],
+        as: '*.js',
+      },
+      '*.yaml': {
+        loaders: ['yaml-loader'],
+        as: '*.js',
+      },
+    },
+  },
 };
 
-export default withYaml(nextConfig);
+export default nextConfig;

@@ -24,12 +24,6 @@ import { tz } from '@utils/timezone';
 import { generateIndexSchema } from 'src/static/seo/schemas';
 
 const formatDates = (starting: Date, ending: Date, locale: string) => {
-  // Use a neutral format for initial render to avoid hydration mismatch
-  // The actual localized format will be applied after component mounts
-  if (typeof window === 'undefined') {
-    return `${tz(starting).format('YYYY-MM-DD')} - ${tz(ending).format('YYYY-MM-DD')}`;
-  }
-
   if (locale === 'es')
     return `del ${tz(starting).format('D [de] MMMM')} al ${tz(ending).format('D [de] MMMM')}`;
   else return `from ${tz(starting).format('MMMM Do')} until ${tz(ending).format('MMMM Do')}`;
