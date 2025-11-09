@@ -19,8 +19,8 @@ registration:
   scholarshipLimitDate: 2025-05-15
   referralDiscount: 10 # percentage
 
-displayRegistrationSlogan: true
-displayRegistrationCTA: true
+displayRegistrationSlogan: false
+displayRegistrationCTA: false
 registrationLink: https://inscripciones.crisoldecuerda.com
 hideRegistrationPage: false
 
