@@ -1,0 +1,22 @@
+name: Staging destroy
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions: {}
+
+jobs:
+  destroy:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove staging environment
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USERNAME }}
+          key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
+          port: ${{ secrets.DEPLOY_PORT }}
+          script: |
+            sudo rm -rf /var/www/staging/pr-${{ github.event.pull_request.number }}
