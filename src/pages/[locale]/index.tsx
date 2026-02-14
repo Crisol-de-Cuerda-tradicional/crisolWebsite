@@ -1,32 +1,44 @@
-import type { GetStaticProps, NextPage } from 'next';
-import Image from 'next/image';
+import type { GetStaticProps, NextPage } from "next";
+import Image from "next/image";
 
 import {
   faCircleCheck,
   faCircleInfo,
   faCircleQuestion,
   faFile,
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { Button, ContentLayout, ExpandingImg, Link, RenderMarkdown, SEO } from '@components';
-import config from '@config/config.yml';
-import indexConfig from '@config/indexPage.yml';
-import teachersConfig from '@config/teachers.yml';
-import translations from '@config/translations.yml';
-import { ITeacher } from '@crisolTypes/Teacher';
-import { useLocale, useShouldLoadVideo } from '@hooks';
-import homePageStyles from '@styles/home-page';
-import { baseUrl } from '@utils/baseUrl';
-import { getContent, IContent } from '@utils/getContent';
-import { getLocale, getStaticPaths } from '@utils/getStatic';
-import { tz } from '@utils/timezone';
-import { generateIndexSchema } from 'src/static/seo/schemas';
+import {
+  Button,
+  ContentLayout,
+  ExpandingImg,
+  Link,
+  RenderMarkdown,
+  SEO,
+} from "@components";
+import config from "@config/config.yml";
+import indexConfig from "@config/indexPage.yml";
+import teachersConfig from "@config/teachers.yml";
+import translations from "@config/translations.yml";
+import { ITeacher } from "@crisolTypes/Teacher";
+import { useLocale, useShouldLoadVideo } from "@hooks";
+import homePageStyles from "@styles/home-page";
+import { baseUrl } from "@utils/baseUrl";
+import { getContent, IContent } from "@utils/getContent";
+import { getLocale, getStaticPaths } from "@utils/getStatic";
+import { shouldShowRegistration, tz } from "@utils/timezone";
+import { generateIndexSchema } from "src/static/seo/schemas";
 
 const formatDates = (starting: Date, ending: Date, locale: string) => {
-  if (locale === 'es')
-    return `del ${tz(starting).format('D [de] MMMM')} al ${tz(ending).format('D [de] MMMM')}`;
-  else return `from ${tz(starting).format('MMMM Do')} until ${tz(ending).format('MMMM Do')}`;
+  if (locale === "es")
+    return `del ${tz(starting).format("D [de] MMMM")} al ${tz(ending).format(
+      "D [de] MMMM"
+    )}`;
+  else
+    return `from ${tz(starting).format("MMMM Do")} until ${tz(ending).format(
+      "MMMM Do"
+    )}`;
 };
 
 interface IHomeProps {
@@ -39,14 +51,18 @@ interface IHomeProps {
   }>;
 }
 
-const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodationSection }) => {
+const Home: NextPage<IHomeProps> = ({
+  teachersContent,
+  whatIsSection,
+  accommodationSection,
+}) => {
   const locale = useLocale();
   const shouldLoadVideo = useShouldLoadVideo();
 
   const description =
-    locale === 'es'
-      ? 'Crisol de Cuerda, campamento de música tradicional para violín, violonchelo, guitarra y flauta en España'
-      : 'Crisol de Cuerda, traditional music camp for violin, cello, guitar and flute in Spain';
+    locale === "es"
+      ? "Crisol de Cuerda, campamento de música tradicional para violín, violonchelo, guitarra y flauta en España"
+      : "Crisol de Cuerda, traditional music camp for violin, cello, guitar and flute in Spain";
 
   return (
     <>
@@ -55,27 +71,27 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
         description={description}
         schema={generateIndexSchema(description, teachersContent)}
         keywords={[
-          'music camp',
-          'summer camp',
-          'music',
-          'traditional music',
-          'folk music',
-          'fiddle',
-          'violin',
-          'cello',
-          'guitar',
-          'flute',
-          'Crisol de Cuerda',
-          'string instruments',
-          'violin workshop',
-          'cello workshop',
-          'Arlanzon',
-          'Burgos',
-          'Spain',
-          'music workshop',
-          'fiddle camp',
-          'Alasdair Fraser',
-          'Natalie Haas',
+          "music camp",
+          "summer camp",
+          "music",
+          "traditional music",
+          "folk music",
+          "fiddle",
+          "violin",
+          "cello",
+          "guitar",
+          "flute",
+          "Crisol de Cuerda",
+          "string instruments",
+          "violin workshop",
+          "cello workshop",
+          "Arlanzon",
+          "Burgos",
+          "Spain",
+          "music workshop",
+          "fiddle camp",
+          "Alasdair Fraser",
+          "Natalie Haas",
         ]}
       />
       <div className="hero__container">
@@ -84,10 +100,10 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             autoPlay
             loop
             muted
-            poster={baseUrl('/images/video_poster.webp')}
-            style={{ objectFit: 'cover' }}
+            poster={baseUrl("/images/video_poster.webp")}
+            style={{ objectFit: "cover" }}
           >
-            <source src={baseUrl('/media/videoweb.mp4')} />
+            <source src={baseUrl("/media/videoweb.mp4")} />
           </video>
         ) : null}
         <div id="hero" className="hero">
@@ -98,9 +114,11 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             </h1>
             <div className="hero__dates">
               <span className="hero__dates--text" suppressHydrationWarning>
-                {formatDates(config.startDate, config.endDate, locale ?? 'es')}
+                {formatDates(config.startDate, config.endDate, locale ?? "es")}
               </span>
-              <span className="hero__dates--year">{config.startDate.getFullYear()}</span>
+              <span className="hero__dates--year">
+                {config.startDate.getFullYear()}
+              </span>
             </div>
           </div>
 
@@ -108,9 +126,15 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
             {config.displayRegistrationSlogan ? (
               <h2>{indexConfig.registrationSlogan[locale]}</h2>
             ) : null}
-            {config.displayRegistrationCTA ? (
-              <Link href={config.registrationLink} target="_blank" className="test">
-                <Button size="xlg">{indexConfig.registrationCta[locale]}</Button>
+            {shouldShowRegistration() ? (
+              <Link
+                href={config.registrationLink}
+                target="_blank"
+                className="test"
+              >
+                <Button size="xlg">
+                  {indexConfig.registrationCta[locale]}
+                </Button>
               </Link>
             ) : null}
           </div>
@@ -123,7 +147,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
         </div>
       </ContentLayout>
       <section className="about__featured">
-        {indexConfig.aboutLinks.map(link => {
+        {indexConfig.aboutLinks.map((link) => {
           return (
             <ExpandingImg key={link.link} bgSrc={link.img}>
               <div className="about__content">
@@ -141,14 +165,18 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       </section>
       <section id="teachers" className="teachers">
         <div className="centered">
-          <h2>{`${translations.teachers[locale]} ${config.startDate.getFullYear()}`}</h2>
+          <h2>{`${
+            translations.teachers[locale]
+          } ${config.startDate.getFullYear()}`}</h2>
         </div>
         <div className="teachers__content">
-          {teachersContent.map(teacher => {
+          {teachersContent.map((teacher) => {
             return (
               <Link
                 key={teacher.id}
-                href={`/teachers?year=${config.startDate.getFullYear()}#${teacher.id}`}
+                href={`/teachers?year=${config.startDate.getFullYear()}#${
+                  teacher.id
+                }`}
                 className="teachers__link"
               >
                 <ExpandingImg
@@ -167,7 +195,9 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
           })}
         </div>
         {config.pendingTeachers ? (
-          <div className="centered teachers__more">{indexConfig.pendingTeachers[locale]}</div>
+          <div className="centered teachers__more">
+            {indexConfig.pendingTeachers[locale]}
+          </div>
         ) : null}
       </section>
       <section id="accommodation" className="accommodation">
@@ -175,17 +205,19 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
           <h2>{accommodationSection.meta.title}</h2>
           <RenderMarkdown content={accommodationSection.content} />
           <Link href={`/accommodation`}>
-            <Button variant="light">{indexConfig.knowMoreButton[locale]}</Button>
+            <Button variant="light">
+              {indexConfig.knowMoreButton[locale]}
+            </Button>
           </Link>
           <div className="accommodation__images">
-            {accommodationSection.meta.imgs.map(imgSrc => {
+            {accommodationSection.meta.imgs.map((imgSrc) => {
               return (
                 <div key={imgSrc} className="accommodation__images__wrapper">
                   <Image
                     src={imgSrc}
                     fill
                     sizes="100%"
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: "cover" }}
                     alt="accommodation"
                   />
                 </div>
@@ -205,7 +237,9 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               <h3>{indexConfig.infoSection.information.title[locale]}</h3>
               <p>{indexConfig.infoSection.information.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.information.link}>
-                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                <Button variant="primary">
+                  {indexConfig.knowMoreButton[locale]}
+                </Button>
               </Link>
             </div>
             <div className="information__cardwrapper">
@@ -213,23 +247,37 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
               <h3>{indexConfig.infoSection.prices.title[locale]}</h3>
               <p>{indexConfig.infoSection.prices.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.prices.link}>
-                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                <Button variant="primary">
+                  {indexConfig.knowMoreButton[locale]}
+                </Button>
               </Link>
             </div>
             <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} size="4x" />
+              <FontAwesomeIcon
+                className="icon"
+                icon={faCircleCheck}
+                size="4x"
+              />
               <h3>{indexConfig.infoSection.register.title[locale]}</h3>
               <p>{indexConfig.infoSection.register.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.register.link}>
-                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                <Button variant="primary">
+                  {indexConfig.knowMoreButton[locale]}
+                </Button>
               </Link>
             </div>
             <div className="information__cardwrapper">
-              <FontAwesomeIcon className="icon" icon={faCircleQuestion} size="4x" />
+              <FontAwesomeIcon
+                className="icon"
+                icon={faCircleQuestion}
+                size="4x"
+              />
               <h3>{indexConfig.infoSection.scholarships.title[locale]}</h3>
               <p>{indexConfig.infoSection.scholarships.subtitle[locale]}</p>
               <Link href={indexConfig.infoSection.scholarships.link}>
-                <Button variant="primary">{indexConfig.knowMoreButton[locale]}</Button>
+                <Button variant="primary">
+                  {indexConfig.knowMoreButton[locale]}
+                </Button>
               </Link>
             </div>
           </div>
@@ -239,7 +287,7 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
       <style jsx>{`
         .accommodation {
           background-image: url(${baseUrl(
-            '/images/index/' + accommodationSection.meta.background
+            "/images/index/" + accommodationSection.meta.background
           )});
         }
       `}</style>
@@ -256,19 +304,19 @@ const Home: NextPage<IHomeProps> = ({ teachersContent, whatIsSection, accommodat
 
 export default Home;
 
-const getStaticProps: GetStaticProps = async ctx => {
+const getStaticProps: GetStaticProps = async (ctx) => {
   const locale = getLocale(ctx);
   const { teachers } = teachersConfig;
-  const teachersContent = teachers.filter(teacher =>
+  const teachersContent = teachers.filter((teacher) =>
     teacher.years.includes(config.startDate.getFullYear())
   );
 
-  const whatIsSection = await getContent(locale, 'about/about');
+  const whatIsSection = await getContent(locale, "about/about");
   const accommodationSection = await getContent<{
     title: string;
     background: string;
     imgs: string[];
-  }>(locale, 'home_accommodation');
+  }>(locale, "home_accommodation");
 
   return {
     props: {

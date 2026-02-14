@@ -20,7 +20,9 @@ registration:
   referralDiscount: 10 # percentage
 
 displayRegistrationSlogan: true
+# If true, the registration CTA will be displayed if the date is after the registrationOpenDateTime
 displayRegistrationCTA: false
+registrationOpenDateTime: 2026-03-29T12:00:00+01:00 # 12pm CET
 registrationLink: https://inscripciones.crisoldecuerda.com
 hideRegistrationPage: true
 

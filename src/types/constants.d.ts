@@ -1,6 +1,6 @@
-type Language = 'en' | 'es';
+type Language = "en" | "es";
 type Translation = Record<Language, string>;
-declare module '*config.yml' {
+declare module "*config.yml" {
   interface Config {
     name: string;
     nameShort: string;
@@ -9,6 +9,7 @@ declare module '*config.yml' {
     dateTimezone: string;
     displayRegistrationSlogan: boolean;
     displayRegistrationCTA: boolean;
+    registrationOpenDateTime: Date;
     registrationLink: string;
     hideRegistrationPage: boolean;
     pendingTeachers: boolean;
@@ -41,7 +42,7 @@ declare module '*config.yml' {
   export default config;
 }
 
-declare module '*crisolBookIndex.yml' {
+declare module "*crisolBookIndex.yml" {
   interface CrisolBookEntry {
     title: string;
     author: string;
@@ -57,7 +58,7 @@ declare module '*crisolBookIndex.yml' {
   export default crisolBookIndex;
 }
 
-declare module '*teachers.yml' {
+declare module "*teachers.yml" {
   interface Teacher {
     id: string;
     lastInstrument: string;
@@ -75,7 +76,7 @@ declare module '*teachers.yml' {
   export default teachersConfig;
 }
 
-declare module '*menu.yml' {
+declare module "*menu.yml" {
   export interface MenuItem {
     en: string;
     es: string;
@@ -87,8 +88,8 @@ declare module '*menu.yml' {
   export default menuItems;
 }
 
-declare module '*translations.yml' {
-  export type Language = 'en' | 'es';
+declare module "*translations.yml" {
+  export type Language = "en" | "es";
   type Translation = Record<Language, string>;
   type TranslationsConfig = Record<string, Translation>;
 
@@ -96,7 +97,7 @@ declare module '*translations.yml' {
   export default translations;
 }
 
-declare module '*indexPage.yml' {
+declare module "*indexPage.yml" {
   interface InfoSection {
     title: Translation;
     subtitle: Translation;
@@ -120,7 +121,7 @@ declare module '*indexPage.yml' {
   export default indexPageConfig;
 }
 
-declare module '*media.yml' {
+declare module "*media.yml" {
   interface IMedia {
     videos: {
       title: string;
