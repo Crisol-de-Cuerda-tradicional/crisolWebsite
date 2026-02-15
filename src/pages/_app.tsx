@@ -11,7 +11,7 @@ import timezone from 'dayjs/plugin/timezone';
 import utc from 'dayjs/plugin/utc';
 import { Montserrat } from 'next/font/google';
 
-import { Layout, MenuContextProvider } from '@components';
+import { Layout } from '@components';
 import { useLocale } from '@hooks';
 
 import '@styles/globals.css';
@@ -38,13 +38,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   dayjs.locale(locale);
 
   return (
-    <MenuContextProvider>
-      <main className={montserrat.variable}>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </main>
-    </MenuContextProvider>
+    <main className={montserrat.variable}>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </main>
   );
 }
 

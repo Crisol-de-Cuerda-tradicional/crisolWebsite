@@ -6,6 +6,10 @@ about:
   en: What's Crisol?
   es: ¿Que es Crisol?
   link: /about
+aboutLink:
+  en: About
+  es: Acerca de
+  link: /about
 classes:
   en: Classes
   es: Las clases
@@ -22,6 +26,10 @@ crisol-book:
   en: The Crisol Book
   es: El Crisol Book
   link: /crisol-book
+theExperience:
+  en: The Experience
+  es: La Experiencia
+  link: /teachers
 teachers:
   en: Teachers
   es: Profesores
