@@ -343,6 +343,8 @@ teachers:
       - 2019
       - 2022
       - 2023
+      - 2025
+      - 2026
 
   - id: gerry_oconnor
     lastInstrument: fiddle
@@ -389,6 +391,7 @@ teachers:
     name: Hugo Franco
     years:
       - 2025
+      - 2026
 
   - id: ines_sanchez
     lastInstrument: dance
@@ -510,6 +513,7 @@ teachers:
     name: Lucía López
     years:
       - 2025
+      - 2026
 
   - id: luis_nicolas_carrete
     lastInstrument: guitar
@@ -719,6 +723,7 @@ teachers:
     name: Toby Kuhn
     years:
       - 2025
+      - 2026
     media:
       instagram: https://www.instagram.com/toby.cello
       spotify: 1BBC6bIXPyvsWkJGCNmWY5
