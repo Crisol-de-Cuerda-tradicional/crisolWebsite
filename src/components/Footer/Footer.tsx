@@ -5,16 +5,16 @@ import {
   faSpotify,
   faTiktok,
   faYoutube,
-} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Image from 'next/image';
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
-import { Button, Link } from '@components';
-import config from '@config/config.yml';
-import menu from '@config/menu.yml';
-import translations from '@config/translations.yml';
-import { useLocale } from '@hooks';
-import { baseUrl } from '@utils/baseUrl';
+import { Button, Link } from "@components";
+import config from "@config/config.yml";
+import menu from "@config/menu.yml";
+import translations from "@config/translations.yml";
+import { useLocale } from "@hooks";
+import { baseUrl } from "@utils/baseUrl";
 
 export const Footer = () => {
   const locale = useLocale();
@@ -23,45 +23,86 @@ export const Footer = () => {
     <div className="footer">
       <div className="footer__content">
         <Link href="/">
-          <Image src={baseUrl('/logo.png')} height="90" width="352" alt={config.name} />
+          <Image
+            src={baseUrl("/logo.png")}
+            height="90"
+            width="352"
+            alt={config.name}
+          />
         </Link>
         <div className="footer__subscribe">
           {translations.newsletter[locale]}
-          <Link href={config.newsletterLink}>
+          <Link
+            href={config.newsletterLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button>{translations.subscribe[locale]}</Button>
           </Link>
         </div>
       </div>
       <div className="footer__social">
         <div className="social__links">
-          <Link href={config.socialMedia.instagram} target="_blank" aria-label="Instagram">
+          <Link
+            href={config.socialMedia.instagram}
+            target="_blank"
+            aria-label="Instagram"
+          >
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </Link>
-          <Link href={config.socialMedia.patreon} target="_blank" aria-label="Patreon">
+          <Link
+            href={config.socialMedia.patreon}
+            target="_blank"
+            aria-label="Patreon"
+          >
             <FontAwesomeIcon icon={faPatreon} size="2x" />
           </Link>
-          <Link href={config.socialMedia.tiktok} target="_blank" aria-label="TikTok">
+          <Link
+            href={config.socialMedia.tiktok}
+            target="_blank"
+            aria-label="TikTok"
+          >
             <FontAwesomeIcon icon={faTiktok} size="2x" />
           </Link>
-          <Link href={config.socialMedia.spotify} target="_blank" aria-label="Spotify">
+          <Link
+            href={config.socialMedia.spotify}
+            target="_blank"
+            aria-label="Spotify"
+          >
             <FontAwesomeIcon icon={faSpotify} size="2x" />
           </Link>
-          <Link href={config.socialMedia.youtube} target="_blank" aria-label="Youtube">
+          <Link
+            href={config.socialMedia.youtube}
+            target="_blank"
+            aria-label="Youtube"
+          >
             <FontAwesomeIcon icon={faYoutube} size="2x" />
           </Link>
-          <Link href={config.socialMedia.facebook} target="_blank" aria-label="Facebook">
+          <Link
+            href={config.socialMedia.facebook}
+            target="_blank"
+            aria-label="Facebook"
+          >
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </Link>
         </div>
       </div>
       <div className="footer__legal">
         <div className="legal__policies">
-          <Link href={menu.legalDisclaimer.link}>{menu.legalDisclaimer[locale]}</Link>
-          <Link href={menu.privacyPolicy.link}>{menu.privacyPolicy[locale]}</Link>
+          <Link href={menu.legalDisclaimer.link}>
+            {menu.legalDisclaimer[locale]}
+          </Link>
+          <Link href={menu.privacyPolicy.link}>
+            {menu.privacyPolicy[locale]}
+          </Link>
         </div>
         <div className="legal__created">
-          &copy;2023 Created by{' '}
-          <a href="https://github.com/Ishdril" rel="noopener noreferrer" target="_blank">
+          &copy;2023 Created by{" "}
+          <a
+            href="https://github.com/Ishdril"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             Bernat Duran
           </a>
         </div>
