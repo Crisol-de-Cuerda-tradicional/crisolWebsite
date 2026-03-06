@@ -6,14 +6,14 @@ endDate: 2026-08-02
 dateTimezone: Europe/Madrid
 
 registration:
-  coursePrice: 750
-  bookingFee: 75
+  coursePrice: 650
+  bookingFee: 65
   refundLimit: 80 # percentage
   endOfEarlyRegistrationDate: 2026-05-01
   underageAuthorisationFile: /docs/over-14-authorisation.pdf
   under14AuthorisationFile: /docs/under-14-authorisation.pdf
   acceptanceOfGuardianshipFile: /docs/under-14-acceptance-of-guardianship.pdf
-  scholarshipDiscount: 25 # percentage
+  scholarshipDiscount: 35 # percentage
   familyDiscount: 10 # percentage
   familyDiscountMinimum: 3
   scholarshipLimitDate: 2026-05-15
