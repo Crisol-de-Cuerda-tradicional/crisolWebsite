@@ -24,7 +24,7 @@ displayRegistrationSlogan: true
 displayRegistrationCTA: false
 registrationOpenDateTime: 2026-03-29T12:00:00+01:00 # 12pm CET
 registrationLink: https://inscripciones.crisoldecuerda.com
-hideRegistrationPage: true
+hideRegistrationPage: false
 
 pendingTeachers: true
 
