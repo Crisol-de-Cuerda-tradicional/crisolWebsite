@@ -4,107 +4,84 @@ description: Learn how to register for Crisol de Cuerda music camp, including pr
 hero: support.webp
 ---
 
-## Discounts available!
+## Prices & Conditions
 
-We have discounts available for families and friends coming together. Check them out in our **discounts section**!
+Crisol offers four registration options:
 
-## Prices
+- **General price**: €{{ price }}
+- **Families, students, and unemployed**: €{{ reducedPrice }}. Supporting documentation must be provided at the time of registration by emailing [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com). The family discount applies when two or more members of the same household attend the camp together.
+- **Generous registration**: €{{ generousPrice }} or more. Crisol de Cuerda is a non-profit association that relies on the financial support of its participants. If you would like to contribute beyond the minimum amount, you can add an extra sum to your transfer as a donation. Every additional contribution helps us keep Crisol sustainable, offer better conditions to our teachers, improve our educational offering and infrastructure, support our scholarship programme for students with financial need, and secure future editions. Every contribution counts and we are truly grateful for it!
 
-The general enrolment price will be **{{ price }}€**, including the reservation fee, accommodation, food, and classes for the entire week.
+> _As Crisol is a non-profit organisation, your donation may be eligible for tax benefits. For more information, please email us at [info@crisoldecuerda.com](mailto:info@crisoldecuerda.com)._
 
-## Registration process
+- **Scholarship applicant**: €{{ scholarshipPrice }}. To find out more about applying for a scholarship, see the [Scholarship Programme](#scholarship-programme) section.
 
-Fill out the {{{ registrationLink }}} form and follow the instructions presented, carefully read the explanations, and click SUBMIT. It is essential to accept the document of waiver of responsibility for all attendees and, in the case of minors, it must be accepted by their legal parent/guardian. Do not make any payment until you receive our first email confirming your enrolment.
+### Conditions
 
-- From our first confirmation email, you have 1 week to pay the first {{ bookingFee }}€ (of the total enrolment fee) that will act as a down-payment fee. The remaining pending payment must be made before {{ endOfEarlyRegistrationDate }}. It is also possible to pay the full course fee in a single payment. \*If the participant has applied for the Crisol scholarship, they will have to wait for the resolution of the scholarship to pay the enrolment fee.
-- Participants who register after {{ endOfEarlyRegistrationDate }} will have to pay the full enrolment fee within 1 week from the issuance of the confirmation email.
-- Once this process is completed, the Crisol de Cuerda organization will contact you to confirm that the enrolment has been carried out correctly and to give you additional information about the course.
+- The registration fee includes: your spot at camp; shared accommodation with breakfast, lunch, and dinner; the full course (classes and workshops); and administrative costs. Additional optional activities may arise during the week and will be at the participants' own expense.
+- Crisol de Cuerda reserves the right to refuse admission to, or expel from, the course any person whose behaviour does not meet basic standards of coexistence, or who may pose a potential risk to other participants or to the smooth running of the course.
+- Crisol de Cuerda is not liable for any physical injury sustained by participants inside or outside the course facilities, nor for any loss, theft, or damage to personal property, including instruments, although every effort will be made at all times to ensure the safety of attendees.
+- During the week, photographs and audio/video recordings will be taken, which may be used to promote the event in future editions and in the creation of an illustrated record. By registering for Crisol de Cuerda, participants consent to the use of their image for this purpose.
 
-\* Cancellations: The reservation fee ({{ bookingFee }}€) will not be refunded under any circumstances. If the reservation fee is not paid within the established deadlines, the organization will cancel the registration and the right to place will be lost. In case of cancellation by the participant after paying the full course fee (after {{ endOfEarlyRegistrationDate }}), {{ refundLimit }}% of the total enrolment fee ({{ registrationRemainder }}€) will be lost.
+**_By completing registration, the participant accepts the terms and conditions of the Crisol de Cuerda Tradicional course as set out above._**
 
-### Payment methods
+---
 
-We currently only accept bank transfers for all residents in the European Union. If you come from outside the European Union, contact us at [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com) to know the payment options.
+## Registration & Payment
 
-This is our bank information:
+### Registration Process
 
+1. Fill in the {{{ registrationLink }}} form, read the information carefully, and click SEND. All attendees must accept the liability waiver document — and in the case of minors, their parent/guardian must do so on their behalf. Please do not make any payment until you receive our first registration confirmation email.
+2. From the date of our first confirmation email, you have 1 week to pay the initial {{ bookingFee }}€ deposit (from the total registration fee). The remaining balance must be paid before {{ endOfEarlyRegistrationDate }}. It is also possible to pay the full amount in a single payment. Participants who register after {{ endOfEarlyRegistrationDate }} must pay the full registration fee within 1 week of receiving their place confirmation email.
+
+> If the participant has applied for a Crisol scholarship, they should wait for the outcome of their application before paying the registration fee.
+
+3. Once this process is complete, the Crisol de Cuerda organisation will contact you to confirm that your registration has been successfully processed and to provide you with further information about the course.
+
+**Cancellations**: the deposit amount ({{ bookingFee }}€) is non-refundable under any circumstances. If the deposit is not paid within the stated deadlines, the organisation will cancel the registration and the place will be forfeited. If a participant cancels after having paid the full course fee (after {{ endOfEarlyRegistrationDate }}), {{ refundLimit }}% of the total registration fee will be forfeited.
+
+### Payment Methods
+
+We currently only accept bank transfer for all residents within the European Union. If you are joining us from outside the EU, please contact us at [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com) to discuss payment options.
+
+Bank transfer details:
+
+- Recipient name: Asoc Crisol de Cuerda Tradicional
+- Payment reference: **REGISTRATION/DEPOSIT + FULL NAME OF STUDENT**
 - IBAN: ES42 2100 1532 7422 0003 0236
 - SWIFT: CAIXESBBXXX
-- Office Address: 1529-1529-Burgos-Hacienda- calle Vitoria, 56 – Burgos – Spain
 
-**Important**: Don’t forget to state the full name of the attendee in the CONCEPT of the transfer so that we can link it to the registration.
+---
 
-## Donations
+## Scholarship Programme
 
-While your registration fee covers your participation in the course, we want to share with you that Crisol de Cuerda is an event driven by all its members and depends more than ever on collective support to stay alive and growing.
+The Asociación Crisol de Cuerda Tradicional, a non-profit organisation, offers a self-managed scholarship programme to support, as far as possible, those facing the greatest financial difficulty. Each scholarship consists of a **{{ scholarshipDiscount }}% discount** on the minimum course price, bringing the **final fee with a scholarship to €{{ scholarshipPrice }}**. Scholarships are intended for those for whom paying the course fee would represent an excessive financial burden due to limited resources — particularly **unemployed individuals, financially independent students, participants travelling from abroad, or low-income workers**. The number of scholarships is limited to {{ numberOfScholarships }}.
 
-If you wish to contribute beyond the required amount, you can add an extra amount to your bank transfer as a donation.
+Scholarship recipients are expected to **take on a special role during the week**, assisting the organisation with specific tasks to help the camp run smoothly: setting up the dining room, cleaning communal spaces, helping with the camp tasks, etc.
 
-Each additional contribution helps us make Crisol sustainable and ensure it can continue to be held in the future. Furthermore, if we receive enough support, we can improve different aspects of the camp, whether in content, logistics, or infrastructure, making the experience even better for all participants.
+### How to Apply
 
-Crisol de Cuerda is a **non-profit association** and this donation may be eligible for tax benefits. For more information about this, please email us at [info@crisoldecuerda.com](mailto:info@crisoldecuerda.com).
+Applicants must request a scholarship by email at [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com), attaching the documentation listed below, before {{ scholarshipLimitDate }}. Even if applying for a scholarship, you must still complete the standard registration process and pay the {{ bookingFee }}€ deposit, and indicate on the form that you intend to apply for a scholarship. Once the deadline has passed, the organisation will review all applications and notify each applicant of the outcome by email.
 
-If you'd like to help, simply add any amount to your registration payment.
+### Required Documentation
 
-**Every bit counts, and we truly appreciate your support!**
+- Sufficient documentation to demonstrate the financial circumstances prompting the application: income tax certificate, unemployment benefit approval document, etc.
+- **Most importantly**: a motivation letter explaining why you are applying for support and why you wish to attend the course. Please take particular care with this. It is essential that you convey your reasons for wanting to come to Crisol and your grounds for requesting a scholarship. To be clear: a letter is not two lines.
 
-## Underage
+---
 
-There is no age restriction to come to Crisol de Cuerda, i.e. underage students can register as long as they stick to the following conditions:
+## Minors
 
-- From 14 to 17 years: Their parents or legal tutors must sign and send back an authorisation. The attendees will agree to participate in all the activities and classes and not leave the camp installations unless accompanied by an authorised adult. The legal tutors will be accountable for any action performed by the underage attendee that goes against the regulation and values of the camp. You’ll be able to download a copy of the authorisation during the registration process. Furthermore, a copy of the tutor’s ID card and the Health Insurance card of the attendee must be sent to Crisol de Cuerda via email.
+There is no minimum age to register for Crisol, but the following conditions apply to participants under 18:
 
-  - {{{ underageAuthorisation }}}
+- **Ages 14 to 17**: a parent or legal guardian must sign and send us an authorisation form by which the student agrees, among other things, to participate in all camp activities and not to leave the hostel grounds unless accompanied by a responsible adult. Any conduct that does not comply with the camp's rules or values will be the responsibility of the parent or legal guardian. The authorisation form can be downloaded during the registration process and at the link below. It must be sent along with a copy of the guardian's ID and the student's health card at the time of payment to [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com).
 
-- 14 and under: must be accompanied by their parents or legal tutor during the whole camp. The tutor must also be registered as an attendee. If the tutor can’t attend the course as a participant, their tuition rights can be transferred to another attendee through the underage authorisation document. If these conditions are not met, the registration of the underage student will be cancelled and their tuition fees will be refunded in full. Don’t hesitate to contact us if you need more information.
-  - {{{ under14Authorisation }}}
-  - {{{ acceptanceOfGuardianship }}}
+  {{{ underageAuthorisation }}}
 
-Consumption of any drugs is strictly forbidden to all the participants. Alcohol consumption is also forbidden for all the underage participants. Failing to comply with this rules will imply the immediate expulsion of the participant, forfeiting any rights to refunds.
+- **Under 14**: children must be accompanied throughout the week by a parent or legal guardian who is also registered on the course. If the parent or guardian is unable to attend, they may delegate guardianship to another participant using the minor authorisation form. Failure to meet these conditions will result in the child's registration being cancelled and a full refund of their fee being issued. Please get in touch if you would like more information.
 
-## Discounts
+  {{{ under14Authorisation }}}
 
-### Families
+  {{{ acceptanceOfGuardianship }}}
 
-We offer a {{ familyDiscount }}% discount for families who want to attend Crisol de Cuerda together. This discount applies to family units registering at least {{ familyDiscountMinimum }} members, and it will be applied to all family members included in the registration.
-
-### Bring your friends
-
-Do you have friends who want to come to Crisol de Cuerda? We are launching a referral program where both of you can benefit from a discount. If you have attended Crisol before and recommend another student **who has never attended Crisol**, we will apply a {{ referralDiscount }}% discount to both of you. The new student can only receive the discount once, but for returning Crisol participants, this discount is cumulative. The more friends you bring, the cheaper your registration will be. To apply the discount, both of you must indicate that you are coming through a referral in the comments field of the registration form.
-
-If you have any questions about eligibility or how to apply the discount, feel free to contact us at [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com).
-
-## Scholarship program
-
-The organisation of Crisol de Cuerda, non-lucrative association, offers a self-managed scholarship program to help, within reasonable capacity, any attendant struggling due to economic reasons.
-
-The scholarship consists of a {{ scholarshipDiscount }}% discount of the total registration fee. They are intended for those participants who require economic assistance to attend camp, specially students, people under unemployment situation or minimum wage workers. Any other case of economic struggle will also be taken under consideration. In any situation, the appropriate documentation will be requested to demonstrate the economical situation of the attendee.
-
-Accepting the scholarship also requires extra implication of the attendee, who will be asked to perform some chores to contribute to the organisation of the camp. At the beginning of the week, some tasks will be assigned to the attendees, usually implying helping to set up the dinning room, cleaning common areas, etc.
-
-### Required documents
-
-- Copy of the ID card or Passport
-- Documents proving the economic situation of the attendee: unemployment certificate, tax declaration, etc. Each case will be handled personally and confidentially.
-- Document demonstrating the travel distance to Crisol de Cuerda: any invoice matching your home address, town hall registration, etc.
-- Curriculum Vitae or portfolio demonstrating the musical career of the attendee or interest in the instrument. There won’t be any special treatment for professional musicians. Amateur musicians will have the same opportunities.
-- Motivation letter detailing why you are requesting the scholarship and why you want to come to Crisol de Cuerda. Please, don’t underestimate the value of the motivation letter. Try to convey your excitement to live the Crisol experience.
-
-### Request the scholarship
-
-The applicant will request the scholarship via email at [inscripciones@crisoldecuerda.com](mailto:inscripciones@crisoldecuerda.com), attaching the requested documents. The applicant must register and make the down-payment of {{ bookingFee }}€ like the rest of the attendees.
-
-The time limit to send the necessary documents is **{{ scholarshipLimitDate }}**. After this date, we will send an email to all the solicitors with the outcome of their application.
-
-## Terms and conditions
-
-- The full payment of the registration fee includes the down-payment, accommodation at camp, all the meals (breakfast, lunch and dinner), all the classes, workshops and administration fees. Optional activities may happen during the week, which the attendee will have to pay separately.
-- Crisol de Cuerda will not provide transportation to the camp. Despite this, we will facilitate for participants to get in touch with other attendees in order to organise for shared transportation.
-- Accommodation happens in shared rooms. If you have special needs when it comes to accommodation, don’t hesitate to contact us.
-- Participants must respect each other at all times.
-- The committee of Crisol de Cuerda has the right to expel any participant who’s behaviour does not respect the other participants, does not comply with the conditions of the course or endangers the camp or other participants.
-- Crisol de Cuerda will not be held accountable for any physical damage suffered by the attendees (either inside or outside of the installations) during the activity. Crisol de Cuerda will not be held accountable for any loss, theft or damage suffered by personal property of the attendees, including the instruments. Despite this, the committee of Crisol de Cuerda will stay vigilant at all times and will try to make the camp secure for all the attendees to the best of their capacity.
-- Classes and workshops will be taught in English and/or Spanish depending on the teacher. Crisol de Cuerda doesn’t have a translation service, but usually the participants and teachers do their best to make sure that all the attendees can follow the program without problems.
-- There will be an appointed photographer in charge of taking pictures and recording videos during the week. Crisol de Cuerda can use these materials to promote future editions of the event. The registration to Crisol de Cuerda implies that you agree to these materials being used on social media or any other platform to promote the future editions of the event.
-
-**Registering to Crisol de Cuerda implies the acceptance of these terms and conditions.**
+> **_The consumption of drugs and alcohol by anyone under the age of 18 is strictly prohibited throughout the course. Breach of this rule will result in immediate expulsion from the course without any entitlement to a refund._**

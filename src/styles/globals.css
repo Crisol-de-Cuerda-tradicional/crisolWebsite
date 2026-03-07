@@ -17,6 +17,9 @@
   --shadow: 0 0 6px var(--color-neutral);
 
   --border-radius: 4px;
+  --border-radius-large: 16px;
+
+  --navbar-offset: 6.5rem;
 
   --size-xxxlg: 2.5rem;
   --size-xxlg: 2rem;
@@ -61,6 +64,15 @@ h1 {
 h3 {
   font-family: var(--font-headings);
   font-weight: 300;
+}
+
+.markdown-content :where(h1, h2, h3, h4, h5, h6) {
+  scroll-margin-top: var(--navbar-offset);
+}
+
+.markdown-content :where(blockquote) {
+  border-left: 2px solid var(--color-primary);
+  padding: 0.05rem 1rem;
 }
 
 * {

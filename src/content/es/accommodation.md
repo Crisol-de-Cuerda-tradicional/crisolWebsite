@@ -9,4 +9,4 @@ La inscripción al curso incluye el **alojamiento y pensión completa en la Gran
 
 En cuanto a las comidas, el albergue ofrece **menú omnívoro y menú vegano**. Si tienes alguna duda sobre la estancia o las comidas, escríbenos y te la resolveremos lo antes posible.
 
-***¿Cómo llegar a Crisol?*** A Burgos se puede llegar en tren, autobús o avión, que vuela desde y hasta Barcelona, pero no hay transporte público desde Burgos capital hasta Arlanzón. Sin embargo, antes de Crisol ponemos en marcha una plataforma de contacto para que aquellos crisoleros que lo necesiten puedan coordinarse y compartir coche para llegar a la granja escuela desde diferentes puntos de la península.
+**_¿Cómo llegar a Crisol?_** A Burgos se puede llegar en tren, autobús o avión, que vuela desde y hasta Barcelona, pero no hay transporte público desde Burgos capital hasta Arlanzón. Sin embargo, antes de Crisol ponemos en marcha una plataforma de contacto para que aquellos crisoleros que lo necesiten puedan coordinarse y compartir coche para llegar a la granja escuela desde diferentes puntos de la península.

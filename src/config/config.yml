@@ -7,6 +7,9 @@ dateTimezone: Europe/Madrid
 
 registration:
   coursePrice: 650
+  reducedPrice: 600
+  generousPrice: 700
+  scholarshipPrice: 390
   bookingFee: 65
   refundLimit: 80 # percentage
   endOfEarlyRegistrationDate: 2026-05-01
@@ -14,6 +17,7 @@ registration:
   under14AuthorisationFile: /docs/under-14-authorisation.pdf
   acceptanceOfGuardianshipFile: /docs/under-14-acceptance-of-guardianship.pdf
   scholarshipDiscount: 35 # percentage
+  numberOfScholarships: 5
   familyDiscount: 10 # percentage
   familyDiscountMinimum: 3
   scholarshipLimitDate: 2026-05-15
