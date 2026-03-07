@@ -5,41 +5,35 @@ img: https://www.crisoldecuerda.com/assets/images/about/classes.webp
 hero: classes.webp
 ---
 
-### Philosophy
+## Instrument Classes
 
-The lessons in Crisol are more than just that: they are aimed to enrich our musical experience and help us open our minds, make us be aware that music is really beating in our insides. It is a journey greatly enriched by all the places we go to. A return journey from which we come back enlightened with cultural exchange, old melodies and new sounds intertwined and combined, regardless of the instrument that we play.
+Each day there will be around three or four **group classes for the main instrument (violin, cello, guitar, flute)**, with teachers rotating between groups. In the classes, melodies, chords, and other techniques will be learned entirely **by ear, without sheet music**, and groups will be formed based on this learning ability. Each student is free to choose the group where they feel most comfortable and may switch groups during the week if they wish.
 
----
+In fact, participants sometimes decide to **try classes for other instruments** — to experience, for example, what it feels like to be a fiddle player in a cello class, or a cellist in a flute class. At Crisol we promote freedom and autonomy in learning, so moving between classes is not only permitted, but actively encouraged.
 
-### Teaching
+Every musician's **relationship with their instrument** is unique. In the classrooms we find students who pick things up easily by ear but struggle technically, and others who may have spent their whole lives at a conservatory but have never stepped away from sheet music. Every musical background is different, and for that reason classes can sometimes feel like a small challenge for some. However, at Crisol we believe that everyone has their own process and their own pace of learning. That's why we aim to create more than just a classroom space: a community that accompanies and supports each musician's journey. This is not about being the best, or comparing yourself to others, or passing judgment — it's about creating a safe place where we allow ourselves to make mistakes and rediscover the joy of playing with care.
 
-In all lessons, melodies will be taught by ear, and hence the class groups are sorted by picking-by-ear level (not playing level). There will be no level test, all musicians decide and are free to try different groups (you can also attend classes of other instruments) and stay where they consider the best for themselves. In Crisol there are no better or worse musicians: it is a musical village, where everyone’s voice counts; a safe space to be creative, share, and make lots of music altogether.
-
-It is strongly suggested to bring a recording device in order to record the lessons. You will find it very useful once you go back home, so that you can keep working on the tunes.
+It is recommended to bring your phone or a recording device to **capture classes and melodies**, so you can use your free time to review what you've learned and keep practising when you get home.
 
 ---
 
-### Instrument lessons
+### Group Distribution
 
-They will happen in the mornings, with breaks. Your choices of instrument are:
+- **Fiddle**: We offer **3 fiddle levels** ranging from **intermediate to advanced**. It is recommended to have at least a couple of years of experience with the instrument and to be comfortable in first position.
+- **Fiddle Beginner**: This class is aimed at students with **very little (or no) prior experience** with the instrument. This group has a dedicated teacher with extensive experience.
+- **Cello**: We offer **2 cello levels** (**intermediate and advanced**). For the intermediate level, students are recommended to have a command of **1st through 4th position** and a degree of fluency in performance.
+- **Guitar**: We offer **2 guitar levels** (**intermediate and advanced**). For the intermediate level, it is recommended to have a solid grasp of basic chord shapes and smooth transitions, as well as some command of the pick (rhythms and single-note playing).
 
-- Violin for Beginners (Fiddle): these lessons are focused on students with few or no experience playing the instrument. This group will have a dedicated teacher with years of experience.
-- Students with some experience: For each instrument there will be several teachers who will rotate between different levels. The available instruments are:
+> _Do you know what DADGAD is?_ Guitar teachers sometimes teach in alternative tunings such as Drop D or DADGAD, which are common in folk music. If you're not familiar with them, don't worry — but we recommend looking up the basic chords before the course to get more out of the classes.
 
-  - Violín (Fiddle): We offer **3 levels** of fiddle that range from **intermediate to advanced**.
-  - Cello: We offer **2 levels** of cello (**intermediate and advanced**). For the intermediate level, students are expected to have mastery of **1st to 4th position** and a certain ease in interpretation.
-  - Guitar: We offer **2 levels** of guitar (**intermediate and advanced**). For the intermediate level, mastery of chord placement and ease in basic transitions is required, as well as a certain fluency with the pick (rhythms and picking).
-  - Flute: We offer **2 levels** of flute (**intermediate and advanced**). For the intermediate level, mastery of basic embouchure and airflow technique is required, allowing for good stability in sound and mastery of D major and G major positions.
-  - Bouzouki: We offer **a single advanced level** of bouzouki. Mastery of basic bouzouki or acoustic guitar technique is required. Knowledge of basic chords and their transitions, as well as a good mastery of pick technique (rhythmic patterns and picking).
+- **Flute**: We offer **2 flute levels** (**intermediate and advanced**). For the intermediate level, it is recommended to have a command of basic embouchure and breath support technique, allowing for good tonal stability and a command of the D major and G major fingerings.
 
----
+### Students below the recommended level
 
-### Other activities
+Crisol is an instrument course designed for people who already have some experience with their instrument — roughly from around two years of practice onwards. We do not carry out level assessments: we trust that those who sign up can use the information above to guide themselves and choose the group that best suits their starting point. That said, if someone joins the camp with a more beginner-level background, they are welcome to attend the more basic groups as an observer and to participate in classes as best they can. Classes are designed primarily as group work, so teachers will aim to maintain the collective pace and will not focus the session on resolving individual technical difficulties.
 
-In the afternoons (after 16h) there will be different workshops, and other support activities related to music and dancing. the assistance to these activities is free of charge and non-mandatory.
+The only group specifically designed for complete beginners is **Fiddle Beginner**.
 
-Along the day, you’ll have many moments of free time that you can use to gather with other participants, share and make music together. This is considered to be one of the most important experiences in Crisol and we can guarantee it creates truly magical moments.
+### Other Activities
 
-Summing-up, all through Crisol’s week, we want all the participants to enjoy playing music, learning, being totally free and safe to express themselves and being creative through their instrument(s); to forget about the lack of self-confidence and, most of all, to enjoy and have a great time!.
-
-No doubt it will be an unforgettable experience, don’t miss out!
+Alongside the instrument classes, Crisol has a huge range of other activities: traditional singing and dance classes every day, various workshops, forums, a costume party, swimming pool, a village square party… and, above all, sessions. Anywhere and at any time. If you're looking for new people to play with and share your favourite tunes, this is the place for you.

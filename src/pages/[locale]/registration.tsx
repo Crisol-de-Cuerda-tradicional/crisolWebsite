@@ -87,6 +87,9 @@ const getStaticProps: GetStaticProps = async (ctx) => {
 
   const templateData = {
     price: config.registration.coursePrice,
+    reducedPrice: config.registration.reducedPrice,
+    generousPrice: config.registration.generousPrice,
+    scholarshipPrice: config.registration.scholarshipPrice,
     registrationLink: shouldShowRegistration()
       ? `<a href="${config.registrationLink}">${registrationText}</a>`
       : registrationText,
@@ -106,6 +109,7 @@ const getStaticProps: GetStaticProps = async (ctx) => {
       config.registration.acceptanceOfGuardianshipFile
     )}" download target="_blank">${acceptanceOfGuardianshipText}</a>`,
     scholarshipDiscount: config.registration.scholarshipDiscount,
+    numberOfScholarships: config.registration.numberOfScholarships,
     familyDiscount: config.registration.familyDiscount,
     familyDiscountMinimum: config.registration.familyDiscountMinimum,
     scholarshipLimitDate: tz(config.registration.scholarshipLimitDate).format(
