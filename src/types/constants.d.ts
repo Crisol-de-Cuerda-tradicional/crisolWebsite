@@ -142,3 +142,13 @@ declare module "*media.yml" {
   const mediaPageConfig: IMedia;
   export default mediaPageConfig;
 }
+
+declare module "*faqs.yml" {
+  interface FAQ {
+    question: Translation;
+    answer: Translation;
+  }
+
+  const faqs: FAQ[];
+  export default faqs;
+}

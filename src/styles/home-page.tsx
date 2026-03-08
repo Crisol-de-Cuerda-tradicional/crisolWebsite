@@ -1,4 +1,4 @@
-import css from 'styled-jsx/css';
+import css from "styled-jsx/css";
 
 export default css`
   video {
@@ -64,7 +64,7 @@ export default css`
           text-transform: uppercase;
         }
         .hero__dates--year {
-          font-family: 'Montserrat', sans-serif;
+          font-family: "Montserrat", sans-serif;
           font-weight: 700;
           font-size: var(--size-xxxlg);
           line-height: calc(1.5 * var(--size-xxxlg));
@@ -232,6 +232,64 @@ export default css`
       p {
         color: var(--color-dark);
       }
+    }
+  }
+
+  .faqs {
+    margin: 2rem 0;
+    padding: 0 1rem;
+
+    .faqs__list {
+      max-width: 700px;
+      margin: 3rem auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .faqs__item {
+      border: 1px solid #b8b8b8;
+      background-color: #f0f0f0;
+      border-radius: 16px;
+      padding: 1rem 2rem;
+
+      &[open] {
+        :global(.faqs__icon) {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    .faqs__summary :global(.faqs__icon) {
+      flex-shrink: 0;
+      transition: transform 0.4s ease-out;
+    }
+
+    .faqs__summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      list-style: none;
+      color: var(--color-dark);
+      cursor: pointer;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::marker {
+        display: none;
+      }
+    }
+
+    .faqs__content {
+      background-color: var(--color-white);
+      padding: 1rem;
+      border-radius: 16px;
+      margin: 1rem;
     }
   }
 `;
