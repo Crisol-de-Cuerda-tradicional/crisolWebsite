@@ -1,12 +1,12 @@
-import { NextRouter, useRouter } from 'next/router';
-import { ReactNode, useContext } from 'react';
+import { NextRouter, useRouter } from "next/router";
+import { ReactNode, useContext } from "react";
 
-import { Link } from '@components';
-import config from '@config/config.yml';
-import menu, { MenuItem } from '@config/menu.yml';
-import translations, { Language } from '@config/translations.yml';
-import { useLocale } from '@hooks';
-import { MenuContext } from './MenuContext';
+import { Link } from "@components";
+import config from "@config/config.yml";
+import menu, { MenuItem } from "@config/menu.yml";
+import translations, { Language } from "@config/translations.yml";
+import { useLocale } from "@hooks";
+import { MenuContext } from "./MenuContext";
 
 interface IMenuItemProps {
   menuItem: MenuItem;
@@ -25,12 +25,14 @@ const MenuLink = ({
   children,
   router,
 }: IMenuItemProps) => {
-  const route = `${pathPrefix ?? ''}${menuItem.link}`;
+  const route = `${pathPrefix ?? ""}${menuItem.link}`;
   return (
     <Link
       href={route}
       replace
-      className={`${router.pathname === route && !noHighlight ? 'active-nav' : ''}`}
+      className={`${
+        router.pathname === route && !noHighlight ? "active-nav" : ""
+      }`}
     >
       {children ?? menuItem[locale]}
     </Link>
@@ -47,14 +49,14 @@ export const Menu = () => {
     <>
       <div
         className="menu__background"
-        onClick={e => {
+        onClick={(e) => {
           e.stopPropagation();
           toggleMenu();
         }}
       >
         <nav
-          className={`menu ${showMenu ? 'is-active' : ''}`}
-          onClick={e => {
+          className={`menu ${showMenu ? "is-active" : ""}`}
+          onClick={(e) => {
             e.stopPropagation();
           }}
         >
@@ -66,16 +68,39 @@ export const Menu = () => {
               <MenuLink menuItem={menu.about} {...itemProps} />
               <ul>
                 <li>
-                  <MenuLink menuItem={menu.classes} pathPrefix="/about" {...itemProps} />
+                  <MenuLink
+                    menuItem={menu.classes}
+                    pathPrefix="/about"
+                    {...itemProps}
+                  />
                 </li>
                 <li>
-                  <MenuLink menuItem={menu.history} pathPrefix="/about" {...itemProps} />
+                  <MenuLink
+                    menuItem={menu.history}
+                    pathPrefix="/about"
+                    {...itemProps}
+                  />
                 </li>
                 <li>
-                  <MenuLink menuItem={menu.media} pathPrefix="/about" {...itemProps} />
+                  <MenuLink
+                    menuItem={menu.association}
+                    pathPrefix="/about"
+                    {...itemProps}
+                  />
                 </li>
                 <li>
-                  <MenuLink menuItem={menu['crisol-book']} pathPrefix="/about" {...itemProps} />
+                  <MenuLink
+                    menuItem={menu.media}
+                    pathPrefix="/about"
+                    {...itemProps}
+                  />
+                </li>
+                <li>
+                  <MenuLink
+                    menuItem={menu["crisol-book"]}
+                    pathPrefix="/about"
+                    {...itemProps}
+                  />
                 </li>
               </ul>
             </li>
@@ -100,7 +125,7 @@ export const Menu = () => {
               <Link
                 href={router.pathname}
                 locale="es"
-                className={`${locale === 'es' ? 'active-lng' : ''}`}
+                className={`${locale === "es" ? "active-lng" : ""}`}
               >
                 {translations.spanish[locale]}
               </Link>
@@ -109,7 +134,7 @@ export const Menu = () => {
               <Link
                 href={router.pathname}
                 locale="en"
-                className={`${locale === 'en' ? 'active-lng' : ''}`}
+                className={`${locale === "en" ? "active-lng" : ""}`}
               >
                 {translations.english[locale]}
               </Link>
@@ -142,7 +167,8 @@ export const Menu = () => {
           transition: right 0.5s ease-in-out;
 
           & * {
-            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            transition: background-color 0.3s ease-in-out,
+              color 0.3s ease-in-out;
           }
 
           &.is-active {
