@@ -4,22 +4,14 @@ description: Crisol de Cuerda es un campamento de música tradicional donde mús
 hero: about.webp
 ---
 
-**CRISOL DE CUERDA** es un encuentro focalizado en la **música tradicional** en el que convergen **creatividad**, **práctica**, **conocimiento** y **libertad**. Es un espacio y un tiempo para **amantes de la música** que comparten su interés por la tradición y la innovación, para quienes buscan nuevas referencias y contactos para quienes deseen abrirse a una experiencia que puede ser **sorprendente**, **inolvidable** y **enriquecedora**.
+**Crisol de Cuerda** es un _fiddle camp_ que tiene lugar todos los veranos en Arlanzón, cerca de la ciudad de Burgos, la primera semana de agosto. Durante siete días, una centena de instrumentistas de diferentes niveles y procedencias se reúnen para compartir una experiencia centrada en la **música folk y tradicional** a través de instrumentos como el **violín, el violonchelo, la flauta o la guitarra**. Guiados por artistas del más alto nivel del panorama folk nacional e internacional, cada año nos sumergimos en esta experiencia inmersiva a través de músicas de diferentes culturas desde un enfoque lúdico y práctico.
 
-A pies del río Arlanzón, en el pueblo con el mismo nombre y a pocos kilómetros de la ciudad de Burgos, violinistas y otros músicos, **sin límite de edad o experiencia musical**, nos reuniremos para compartir, aprender y dar rienda suelta a nuestra creatividad y habilidades musicales en torno al **violín**, el **violonchelo**, la **guitarra**, la **voz**, la **flauta**, entre otros. [¡AVERÍGUALO AQUÍ!](/es/about/classes)
+Crisol es un entorno en el que los amantes de la música comparten su interés en la tradición y la innovación, una comunidad musical acogedora que promueve la experimentación y el autodescubrimiento de la voz que llevamos dentro a través de los instrumentos de la cultura _fiddle_.
 
-Guiados por maestros de dichos instrumentos, nos acercaremos a la música desde un punto de vista **divertido** y **práctico** en un entorno que nos permite unir música y naturaleza, valor añadido que refuerza a ambos en este proyecto educativo, acogedor y seguro, único en la Península.
+## El Espíritu Crisol, nuestra filosofía
 
-Entre estos grandes maestros tendremos como siempre a **Alasdair Fraser** ¡además de muchos otros! [Consulta la lista entera de profesores AQUI](/es/teachers)
+Crisol se construye sobre los pilares de la **creatividad y la libertad**. Aquí no hay lugar para la competitividad ni el juicio: cada persona avanza a su propio ritmo, sin comparaciones, con el único objetivo de disfrutar y conectar con otros a través de la música y el baile.
 
----
+Nuestra meta es **crear una comunidad alrededor de la música**, un espacio donde músicos de diferentes niveles, trayectorias y procedencias puedan encontrarse y enriquecerse los unos de los otros, intercambiando repertorio, experiencias y perspectivas. Un ambiente donde las diferencias técnicas nunca serán una barrera para disfrutar y tocar juntos.
 
-## El Espíritu Crisol
-
-Por Espíritu Crisol entendemos todas las ideas y conceptos que nos han llevado a organizar un encuentro de estas características y la **pasión por la música** es el motivo principal.
-
-Quien no esté familiarizado con el término **fiddle** debe saber que no se trata de un instrumento diferente al violín (en lo que a forma se refiere) pero sí en cuanto a lenguaje musical. Es una manera de comprender las posibilidades de expresión de nuestro instrumento diferente a la clásica y se puede extrapolar a cualquier instrumento. No es simplemente tocar el violín folk, es **hablar con el alma** a través de él, independientemente del estilo musical.
-
-Nuestro objetivo es realizar un curso en el que todo el mundo pueda aprender a amar la música por encima de todo. Lo hacemos rechazando la competitividad que muchas veces lleva implícito el aprendizaje y dominio de un instrumento.
-
-En el curso habrá niveles de aprendizaje distintos, pero todo el mundo podrá interactuar entre si, sea principiante o profesional. Las diferencias de nivel técnico o de conocimientos nunca supondrán una barrera entre las personas porque la música es mucho más que eso: es compartir, crecer y enriquecerse juntos. Nuestra propuesta se basa en la apertura e inclusividad.
+También **cuidamos nuestro patrimonio musical y valoramos el de aquellos que vienen de lejos**, acercándonos a las músicas que forman parte de la tradición y preguntándonos qué lugar ocupan hoy en nuestra forma de entender la vida y a nosotros mismos. Más allá de solo tocar melodías y acordes, Crisol propone un espacio para reflexionar sobre nuestra identidad cultural y sobre el papel que tiene la música como punto de encuentro entre las personas en un mundo cada vez más globalizado y marcado por la inmediatez de la tecnología.

@@ -16,6 +16,9 @@ declare module "*config.yml" {
     newsletterLink: string;
     registration: {
       coursePrice: number;
+      reducedPrice: number;
+      generousPrice: number;
+      scholarshipPrice: number;
       bookingFee: number;
       refundLimit: number;
       endOfEarlyRegistrationDate: Date;
@@ -23,6 +26,7 @@ declare module "*config.yml" {
       under14AuthorisationFile: string;
       acceptanceOfGuardianshipFile: string;
       scholarshipDiscount: number;
+      numberOfScholarships: number;
       familyDiscount: number;
       familyDiscountMinimum: number;
       scholarshipLimitDate: Date;
@@ -137,4 +141,14 @@ declare module "*media.yml" {
 
   const mediaPageConfig: IMedia;
   export default mediaPageConfig;
+}
+
+declare module "*faqs.yml" {
+  interface FAQ {
+    question: Translation;
+    answer: Translation;
+  }
+
+  const faqs: FAQ[];
+  export default faqs;
 }

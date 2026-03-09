@@ -5,12 +5,8 @@ img: accommodation.webp
 hero: accommodation.webp
 ---
 
-Uno de los pilares importantes de este encuentro es la convivencia. Durante los 7 días del curso compartiremos numerosas experiencias, con el denominador común de la música y la danza, y esperamos que largas, enriquecedoras sesiones, en la granja Escuela de Arlanzón, a unos 20 kilómetros de la ciudad de Burgos. Es un centro de turismo y ocio que, además de proporcionarnos un trato excepcional, nos dará la posibilidad de realizar actividades complementarias a la música. Además podremos convivir con animales de granja, en un entorno natural.
+La inscripción al curso incluye el **alojamiento y pensión completa en la Granja Escuela Arlanzón**, nuestra casa durante la semana de Crisol. Se encuentra a las afueras del pueblo de Arlanzón, a unos 20km de la ciudad de Burgos. Además de proporcionarnos un trato excepcional cada año, nos permite disfrutar del entorno verde e idílico en el que está situada, justo al lado del río, y de la compañía de los animales de granja que allí viven. La granja escuela es un albergue: las habitaciones y baños son compartidos, de entre 6 y 13 personas, y distribuidas según rango de edad o género (si así se solicita).
 
-El precio del encuentro incluye la pensión completa y el alojamiento en habitaciones compartidas de entre 6 y 13 personas; los baños y duchas son también compartidos. La Granja Escuela cuenta con capacidad para unas 130 personas, y amplias y acogedoras instalaciones, además de recursos para grupos de actividades de aventura, naturaleza y de ocio.
+En cuanto a las comidas, el albergue ofrece **menú omnívoro y menú vegano**. Si tienes alguna duda sobre la estancia o las comidas, escríbenos y te la resolveremos lo antes posible.
 
-De la convivencia en Crisol surgen y se nutren relaciones y proyectos importantes, por eso hemos elegido este alojamiento.
-
-A Burgos se puede llegar en [tren](https://www.renfe.com/es/es), autobús o [avión](https://www.aena.es/es/burgos.html), que viaja desde y hasta Barcelona.
-
-Si tienes alguna duda, contacta con nosotros con antelación: [info@crisoldecuerda.com](mailto:info@crisoldecuerda.com?subject=Como%20llegar%20a%20Arlanzon)
+**_¿Cómo llegar a Crisol?_** A Burgos se puede llegar en tren, autobús o avión, que vuela desde y hasta Barcelona, pero no hay transporte público desde Burgos capital hasta Arlanzón. Sin embargo, antes de Crisol ponemos en marcha una plataforma de contacto para que aquellos crisoleros que lo necesiten puedan coordinarse y compartir coche para llegar a la granja escuela desde diferentes puntos de la península.

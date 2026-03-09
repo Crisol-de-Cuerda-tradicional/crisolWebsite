@@ -2,6 +2,7 @@ import type { GetStaticProps, NextPage } from "next";
 import Image from "next/image";
 
 import {
+  faChevronDown,
   faCircleCheck,
   faCircleInfo,
   faCircleQuestion,
@@ -18,6 +19,7 @@ import {
   SEO,
 } from "@components";
 import config from "@config/config.yml";
+import faqs from "@config/faqs.yml";
 import indexConfig from "@config/indexPage.yml";
 import teachersConfig from "@config/teachers.yml";
 import translations from "@config/translations.yml";
@@ -283,6 +285,28 @@ const Home: NextPage<IHomeProps> = ({
           </div>
         </section>
       )}
+      <section id="faqs" className="faqs">
+        <div className="centered">
+          <h2>{translations.faqs[locale]}</h2>
+        </div>
+        <div className="faqs__list">
+          {faqs.map((faq, index) => (
+            <details key={index} className="faqs__item">
+              <summary className="faqs__summary">
+                <span>{faq.question[locale]}</span>
+                <FontAwesomeIcon
+                  className="faqs__icon"
+                  icon={faChevronDown}
+                  size="sm"
+                />
+              </summary>
+              <div className="faqs__content">
+                <p className="faqs__answer">{faq.answer[locale]}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
       <style jsx>{homePageStyles}</style>
       <style jsx>{`
         .accommodation {
@@ -296,6 +320,14 @@ const Home: NextPage<IHomeProps> = ({
           img {
             filter: brightness(40%);
           }
+        }
+        .faqs__item {
+          overflow: hidden;
+          transition: max-height 0.4s ease-out;
+          max-height: 6rem;
+        }
+        .faqs__item[open] {
+          max-height: 500px;
         }
       `}</style>
     </>

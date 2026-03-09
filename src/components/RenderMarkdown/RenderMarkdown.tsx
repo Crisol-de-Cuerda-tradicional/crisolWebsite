@@ -1,3 +1,7 @@
+// Styles set in globals.css
 export const RenderMarkdown = ({ content }: { content: string }) => (
-  <div dangerouslySetInnerHTML={{ __html: content }} />
+  <div
+    className="markdown-content"
+    dangerouslySetInnerHTML={{ __html: content }}
+  />
 );
