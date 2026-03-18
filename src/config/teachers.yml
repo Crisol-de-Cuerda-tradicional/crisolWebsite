@@ -338,6 +338,17 @@ teachers:
     lastInstrument: fiddle
     instruments:
       - fiddle
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/galenwritestunes/
+      # soundcloud:
+      spotify: 13rPAS0DQd1VBaNondY4j6
+      # tiktok:
+      # twitter:
+      website: https://sanmiguelfraser.com/
+      youtubeChannel: https://www.youtube.com/@galenfraser7677
+      youtubeVideo: goxcWkfbGBE
     name: Galen Fraser
     years:
       - 2019
@@ -571,6 +582,27 @@ teachers:
       - 2014
       - 2015
       - 2016
+
+  - id: nacho_prada
+    lastInstrument: voice
+    instruments:
+      - voice
+      - guitar
+      - mandolin
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/nachopradaechevarrieta
+      # soundcloud:
+      spotify: 6o6UaIWvzYLItWbkQtUbka
+      # tiktok:
+      # twitter:
+      # website:
+      youtubeChannel: https://www.youtube.com/@nachoprada5503
+      youtubeVideo: tNM0NyWXtPs
+    name: Nacho Prada
+    years: []
+      # - 2026
 
   - id: natalie_haas
     lastInstrument: cello

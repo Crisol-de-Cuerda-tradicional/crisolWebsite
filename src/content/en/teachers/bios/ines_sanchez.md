@@ -4,4 +4,4 @@ She entered the world of popular dances in 2013 and since then has taught in Bri
 
 She is passionate about anthropology, sociology, languages (physical, musical, and verbal: she is also a translator), pedagogy, and the rural and folkloric world, its origins, and rituals. Her teaching approach is not only educational but also dance-therapeutic, as she uses the exploration of popular dances and their variety as a tool to explore the rich physical, social, and mental capacities that inhabit every human being; in reality, her greatest passion is to ignite and nurture the flame of dance in people.
 
-To complement her musical training, she is currently studying percussion and popular songs in Aragon with musicians such as Luis Miguel Bajén.
+To complement her musical training, she is currently studying percussion and popular songs in Aragon with musicians such as **Luis Miguel Bajén**.

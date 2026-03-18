@@ -1,0 +1,7 @@
+Nacido en Valladolid en una familia ligada a la música y el folclore, comienza con piano y coros a los cinco años y con la guitarra —autodidacta— a los trece. En la adolescencia y la universidad forma grupos de rock con repertorio propio; con **La Noche de la Iguana** gana concursos en la ciudad y actúa en la Plaza Mayor. Canta en agrupaciones corales y amplía la cuerda a mandolina, charango, bouzouki y afines.
+
+Licenciado en Psicología, cursa el máster oficial en Musicoterapia y trabaja en hospitales y centros socio-sanitarios, entre ellos el Hospital Río Hortega de Valladolid y diversas fundaciones y asociaciones. Paralelamente profundiza en las músicas de raíz y en la tradición castellana, con formación en percusión tradicional, voz y baile.
+
+Con **el nido** explora un folk de raíz con mirada contemporánea: el álbum *Refugios a cielo abierto* (2022), producido por **Diego Galaz** (**Fetén Fetén**), dio lugar a más de 160 conciertos en salas y festivales como WOMAD, Sonorama, Etnosur o Cruilla. El segundo disco de estudio, *La Constancia*, publicado en 2025 cuenta con colaboraciones de figuras como **Rodrigo Cuevas** y **Rozalén**.
+
+Como **Nacho Prada** cultiva la canción de autor: en 2021 publica sus primeras grabaciones tras ganar el Demoexpress’19 del Ayuntamiento de Valladolid y, en 2022, presenta *La luz es una canción* con concierto en la Plaza Mayor por las fiestas de San Lorenzo.
