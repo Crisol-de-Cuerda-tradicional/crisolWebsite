@@ -1,7 +1,7 @@
-La vallisoletana Lucía López es una joven artista multidisciplinar que toma la cultura de raíz como eje principal de comunicación artística.
+La vallisoletana **Lucía López-Enrique** es una joven artista multidisciplinar, formada en el Conservatorio Superior de Danza “María de Ávila” (Título Superior de Danza Española, itinerario Coreografía) y en la Escuela Profesional de Danza de Castilla y León. Su trabajo escénico combina tradición y creación contemporánea, con una fuerte vinculación a las músicas de raíz.
 
-Tras acabar sus estudios de danza española en Valladolid y la carrera de coreografía en el CSD "Maria de Ávila" en Madrid, inicia su carrera como intérprete de danza en las compañías de Sara Cano, Rajatabla Danza y en su propia compañía, Colectivo Algazara, donde también hace la labor de coreógrafa. Su trabajo coreográfico se ha visto reconocido con una mención especial en el C.C Distrito de Tetuán y con el 2º premio de Coreografía en el C. C. Distrito Latina. En paralelo a su trabajo como bailarina, forma parte del proyecto musical Delameseta, participando en él como cantante principal.
+Como intérprete de danza, ha trabajado con la Compañía Nacional de Teatro Clásico (*Fuenteovejuna*, 2025), **Sara Cano** (*Al Son*, 2024) y **Aleix Tobias** (Orquesta de l’Encuentro d’Arrel, 2024–2025). Es cantante y codirectora del grupo **Delameseta** (2023–2026).
 
-Esporádicamente realiza una labor docente impartiendo talleres en escuelas como la EFAD - Granada y en festivales como WIM, Folkarria, Bolao Folk o los Encuentros de Raíz.
+Ha desarrollado su lenguaje coreográfico con obras propias y colaboraciones internacionales, como *2º apellido*, premiada en el Certamen Distrito Latina. Dirige la **Compañía Algazara** desde 2020.
 
-Poco a poco va profundizando más en el campo de la cultura tradicional adquiriendo conocimientos que poder transmitir y compartir en sus clases y en los diferentes proyectos en los que participa.
+En el ámbito pedagógico, destaca su labor docente en el Máster de Folklore del Centro Superior Música Creativa (2024–2025) y su participación en festivales y encuentros tradicionales por toda España.

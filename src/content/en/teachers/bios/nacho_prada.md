@@ -1,0 +1,7 @@
+Born in Valladolid into a family steeped in music and folk tradition, he started piano and choir at five and taught himself guitar at thirteen. As a teenager and at university he formed rock bands with original songs; with **La Noche de la Iguana** he won local competitions and played on the Plaza Mayor. He sings in choral groups and has added mandolin, charango, bouzouki, and related string instruments.
+
+A Psychology graduate, he completed the official master’s in Music Therapy and works in hospitals and social-care settings, including Hospital Río Hortega in Valladolid and several foundations and associations. At the same time he has deepened his work in roots music and Castilian tradition, with training in traditional percussion, voice, and dance.
+
+With **el nido** he explores contemporary roots folk: the album *Refugios a cielo abierto* (2022), produced by **Diego Galaz** (**Fetén Fetén**), led to more than 160 gigs at venues and festivals such as WOMAD, Sonorama, Etnosur, and Cruilla. The second studio album, *La Constancia*, published in 2025 is supported by many guests including **Rodrigo Cuevas** and **Rozalén**.
+
+As **Nacho Prada** he focuses on singer-songwriter work: in 2021 he released his first recordings after winning Valladolid City Council’s Demoexpress’19, and in 2022 he launched *La luz es una canción* with a concert on the Plaza Mayor for the San Lorenzo festivities.

@@ -1,7 +1,7 @@
-Lucía López, from Valladolid, is a young multidisciplinary artist who takes traditional spanish culture as the main axis of her artistic communication.
+Lucía López-Enrique, from Valladolid, is a young multidisciplinary artist, trained at the Higher Conservatory of Dance “María de Ávila” (Higher Degree in Spanish Dance, choreography pathway) and at the Professional Dance School of Castilla y León. Her stage work combines tradition and contemporary creation, with a strong connection to roots music.
 
-After finishing her Spanish dance studies in Valladolid and her choreography degree at the CSD "Maria de Ávila" in Madrid, she began her career as a dance performer in the Sara Cano's company, Rajatabla Danza, and in her own company Colectivo Algazara where she also works as a choreographer. Her choreographic work has been recognized with a special mention at the C.C Distrito de Tetuán, and with the 2nd prize for Choreography at the C.C. Distrito Latina. In parallel to her work as a dancer, she is part of the musical project Delameseta by being the lead singer.
+As a dance performer, she has worked with the National Classical Theatre Company (Fuenteovejuna, 2025), **Sara Cano** (*Al Son*, 2024), and **Aleix Tobias** (**Orquesta de l’Encuentro d’Arrel**, 2024–2025). She is the singer and co-director of the group **Delameseta** (2023–2026).
 
-Lucía has engaged in teaching activities, giving workshops in schools such as EFAD-Granada, and at festivals such as WIM, Folkarria, Bolao Folk or Encuentros de Raíz.
+She has developed her choreographic language through her own works and international collaborations, such as “2º apellido”, which was awarded at the Distrito Latina competition. She has directed **Compañía Algazara** since 2020.
 
-Gradually, Lucía deepens her expertise in traditional culture, acquiring knowledge that she can effectively transmit and share through her classes and various projects in which she participates.
+In teaching, she stands out for her work on the Folklore Master’s at Centro Superior Música Creativa (2024–2025) and for taking part in traditional festivals and gatherings across Spain.
