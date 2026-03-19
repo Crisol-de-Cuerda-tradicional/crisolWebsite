@@ -5,7 +5,7 @@ export default css`
     min-width: 100%;
     min-height: 100%;
     position: absolute;
-    filter: brightness(20%);
+    filter: brightness(80%);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -14,7 +14,7 @@ export default css`
   .hero__container {
     position: relative;
     width: 100%;
-    height: 30rem;
+    height: calc(100vh - var(--navbar-height));
     overflow: hidden;
     background-color: var(--color-dark);
   }
@@ -28,12 +28,26 @@ export default css`
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 
     padding: 1rem;
 
     @media (min-width: 600px) {
       padding: 3rem;
+    }
+
+    .hero__card {
+      position: relative;
+      padding: 3rem;
+      background-color: var(--ds-surface-raised);
+      border-radius: 30px;
+      width: fit-content;
+
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      transform: rotate(-5deg);
     }
 
     .hero__page-title {
@@ -43,11 +57,12 @@ export default css`
 
       .hero__title {
         width: 100%;
-        color: var(--color-white);
+        color: var(--ds-text-primary);
         white-space: pre-wrap;
         margin: 0;
         font-size: 3rem;
         line-height: 3.25rem;
+        font-weight: normal;
         text-transform: uppercase;
       }
 
@@ -57,7 +72,7 @@ export default css`
 
         .hero__dates--text {
           flex-basis: 60%;
-          color: var(--color-primary);
+          color: var(--ds-text-primary);
           margin: 0;
           font-size: 1.2rem;
           line-height: 1.6rem;
@@ -69,7 +84,7 @@ export default css`
           font-size: var(--size-xxxlg);
           line-height: calc(1.5 * var(--size-xxxlg));
           flex-basis: 40%;
-          color: var(--color-white);
+          color: var(--ds-text-primary);
           margin: 0;
           font-size: 3rem;
           line-height: 3.25rem;
@@ -78,13 +93,11 @@ export default css`
     }
 
     .hero__registration {
-      color: var(--color-white);
+      color: var(--ds-text-primary);
       display: flex;
       flex-direction: column;
       gap: 1rem;
       flex-grow: 0;
-
-      padding: 1rem 0;
 
       h2 {
         margin: 0;

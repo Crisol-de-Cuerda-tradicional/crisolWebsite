@@ -1,26 +1,70 @@
 :root {
-  --color-primary: #fc8006;
-  --color-neutral: #999999;
-  --color-neutral-100: #585858;
-  --color-dark: #1c1d1d;
-  --color-light: #ffffff;
-  --color-black: #000000;
-  --color-white: #ffffff;
+  /* Brand Colors */
+  --color-primary: #fc9236;
+  --color-secondary: #b2bf84;
 
-  --color-link: #000000;
+  /* Shades */
+  --primary-dark: #dd6903;
+  --primary-light: #f9f1e7;
+  --secondary-dark: #6e7641;
+  --secondary-light: #dee2ca;
+
+  /* Neutrals */
+  --neutral-900: #111111;
+  --neutral-700: #626262;
+  --neutral-500: #c3c3c3;
+  --neutral-300: #f0f0f0;
+  --neutral-100: #f6f6f6;
+  --neutral-000: #ffffff;
+
+  /*
+   * Design system – semantic tokens
+   * Use these for interactive UI, surfaces, and nav so brand colors stay consistent.
+   */
+  --ds-accent: var(--color-secondary);
+  --ds-accent-pressed: var(--secondary-dark);
+  --ds-accent-subtle: var(--secondary-light);
+
+  --ds-surface-raised: var(--neutral-000);
+  --ds-text-primary: var(--neutral-900);
+  --ds-text-secondary: var(--neutral-700);
+  --ds-border-subtle: var(--neutral-300);
+
+  /* Nav / header chrome */
+  --ds-nav-surface: var(--ds-surface-raised);
+  --ds-nav-text: var(--ds-text-primary);
+  --ds-nav-item-hover-bg: var(--ds-accent-subtle);
+  --ds-nav-item-hover-text: var(--neutral-900);
+  --ds-nav-item-active-bg: var(--ds-accent-subtle);
+  --ds-nav-item-active-text: var(--ds-accent-pressed);
+  --ds-nav-logo-hover-bg: transparent;
+
+  /* Deprecated */
+  --color-neutral: var(--neutral-500);
+  --color-neutral-100: var(--neutral-700);
+  --color-dark: var(--neutral-900);
+  --color-light: var(--neutral-000);
+  --color-black: var(--neutral-900);
+  --color-white: var(--neutral-000);
+
+  --color-link: var(--neutral-900);
   --color-link-underline: var(--color-primary);
   --color-link-hover: var(--color-primary);
   --color-link-active: var(--color-primary);
 
-  --color-font-secondary: var(--color-neutral-100);
+  --color-font-secondary: var(--neutral-700);
 
-  --shadow: 0 0 6px var(--color-neutral);
+  --shadow: 0 0 6px var(--neutral-500);
+  /* End of Deprecated */
 
+  /* Layout */
+  --navbar-height: 4.5rem;
   --border-radius: 4px;
   --border-radius-large: 16px;
 
   --navbar-offset: 6.5rem;
 
+  /* Typography */
   --size-xxxlg: 2.5rem;
   --size-xxlg: 2rem;
   --size-xlg: 1.5rem;
@@ -34,7 +78,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Roboto, Helvetica Neue, sans-serif;
+  font-family:
+    Roboto,
+    Helvetica Neue,
+    sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
   scroll-snap-type: y proximity;
