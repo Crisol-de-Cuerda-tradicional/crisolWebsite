@@ -35,11 +35,11 @@ import { generateIndexSchema } from "src/static/seo/schemas";
 const formatDates = (starting: Date, ending: Date, locale: string) => {
   if (locale === "es")
     return `del ${tz(starting).format("D [de] MMMM")} al ${tz(ending).format(
-      "D [de] MMMM"
+      "D [de] MMMM",
     )}`;
   else
     return `from ${tz(starting).format("MMMM Do")} until ${tz(ending).format(
-      "MMMM Do"
+      "MMMM Do",
     )}`;
 };
 
@@ -109,36 +109,42 @@ const Home: NextPage<IHomeProps> = ({
           </video>
         ) : null}
         <div id="hero" className="hero">
-          <div className="hero__page-title">
-            <h1 className="hero__title">
-              Crisol <br />
-              de Cuerda
-            </h1>
-            <div className="hero__dates">
-              <span className="hero__dates--text" suppressHydrationWarning>
-                {formatDates(config.startDate, config.endDate, locale ?? "es")}
-              </span>
-              <span className="hero__dates--year">
-                {config.startDate.getFullYear()}
-              </span>
+          <div className="hero__card">
+            <div className="hero__page-title">
+              <h1 className="hero__title">
+                Crisol <br />
+                de Cuerda
+              </h1>
+              <div className="hero__dates">
+                <span className="hero__dates--text" suppressHydrationWarning>
+                  {formatDates(
+                    config.startDate,
+                    config.endDate,
+                    locale ?? "es",
+                  )}
+                </span>
+                <span className="hero__dates--year">
+                  {config.startDate.getFullYear()}
+                </span>
+              </div>
             </div>
-          </div>
 
-          <div className="hero__registration">
-            {config.displayRegistrationSlogan ? (
-              <h2>{indexConfig.registrationSlogan[locale]}</h2>
-            ) : null}
-            {shouldShowRegistration() ? (
-              <Link
-                href={config.registrationLink}
-                target="_blank"
-                className="test"
-              >
-                <Button size="xlg">
-                  {indexConfig.registrationCta[locale]}
-                </Button>
-              </Link>
-            ) : null}
+            <div className="hero__registration">
+              {config.displayRegistrationSlogan ? (
+                <h2>{indexConfig.registrationSlogan[locale]}</h2>
+              ) : null}
+              {shouldShowRegistration() ? (
+                <Link
+                  href={config.registrationLink}
+                  target="_blank"
+                  className="test"
+                >
+                  <Button size="xlg">
+                    {indexConfig.registrationCta[locale]}
+                  </Button>
+                </Link>
+              ) : null}
+            </div>
           </div>
         </div>
       </div>
@@ -311,7 +317,7 @@ const Home: NextPage<IHomeProps> = ({
       <style jsx>{`
         .accommodation {
           background-image: url(${baseUrl(
-            "/images/index/" + accommodationSection.meta.background
+            "/images/index/" + accommodationSection.meta.background,
           )});
         }
       `}</style>
@@ -340,7 +346,7 @@ const getStaticProps: GetStaticProps = async (ctx) => {
   const locale = getLocale(ctx);
   const { teachers } = teachersConfig;
   const teachersContent = teachers.filter((teacher) =>
-    teacher.years.includes(config.startDate.getFullYear())
+    teacher.years.includes(config.startDate.getFullYear()),
   );
 
   const whatIsSection = await getContent(locale, "about/about");
