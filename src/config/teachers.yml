@@ -316,6 +316,39 @@ teachers:
       - 2011
       - 2017
 
+  - id: elisabeth_giroux
+    lastInstrument: cello
+    instruments:
+      - cello
+    name: Élisabeth Giroux
+    media:
+      bandcamp: https://etemusiquetrad.bandcamp.com/
+      fb: https://www.facebook.com/etemusiquetrad
+      instagram: https://www.instagram.com/e.t.emusiquetrad
+      spotify: 7FqVy3JGS6viZjdD37RUfo
+      website: https://www.etemusiquetrad.ca/en
+      youtubeVideo: pZIQMO6gcYo
+    years:
+      - 2026
+
+  - id: elisabeth_moquin
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
+    name: Élisabeth Moquin
+    media:
+      bandcamp: https://etemusiquetrad.bandcamp.com/
+      fb: https://www.facebook.com/etemusiquetrad
+      instagram: https://www.instagram.com/e.t.emusiquetrad
+      # soundcloud:
+      spotify: 7FqVy3JGS6viZjdD37RUfo
+      # tiktok:
+      # twitter:
+      website: https://www.etemusiquetrad.ca/en
+      youtubeVideo: K_Z8FX35tZ4
+    years:
+      - 2026
+
   - id: ernesto_briceno
     lastInstrument: fiddle
     instruments:
@@ -481,6 +514,25 @@ teachers:
       - 2012
       - 2013
 
+  - id: laura_wilkie
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
+    name: Laura Wilkie
+    media:
+      bandcamp: https://laurajanewilkie.bandcamp.com/
+      # fb:
+      instagram: https://www.instagram.com/laurajwilkie
+      # soundcloud:
+      spotify: 3YJx3rv5G5kfms24Tgc7al
+      # tiktok:
+      # twitter:
+      # website:
+      # youtubeChannel:
+      youtubeVideo: NaasxK8OT0Y
+    years:
+      - 2026
+
   - id: lena_jonsson
     lastInstrument: fiddle
     instruments:
@@ -515,7 +567,7 @@ teachers:
       # fb:
       instagram: https://www.instagram.com/lucialopezenrique
       # soundcloud:
-      # spotify:
+      spotify: 7l1AnuM5A1egzNpFkxfcZ7
       # tiktok:
       # twitter:
       # website:
@@ -601,8 +653,8 @@ teachers:
       youtubeChannel: https://www.youtube.com/@nachoprada5503
       youtubeVideo: tNM0NyWXtPs
     name: Nacho Prada
-    years: []
-      # - 2026
+    years:
+      - 2026
 
   - id: natalie_haas
     lastInstrument: cello
@@ -748,6 +800,22 @@ teachers:
     years:
       - 2025
 
+  - id: thierry_clouette
+    lastInstrument: guitar
+    instruments:
+      - guitar
+      - bouzouki
+    name: Thierry Clouette
+    media:
+      bandcamp: https://etemusiquetrad.bandcamp.com/
+      fb: https://www.facebook.com/etemusiquetrad
+      instagram: https://www.instagram.com/e.t.emusiquetrad
+      spotify: 7FqVy3JGS6viZjdD37RUfo
+      website: https://www.etemusiquetrad.ca/en
+      youtubeVideo: 0_SZVk-eRwA
+    years:
+      - 2026
+
   - id: toby_kuhn
     lastInstrument: cello
     instruments:
@@ -781,7 +849,7 @@ teachers:
       - 2019
 
   - id: xose_liz
-    lastInstrument: bouzouki
+    lastInstrument: flute
     instruments:
       - flute
       - guitar
@@ -810,6 +878,7 @@ teachers:
       - 2023
       - 2024
       - 2025
+      - 2026
 
   - id: zoe_conway
     lastInstrument: fiddle
