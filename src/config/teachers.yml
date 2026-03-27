@@ -409,6 +409,18 @@ teachers:
     years:
       - 2024
 
+  - id: gonzalo_llao
+    lastInstrument: flute
+    instruments:
+      - flute
+      - bouzouki
+    name: Gonzalo Llao
+    media:
+      instagram: https://www.instagram.com/gonzalo.llao.music
+      youtubeChannel: https://www.youtube.com/@azulyrojo89
+    years:
+      - 2026
+
   - id: hanneke_cassel
     lastInstrument: fiddle
     instruments:
