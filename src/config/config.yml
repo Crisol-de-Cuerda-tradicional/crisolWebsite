@@ -24,9 +24,10 @@ registration:
   referralDiscount: 10 # percentage
 
 displayRegistrationSlogan: true
-# If true, the registration CTA will be displayed if the date is after the registrationOpenDateTime
+# If true, the registration CTA will be displayed if the date is after registration opens (see registrationOpenLocal)
 displayRegistrationCTA: true
-registrationOpenDateTime: 2026-03-29T12:00:00+01:00 # 12pm CET
+# Wall-clock time in dateTimezone (Europe/Madrid); CET/CEST is resolved from the TZ database
+registrationOpenLocal: "2026-03-29 12:00:00"
 registrationLink: https://inscripciones.crisoldecuerda.com
 hideRegistrationPage: false
 

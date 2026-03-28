@@ -9,7 +9,7 @@ declare module "*config.yml" {
     dateTimezone: string;
     displayRegistrationSlogan: boolean;
     displayRegistrationCTA: boolean;
-    registrationOpenDateTime: Date;
+    registrationOpenLocal: string;
     registrationLink: string;
     hideRegistrationPage: boolean;
     pendingTeachers: boolean;
