@@ -2,6 +2,8 @@
 title: ¿Qué es Crisol de Cuerda?
 description: Crisol de Cuerda es un campamento de música tradicional donde músicos de todos los niveles se reúnen para explorar la música tradicional en un entorno colaborativo y natural cerca de Burgos.
 hero: about.webp
+image: cartel-2026.webp
+imageAlt: Cartel de Crisol de Cuerda 2026
 ---
 
 **Crisol de Cuerda** es un _fiddle camp_ que tiene lugar todos los veranos en Arlanzón, cerca de la ciudad de Burgos, la primera semana de agosto. Durante siete días, una centena de instrumentistas de diferentes niveles y procedencias se reúnen para compartir una experiencia centrada en la **música folk y tradicional** a través de instrumentos como el **violín, el violonchelo, la flauta o la guitarra**. Guiados por artistas del más alto nivel del panorama folk nacional e internacional, cada año nos sumergimos en esta experiencia inmersiva a través de músicas de diferentes culturas desde un enfoque lúdico y práctico.

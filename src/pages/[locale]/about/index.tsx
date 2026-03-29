@@ -8,7 +8,13 @@ import { getContent, IContent } from "@utils/getContent";
 import { getLocale, getStaticPaths } from "@utils/getStatic";
 
 interface IAboutProps {
-  aboutPage: IContent<{ title: string; description: string; hero: string }>;
+  aboutPage: IContent<{
+    title: string;
+    description: string;
+    hero: string;
+    image?: string;
+    imageAlt?: string;
+  }>;
   teachersSection?: IContent<{
     title: string;
     description: string;
@@ -35,9 +41,29 @@ const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
       />
       <Hero background={aboutPage.meta.hero} pageTitle={aboutPage.meta.title} />
       <ContentLayout>
-        <section>
-          <RenderMarkdown content={aboutPage.content} />
-        </section>
+        {aboutPage.meta.image ? (
+          <section className="about__intro about__intro--with-image">
+            <div className="about__intro-image">
+              <div className="about__intro-image-tilt">
+                <Image
+                  src={baseUrl(`/images/about/${aboutPage.meta.image}`)}
+                  width={1200}
+                  height={1687}
+                  sizes="(max-width: 899px) 100vw, 33vw"
+                  style={{ width: "100%", height: "auto" }}
+                  alt={aboutPage.meta.imageAlt ?? aboutPage.meta.title}
+                />
+              </div>
+            </div>
+            <div className="about__intro-text">
+              <RenderMarkdown content={aboutPage.content} />
+            </div>
+          </section>
+        ) : (
+          <section>
+            <RenderMarkdown content={aboutPage.content} />
+          </section>
+        )}
         {teachersSection && (
           <section>
             {teachersSection.meta.image && (
@@ -56,6 +82,51 @@ const About = ({ aboutPage, teachersSection }: IAboutProps): JSX.Element => {
         )}
       </ContentLayout>
       <style jsx>{`
+        .about__intro {
+          display: grid;
+          gap: 2rem;
+          align-items: center;
+
+          @media (min-width: 900px) {
+            gap: 2.5rem;
+          }
+
+          @media (min-width: 1100px) {
+            gap: 5rem;
+          }
+        }
+
+        .about__intro--with-image {
+          @media (min-width: 900px) {
+            grid-template-columns: 1fr 2fr;
+          }
+        }
+
+        .about__intro-image {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .about__intro-image-tilt {
+          transform: rotate(0);
+
+          @media (min-width: 1100px) {
+            transform: rotate(-5deg);
+          }
+
+          img {
+            display: block;
+            border-radius: 2px;
+            box-shadow:
+              0 12px 28px rgba(0, 0, 0, 0.18),
+              0 4px 8px rgba(0, 0, 0, 0.08);
+          }
+        }
+
+        .about__intro-text :global(:first-child) {
+          margin-top: 0;
+        }
+
         .img__wrapper {
           position: relative;
           width: 100%;

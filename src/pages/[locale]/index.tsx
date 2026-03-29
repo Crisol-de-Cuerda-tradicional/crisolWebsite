@@ -35,16 +35,20 @@ import { generateIndexSchema } from "src/static/seo/schemas";
 const formatDates = (starting: Date, ending: Date, locale: string) => {
   if (locale === "es")
     return `del ${tz(starting).format("D [de] MMMM")} al ${tz(ending).format(
-      "D [de] MMMM"
+      "D [de] MMMM",
     )}`;
   else
     return `from ${tz(starting).format("MMMM Do")} until ${tz(ending).format(
-      "MMMM Do"
+      "MMMM Do",
     )}`;
 };
 
 interface IHomeProps {
-  whatIsSection: IContent<{ title: string }>;
+  whatIsSection: IContent<{
+    title: string;
+    image?: string;
+    imageAlt?: string;
+  }>;
   teachersContent: ITeacher[];
   accommodationSection: IContent<{
     title: string;
@@ -132,7 +136,7 @@ const Home: NextPage<IHomeProps> = ({
               <Link
                 href={config.registrationLink}
                 target="_blank"
-                className="test"
+                className="hero__registration-link"
               >
                 <Button size="xlg">
                   {indexConfig.registrationCta[locale]}
@@ -143,10 +147,35 @@ const Home: NextPage<IHomeProps> = ({
         </div>
       </div>
       <ContentLayout id="about_crisol">
-        <div className="centered">
-          <h2>{whatIsSection.meta.title}</h2>
-          <RenderMarkdown content={whatIsSection.content} />
-        </div>
+        <section className="home__about-intro">
+          {whatIsSection.meta.image ? (
+            <>
+              <div className="home__about-intro-poster">
+                <div className="home__about-intro-poster-tilt">
+                  <Image
+                    src={baseUrl(`/images/about/${whatIsSection.meta.image}`)}
+                    width={1200}
+                    height={1687}
+                    sizes="(max-width: 899px) 85vw, 42vw"
+                    style={{ width: "100%", height: "auto" }}
+                    alt={
+                      whatIsSection.meta.imageAlt ?? whatIsSection.meta.title
+                    }
+                  />
+                </div>
+              </div>
+              <div className="home__about-intro-text">
+                <h2>{whatIsSection.meta.title}</h2>
+                <RenderMarkdown content={whatIsSection.content} />
+              </div>
+            </>
+          ) : (
+            <div className="centered">
+              <h2>{whatIsSection.meta.title}</h2>
+              <RenderMarkdown content={whatIsSection.content} />
+            </div>
+          )}
+        </section>
       </ContentLayout>
       <section className="about__featured">
         {indexConfig.aboutLinks.map((link) => {
@@ -311,7 +340,7 @@ const Home: NextPage<IHomeProps> = ({
       <style jsx>{`
         .accommodation {
           background-image: url(${baseUrl(
-            "/images/index/" + accommodationSection.meta.background
+            "/images/index/" + accommodationSection.meta.background,
           )});
         }
       `}</style>
@@ -329,6 +358,9 @@ const Home: NextPage<IHomeProps> = ({
         .faqs__item[open] {
           max-height: 500px;
         }
+        .hero__registration-link {
+          width: fit-content;
+        }
       `}</style>
     </>
   );
@@ -340,7 +372,7 @@ const getStaticProps: GetStaticProps = async (ctx) => {
   const locale = getLocale(ctx);
   const { teachers } = teachersConfig;
   const teachersContent = teachers.filter((teacher) =>
-    teacher.years.includes(config.startDate.getFullYear())
+    teacher.years.includes(config.startDate.getFullYear()),
   );
 
   const whatIsSection = await getContent(locale, "about/about");

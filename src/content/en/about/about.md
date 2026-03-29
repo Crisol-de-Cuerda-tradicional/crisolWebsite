@@ -2,6 +2,8 @@
 title: What's Crisol de Cuerda?
 description: Crisol de Cuerda is a creative music camp where musicians of all levels gather to explore traditional music in a collaborative, natural environment near Burgos, Spain.
 hero: about.webp
+image: cartel-2026.webp
+imageAlt: Crisol de Cuerda 2026's poster
 ---
 
 **Crisol de Cuerda** is a _fiddle camp_ that takes place every summer in Arlanzón, near the city of Burgos, during the first week of August. Over seven days, around a hundred musicians of different levels and backgrounds come together to share an experience centered on **folk and traditional music**, played on instruments such as **violin, cello, flute, and guitar**. Guided by top-tier artists from the national and international folk scene, each year we immerse ourselves in this experience through the music of different cultures, approached in a playful and hands-on way.
