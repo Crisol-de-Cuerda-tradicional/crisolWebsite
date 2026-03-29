@@ -27,7 +27,7 @@ displayRegistrationSlogan: true
 # If true, the registration CTA will be displayed if the date is after registration opens (see registrationOpenLocal)
 displayRegistrationCTA: true
 # Wall-clock time in dateTimezone (Europe/Madrid); CET/CEST is resolved from the TZ database
-registrationOpenLocal: "2026-03-29 12:00:00"
+registrationOpenLocal: "2026-03-29 11:55:00"
 registrationLink: https://inscripciones.crisoldecuerda.com
 hideRegistrationPage: false
 
