@@ -14,7 +14,7 @@ export default css`
   .hero__container {
     position: relative;
     width: 100%;
-    height: 30rem;
+    height: 40rem;
     overflow: hidden;
     background-color: var(--color-dark);
   }
@@ -94,6 +94,72 @@ export default css`
 
   .centered {
     text-align: center;
+  }
+
+  .home__about-intro {
+    &:has(.home__about-intro-poster) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+
+      @media (min-width: 900px) {
+        flex-direction: row;
+        align-items: center;
+        gap: 2.5rem;
+      }
+
+      @media (min-width: 1100px) {
+        gap: 5rem;
+      }
+    }
+  }
+
+  .home__about-intro-text {
+    text-align: left;
+    width: 100%;
+    align-self: stretch;
+
+    h2 {
+      text-align: left;
+    }
+
+    :global(p),
+    :global(li) {
+      text-align: left;
+    }
+
+    @media (min-width: 900px) {
+      flex: 1 1 58%;
+      min-width: 0;
+      align-self: center;
+    }
+  }
+
+  .home__about-intro-poster {
+    width: 100%;
+    flex-shrink: 0;
+
+    @media (min-width: 900px) {
+      flex: 0 1 38%;
+      max-width: 600px;
+    }
+  }
+
+  .home__about-intro-poster-tilt {
+    transform: rotate(0);
+
+    @media (min-width: 1100px) {
+      transform: rotate(-5deg);
+    }
+
+    img {
+      display: block;
+      border-radius: 2px;
+      box-shadow:
+        0 12px 28px rgba(0, 0, 0, 0.18),
+        0 4px 8px rgba(0, 0, 0, 0.08);
+    }
   }
 
   .about__featured {
