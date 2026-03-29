@@ -1,6 +1,7 @@
 import React, { AnchorHTMLAttributes } from "react";
 import NextLink, { LinkProps as NextLinkProps } from "next/link";
 import { useRouter } from "next/router";
+import i18nConfig from "next-i18next.config";
 
 type LinkProps = {
   children: React.ReactNode;
@@ -10,7 +11,11 @@ type LinkProps = {
 
 export const Link = ({ children, skipLocaleHandling, ...rest }: LinkProps) => {
   const router = useRouter();
-  const locale = rest.locale || router.query.locale?.toString() || "";
+  const rawLocale = rest.locale || router.query.locale?.toString() || "";
+  const locale =
+    typeof rawLocale === "string" && i18nConfig.i18n.locales.includes(rawLocale)
+      ? rawLocale
+      : i18nConfig.i18n.defaultLocale;
 
   let href = rest.href;
   if (typeof href === "string") {
