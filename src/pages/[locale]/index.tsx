@@ -136,7 +136,7 @@ const Home: NextPage<IHomeProps> = ({
               <Link
                 href={config.registrationLink}
                 target="_blank"
-                className="test"
+                className="hero__registration-link"
               >
                 <Button size="xlg">
                   {indexConfig.registrationCta[locale]}
@@ -357,6 +357,9 @@ const Home: NextPage<IHomeProps> = ({
         }
         .faqs__item[open] {
           max-height: 500px;
+        }
+        .hero__registration-link {
+          width: fit-content;
         }
       `}</style>
     </>

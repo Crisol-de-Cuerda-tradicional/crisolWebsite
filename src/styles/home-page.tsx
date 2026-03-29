@@ -5,7 +5,7 @@ export default css`
     min-width: 100%;
     min-height: 100%;
     position: absolute;
-    filter: brightness(20%);
+    filter: brightness(70%);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -40,6 +40,7 @@ export default css`
       display: flex;
       flex-direction: column;
       width: 344px;
+      filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
 
       .hero__title {
         width: 100%;
@@ -49,6 +50,7 @@ export default css`
         font-size: 3rem;
         line-height: 3.25rem;
         text-transform: uppercase;
+        filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
       }
 
       .hero__dates {
@@ -62,6 +64,7 @@ export default css`
           font-size: 1.2rem;
           line-height: 1.6rem;
           text-transform: uppercase;
+          filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
         }
         .hero__dates--year {
           font-family: "Montserrat", sans-serif;
@@ -73,6 +76,7 @@ export default css`
           margin: 0;
           font-size: 3rem;
           line-height: 3.25rem;
+          filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
         }
       }
     }
@@ -88,6 +92,7 @@ export default css`
 
       h2 {
         margin: 0;
+        filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
       }
     }
   }
