@@ -245,6 +245,25 @@ teachers:
       - 2014
       - 2016
 
+  - id: chris_stone
+    lastInstrument: fiddle
+    instruments:
+      - fiddle
+    name: Chris Stone
+    media:
+      # bandcamp:
+      # fb:
+      instagram: https://www.instagram.com/notestostone
+      # soundcloud:
+      spotify: 6Km2q5AQSOpbO5wdcTxUcU
+      # tiktok:
+      # twitter:
+      website: https://stringmaniacamp.com
+      youtubeChannel: https://www.youtube.com/@thestringcontingent
+      youtubeVideo: EodxmDSev34
+    years:
+      - 2026
+
   - id: chuchi_cuadrado
     lastInstrument: guitar
     instruments:
@@ -526,24 +545,24 @@ teachers:
       - 2012
       - 2013
 
-  - id: laura_wilkie
-    lastInstrument: fiddle
-    instruments:
-      - fiddle
-    name: Laura Wilkie
-    media:
-      bandcamp: https://laurajanewilkie.bandcamp.com/
-      # fb:
-      instagram: https://www.instagram.com/laurajwilkie
-      # soundcloud:
-      spotify: 3YJx3rv5G5kfms24Tgc7al
-      # tiktok:
-      # twitter:
-      # website:
-      # youtubeChannel:
-      youtubeVideo: NaasxK8OT0Y
-    years:
-      - 2026
+  # - id: laura_wilkie
+  #   lastInstrument: fiddle
+  #   instruments:
+  #     - fiddle
+  #   name: Laura Wilkie
+  #   media:
+  #     bandcamp: https://laurajanewilkie.bandcamp.com/
+  #     # fb:
+  #     instagram: https://www.instagram.com/laurajwilkie
+  #     # soundcloud:
+  #     spotify: 3YJx3rv5G5kfms24Tgc7al
+  #     # tiktok:
+  #     # twitter:
+  #     # website:
+  #     # youtubeChannel:
+  #     youtubeVideo: NaasxK8OT0Y
+  #   years:
+  #     - 2026
 
   - id: lena_jonsson
     lastInstrument: fiddle
