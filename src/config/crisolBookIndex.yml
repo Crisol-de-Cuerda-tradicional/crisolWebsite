@@ -1,5 +1,5 @@
-lastUpdated: 2020-07-19
-downloadLink: https://www.crisoldecuerda.com/assets/docs/The-Crisol-Book-2020-07-19.pdf
+lastUpdated: 2026-07-17
+downloadLink: https://www.crisoldecuerda.com/assets/docs/The-Crisol-Book-2026-07-17.pdf
 
 index:
   - title: 20 Years
@@ -8,9 +8,15 @@ index:
   - title: Ai Hori Begi Ederra
     author: traditional
     origin: eus
+  - title: Air Tune for Mairéad and Anna
+    author: Dáithí Sproule
+    origin: irl
   - title: Akkar
     author: Olav L. Mjelva
     origin: swe
+  - title: Alborada de Marín
+    author: Francisco Landín Pazos
+    origin: gal
   - title: Altsasuko Soka
     author: traditional
     origin: eus
@@ -20,6 +26,9 @@ index:
   - title: An Dro Kerfank
     author: Tri Yann
     origin: brt
+  - title: Andy Carron's
+    author: traditional
+    origin: sct
   - title: Ansuriña
     author: Paulo Nogueira
     origin: gal
@@ -68,14 +77,14 @@ index:
   - title: Blackwater
     author: traditional
     origin: sct
-  - title: Blackwater Foot
-    author: traditional
-    origin: sct
   - title: Bloody Fields of Flanders, The
     author: John MacLellan
     origin: sct
   - title: Blue
     author: Hanneke Cassel
+    origin: usa
+  - title: Bob Willis Stomp
+    author: Bob Willis
     origin: usa
   - title: Bodas de Cantabrana, Las
     author: traditional
@@ -83,24 +92,36 @@ index:
   - title: Bolat Dantza
     author: traditional
     origin: eus
+  - title: Bóoley House
+    author: Kevin Burke
+    origin: sct
   - title: Bourrée de l'Hôpital
     author: traditional
     origin: occ
   - title: Braes of Mar
     author: John Coutis of Deeside
     origin: sct
+  - title: Bröllopsmarsch
+    author: traditional
+    origin: swe
   - title: Buey, El
     author: traditional
     origin: cyl
   - title: Callum's Road
     author: Donald Shaw
     origin: sct
+  - title: Calum Sgaire
+    author: traditional
+    origin: irl
   - title: Canto de Bembibre
     author: traditional
     origin: gal
   - title: Carrasqueira, A
     author: traditional
     origin: gal
+  - title: Cau'l Chouzano
+    author: Fernando Largo
+    origin: ast
   - title: Cayó la Luna
     author: traditional
     origin: cyl
@@ -128,6 +149,15 @@ index:
   - title: Czardas
     author: traditional
     origin: hun
+  - title: Da Brig
+    author: Fredamann Stickle
+    origin: sct
+  - title: Da Forfait ó da Ship
+    author: traditional
+    origin: sct
+  - title: Da Grocer
+    author: Tom Anderson
+    origin: sct
   - title: Danza de Arcos de Miño
     author: traditional
     origin: gal
@@ -137,6 +167,15 @@ index:
   - title: Danza de Salceda
     author: traditional
     origin: gal
+  - title: Danza de Valoria
+    author: traditional
+    origin: cyl
+  - title: Danza Santa Marina
+    author: traditional
+    origin: ast
+  - title: Danzas de Procesión
+    author: traditional
+    origin: cyl
   - title: David Glen's Jig
     author: David Glen
     origin: sct
@@ -152,9 +191,18 @@ index:
   - title: Eklunda
     author: traditional
     origin: fin
+  - title: El Besu
+    author: traditional
+    origin: ast
+  - title: Elizabeth Kelly's
+    author: traditional
+    origin: irl
   - title: Elzic's Farewell
     author: traditional
     origin: usa
+  - title: Entremediu de Llena
+    author: traditional
+    origin: ast
   - title: Espatadantza
     author: traditional
     origin: eus
@@ -215,6 +263,9 @@ index:
   - title: Galbide
     author: traditional
     origin: eus
+  - title: Garster's Dream
+    author: traditional
+    origin: sct
   - title: Hai Chiki Chiki
     author: traditional
     origin: hun
@@ -236,24 +287,33 @@ index:
   - title: Iluntzean
     author: Maixa eta Itziar
     origin: eus
+  - title: Inisheer
+    author: Tommy Walsh
+    origin: irl
   - title: Jack Daniel's
     author: John Morris Rankin
-    origin: sct
+    origin: cbr
   - title: Jerusalem Ridge
     author: Kenny Baker
-    origin: cbr
+    origin: usa
   - title: John Cheap, The Chapman
     author: Nathaniel Gow
     origin: sct
   - title: Josefin's Waltz
     author: Roger Tallroth
     origin: swe
+  - title: Jota Comunera
+    author: traditional
+    origin: cyl
   - title: Jota de Montrove
     author: Miguel L. Paradela
     origin: gal
   - title: Jota de Rañín
     author: Pepín Banzo
     origin: ara
+  - title: Jota la Gresca
+    author: traditional
+    origin: cat
   - title: Jota Olé
     author: traditional
     origin: val
@@ -281,18 +341,45 @@ index:
   - title: Kost ar Choad
     author: traditional
     origin: brt
+  - title: La Irenita
+    author: Manuel Saumell
+    origin: cub
+  - title: Langans
+    author: traditional
+    origin: swe
   - title: Långdans från Sollerön
     author: traditional
     origin: swe
+  - title: La Niña del Balcón
+    author: traditional
+    origin: ast
   - title: Lantzeko Zortzikoa
     author: traditional
     origin: eus
+  - title: La Pajarita
+    author: Galen Fraser
+    origin: cyl
   - title: Las Habas de Bercero
     author: traditional
     origin: cyl
   - title: Lass That Made the Bed for Me, The
     author: traditional
     origin: sct
+  - title: La Tirita y la Gallarda
+    author: traditional
+    origin: cyl
+  - title: Lekssandslåtar efter Roligs Per
+    author: traditional
+    origin: swe
+  - title: Leland's Waltz
+    author: Tim Foss
+    origin: usa
+  - title: Lilly of the Valley
+    author: Luther Davis
+    origin: usa
+  - title: Lixeru
+    author: traditional
+    origin: ast
   - title: Loriak Udan Intza Bezela
     author: traditional
     origin: eus
@@ -326,36 +413,72 @@ index:
   - title: Metsän Puita Tuuli Tuudittaa
     author: traditional
     origin: fin
+  - title: Midsummer March
+    author: Galen Fraser
+    origin: usa
   - title: Miñas Cousas, As
     author: traditional
     origin: gal
+  - title: Miss Thornton's Reel
+    author: traditional
+    origin: irl
   - title: Mocita, La
     author: traditional
     origin: cyl
+  - title: Modally Challenged
+    author: Natalie Haas
+    origin: usa
+  - title: Mo Ghile Mhar
+    author: traditional
+    origin: irl
   - title: Mornings at Bonny Doon
     author: André MArchand
     origin: qbc
+  - title: Mudaces de Molexon
+    author: traditional
+    origin: ast
   - title: Mudanza de Chañe
     author: traditional
     origin: cyl
+  - title: Muñeira da Fonsagrada
+    author: traditional
+    origin: gal
   - title: Muñeira de Fonsagrada
     author: traditional
     origin: gal
   - title: Muñeira de Fonsagrada
     author: traditional
+    origin: gal
+  - title: Muñeira de Osnola
+    author: Juan/Francisco Alonso
     origin: gal
   - title: Muñeira Ribeirana
     author: traditional
     origin: gal
+  - title: Muñeira Vilaquinte
+    author: traditional
+    origin: gal
+  - title: Muñeira Vinde Axiña
+    author: José Pacheco
+    origin: gal
+  - title: Muñera d'El Rebollal
+    author: traditional
+    origin: ast
   - title: Myra's Jig
     author: Ian Lowthian
     origin: sct
   - title: Mysoxen
     author: Olav L. Mjelva
     origin: swe
+  - title: Na Ceannabhán Bhaná
+    author: traditional
+    origin: irl
   - title: Napkin Tune, The
     author: Rodney Miller
     origin: usa
+  - title: Nel campu ñacen flores
+    author: traditional
+    origin: ast
   - title: Neska Zaharrak
     author: traditional
     origin: eus
@@ -389,6 +512,9 @@ index:
   - title: Ovo, O
     author: Hermeto Pascoal
     origin: bra
+  - title: Pasacalles
+    author: traditional
+    origin: cyl
   - title: Pasacalles de Carpio de Tajo
     author: traditional
     origin: cyl
@@ -398,7 +524,7 @@ index:
   - title: Pasodoble Morellano
     author: traditional
     origin: gal
-  - title: Peerie Weerie, The
+  - title: Peerie Weerie, The Blackwater Foot
     author: traditional
     origin: sct
   - title: Pericón de los Talaos
@@ -410,13 +536,25 @@ index:
   - title: Perrie Werrie
     author: traditional
     origin: sct
+  - title: Pinche Viescas
+    author: traditional
+    origin: ast
   - title: Pirrie Wirrie
     author: traditional
     origin: sct
   - title: Polonäs från Sexdrega
     author: traditional
     origin: swe
+  - title: Polska
+    author: traditional
+    origin: swe
+  - title: Polska efter Janne Mårtensson
+    author: traditional
+    origin: swe
   - title: Polska efter Nylandspojkarna
+    author: traditional
+    origin: swe
+  - title: Polska efter Snickar-Erik
     author: traditional
     origin: swe
   - title: Polska efter Svedin
@@ -434,6 +572,12 @@ index:
   - title: Remember Blake
     author: Jeremy Kittel
     origin: usa
+  - title: Return from Helsinki
+    author: Ian Stephenson
+    origin: fin
+  - title: Ridée 6 temps (1)
+    author: traditional
+    origin: brt
   - title: Ride the Wild Turkey
     author: Darol Anger
     origin: usa
@@ -455,6 +599,9 @@ index:
   - title: Saka
     author: traditional
     origin: eus
+  - title: Saltón de Granda
+    author: traditional
+    origin: ast
   - title: Sape que Sape
     author: traditional
     origin: cyl
@@ -463,6 +610,12 @@ index:
     origin: cat
   - title: Scarce O'Tatties
     author: John Morris Rankin
+    origin: sct
+  - title: Scarce O'Tatties
+    author: Norman MacLean
+    origin: sct
+  - title: Schottische Kerlou
+    author: Calum Stewart
     origin: sct
   - title: Seguidillas Manchegas
     author: traditional
@@ -476,30 +629,57 @@ index:
   - title: Siete por Ocho
     author: traditional
     origin: cyl
+  - title: Si me marcho a la guerra
+    author: traditional
+    origin: cyl
+  - title: Sister Jean
+    author: traditional
+    origin: sct
   - title: Sister Jean
     author: traditional
     origin: sct
   - title: Si Supiera que Cantando…
     author: traditional
     origin: cyl
-  - title: Sleeping Tune, The
-    author: Gordon Duncan
-    origin: sct
   - title: Stan Chapman's
     author: Jerry Holland
     origin: cbr
+  - title: Start your engines
+    author: Alasdair Fraser
+    origin: sct
+  - title: Sweglish
+    author: Natalie Haas
+    origin: usa
   - title: Talon's Trip to Thompson Island
     author: Kevin Henderson
     origin: sct
   - title: Tarbolton Lodge
     author: traditional
     origin: sct
-  - title: Theme for sct
+  - title: The Cowboy Druid
+    author: Natalie Haas
+    origin: usa
+  - title: The Crooked road to Dublin
+    author: traditional
+    origin: irl
+  - title: Theme for Scotland
     author: Alasdair Fraser
     origin: sct
+  - title: The Sheperd's Lamb
+    author: traditional
+    origin: irl
+  - title: The Tattie Ball
+    author: Dougie MacLean
+    origin: sct
+  - title: The Walls of Liscarrol
+    author: traditional
+    origin: irl
   - title: TIDGA
     author: Hanneke Cassel
     origin: usa
+  - title: Ton-Bale Bro Pourlet
+    author: traditional
+    origin: brt
   - title: Tonder… The Eternal Friendship
     author: Phil Cunningham
     origin: sct
@@ -512,14 +692,11 @@ index:
   - title: Tourment, Le
     author: Jean-Paul Loyer
     origin: qbc
-  - title: Tralala
-    author: traditional
-    origin: swe
   - title: Trenzinho do Caipiro
     author: traditional
     origin: bra
   - title: Trilhos Urbanos
-    author: Caetono Verloso
+    author: Caetano Veloso
     origin: bra
   - title: Trollet i Skäten
     author: Johan von Schwartz
@@ -539,8 +716,14 @@ index:
   - title: Vai
     author: Tom Zé
     origin: bra
+  - title: Vals
+    author: traditional
+    origin: swe
   - title: Venjan
     author: Anders Hall
+    origin: swe
+  - title: Vevlirepolskan från Gotland
+    author: traditional
     origin: swe
   - title: Vida Mía, La
     author: traditional
@@ -557,9 +740,6 @@ index:
   - title: Warlock, The
     author: Robert Lowe
     origin: sct
-  - title: Wedding March
-    author: traditional
-    origin: swe
   - title: Wee Man from Uist, The
     author: traditional
     origin: sct
@@ -569,12 +749,18 @@ index:
   - title: Willie's Trip to Toronto
     author: Jerry Holland
     origin: cbr
+  - title: Xirandiya del Fresno
+    author: Igor Medio
+    origin: ast
   - title: Xota de Paradela
     author: Miguel López Paradela
     origin: gal
   - title: Ya Pasó el Río
     author: traditional
     origin: cyl
+  - title: Zeeto the Bubbleman
+    author: Gordon Duncan
+    origin: irl
   - title: Zortzikoa
     author: traditional
     origin: eus

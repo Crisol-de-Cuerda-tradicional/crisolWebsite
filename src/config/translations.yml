@@ -97,6 +97,9 @@ fin:
 and:
   en: Andalucia
   es: Andalucía
+ast:
+  en: Asturias
+  es: Asturias
 bal:
   en: Balkans
   es: Balcanos
@@ -127,6 +130,12 @@ ven:
 mal:
   en: Mallorca
   es: Mallorca
+irl:
+  en: Ireland
+  es: Irlanda
+cub:
+  en: Cuba
+  es: Cuba
 teachers:
   en: Teachers
   es: Profesores
