@@ -152,3 +152,18 @@ declare module "*faqs.yml" {
   const faqs: FAQ[];
   export default faqs;
 }
+
+declare module "*collaborators.yml" {
+  interface Collaborator {
+    id: string;
+    name: string;
+    url?: string;
+  }
+
+  type CollaboratorsConfig = {
+    collaborators: Collaborator[];
+  };
+
+  const collaboratorsConfig: CollaboratorsConfig;
+  export default collaboratorsConfig;
+}

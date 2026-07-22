@@ -13,6 +13,9 @@ subscribe:
 newsletter:
   en: If you wish to subscribe to our newsletter, fill in this form
   es: Si deseas suscribirte a nuestra newsletter, rellena este formulario
+collaborators:
+  en: "With the support of:"
+  es: "Con la colaboración de:"
 faqs:
   en: Frequently asked questions
   es: Preguntas frecuentes

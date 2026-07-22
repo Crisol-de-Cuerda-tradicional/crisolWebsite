@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
 import { Button, Link } from "@components";
+import collaboratorsConfig from "@config/collaborators.yml";
 import config from "@config/config.yml";
 import menu from "@config/menu.yml";
 import translations from "@config/translations.yml";
@@ -18,16 +19,18 @@ import { baseUrl } from "@utils/baseUrl";
 
 export const Footer = () => {
   const locale = useLocale();
+  const { collaborators } = collaboratorsConfig;
 
   return (
     <div className="footer">
       <div className="footer__content">
-        <Link href="/">
+        <Link href="/" className="footer__logo-link">
           <Image
             src={baseUrl("/logo.png")}
             height="90"
             width="352"
             alt={config.name}
+            className="footer__logo"
           />
         </Link>
         <div className="footer__subscribe">
@@ -87,6 +90,47 @@ export const Footer = () => {
           </Link>
         </div>
       </div>
+      {collaborators.length > 0 && (
+        <div className="footer__collaborators">
+          <p className="collaborators__title">
+            {translations.collaborators[locale]}
+          </p>
+          <div className="collaborators__logos">
+            {collaborators.map((collaborator) => {
+              const logo = (
+                <Image
+                  src={baseUrl(`/images/collaborators/${collaborator.id}.webp`)}
+                  width={280}
+                  height={76}
+                  alt={collaborator.name}
+                  className="collaborators__logo"
+                />
+              );
+
+              if (!collaborator.url) {
+                return (
+                  <span key={collaborator.id} className="collaborators__item">
+                    {logo}
+                  </span>
+                );
+              }
+
+              return (
+                <Link
+                  key={collaborator.id}
+                  href={collaborator.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={collaborator.name}
+                  className="collaborators__item"
+                >
+                  {logo}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
       <div className="footer__legal">
         <div className="legal__policies">
           <Link href={menu.legalDisclaimer.link}>
@@ -126,6 +170,17 @@ export const Footer = () => {
             color: var(--color-white);
             font-size: 1.25rem;
 
+            .footer__logo-link {
+              display: block;
+              max-width: min(352px, 100%);
+              min-width: 0;
+            }
+
+            .footer__logo {
+              width: 100% !important;
+              height: auto !important;
+            }
+
             .footer__subscribe {
               border: var(--color-primary) solid 2px;
               padding: 1.5rem;
@@ -152,8 +207,51 @@ export const Footer = () => {
 
           .social__links {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             gap: 1rem;
+          }
+        }
+        .footer__collaborators {
+          background-color: var(--color-white);
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+          padding: 1.5rem 1rem 2rem;
+          border-top: 1px solid var(--color-light);
+
+          .collaborators__title {
+            margin: 0;
+            color: var(--color-black);
+            font-size: 0.875rem;
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+          }
+
+          .collaborators__logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 2rem;
+            width: 100%;
+
+            .collaborators__item {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 76px;
+            }
+
+            .collaborators__logo {
+              width: auto !important;
+              height: 100% !important;
+              max-width: none;
+              object-fit: contain;
+            }
           }
         }
         .footer__legal {
