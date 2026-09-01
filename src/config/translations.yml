@@ -13,6 +13,21 @@ subscribe:
 newsletter:
   en: If you wish to subscribe to our newsletter, fill in this form
   es: Si deseas suscribirte a nuestra newsletter, rellena este formulario
+footer_contact:
+  en: Contact
+  es: Contacto
+footer_links_heading:
+  en: Links
+  es: Links
+footer_help_heading:
+  en: Help
+  es: Help
+footer_spirit:
+  en: Crisol Spirit
+  es: Espíritu Crisol
+footer_newsletter_heading:
+  en: Want to stay up to date with all our news?
+  es: ¿Quieres estar al día de todas nuestras noticias?
 collaborators:
   en: "With the support of:"
   es: "Con la colaboración de:"

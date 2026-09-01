@@ -1,6 +1,9 @@
 name: Crisol de Cuerda
 nameShort: Crisol
 
+contact:
+  email: info@crisoldecuerda.com
+
 startDate: 2026-07-26
 endDate: 2026-08-02
 dateTimezone: Europe/Madrid
