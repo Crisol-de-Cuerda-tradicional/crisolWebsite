@@ -14,6 +14,9 @@ declare module "*config.yml" {
     hideRegistrationPage: boolean;
     pendingTeachers: boolean;
     newsletterLink: string;
+    contact: {
+      email: string;
+    };
     registration: {
       coursePrice: number;
       reducedPrice: number;

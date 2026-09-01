@@ -67,7 +67,7 @@ export default css`
           filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
         }
         .hero__dates--year {
-          font-family: "Montserrat", sans-serif;
+          font-family: var(--font-heading);
           font-weight: 700;
           font-size: var(--size-xxxlg);
           line-height: calc(1.5 * var(--size-xxxlg));

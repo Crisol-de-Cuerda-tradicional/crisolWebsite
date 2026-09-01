@@ -9,23 +9,14 @@ import advancedFormat from 'dayjs/plugin/advancedFormat';
 import LocalizedFormat from 'dayjs/plugin/localizedFormat';
 import timezone from 'dayjs/plugin/timezone';
 import utc from 'dayjs/plugin/utc';
-import { Montserrat } from 'next/font/google';
 
 import { Layout, MenuContextProvider } from '@components';
 import { useLocale } from '@hooks';
+import { fontVariables } from '@styles/fonts';
 
 import '@styles/globals.css';
 import '../components/Navbar/Burger.scss';
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  variable: '--font-headings',
-  weight: ['300', '700'],
-  display: 'swap',
-  preload: true,
-  style: ['normal'],
-  fallback: ['sans-serif'],
-});
 config.autoAddCss = false;
 
 dayjs.extend(advancedFormat);
@@ -39,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <MenuContextProvider>
-      <main className={montserrat.variable}>
+      <main className={fontVariables}>
         <Layout>
           <Component {...pageProps} />
         </Layout>
